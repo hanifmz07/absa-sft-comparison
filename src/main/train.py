@@ -43,25 +43,25 @@ def main(args):
         custom_tokens = ["<|aspect|>", "<|opinion|>", "<|sentiment|>"]
 
         # Check if the custom tokens is already added to the tokenizer or not
-        if all(token in model.tokenizer.special_tokens_map['additional_special_tokens'] for token in custom_tokens):
+        if all(token in tokenizer.special_tokens_map['additional_special_tokens'] for token in custom_tokens):
             print("Custom tokens already exist in the tokenizer. Skipping addition.")
         else:
-            num_added_tokens = model.tokenizer.add_special_tokens({
-                "additional_special_tokens": model.tokenizer.special_tokens_map['additional_special_tokens'] + custom_tokens
+            num_added_tokens = tokenizer.add_special_tokens({
+                "additional_special_tokens": tokenizer.special_tokens_map['additional_special_tokens'] + custom_tokens
             })
 
             print(f"Added {num_added_tokens} new tokens.")
-            print(f"New tokenizer size: {len(model.tokenizer)}")
+            print(f"New tokenizer size: {len(tokenizer)}")
 
             print(f"Resizing model embeddings to accommodate new tokens...")
-            model.resize_token_embeddings(len(model.tokenizer))
+            model.resize_token_embeddings(len(tokenizer))
             print(f"New model embedding size: {model.get_input_embeddings().weight.size(0)}")
 
     # IMPORTANT: Dataset must have 'input' and 'target' fields
     def split_prompt_and_completion(instance):
         return {
-            "prompt": instance['input'] + " => ",  # Includes the separator
-            "completion": instance['target']            # The part you want to train on
+            "prompt": instance['input'] + " =>",  # Includes the separator
+            "completion": " " + instance['target']            # The part you want to train on
         }
     
     # Load dataset
@@ -178,7 +178,7 @@ if __name__ == "__main__":
     parser.add_argument("--train_json_path", type=str, required=True, help="Path to the training JSON dataset")
     parser.add_argument("--model_name", type=str, default="Qwen/Qwen2.5-0.5B", help="Pretrained model name")
     parser.add_argument("--output_dir", type=str, default="./outputs/models", help="Output directory")
-    parser.add_argument("--prompt_type", type=str, choices=["gas", "mvp", "mvp_aos", 'legoabsa'], default="gas", help="Sampling/prompt style")
+    parser.add_argument("--prompt_type", type=str, choices=["gas", "mvp", "mvp_aos", 'legoabsa'], default="mvp", help="Sampling/prompt style")
     
     parser.add_argument("--save_strategy", type=str, choices=["epoch", "best", "no"], default='best', help="Model saving mode during training")
 
