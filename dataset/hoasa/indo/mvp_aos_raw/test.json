@@ -1,0 +1,2082 @@
+[
+    {
+        "sentence_id": 2405,
+        "instance_id": 0,
+        "input": "lumayan nyaman,tp kebersihan kmr mandi perlu ditingkatkan lg biar gk ada kuning2 di sudutnya lbh bgs [A] [O] [S]",
+        "target": "[A] null [O] lumayan nyaman [S] positive [SSEP] [A] kebersihan kmr mandi [O] perlu ditingkatkan lg biar gk ada kuning2 di sudutnya lbh bgs [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2406,
+        "instance_id": 1,
+        "input": "kamarnya kurang maintenance. paling baik kamar mandi dibersihkan lebih sering. kamar mandi adalah bagian yang penting untuk pelanggan. kebersihan selimut bed sheet dan handuk juga perlu diperhatikan lebih jauh lagi. [A] [O] [S]",
+        "target": "[A] kamarnya [O] kurang maintenance [S] negative [SSEP] [A] kamar mandi [O] dibersihkan lebih sering [S] negative [SSEP] [A] kamar mandi [O] bagian yang penting untuk pelanggan [S] positive [SSEP] [A] kebersihan selimut bed sheet dan handuk [O] perlu diperhatikan lebih jauh lagi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2407,
+        "instance_id": 2,
+        "input": "harga terjangkau, kamar luas, ada sofa, semua oke, kecuali kamar mandi. seharian keluar bau tak sedap entah apa masalahnya. [A] [O] [S]",
+        "target": "[A] harga [O] terjangkau [S] positive [SSEP] [A] kamar [O] luas [S] positive [SSEP] [A] sofa [O] null [S] positive [SSEP] [A] semua [O] oke [S] positive [SSEP] [A] kamar mandi [O] keluar bau tak sedap [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2408,
+        "instance_id": 3,
+        "input": "Jaringan WiFi dalam kamar lelet [A] [O] [S]",
+        "target": "[A] Jaringan WiFi dalam kamar [O] lelet [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2409,
+        "instance_id": 4,
+        "input": "secara umum bagus, cuma sprei, sarung bantal dan handuk tidak layak...maaf.. [A] [O] [S]",
+        "target": "[A] secara umum [O] bagus [S] positive [SSEP] [A] sprei [O] tidak layak [S] negative [SSEP] [A] sarung bantal [O] tidak layak [S] negative [SSEP] [A] handuk [O] tidak layak [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2410,
+        "instance_id": 5,
+        "input": "Kamar bersih dan nyaman tetapi amenties dari airy tidak disediakan. Begitu juga dengan compliment free snack dari airy [A] [O] [S]",
+        "target": "[A] Kamar [O] bersih [S] positive [SSEP] [A] Kamar [O] nyaman [S] positive [SSEP] [A] amenties dari airy [O] tidak disediakan [S] negative [SSEP] [A] compliment free snack dari airy [O] null [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2411,
+        "instance_id": 6,
+        "input": "plus: lokasi tenang, strategis, rate ekonomis. minus: kebersihan kurang, kamar bau, kran bulukan. [A] [O] [S]",
+        "target": "[A] lokasi [O] tenang [S] positive [SSEP] [A] lokasi [O] strategis [S] positive [SSEP] [A] rate [O] ekonomis [S] positive [SSEP] [A] kebersihan [O] kurang [S] negative [SSEP] [A] kamar [O] bau [S] negative [SSEP] [A] kran [O] bulukan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2412,
+        "instance_id": 7,
+        "input": "kamar luas dan rapi, tapi sayang untuk tv kebetulan sedang jelek sinyalnya dan minta ganti ke kamar yg lain yg memiliki sinyal bagus tidak di perbolehkan karena pesan dari airy rooms dan tidak tersedia wifi [A] [O] [S]",
+        "target": "[A] kamar [O] luas [S] positive [SSEP] [A] kamar [O] rapi [S] positive [SSEP] [A] tv [O] jelek sinyalnya [S] negative [SSEP] [A] minta ganti ke kamar yg lain yg memiliki sinyal bagus [O] tidak di perbolehkan [S] negative [SSEP] [A] wifi [O] tidak tersedia [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2413,
+        "instance_id": 8,
+        "input": "pelayanan baik. fasilitas baik. cuma ac kurang dingin. [A] [O] [S]",
+        "target": "[A] pelayanan [O] baik [S] positive [SSEP] [A] fasilitas [O] baik [S] positive [SSEP] [A] ac [O] kurang dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2414,
+        "instance_id": 9,
+        "input": "Pelayanan kurang ramah dan cuek ,swower ga berpungsih dg baik kamar mandi licin dan hampir mau jatuh trus [A] [O] [S]",
+        "target": "[A] Pelayanan [O] kurang ramah [S] negative [SSEP] [A] Pelayanan [O] cuek [S] negative [SSEP] [A] swower [O] ga berpungsih dg baik [S] negative [SSEP] [A] kamar mandi [O] licin [S] negative [SSEP] [A] null [O] hampir mau jatuh trus [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2415,
+        "instance_id": 10,
+        "input": "Kamar mandi pintu rusak. Handuk gak ada kalau gak di pinta.tv nya gak nyala.pelayanannya kurang. [A] [O] [S]",
+        "target": "[A] Kamar mandi pintu [O] rusak [S] negative [SSEP] [A] Handuk [O] gak ada kalau gak di pinta [S] negative [SSEP] [A] tv nya [O] gak nyala [S] negative [SSEP] [A] pelayanannya [O] kurang [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2416,
+        "instance_id": 11,
+        "input": "tidak ada hotshower. tdk sesuai foto. [A] [O] [S]",
+        "target": "[A] hotshower [O] tidak ada [S] negative [SSEP] [A] null [O] tdk sesuai foto [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2417,
+        "instance_id": 12,
+        "input": "AC ga dingin, ga bs change kamar pula dan parkiran sempit hnya cukup 5 motor.  Cukup sekali kesini deh [A] [O] [S]",
+        "target": "[A] AC [O] ga dingin [S] negative [SSEP] [A] kamar [O] ga bs change [S] negative [SSEP] [A] parkiran [O] sempit hnya cukup 5 motor [S] negative [SSEP] [A] null [O] Cukup sekali kesini deh [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2418,
+        "instance_id": 13,
+        "input": "Baiknya cuman dekat dengan perbelanjaan cihampelas. Kamarnya lembab, cat nya udah lapuk, agak berdebu, seprainya kurang bersih dan tanpa logo airy rooms, debit air nya kecil(kurang puas mandinya), tidak ada remote AC (jd minta petugas buat atur suhu. [A] [O] [S]",
+        "target": "[A] null [O] dekat dengan perbelanjaan cihampelas [S] positive [SSEP] [A] Kamarnya [O] lembab [S] negative [SSEP] [A] cat nya [O] udah lapuk [S] negative [SSEP] [A] null [O] agak berdebu [S] negative [SSEP] [A] seprainya [O] kurang bersih [S] negative [SSEP] [A] null [O] tanpa logo airy rooms [S] negative [SSEP] [A] debit air nya [O] kecil [S] negative [SSEP] [A] debit air nya [O] kurang puas mandinya [S] negative [SSEP] [A] remote AC [O] tidak ada [S] negative [SSEP] [A] null [O] minta petugas buat atur suhu [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2419,
+        "instance_id": 14,
+        "input": "Secara keseluruhan baik, tapi sedikit catatan untuk kamar mandinya bau, banyak semacam lalet kecil, gak ada air panas. [A] [O] [S]",
+        "target": "[A] keseluruhan [O] baik [S] positive [SSEP] [A] kamar mandinya [O] bau [S] negative [SSEP] [A] kamar mandinya [O] banyak semacam lalet kecil [S] negative [SSEP] [A] air panas [O] gak ada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2420,
+        "instance_id": 15,
+        "input": "Perlengkapan mandinya lengkap dan ac nya dingin. Hanya saja koneksi internet kurang bagus. [A] [O] [S]",
+        "target": "[A] Perlengkapan mandinya [O] lengkap [S] positive [SSEP] [A] ac nya [O] dingin [S] positive [SSEP] [A] koneksi internet [O] kurang bagus [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2421,
+        "instance_id": 16,
+        "input": "fasilitas memuaskan.. kurang bersih kamarnya koridor dan lift nya [A] [O] [S]",
+        "target": "[A] fasilitas [O] memuaskan [S] positive [SSEP] [A] kamarnya [O] kurang bersih [S] negative [SSEP] [A] koridor [O] kurang bersih [S] negative [SSEP] [A] lift nya [O] kurang bersih [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2422,
+        "instance_id": 17,
+        "input": "Wifinya susah [A] [O] [S]",
+        "target": "",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2423,
+        "instance_id": 18,
+        "input": "tidak sesuai dgn gambar..kamar Kotor Dan bau..banyak puntung bekas rokok Dan kecoa dikamar..tidak re [A] [O] [S]",
+        "target": "[A] null [O] tidak sesuai dgn gambar [S] negative [SSEP] [A] kamar [O] Kotor Dan bau [S] negative [SSEP] [A] kamar [O] banyak puntung bekas rokok [S] negative [SSEP] [A] kecoa [O] kecoa dikamar [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2424,
+        "instance_id": 19,
+        "input": "lokasi masuk gank jauh ac tidak dingin tp ada kolam renang dan dapat breakfast [A] [O] [S]",
+        "target": "[A] lokasi [O] masuk gank jauh [S] negative [SSEP] [A] ac [O] tidak dingin [S] negative [SSEP] [A] kolam renang [O] ada kolam renang [S] positive [SSEP] [A] breakfast [O] dapat breakfast [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2425,
+        "instance_id": 20,
+        "input": "Kondisi kamar standar banget... Saya sering menggunakan Airy Rooms... Tapi kali ini yang paling tidak nyaman... 1. AC kurang dingin 2. Tidak ada snack 3. Heater Water tidak berfungsi 4. Kamar biasa saja Not recomended sih, kalau menurut saya... [A] [O] [S]",
+        "target": "[A] Kondisi kamar [O] standar banget [S] negative [SSEP] [A] null [O] paling tidak nyaman [S] negative [SSEP] [A] AC [O] kurang dingin [S] negative [SSEP] [A] snack [O] Tidak ada [S] negative [SSEP] [A] Heater Water [O] tidak berfungsi [S] negative [SSEP] [A] Kamar [O] biasa saja [S] negative [SSEP] [A] null [O] Not recomended [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2426,
+        "instance_id": 21,
+        "input": "Bersih, rapi dan nyaman. Tetapi wifi ter suspended. [A] [O] [S]",
+        "target": "[A] null [O] Bersih [S] positive [SSEP] [A] null [O] rapi [S] positive [SSEP] [A] null [O] nyaman [S] positive [SSEP] [A] wifi [O] ter suspended [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2427,
+        "instance_id": 22,
+        "input": "Seprei ada bekas noda, tv tidak berfungsi dengan baik, air shower kecil [A] [O] [S]",
+        "target": "[A] Seprei [O] ada bekas noda [S] negative [SSEP] [A] tv [O] tidak berfungsi dengan baik [S] negative [SSEP] [A] air shower [O] kecil [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2428,
+        "instance_id": 23,
+        "input": "wifi y palsu. air panas y rusak. [A] [O] [S]",
+        "target": "[A] wifi [O] palsu [S] negative [SSEP] [A] air panas [O] rusak [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2429,
+        "instance_id": 24,
+        "input": "Fasilitas lengkap, cuman spreynya terasa gatal dan banyak nyamuk. [A] [O] [S]",
+        "target": "[A] Fasilitas [O] lengkap [S] positive [SSEP] [A] spreynya [O] terasa gatal [S] negative [SSEP] [A] null [O] banyak nyamuk [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2430,
+        "instance_id": 25,
+        "input": "lumayan untuk harga segitu...kabersihan tolong ditingkatkan [A] [O] [S]",
+        "target": "[A] harga [O] lumayan [S] positive [SSEP] [A] kabersihan [O] tolong ditingkatkan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2431,
+        "instance_id": 26,
+        "input": "Lokasinya sangat bagus, breakfast tidak banyak pilihan tapi rasanya masih enak. Kamarnya cukup luas, hanya saja WiFi tidak bisa dipakai di kamar, Hanya di restoran. Kolam renang kecil banget, bangunan sudah butuh renovasi tapi cukup bersih. [A] [O] [S]",
+        "target": "[A] Lokasinya [O] sangat bagus [S] positive [SSEP] [A] breakfast [O] tidak banyak pilihan [S] negative [SSEP] [A] rasanya [O] masih enak [S] positive [SSEP] [A] Kamarnya [O] cukup luas [S] positive [SSEP] [A] WiFi [O] tidak bisa dipakai di kamar [S] Hanya di restoran [SSEP] [A] Kolam renang [O] kecil banget [S] negative [SSEP] [A] bangunan [O] sudah butuh renovasi [S] negative [SSEP] [A] bangunan [O] cukup bersih [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2432,
+        "instance_id": 27,
+        "input": "Pelayanan ramah.lokasi bagus.kamar mandi tidak ada air panas. kamar kurang bersih.makasih. [A] [O] [S]",
+        "target": "[A] Pelayanan [O] ramah [S] positive [SSEP] [A] lokasi [O] bagus [S] positive [SSEP] [A] kamar mandi [O] tidak ada air panas [S] negative [SSEP] [A] kamar [O] kurang bersih [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2433,
+        "instance_id": 28,
+        "input": "kamar nya bagus, tp tdk ada room service nya.. cuma jgn khawatir karna depan hotel banyak banget yang jual makanan [A] [O] [S]",
+        "target": "[A] kamar nya [O] bagus [S] positive [SSEP] [A] room service nya [O] tdk ada [S] negative [SSEP] [A] depan hotel [O] banyak banget yang jual makanan [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2434,
+        "instance_id": 29,
+        "input": "Kamar nyaman. AC dingin. Kamar mandi kapsul yang saya kurang nyaman. Tidak ada toiletries dan airyrooms compliment snack di room. [A] [O] [S]",
+        "target": "[A] Kamar [O] nyaman [S] positive [SSEP] [A] AC [O] dingin [S] positive [SSEP] [A] Kamar mandi kapsul [O] kurang nyaman [S] negative [SSEP] [A] toiletries [O] Tidak ada [S] negative [SSEP] [A] airyrooms compliment snack [O] Tidak ada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2435,
+        "instance_id": 30,
+        "input": "Cukup nyaman dan bersih, hanya perlu diperhatikan kadang-kadang ada nyamuk nya [A] [O] [S]",
+        "target": "[A] null [O] Cukup nyaman [S] positive [SSEP] [A] null [O] bersih [S] positive [SSEP] [A] nyamuk nya [O] perlu diperhatikan kadang-kadang ada nyamuk nya [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2436,
+        "instance_id": 31,
+        "input": "kamar besar.. air hangat ada fasilitasnya tapi tidak berfungsi.. sandal harus diminta.. tidak tersedia di dalam kamar .. [A] [O] [S]",
+        "target": "[A] kamar [O] besar [S] positive [SSEP] [A] air hangat [O] tidak berfungsi [S] negative [SSEP] [A] sandal [O] harus diminta [S] negative [SSEP] [A] sandal [O] tidak tersedia di dalam kamar [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2437,
+        "instance_id": 32,
+        "input": "Lantai kamar mandi kamar saya agak licin, mohon dibersihkan dengan baik. Overall semua sangat baik. terima kasih \ud83d\ude06 [A] [O] [S]",
+        "target": "[A] Lantai kamar mandi kamar saya [O] agak licin [S] negative [SSEP] [A] null [O] mohon dibersihkan dengan baik [S] negative [SSEP] [A] Overall semua [O] sangat baik [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2438,
+        "instance_id": 33,
+        "input": "penjaga yg kurang rama [A] [O] [S]",
+        "target": "[A] penjaga [O] kurang rama [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2439,
+        "instance_id": 34,
+        "input": "ac tidak dingin, airnya kecil. seharusnya sebelum ada yang booking diperiksa dl [A] [O] [S]",
+        "target": "[A] ac [O] tidak dingin [S] negative [SSEP] [A] airnya [O] kecil [S] negative [SSEP] [A] yang booking [O] sebelum ada yang booking diperiksa dl [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2440,
+        "instance_id": 35,
+        "input": "ok. cuma kamar mandi agak bau dan sarapan kurang sedap. [A] [O] [S]",
+        "target": "[A] null [O] ok [S] positive [SSEP] [A] kamar mandi [O] agak bau [S] negative [SSEP] [A] sarapan [O] kurang sedap [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2441,
+        "instance_id": 36,
+        "input": "Cukup nyaman,  tapi di lantai tiga gak ada wifi. Wifinya tidak menjangkau kamar [A] [O] [S]",
+        "target": "[A] null [O] Cukup nyaman [S] positive [SSEP] [A] wifi [O] di lantai tiga gak ada wifi [S] negative [SSEP] [A] Wifinya [O] tidak menjangkau kamar [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2442,
+        "instance_id": 37,
+        "input": "biasa aja, kamar kurang bersih [A] [O] [S]",
+        "target": "[A] null [O] biasa aja [S] negative [SSEP] [A] kamar [O] kurang bersih [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2443,
+        "instance_id": 38,
+        "input": "ruangan + kamar mandi bersih, luas, nyaman, hanya saja TV sedang tidak berfungsi [A] [O] [S]",
+        "target": "[A] ruangan + kamar mandi [O] bersih [S] positive [SSEP] [A] ruangan + kamar mandi [O] luas [S] positive [SSEP] [A] ruangan + kamar mandi [O] nyaman [S] positive [SSEP] [A] TV [O] sedang tidak berfungsi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2444,
+        "instance_id": 39,
+        "input": "parah... pesan 2 kamar, 1 kamarnya tidak ada perlengkapan airy belum di siapkan, karena tidak terdetect kalau pesan 2 kamar... kamar bau apek... not recomended lah [A] [O] [S]",
+        "target": "[A] null [O] parah [S] negative [SSEP] [A] 1 kamarnya [O] tidak ada perlengkapan airy belum di siapkan [S] negative [SSEP] [A] null [O] karena tidak terdetect kalau pesan 2 kamar [S] negative [SSEP] [A] kamar [O] bau apek [S] negative [SSEP] [A] null [O] not recomended lah [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2445,
+        "instance_id": 40,
+        "input": "Mengecewakan. Tidak sesuai dengan foto yang diposting. Kamar mandi bad smell. Air muncrat sampai keluar kamar mandi saat mandi. Receptionist tidak ada saat mau check-out sehingga harus menunggu lama. Hari berikutnya cari hotel yang lain yang lebih baik. [A] [O] [S]",
+        "target": "[A] null [O] Mengecewakan [S] negative [SSEP] [A] null [O] Tidak sesuai dengan foto yang diposting [S] negative [SSEP] [A] Kamar mandi [O] bad smell [S] negative [SSEP] [A] Air [O] muncrat sampai keluar kamar mandi saat mandi [S] negative [SSEP] [A] Receptionist [O] tidak ada saat mau check-out sehingga harus menunggu lama [S] negative [SSEP] [A] null [O] cari hotel yang lain yang lebih baik [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2446,
+        "instance_id": 41,
+        "input": "hotelnya bagus, makanan cukup, wifi kurang merata [A] [O] [S]",
+        "target": "[A] hotelnya [O] bagus [S] positive [SSEP] [A] makanan [O] cukup [S] negative [SSEP] [A] wifi [O] kurang merata [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2447,
+        "instance_id": 42,
+        "input": "Sangat berisik dari tamu sebelah, aku request double tp dapat twin. Tv sangat kecil dgn jarak yg jauh untuk menonton. Masih ragu apakah ini hotel atau sebuah kost kostan ya.. [A] [O] [S]",
+        "target": "[A] tamu sebelah [O] Sangat berisik [S] negative [SSEP] [A] null [O] request double tp dapat twin [S] negative [SSEP] [A] Tv [O] sangat kecil dgn jarak yg jauh untuk menonton [S] negative [SSEP] [A] null [O] Masih ragu apakah ini hotel atau sebuah kost kostan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2448,
+        "instance_id": 43,
+        "input": "sangat menyenangkan dan memuaskan... Namun saat check in jam 14.00, masih harus menunggu selama 20 menit, mohon diperbaiki.. [A] [O] [S]",
+        "target": "[A] null [O] menyenangkan dan memuaskan [S] positive [SSEP] [A] check in [O] masih harus menunggu selama 20 menit [S] negative [SSEP] [A] null [O] mohon diperbaiki [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2449,
+        "instance_id": 44,
+        "input": "Sprey kurang bersih..tolong diperhatikan lagi Sama perlengkapan mndi disiapkan sebelum cek in [A] [O] [S]",
+        "target": "[A] Sprey [O] kurang bersih [S] negative [SSEP] [A] null [O] tolong diperhatikan lagi [S] negative [SSEP] [A] perlengkapan mndi [O] disiapkan sebelum cek in [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2450,
+        "instance_id": 45,
+        "input": "Bagus, cuma kalau malem pintu udah kekunci jadi harus bangunin orangnya [A] [O] [S]",
+        "target": "[A] null [O] Bagus [S] positive [SSEP] [A] pintu [O] udah kekunci jadi harus bangunin orangnya [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2451,
+        "instance_id": 46,
+        "input": "saya menginap di kamar 117, reviewnya: 1. bantal keras 2. biasanya dikasih bantal airy, tapi ini ga ada. dikasih dua bantal tambahan sih tapi ga dikasih sarung bantalnya 3. ga ada thermos untuk bikin air panas 4. shower bocor 5. remote tv tidak berfungsi 6. kenop pintu kamar mandi macet, jd ga bisa ditutup rapat 7. kamar hanya satu kali dibersihkan [A] [O] [S]",
+        "target": "[A] bantal [O] keras [S] negative [SSEP] [A] bantal airy [O] ga ada [S] negative [SSEP] [A] sarung bantalnya [O] ga dikasih [S] negative [SSEP] [A] thermos untuk bikin air panas [O] ga ada [S] negative [SSEP] [A] shower [O] bocor [S] negative [SSEP] [A] remote tv [O] tidak berfungsi [S] negative [SSEP] [A] kenop pintu kamar mandi [O] macet [S] jd ga bisa ditutup rapat [SSEP] [A] kamar [O] hanya satu kali dibersihkan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2452,
+        "instance_id": 47,
+        "input": "Kamarnya kotor, bau, kasurnya banyak kutu. [A] [O] [S]",
+        "target": "[A] Kamarnya [O] kotor [S] negative [SSEP] [A] Kamarnya [O] bau [S] negative [SSEP] [A] kasurnya [O] banyak kutu [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2453,
+        "instance_id": 48,
+        "input": "wifi kenceng, kamar luas, ac bagus, tp kamar mandi agak kotor, makanannya enak dan harga terjangkau, tempat makan juga banyak sekitar hotel ,akses kemana -mana sekitar kota dekat,thanks airyroom\ud83d\udc4d [A] [O] [S]",
+        "target": "[A] wifi [O] kenceng [S] positive [SSEP] [A] kamar [O] luas [S] positive [SSEP] [A] ac [O] bagus [S] positive [SSEP] [A] kamar mandi [O] agak kotor [S] negative [SSEP] [A] makanannya [O] enak [S] positive [SSEP] [A] harga [O] terjangkau [S] positive [SSEP] [A] tempat makan [O] banyak sekitar hotel [S] positive [SSEP] [A] akses kemana -mana sekitar kota [O] dekat [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2454,
+        "instance_id": 49,
+        "input": "toilet kurabg bersih,tempat sampah kotor,perlengkapan mandi tidak ada,malahan ada sabun batangan bekas [A] [O] [S]",
+        "target": "[A] toilet [O] kurabg bersih [S] negative [SSEP] [A] tempat sampah [O] kotor [S] negative [SSEP] [A] perlengkapan mandi [O] tidak ada [S] negative [SSEP] [A] sabun batangan [O] bekas [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2455,
+        "instance_id": 50,
+        "input": "nyaman sich tp toilet kurang bersih aja.... [A] [O] [S]",
+        "target": "[A] null [O] nyaman [S] positive [SSEP] [A] toilet [O] kurang bersih [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2456,
+        "instance_id": 51,
+        "input": "awalnya sudah merasa tidak nyaman karena lantai kamar agak berdebu. setelah masuk, cek handuk & keset serta tempat sampah tidak disediakan, sambungan colokan tv ke stop kontak jg tidak ada. setelah minta pihak hotel dg cepat merespon. giliran mandi pagi, air di kamar mandi sama sekali tidak keluar, ditunggu satu jam jg tidak keluar jg. kecewa skali [A] [O] [S]",
+        "target": "[A] null [O] sudah merasa tidak nyaman [S] negative [SSEP] [A] lantai kamar [O] agak berdebu [S] negative [SSEP] [A] handuk & keset serta tempat sampah [O] tidak disediakan [S] negative [SSEP] [A] sambungan colokan tv ke stop kontak [O] tidak ada [S] negative [SSEP] [A] pihak hotel [O] dg cepat merespon [S] positive [SSEP] [A] air di kamar mandi [O] sama sekali tidak keluar [S] negative [SSEP] [A] null [O] kecewa skali [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2457,
+        "instance_id": 52,
+        "input": "untuk keseluruhan sudah bagus,masalahnya hanya ada pada Air panas yg tidak berfungsi dengan baik [A] [O] [S]",
+        "target": "[A] keseluruhan [O] sudah bagus [S] positive [SSEP] [A] Air panas [O] tidak berfungsi dengan baik [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2458,
+        "instance_id": 53,
+        "input": "4 hari inap tanpa snack, padahal standar nya airy selalu ada snack. handuk di hari 3 gak kebagian. kalo soal kebersihan gak ada masalah. cuma fasilitas nya aja yg kurang bisa dipenuhi. [A] [O] [S]",
+        "target": "[A] snack [O] 4 hari inap tanpa snack [S] negative [SSEP] [A] null [O] standar nya airy selalu ada snack [S] negative [SSEP] [A] handuk [O] di hari 3 gak kebagian [S] negative [SSEP] [A] kebersihan [O] gak ada masalah [S] positive [SSEP] [A] fasilitas [O] kurang bisa dipenuhi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2459,
+        "instance_id": 54,
+        "input": "semua oke... cuma tv hilang gambarnya [A] [O] [S]",
+        "target": "[A] semua [O] oke [S] positive [SSEP] [A] tv [O] hilang gambarnya [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2460,
+        "instance_id": 55,
+        "input": "Sprei kusam kayak ga dicuci berbulan bulan.. kasur juga tdk bersih. Channel nya kurang bagus.. pelayanan lumayan baik. [A] [O] [S]",
+        "target": "[A] Sprei [O] kusam kayak ga dicuci berbulan bulan [S] negative [SSEP] [A] kasur [O] tdk bersih [S] negative [SSEP] [A] Channel nya [O] kurang bagus [S] negative [SSEP] [A] pelayanan [O] lumayan baik [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2461,
+        "instance_id": 56,
+        "input": "Bantal sma tempat tidurnya basah, lantainya pun masih basah, ac nya tidak dingin [A] [O] [S]",
+        "target": "[A] Bantal [O] basah [S] negative [SSEP] [A] tempat tidurnya [O] basah [S] negative [SSEP] [A] lantainya [O] masih basah [S] negative [SSEP] [A] ac nya [O] tidak dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2462,
+        "instance_id": 57,
+        "input": "Kamar luas, bersih, dan nyaman. Ada air panas. Minus TV tidak ada siaran. [A] [O] [S]",
+        "target": "[A] Kamar [O] luas [S] positive [SSEP] [A] Kamar [O] bersih [S] positive [SSEP] [A] Kamar [O] nyaman [S] positive [SSEP] [A] air panas [O] Ada [S] positive [SSEP] [A] TV [O] tidak ada siaran [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2463,
+        "instance_id": 58,
+        "input": "mantav, ruangan bersih, ac dingin...cm kgak ada air panas.. [A] [O] [S]",
+        "target": "[A] null [O] mantav [S] positive [SSEP] [A] ruangan [O] bersih [S] positive [SSEP] [A] ac [O] dingin [S] positive [SSEP] [A] air panas [O] kgak ada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2464,
+        "instance_id": 59,
+        "input": "Not recommended, kamar lembab pengap, kamar mandi kotor, shower rusak, mati lampu tdk ada genset, staff kurang ramah [A] [O] [S]",
+        "target": "[A] null [O] Not recommended [S] negative [SSEP] [A] kamar [O] lembab pengap [S] negative [SSEP] [A] kamar mandi [O] kotor [S] negative [SSEP] [A] shower [O] rusak [S] negative [SSEP] [A] null [O] mati lampu tdk ada genset [S] negative [SSEP] [A] staff [O] kurang ramah [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2465,
+        "instance_id": 60,
+        "input": "KEKURANGAN DR HTL AIRY TAMAN MULIA : KMR MANDI KOTOR N BBRP PINTU KMR-MANDI TDK BISA DIKUNCI ALIAS R [A] [O] [S]",
+        "target": "[A] KMR MANDI [O] KOTOR [S] negative [SSEP] [A] PINTU KMR-MANDI [O] TDK BISA DIKUNCI [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2466,
+        "instance_id": 61,
+        "input": "Ada beberapa room yang Acnya tidak dingin [A] [O] [S]",
+        "target": "[A] Acnya [O] tidak dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2467,
+        "instance_id": 62,
+        "input": "Kamar mandi kurang bersih, kamar tidak terlalu nyaman [A] [O] [S]",
+        "target": "[A] Kamar mandi [O] kurang bersih [S] negative [SSEP] [A] kamar [O] tidak terlalu nyaman [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2468,
+        "instance_id": 63,
+        "input": "kamar tidak sesuai yg di gambar... ternyata di ruang bawah tanah.. sinyal tidak ada.. parkir kehujan [A] [O] [S]",
+        "target": "[A] kamar [O] tidak sesuai yg di gambar [S] negative [SSEP] [A] kamar [O] di ruang bawah tanah [S] negative [SSEP] [A] sinyal [O] tidak ada [S] negative [SSEP] [A] parkir [O] kehujan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2469,
+        "instance_id": 64,
+        "input": "Kamar mandi kurang bersih, ac ga dingin [A] [O] [S]",
+        "target": "[A] Kamar mandi [O] kurang bersih [S] negative [SSEP] [A] ac [O] ga dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2470,
+        "instance_id": 65,
+        "input": "untuk pelayanan dan kenyamanan oke, cuma lantai di kamarnya agak sedikit kotor seperti tidak di pel [A] [O] [S]",
+        "target": "[A] pelayanan [O] oke [S] positive [SSEP] [A] kenyamanan [O] oke [S] positive [SSEP] [A] lantai di kamarnya [O] agak sedikit kotor seperti tidak di pel [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2471,
+        "instance_id": 66,
+        "input": "luas bgt..tp air panesnya jengkelin [A] [O] [S]",
+        "target": "[A] null [O] luas bgt [S] positive [SSEP] [A] air panesnya [O] jengkelin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2472,
+        "instance_id": 67,
+        "input": "tidak rekomendasi servis kurang baik.. ga punya etika.. kalau saya niat ga baik pasti nyelundup ini terang2 an.. biasany kan wkt check out baru ditotal misal kena charge.. lha ini malem2 langsung minta dipintu . di kamarnya tidak ada kaca.. [A] [O] [S]",
+        "target": "[A] null [O] tidak rekomendasi [S] negative [SSEP] [A] servis [O] kurang baik [S] negative [SSEP] [A] null [O] ga punya etika [S] negative [SSEP] [A] null [O] biasany kan wkt check out baru ditotal misal kena charge.. lha ini malem2 langsung minta dipintu [S] negative [SSEP] [A] kamar [O] tidak ada kaca [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2473,
+        "instance_id": 68,
+        "input": "tempat nya nyaman bersih. cuma AC nya kurang dingin [A] [O] [S]",
+        "target": "[A] tempat nya [O] nyaman bersih [S] positive [SSEP] [A] AC nya [O] kurang dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2474,
+        "instance_id": 69,
+        "input": "1. Dalam kamar ada bbrp nyamuk. 2. Gantungan dlm kmr ada 2 yg patah (saat masuk kmr sdh patah..namun tdk d perbaiki/diganti). 3. Air panas tdk berfungsi. 4. Stop kontak deket wastafel terlalu tinggi, utk nge charge hp sngt tdk nyaman..krn kabel gak sampai, [A] [O] [S]",
+        "target": "[A] nyamuk [O] ada bbrp nyamuk [S] negative [SSEP] [A] Gantungan dlm kmr [O] ada 2 yg patah (saat masuk kmr sdh patah..namun tdk d perbaiki/diganti) [S] negative [SSEP] [A] Air panas [O] tdk berfungsi [S] negative [SSEP] [A] Stop kontak deket wastafel [O] terlalu tinggi [S] negative [SSEP] [A] null [O] nge charge hp sngt tdk nyaman..krn kabel gak sampai [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2475,
+        "instance_id": 70,
+        "input": "Hotel yang bersahabat dengan NYAMUK, makanan selalu HABIS [A] [O] [S]",
+        "target": "[A] Hotel [O] bersahabat dengan NYAMUK [S] negative [SSEP] [A] makanan [O] selalu HABIS [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2476,
+        "instance_id": 71,
+        "input": "Perlu ditingkatkan kebersihan kamar dan kamar mandi,petugas ramah pelayanan memuaskan. [A] [O] [S]",
+        "target": "[A] kebersihan kamar dan kamar mandi [O] Perlu ditingkatkan [S] negative [SSEP] [A] petugas [O] ramah [S] positive [SSEP] [A] pelayanan [O] memuaskan [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2477,
+        "instance_id": 72,
+        "input": "bersih dan tempatnya bagus tapi pelayanannya kurang baik [A] [O] [S]",
+        "target": "[A] null [O] bersih [S] positive [SSEP] [A] tempatnya [O] bagus [S] positive [SSEP] [A] pelayanannya [O] kurang baik [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2478,
+        "instance_id": 73,
+        "input": "Cukup bersih meski tanpa sarapan. Wifi & TV perlu pembenahan krn tdk jalan [A] [O] [S]",
+        "target": "[A] null [O] Cukup bersih [S] positive [SSEP] [A] null [O] meski tanpa sarapan [S] negative [SSEP] [A] Wifi & TV [O] perlu pembenahan krn tdk jalan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2479,
+        "instance_id": 74,
+        "input": "bersih, nyaman. cuma bantal kecil nya bau. [A] [O] [S]",
+        "target": "[A] null [O] bersih [S] positive [SSEP] [A] null [O] nyaman [S] positive [SSEP] [A] bantal kecil [O] bau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2480,
+        "instance_id": 75,
+        "input": "Staffnya ramah, tempatnya bersih cuma air hangatnya g nyala [A] [O] [S]",
+        "target": "[A] Staffnya [O] ramah [S] positive [SSEP] [A] tempatnya [O] bersih [S] positive [SSEP] [A] air hangatnya [O] g nyala [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2481,
+        "instance_id": 76,
+        "input": "Good....cuma menu sarapan kurang nyaman [A] [O] [S]",
+        "target": "[A] null [O] Good [S] positive [SSEP] [A] menu sarapan [O] kurang nyaman [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2482,
+        "instance_id": 77,
+        "input": "Wifi bermasalah & showernya ada bag. yg bocor, selebihnya bagus... \ud83d\ude42 [A] [O] [S]",
+        "target": "[A] Wifi [O] bermasalah [S] negative [SSEP] [A] showernya [O] ada bag. yg bocor [S] negative [SSEP] [A] selebihnya [O] bagus [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2483,
+        "instance_id": 78,
+        "input": "AC tidak dingin sama sekali sampai saya akhirnya mutusin buat check-out. kasurnya banyak sekali pasir dan ngeres buat tidur. airnya bau seperti air payau. [A] [O] [S]",
+        "target": "[A] AC [O] tidak dingin sama sekali [S] negative [SSEP] [A] null [O] saya akhirnya mutusin buat check-out [S] negative [SSEP] [A] kasurnya [O] banyak sekali pasir dan ngeres buat tidur [S] negative [SSEP] [A] airnya [O] bau seperti air payau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2484,
+        "instance_id": 79,
+        "input": "overall oke, tapi hanya minus satu ac kamar 301 sama sekali tidak kerasa dingin. mohon untuk di service, tks [A] [O] [S]",
+        "target": "[A] overall [O] oke [S] positive [SSEP] [A] ac kamar 301 [O] sama sekali tidak kerasa dingin [S] negative [SSEP] [A] null [O] mohon untuk di service [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2485,
+        "instance_id": 80,
+        "input": "1. Tempat sampah penuh sampah dan tidak dibersihkan pada saat kami nginap. 2. Banyak nyamuk sehingga tidur tidak nyenyak. 3. Tidak ada sandal untuk dipakai di kamar. [A] [O] [S]",
+        "target": "[A] Tempat sampah [O] penuh sampah dan tidak dibersihkan pada saat kami nginap [S] negative [SSEP] [A] nyamuk [O] Banyak nyamuk sehingga tidur tidak nyenyak [S] negative [SSEP] [A] sandal [O] Tidak ada sandal untuk dipakai di kamar [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2486,
+        "instance_id": 81,
+        "input": "ok hanya ac kurang dingin [A] [O] [S]",
+        "target": "[A] null [O] ok [S] positive [SSEP] [A] ac [O] kurang dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2487,
+        "instance_id": 82,
+        "input": "Ketika pertama masuk kamar bau apek, untuk pengharum ruangannya tidak ada. [A] [O] [S]",
+        "target": "[A] kamar [O] bau apek [S] negative [SSEP] [A] pengharum ruangannya [O] tidak ada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2488,
+        "instance_id": 83,
+        "input": "mohon kebersihan di tingkatkan, masa wc nya ada KECOA...!!! [A] [O] [S]",
+        "target": "[A] kebersihan [O] di tingkatkan [S] negative [SSEP] [A] wc nya [O] ada KECOA [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2489,
+        "instance_id": 84,
+        "input": "sesuai budget lah. tapi nyaman kok, kamar juga bersih, WiFi nyala walau koneksi agak lelet, yg jaga [A] [O] [S]",
+        "target": "[A] null [O] sesuai budget lah [S] positive [SSEP] [A] null [O] nyaman [S] positive [SSEP] [A] kamar [O] bersih [S] positive [SSEP] [A] WiFi [O] nyala [S] positive [SSEP] [A] koneksi [O] agak lelet [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2490,
+        "instance_id": 85,
+        "input": "Untuk kebersihan sudah lumayan, AC lumayan dingin tidak seperti pertama kali saya book kamar disini. Sprei juga baru dan bersih, mungkin cuma selimutnya saja yg perlu diganti karna sudah agak buras. Untuk barang dikamar seperti meja atau kelengkapan lain masih agak berdebu dan nampak seperti hotel tua karna perabotnya kelihatan rapuh. [A] [O] [S]",
+        "target": "[A] kebersihan [O] sudah lumayan [S] positive [SSEP] [A] AC [O] lumayan dingin tidak seperti pertama kali saya book kamar disini [S] positive [SSEP] [A] Sprei [O] baru dan bersih [S] positive [SSEP] [A] selimutnya [O] perlu diganti karna sudah agak buras [S] negative [SSEP] [A] barang dikamar seperti meja atau kelengkapan lain [O] masih agak berdebu dan nampak seperti hotel tua [S] negative [SSEP] [A] perabotnya [O] kelihatan rapuh [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2491,
+        "instance_id": 86,
+        "input": "kemari, pelayanannya ga ramah. Kamar Panas. AC tidak dingin, KAMAR KOTOR. gaada sarapan. [A] [O] [S]",
+        "target": "[A] pelayanannya [O] ga ramah [S] negative [SSEP] [A] Kamar [O] Panas [S] negative [SSEP] [A] AC [O] tidak dingin [S] negative [SSEP] [A] KAMAR [O] KOTOR [S] negative [SSEP] [A] sarapan [O] gaada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2492,
+        "instance_id": 87,
+        "input": "handuk kasih double, ac kurang dingin, semoga lebih baik lagi [A] [O] [S]",
+        "target": "[A] handuk [O] kasih double [S] negative [SSEP] [A] ac [O] kurang dingin [S] negative [SSEP] [A] null [O] lebih baik lagi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2493,
+        "instance_id": 88,
+        "input": "kamarnya jorok ada kecoanya trus lembab. [A] [O] [S]",
+        "target": "[A] kamarnya [O] jorok [S] negative [SSEP] [A] kamarnya [O] ada kecoanya [S] negative [SSEP] [A] kamarnya [O] lembab [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2494,
+        "instance_id": 89,
+        "input": "lumayan bagus, akna tetapi gak ada snacknya.. [A] [O] [S]",
+        "target": "[A] null [O] lumayan bagus [S] positive [SSEP] [A] snacknya [O] gak ada snacknya [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2495,
+        "instance_id": 90,
+        "input": "Datang jam 1 siang ga boleh check in sampe jam 2 pdhl uda capek bgt. Sprei jorok, ruangan lembab, jauh dari kota, sesuai lah harga murah. Ga rekomen lah. [A] [O] [S]",
+        "target": "[A] check in [O] ga boleh check in sampe jam 2 pdhl uda capek bgt [S] negative [SSEP] [A] Sprei [O] jorok [S] negative [SSEP] [A] ruangan [O] lembab [S] negative [SSEP] [A] null [O] jauh dari kota [S] negative [SSEP] [A] harga [O] sesuai lah harga murah [S] positive [SSEP] [A] null [O] Ga rekomen lah [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2496,
+        "instance_id": 91,
+        "input": "Ac nya tidak dingin [A] [O] [S]",
+        "target": "[A] Ac nya [O] tidak dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2497,
+        "instance_id": 92,
+        "input": "Kamarnya bersih, aminities lengkap, petugas ramah. Cm km mandi agak bau. Yg lain bagus buat harga semurah itu. [A] [O] [S]",
+        "target": "[A] Kamarnya [O] bersih [S] positive [SSEP] [A] aminities [O] lengkap [S] positive [SSEP] [A] petugas [O] ramah [S] positive [SSEP] [A] km mandi [O] agak bau [S] negative [SSEP] [A] Yg lain [O] bagus [S] positve [SSEP] [A] harga [O] semurah itu [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2498,
+        "instance_id": 93,
+        "input": "pagi pagi air nya tidak panas [A] [O] [S]",
+        "target": "[A] air nya [O] tidak panas [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2499,
+        "instance_id": 94,
+        "input": "Pelayanan baik, kondisi kamar juga baik, suasana hotel baik. Hanya saja fasilitas di kamar masih kurang. Shower tidak ada kondisi panas dan dingin. Selebihnya baik. Harga juga terjangkau [A] [O] [S]",
+        "target": "[A] Pelayanan [O] baik [S] positive [SSEP] [A] kondisi kamar [O] baik [S] positive [SSEP] [A] suasana hotel [O] baik [S] positive [SSEP] [A] fasilitas di kamar [O] masih kurang [S] negative [SSEP] [A] Shower [O] tidak ada kondisi panas dan dingin [S] negative [SSEP] [A] Selebihnya [O] baik [S] positive [SSEP] [A] Harga [O] terjangkau [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2500,
+        "instance_id": 95,
+        "input": "Kamarnya jorok banyak debu, dindingnya kusam banyak noda. Kamar mandi juga kurang bersih, penarangan minim [A] [O] [S]",
+        "target": "[A] Kamarnya [O] jorok banyak debu [S] negative [SSEP] [A] dindingnya [O] kusam [S] negative [SSEP] [A] noda [O] banyak noda [S] negative [SSEP] [A] Kamar mandi [O] kurang bersih [S] negative [SSEP] [A] penarangan [O] minim [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2501,
+        "instance_id": 96,
+        "input": "cukup baik, pelayanannya ramah, tapi sayang toiletnya kurang bersih & bau. [A] [O] [S]",
+        "target": "[A] null [O] cukup baik [S] positive [SSEP] [A] pelayanannya [O] ramah [S] positive [SSEP] [A] toiletnya [O] kurang bersih [S] negative [SSEP] [A] toiletnya [O] bau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2502,
+        "instance_id": 97,
+        "input": "jelek ac gak dinging [A] [O] [S]",
+        "target": "[A] null [O] jelek [S] negative [SSEP] [A] ac [O] gak dinging [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2503,
+        "instance_id": 98,
+        "input": "pelayanan sangat ramah,kamar pun rapih dah bersih tapi ada sedikit kekurangan di bagian handuk dan selimutnya sebaiknua yg sudah sobek diganti yaa.. thx\ud83d\ude0a [A] [O] [S]",
+        "target": "[A] pelayanan [O] sangat ramah [S] positive [SSEP] [A] kamar [O] rapih dah bersih [S] positive [SSEP] [A] handuk [O] sudah sobek [S] negative [SSEP] [A] selimutnya [O] sudah sobek [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2504,
+        "instance_id": 99,
+        "input": "Saya menginap 3 malam, tetapi snak, air minum dan perlengkapan mandi tdk di lengkapi ulang/tdk di kasih ke tamu.. mohon di tingkatkan pelayanannya.. terimakasih [A] [O] [S]",
+        "target": "[A] snak [O] air minum dan perlengkapan mandi [S] tdk di lengkapi ulang/tdk di kasih ke tamu [SSEP] [A] pelayanannya [O] mohon di tingkatkan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2505,
+        "instance_id": 100,
+        "input": "Pelayannya kurang baik dan kurang sopan [A] [O] [S]",
+        "target": "[A] Pelayannya [O] kurang baik [S] negative [SSEP] [A] Pelayannya [O] kurang sopan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2506,
+        "instance_id": 101,
+        "input": "Lokasi d gang sempit, susah dtemui. Datang awal, tdk bisa early check in, hrs nambah fee, hrs tgu smpk jm14. Ruang tunggu pengap, bau rokok. Kamar kurang bersih, byk byk sekali kecoa, byk debu. Lgsg check out stlh liat kamar spt itu. [A] [O] [S]",
+        "target": "[A] Lokasi [O] d gang sempit [S] negative [SSEP] [A] Lokasi [O] susah dtemui [S] negative [SSEP] [A] early check in [O] tdk bisa [S] negative [SSEP] [A] fee [O] hrs nambah fee [S] negative [SSEP] [A] null [O] hrs tgu smpk jm14 [S] negative [SSEP] [A] Ruang tunggu [O] pengap [S] negative [SSEP] [A] Ruang tunggu [O] bau rokok [S] negative [SSEP] [A] Kamar [O] kurang bersih [S] negative [SSEP] [A] Kamar [O] byk byk sekali kecoa [S] negative [SSEP] [A] Kamar [O] byk debu [S] negative [SSEP] [A] kamar [O] Lgsg check out stlh liat kamar spt itu [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2507,
+        "instance_id": 102,
+        "input": "kamar baik, kamar mandi bau agak tak sedap. sinyal wifi agak susah karna kamar di ujung. [A] [O] [S]",
+        "target": "[A] kamar [O] baik [S] positive [SSEP] [A] kamar mandi [O] bau agak tak sedap [S] negative [SSEP] [A] sinyal wifi [O] agak susah [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2508,
+        "instance_id": 103,
+        "input": "g ada makann kecil y [A] [O] [S]",
+        "target": "[A] makann kecil [O] g ada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2509,
+        "instance_id": 104,
+        "input": "tidak ada snack [A] [O] [S]",
+        "target": "[A] snack [O] tidak ada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2510,
+        "instance_id": 105,
+        "input": "staffnya sangat friendly tp entah knp wifinya tidak jalan [A] [O] [S]",
+        "target": "[A] staffnya [O] sangat friendly [S] positive [SSEP] [A] wifinya [O] tidak jalan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2511,
+        "instance_id": 106,
+        "input": "televisi nyaa buremmm [A] [O] [S]",
+        "target": "[A] televisi nyaa [O] buremmm [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2512,
+        "instance_id": 107,
+        "input": "Kamar 310 tvnya rusak jadi bikin tidak nyaman, tidak ada perbaikan [A] [O] [S]",
+        "target": "[A] tvnya [O] rusak [S] negative [SSEP] [A] null [O] jadi bikin tidak nyaman [S] negative [SSEP] [A] perbaikan [O] tidak ada perbaikan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2513,
+        "instance_id": 108,
+        "input": "kotor n sedikit bau [A] [O] [S]",
+        "target": "[A] null [O] kotor [S] negative [SSEP] [A] null [O] sedikit bau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2514,
+        "instance_id": 109,
+        "input": "nyaman tempatnya cuman sayang air panas nya tdk bisa. untuk keseluruhan ok lah. [A] [O] [S]",
+        "target": "[A] tempatnya [O] nyaman [S] positive [SSEP] [A] air panas nya [O] tdk bisa [S] negative [SSEP] [A] keseluruhan [O] ok lah [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2515,
+        "instance_id": 110,
+        "input": "Sesuai antara harga dan fasilitasnya.kamar bersih. Tp sayang acara tv kurang bagus sinyalnya. [A] [O] [S]",
+        "target": "[A] harga dan fasilitasnya [O] Sesuai [S] positive [SSEP] [A] kamar [O] bersih [S] positive [SSEP] [A] acara tv [O] kurang bagus sinyalnya [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2516,
+        "instance_id": 111,
+        "input": "wifi sulit untuk koneksi loginnya, dan kamar 221 bocor ac nya. [A] [O] [S]",
+        "target": "[A] wifi [O] sulit untuk koneksi loginnya [S] negative [SSEP] [A] ac nya [O] bocor [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2517,
+        "instance_id": 112,
+        "input": "Kebersihan teras ruangan agak kotor berdebu, lampu interior Kamar banyak yg mati [A] [O] [S]",
+        "target": "[A] Kebersihan teras ruangan [O] agak kotor berdebu [S] negative [SSEP] [A] lampu interior Kamar [O] banyak yg mati [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2518,
+        "instance_id": 113,
+        "input": "Cukup ramah pelayanan nya baik karena menyediakan pemesanan makanan minuman, Namun  perlu diperbaiki dari segi fasilitas kamar seperti Stopkontak nya di tambah, Air hangatnya kadang tidak berfungsi maka perlu di cek berkala [A] [O] [S]",
+        "target": "[A] pelayanan nya [O] Cukup ramah [S] positive [SSEP] [A] pelayanan nya [O] menyediakan pemesanan makanan minuman [S] positive [SSEP] [A] fasilitas kamar [O] perlu diperbaiki [S] negative [SSEP] [A] Stopkontak nya [O] di tambah [S] negative [SSEP] [A] Air hangatnya [O] kadang tidak berfungsi maka perlu di cek berkala [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2519,
+        "instance_id": 114,
+        "input": "Kurang pelayanan, tidak nyaman [A] [O] [S]",
+        "target": "[A] pelayanan [O] Kurang [S] negative [SSEP] [A] null [O] tidak nyaman [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2520,
+        "instance_id": 115,
+        "input": "fasilitas tv yg kurang baik ditambah receptions yg kurang baik masa saya ktdran sampai pas wkt check out nya ditelpon trs ke kamar [A] [O] [S]",
+        "target": "[A] fasilitas tv [O] kurang baik [S] negative [SSEP] [A] receptions [O] kurang baik masa saya ktdran sampai pas wkt check out nya ditelpon trs ke kamar [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2521,
+        "instance_id": 116,
+        "input": "Kebersihan kamar tolong diperhatikan [A] [O] [S]",
+        "target": "[A] Kebersihan kamar [O] tolong diperhatikan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2522,
+        "instance_id": 117,
+        "input": "abang abangnya judes [A] [O] [S]",
+        "target": "[A] abang abangnya [O] judes [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2523,
+        "instance_id": 118,
+        "input": "Kamar benar2 tidak layak ditempati. Saya pesan 2 hari cuma saya tempati 1 hari karena benar2 tidak nyaman. Kasurnya berisik, lampu kamar mandi mati, ada kecoa dikamar & tempat sampah didepan kamar tidak dibersihkan. Kecewaaa.... [A] [O] [S]",
+        "target": "[A] Kamar [O] benar2 tidak layak ditempati [S] negative [SSEP] [A] Kamar [O] tidak nyaman [S] negative [SSEP] [A] Kasurnya [O] berisik [S] negative [SSEP] [A] lampu kamar mandi [O] mati [S] negative [SSEP] [A] kamar [O] ada kecoa [S] negative [SSEP] [A] tempat sampah didepan kamar [O] tidak dibersihkan [S] negative [SSEP] [A] null [O] Kecewaaa [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2524,
+        "instance_id": 119,
+        "input": "4x menginap disini akhir nya air panas nya ada juga hahahahhaa [A] [O] [S]",
+        "target": "[A] air panas [O] 4x menginap disini akhir nya air panas nya ada juga [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2525,
+        "instance_id": 120,
+        "input": "Bagus, nyaman, hanya saja di wc-nya bocor [A] [O] [S]",
+        "target": "[A] null [O] Bagus [S] positive [SSEP] [A] null [O] nyaman [S] positive [SSEP] [A] wc-nya [O] bocor [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2526,
+        "instance_id": 121,
+        "input": "ruangan lebar. namun kekurangannya tidak ada hot shower. kamar dibersihkan tanpa diminta, tetapi hal tersebut sangat berbahaya untuk menjaga kepercayaan pelanggan. sebaiknya kamar jgn dibersihkan tanpa diminta. CSnya ramah. [A] [O] [S]",
+        "target": "[A] ruangan [O] lebar [S] positive [SSEP] [A] hot shower [O] kekurangannya tidak ada hot shower [S] negative [SSEP] [A] kamar [O] dibersihkan tanpa diminta [S] tetapi hal tersebut sangat berbahaya untuk menjaga kepercayaan pelanggan [SSEP] [A] CSnya [O] ramah [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2527,
+        "instance_id": 122,
+        "input": "Tv nya gak nyala \ud83d\ude11 [A] [O] [S]",
+        "target": "[A] Tv nya [O] gak nyala [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2528,
+        "instance_id": 123,
+        "input": "Fasilitas kamar mandi perlu diperbaiki. Air panas tidaj jalan. Lampu kamar kurang terang [A] [O] [S]",
+        "target": "[A] Fasilitas kamar mandi [O] perlu diperbaiki [S] negative [SSEP] [A] Air panas [O] tidaj jalan [S] negative [SSEP] [A] Lampu kamar [O] kurang terang [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2529,
+        "instance_id": 124,
+        "input": "Pelayanannya sudah bagus tapi kebersihan sprei dan selimutnya tolong ditingkatkan lagi. Perhatikan juga tanggal kadaluarsa pada kue yang disediakan di box. Terima kasih [A] [O] [S]",
+        "target": "[A] Pelayanannya [O] sudah bagus [S] positive [SSEP] [A] kebersihan sprei dan selimutnya [O] tolong ditingkatkan lagi [S] negative [SSEP] [A] tanggal kadaluarsa pada kue yang disediakan di box [O] Perhatikan juga [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2530,
+        "instance_id": 125,
+        "input": "Parkiran tidak terlalu luas, dan tidak ada petugasnya [A] [O] [S]",
+        "target": "[A] Parkiran [O] tidak terlalu luas [S] negative [SSEP] [A] petugasnya [O] tidak ada petugasnya [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2531,
+        "instance_id": 126,
+        "input": "sayangnya: 1. handuknya bau 2. odolnya bekas pas saya buka, sudah terpakai 3. wifi tidak sampai ke kamar 4. alamat sepertinya ga sesuai. harusnya dangdeur indah 1 no 20 bukan dangdeur indah no 20. tks [A] [O] [S]",
+        "target": "[A] null [O] sayangnya [S] negative [SSEP] [A] handuknya [O] bau [S] negative [SSEP] [A] odolnya [O] bekas pas saya buka [S] negative [SSEP] [A] odolnya [O] sudah terpakai [S] negative [SSEP] [A] wifi [O] tidak sampai ke kamar [S] negative [SSEP] [A] alamat [O] sepertinya ga sesuai [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2532,
+        "instance_id": 127,
+        "input": "Wc ada binatang kecil\u201d, geliiii... [A] [O] [S]",
+        "target": "[A] Wc [O] ada binatang kecil\u201d [S] negative [SSEP] [A] null [O] geliiii... [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2533,
+        "instance_id": 128,
+        "input": "langit di kamar masi ada sarang laba2,shower kurang bagus. [A] [O] [S]",
+        "target": "[A] langit di kamar [O] masi ada sarang laba2 [S] negative [SSEP] [A] shower [O] kurang bagus [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2534,
+        "instance_id": 129,
+        "input": "Kamar dan suasana nya nyaman sayangnya gak ada lap kaki di depan kamar mandi bikin banjir dan licin [A] [O] [S]",
+        "target": "[A] Kamar dan suasana nya [O] nyaman [S] positive [SSEP] [A] lap kaki [O] gak ada lap kaki di depan kamar mandi [S] negative [SSEP] [A] null [O] bikin banjir dan licin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2535,
+        "instance_id": 130,
+        "input": "ac agak bau. remote tv tidak berfungsi [A] [O] [S]",
+        "target": "[A] ac [O] agak bau [S] negative [SSEP] [A] remote tv [O] tidak berfungsi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2536,
+        "instance_id": 131,
+        "input": "lebih membutuhkan maintenance untuk kamar mandi dan aroma Ac/kamarnya [A] [O] [S]",
+        "target": "[A] kamar mandi [O] lebih membutuhkan maintenance [S] negative [SSEP] [A] aroma Ac/kamarnya [O] lebih membutuhkan maintenance [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2537,
+        "instance_id": 132,
+        "input": "air panasnya mati,makan paginya terlalu sedikit [A] [O] [S]",
+        "target": "[A] air panasnya [O] mati [S] negative [SSEP] [A] makan paginya [O] terlalu sedikit [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2538,
+        "instance_id": 133,
+        "input": "Kamarnya nyaman, pelayanan baik, bersih, hanya saja bantal sedikit bau [A] [O] [S]",
+        "target": "[A] Kamarnya [O] nyaman [S] positive [SSEP] [A] pelayanan [O] baik [S] positive [SSEP] [A] null [O] bersih [S] positive [SSEP] [A] bantal [O] sedikit bau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2539,
+        "instance_id": 134,
+        "input": "secara keseluruhan baik. kurangnya di sarapan yg hanya menu sederhana, kolam renang juga agak kotor dan sinyal wifi yang tidak bisa menjangkau hingga ujung kamar. kondisi kamar sendiri cukup bagus dan bersih. [A] [O] [S]",
+        "target": "[A] keseluruhan [O] baik [S] positive [SSEP] [A] sarapan [O] hanya menu sederhana [S] negative [SSEP] [A] kolam renang [O] agak kotor [S] negative [SSEP] [A] sinyal wifi [O] tidak bisa menjangkau hingga ujung kamar [S] negative [SSEP] [A] kondisi kamar [O] cukup bagus dan bersih [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2540,
+        "instance_id": 135,
+        "input": "sarapan lumayan, AC jadul yg kamar atas, pelayanan baik, sprei agak kotor, shower agak macet setelah di perbaiki lancar, air gak panas [A] [O] [S]",
+        "target": "[A] sarapan [O] lumayan [S] negative [SSEP] [A] AC [O] jadul [S] negative [SSEP] [A] pelayanan [O] baik [S] positive [SSEP] [A] sprei [O] agak kotor [S] negative [SSEP] [A] shower [O] agak macet [S] negative [SSEP] [A] shower [O] lancar [S] positive [SSEP] [A] air [O] gak panas [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2541,
+        "instance_id": 136,
+        "input": "lantai ruangan kamar licin....dan yg  perlu di tambahkan adalah sandal di dlm kamar. utk yg lain sdh baik dan bagus [A] [O] [S]",
+        "target": "[A] lantai ruangan kamar [O] licin [S] negative [SSEP] [A] sandal di dlm kamar [O] perlu di tambahkan [S] negative [SSEP] [A] yg lain [O] baik [S] positive [SSEP] [A] yg lain [O] bagus [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2542,
+        "instance_id": 137,
+        "input": "mayan lah deket farm house cuman kamar mandi kotor kasur kotor [A] [O] [S]",
+        "target": "[A] null [O] mayan lah deket farm house [S] positive [SSEP] [A] kamar mandi [O] kotor [S] negative [SSEP] [A] kasur [O] kotor [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2543,
+        "instance_id": 138,
+        "input": "Smua fasilitas berjalan baik, hanya saja tidak ada camilan seperti biasanya, yg di sediakan oleh airyroom. terimakasih airyroom, berkat airy tidur lebihnyaman dan harga terjangkau [A] [O] [S]",
+        "target": "[A] Smua fasilitas [O] berjalan baik [S] positive [SSEP] [A] camilan [O] tidak ada camilan seperti biasanya [S] negative [SSEP] [A] tidur [O] lebihnyaman [S] positive [SSEP] [A] harga [O] terjangkau [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2544,
+        "instance_id": 139,
+        "input": "staff hotel tidak peduli kepada keluhan customer, token listrik bunyi dibiarkan dan bunyi nya sangat mengganggu, saya hrus 2 jam skali bangun buat mematikan, handle wc ga ada jebol, ga bisa d tutup, wc bau nya ke kemar, tidak ada meja , saya kira airy room lumayan ternyata lbh parah dr kost2 an yaa [A] [O] [S]",
+        "target": "[A] staff hotel [O] tidak peduli kepada keluhan customer [S] negative [SSEP] [A] token listrik [O] bunyi dibiarkan dan bunyi nya sangat mengganggu [S] negative [SSEP] [A] handle wc [O] ga ada jebol [S] negative [SSEP] [A] wc [O] ga bisa d tutup [S] negative [SSEP] [A] wc [O] bau nya ke kemar [S] negative [SSEP] [A] meja [O] tidak ada [S] negative [SSEP] [A] airy room [O] lbh parah dr kost2 an [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2545,
+        "instance_id": 140,
+        "input": "Airnya bau seperti air selokan. jadi mau mandi atau sikat gigi malas . ruangannya sempit . [A] [O] [S]",
+        "target": "[A] Airnya [O] bau seperti air selokan [S] negative [SSEP] [A] mandi atau sikat gigi [O] malas [S] negative [SSEP] [A] ruangannya [O] sempit [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2546,
+        "instance_id": 141,
+        "input": "dapat kamar yg AC nya tidak dingin. over all nyaman kamarnya dan lokasi strategis dgn kantor [A] [O] [S]",
+        "target": "[A] AC nya [O] tidak dingin [S] negative [SSEP] [A] kamarnya [O] nyaman [S] positive [SSEP] [A] lokasi [O] strategis [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2547,
+        "instance_id": 142,
+        "input": "kamar pengap, properti seperti meja terasa kurang bersih. sisanya okay [A] [O] [S]",
+        "target": "[A] kamar [O] pengap [S] negative [SSEP] [A] properti seperti meja [O] kurang bersih [S] negative [SSEP] [A] sisanya [O] okay [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2548,
+        "instance_id": 143,
+        "input": "1. Air keran kamar mandi MATI. 2. Parkiran motor SEMRAWUT 3. Kebersihan luar dan dalam gedung sangat KOTOR. 4. AC kamar lama sekali dinginnya. 5. Pelayanan resepsionis KURANG peduli. 6. Foto di iklan tidak sesuai dengan kenyataan (Dari semua aspek). [A] [O] [S]",
+        "target": "[A] Air keran kamar mandi [O] MATI [S] negative [SSEP] [A] Parkiran motor [O] SEMRAWUT [S] negative [SSEP] [A] Kebersihan luar dan dalam gedung [O] sangat KOTOR [S] negative [SSEP] [A] AC kamar [O] lama sekali dinginnya [S] negative [SSEP] [A] Pelayanan resepsionis [O] KURANG peduli [S] negative [SSEP] [A] Foto di iklan [O] tidak sesuai dengan kenyataan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2549,
+        "instance_id": 144,
+        "input": "kebersihan selimut, sarung bantal, handuk kurang kamar kurang wangi wifi tidak bisa [A] [O] [S]",
+        "target": "[A] kebersihan selimut [O] null [S] negative [SSEP] [A] sarung bantal [O] null [S] negative [SSEP] [A] handuk [O] kurang [S] negative [SSEP] [A] kamar [O] kurang wangi [S] negative [SSEP] [A] wifi [O] tidak bisa [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2550,
+        "instance_id": 145,
+        "input": "Receptionist hotel sangat ramah, kamar juga bersih luas dan dikasih snack ringan tiap hari. Cuma kemarin air panas di kamar mandi kurang berfungsi [A] [O] [S]",
+        "target": "[A] Receptionist hotel [O] sangat ramah [S] positive [SSEP] [A] kamar [O] bersih [S] positive [SSEP] [A] kamar [O] luas [S] positive [SSEP] [A] snack ringan [O] dikasih snack ringan tiap hari [S] positive [SSEP] [A] air panas di kamar mandi [O] kurang berfungsi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2551,
+        "instance_id": 146,
+        "input": "kamarnya nyaman tp di lantai2 ga kena wifi, dan sedikit kurang friendly. breakfastnya enak. yang double recommeded kalo ada wifinya [A] [O] [S]",
+        "target": "[A] kamarnya [O] nyaman [S] positive [SSEP] [A] wifi [O] ga kena [S] negative [SSEP] [A] null [O] sedikit kurang friendly [S] negative [SSEP] [A] breakfastnya [O] enak [S] positive [SSEP] [A] null [O] double recommeded kalo ada wifinya [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2552,
+        "instance_id": 147,
+        "input": "Kamarnya jorok :( apalagi kamar mandinya :( [A] [O] [S]",
+        "target": "[A] Kamarnya [O] jorok [S] negative [SSEP] [A] kamar mandinya [O] null [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2553,
+        "instance_id": 148,
+        "input": "Sprayx kasar dan berbulu.ac nya ribut [A] [O] [S]",
+        "target": "[A] Sprayx [O] kasar dan berbulu [S] negative [SSEP] [A] ac nya [O] ribut [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2554,
+        "instance_id": 149,
+        "input": "Secara keseluruhan pelayanan dan kondisi kamar baik hanya di kamar mandi bau dari tempat pembuangan masuk ke kamar mandi. Terima kasih. [A] [O] [S]",
+        "target": "[A] pelayanan [O] baik [S] positive [SSEP] [A] kondisi kamar [O] baik [S] positive [SSEP] [A] kamar mandi [O] bau dari tempat pembuangan masuk ke kamar mandi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2555,
+        "instance_id": 150,
+        "input": "AC tidak dingin dan tidak ada lift kekamar atas! [A] [O] [S]",
+        "target": "[A] AC [O] tidak dingin [S] negative [SSEP] [A] lift [O] tidak ada lift kekamar atas [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2556,
+        "instance_id": 151,
+        "input": "spooky anak saya 1 tahun nangis histeris,kotor, shower air panas mati walau akhirnya dimasakin air panas.. [A] [O] [S]",
+        "target": "[A] null [O] spooky [S] negative [SSEP] [A] anak saya 1 tahun [O] nangis histeris [S] negative [SSEP] [A] null [O] kotor [S] negative [SSEP] [A] shower air panas [O] mati [S] negative [SSEP] [A] air panas [O] walau akhirnya dimasakin [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2557,
+        "instance_id": 152,
+        "input": "Sayangnya hot waternya mati. \ud83d\ude14 [A] [O] [S]",
+        "target": "[A] hot waternya [O] mati [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2558,
+        "instance_id": 153,
+        "input": "pelayanannya kurang baik bad, kasur kurang empuk, selimut tipis handuk tipis Snack gak ada bad \ud83d\ude2a [A] [O] [S]",
+        "target": "[A] pelayanannya [O] kurang baik bad [S] negative [SSEP] [A] kasur [O] kurang empuk [S] negative [SSEP] [A] selimut [O] tipis [S] negative [SSEP] [A] handuk [O] tipis [S] negative [SSEP] [A] Snack [O] gak ada bad [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2559,
+        "instance_id": 154,
+        "input": "tidak ada yg berkesan. siaran TVnya tidak bagus, wifi mengalami ganguan, [A] [O] [S]",
+        "target": "[A] null [O] tidak ada yg berkesan [S] negative [SSEP] [A] siaran TVnya [O] tidak bagus [S] negative [SSEP] [A] wifi [O] mengalami ganguan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2560,
+        "instance_id": 155,
+        "input": "Secara keseluruhan bagus dan nyaman, hanya saja ac kamar yg saya tempati mengeluarkan air [A] [O] [S]",
+        "target": "[A] keseluruhan [O] bagus dan nyaman [S] positive [SSEP] [A] ac kamar yg saya tempati [O] mengeluarkan air [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2561,
+        "instance_id": 156,
+        "input": "Pelayanan Baik... harga terjangkau.... sayangnya tuas shower patah, jd GDA air hangatnya. tp Secara keseluruhan ok [A] [O] [S]",
+        "target": "[A] Pelayanan [O] Baik [S] positive [SSEP] [A] harga [O] terjangkau [S] positive [SSEP] [A] tuas shower [O] patah [S] negative [SSEP] [A] air hangat [O] GDA [S] negative [SSEP] [A] keseluruhan [O] ok [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2562,
+        "instance_id": 157,
+        "input": "Tempat nyaman tetapi kamar mandi agak bau. [A] [O] [S]",
+        "target": "[A] Tempat [O] nyaman [S] positive [SSEP] [A] kamar mandi [O] agak bau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2563,
+        "instance_id": 158,
+        "input": "tempat bersih, rapi, nyaman, sesuai harga lah pokoknya, cuman WiFi di atas gak ada jd mau WiFian harus ke bawah, overall good\ud83d\udc4c [A] [O] [S]",
+        "target": "[A] tempat [O] bersih [S] positive [SSEP] [A] tempat [O] rapi [S] positive [SSEP] [A] tempat [O] nyaman [S] positive [SSEP] [A] tempat [O] sesuai harga lah pokoknya [S] positive [SSEP] [A] WiFi di atas [O] gak ada jd mau WiFian harus ke bawah [S] negative [SSEP] [A] overall [O] good\ud83d\udc4c [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2564,
+        "instance_id": 159,
+        "input": "gak berfungsi keran air panasnya, staff kurang ramah, yg lainnya memuaskan. [A] [O] [S]",
+        "target": "[A] keran air panasnya [O] gak berfungsi [S] negative [SSEP] [A] staff [O] kurang ramah [S] negative [SSEP] [A] yg lainnya [O] memuaskan [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2565,
+        "instance_id": 160,
+        "input": "Terlepas dari kulkas yang tidak dingin dan remote ac rusak, hotel ini cukup baik dan memuaskan. [A] [O] [S]",
+        "target": "[A] kulkas [O] tidak dingin [S] negative [SSEP] [A] remote ac [O] rusak [S] negative [SSEP] [A] hotel ini [O] cukup baik [S] positive [SSEP] [A] hotel ini [O] memuaskan [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2566,
+        "instance_id": 161,
+        "input": "tv rusak, wc kotor, gda snack...  kecewa sih utk x ini nginep di airyroom [A] [O] [S]",
+        "target": "[A] tv [O] rusak [S] negative [SSEP] [A] wc [O] kotor [S] negative [SSEP] [A] snack [O] gda snack [S] negative [SSEP] [A] null [O] kecewa [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2567,
+        "instance_id": 162,
+        "input": "kamar nggak wangi.  Kotor [A] [O] [S]",
+        "target": "[A] kamar [O] nggak wangi [S] negative [SSEP] [A] null [O] Kotor [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2568,
+        "instance_id": 163,
+        "input": "Kamar mandi kotor sperti tidak perna dibersihkan, agak apek dan bau [A] [O] [S]",
+        "target": "[A] Kamar mandi [O] kotor [S] negative [SSEP] [A] Kamar mandi [O] sperti tidak perna dibersihkan [S] negative [SSEP] [A] Kamar mandi [O] agak apek [S] negative [SSEP] [A] Kamar mandi [O] bau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2569,
+        "instance_id": 164,
+        "input": "Biasanya aku dpt snack d room ini gada sama sekali Ac nya bau cuka (gatau kaya cuka tapi aneh banget) [A] [O] [S]",
+        "target": "[A] snack [O] gada sama sekali [S] negative [SSEP] [A] Ac nya [O] bau cuka (gatau kaya cuka tapi aneh banget) [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2570,
+        "instance_id": 165,
+        "input": "tenang cumah agak kpanasan dikit AC kurang stabil [A] [O] [S]",
+        "target": "[A] null [O] tenang [S] positive [SSEP] [A] null [O] agak kpanasan dikit [S] negative [SSEP] [A] AC [O] kurang stabil [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2571,
+        "instance_id": 166,
+        "input": "Fasilitasnya lumayan lengkap ada air panas, tv, snack, AC, dan peralatan mandi, kasur empuk, parkiran tapi yg kurang itu sarung bantal yg warnanya kusam jadi terkesan usang dan kotor, cat tembok yg mulai mengelupas dan selimut yang tipis....overall lumayan bagus untuk harga segitu kedepannya mungkin lebih ditingkatkan lagi untuk fasilitas kamarnya [A] [O] [S]",
+        "target": "[A] Fasilitasnya [O] lumayan lengkap [S] positive [SSEP] [A] kasur [O] empuk [S] positive [SSEP] [A] sarung bantal [O] warnanya kusam jadi terkesan usang dan kotor [S] negative [SSEP] [A] cat tembok [O] mulai mengelupas [S] negative [SSEP] [A] selimut [O] tipis [S] negative [SSEP] [A] overall [O] lumayan bagus untuk harga segitu [S] positive [SSEP] [A] fasilitas kamarnya [O] mungkin lebih ditingkatkan lagi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2572,
+        "instance_id": 167,
+        "input": "sangat menyenangkan sekali.... kamarnya nyaman, rapih, bersih dan over all sangat bagus. cocok buat refresh pikiran saat liburan meninggalkan beban kerjaan yg berat... layanan trhadap plangganpun sangat baik. hanya 1 aja usulan dari saya klo bisa di dlm ruangan ada pngharum ruangan biar lebih berasa sempurna :) over all very2 good [A] [O] [S]",
+        "target": "[A] null [O] sangat menyenangkan sekali [S] positive [SSEP] [A] kamarnya [O] nyaman [S] positive [SSEP] [A] kamarnya [O] rapih [S] positive [SSEP] [A] kamarnya [O] bersih [S] positive [SSEP] [A] kamarnya [O] over all sangat bagus [S] positive [SSEP] [A] null [O] cocok buat refresh pikiran saat liburan meninggalkan beban kerjaan yg berat [S] positive [SSEP] [A] layanan trhadap planggan [O] sangat baik [S] positive [SSEP] [A] pngharum ruangan [O] di dlm ruangan ada pngharum ruangan biar lebih berasa sempurna [S] negative [SSEP] [A] over all [O] very2 good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2573,
+        "instance_id": 168,
+        "input": "Suasana hotal asri dan enak, cuman perlengkapan kamar mandi dan snack belum tersedia saat check in [A] [O] [S]",
+        "target": "[A] Suasana hotal [O] asri dan enak [S] positive [SSEP] [A] perlengkapan kamar mandi dan snack [O] belum tersedia [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2574,
+        "instance_id": 169,
+        "input": "Kamar nya kereeenn..nyaman..tp kurangnya air panas nya ngk panas..tp semuanya okelah.. [A] [O] [S]",
+        "target": "[A] Kamar nya [O] kereeenn..nyaman.. [S] positive [SSEP] [A] air panas nya [O] ngk panas [S] negative [SSEP] [A] semuanya [O] okelah [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2575,
+        "instance_id": 170,
+        "input": "kamar pengap, kamar mandi kotor!!! [A] [O] [S]",
+        "target": "[A] kamar [O] pengap [S] negative [SSEP] [A] kamar mandi [O] kotor [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2576,
+        "instance_id": 171,
+        "input": "Selimutnya kurang tebel, wifi nya lelet. Selebihnya sudah memuaskan. [A] [O] [S]",
+        "target": "[A] Selimutnya [O] kurang tebel [S] negative [SSEP] [A] wifi nya [O] lelet [S] negative [SSEP] [A] Selebihnya [O] sudah memuaskan [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2577,
+        "instance_id": 172,
+        "input": "Bantalnya bau iler, kamarnya beda dengan yang di foto, jarak dengan bandara memang dekat, tapi akses [A] [O] [S]",
+        "target": "[A] Bantalnya [O] bau iler [S] negative [SSEP] [A] kamarnya [O] beda dengan yang di foto [S] negative [SSEP] [A] jarak dengan bandara [O] memang dekat [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2578,
+        "instance_id": 173,
+        "input": "Sprei tidak diganti... banyak pasir. [A] [O] [S]",
+        "target": "[A] Sprei [O] tidak diganti [S] negative [SSEP] [A] null [O] banyak pasir [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2579,
+        "instance_id": 174,
+        "input": "Kamar kurang bagus mungkin karena bangunan lama,toilet tidak bersih pintu toilet jasul banget,air kran netes terus,kurang bersih ya.. [A] [O] [S]",
+        "target": "[A] Kamar [O] kurang bagus [S] negative [SSEP] [A] toilet [O] tidak bersih [S] negative [SSEP] [A] pintu toilet [O] jasul banget [S] negative [SSEP] [A] air kran [O] netes terus [S] negative [SSEP] [A] null [O] kurang bersih [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2580,
+        "instance_id": 175,
+        "input": "wifi kurang baik [A] [O] [S]",
+        "target": "[A] wifi [O] kurang baik [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2581,
+        "instance_id": 176,
+        "input": "Kasur ada kutu nya, dan badan saya jadi gatal gatal.. Dan ac sama sekali tdk dingin [A] [O] [S]",
+        "target": "[A] Kasur [O] ada kutu nya [S] negative [SSEP] [A] badan saya [O] jadi gatal gatal [S] negative [SSEP] [A] ac [O] sama sekali tdk dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2582,
+        "instance_id": 177,
+        "input": "air panasnya kurang panas ah [A] [O] [S]",
+        "target": "[A] air panasnya [O] kurang panas [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2583,
+        "instance_id": 178,
+        "input": "Pintu Kamar mandi tidak bisa ditutup, Kamar mandi berbau selokan mohon diberi Kapur Barus, Peneranga [A] [O] [S]",
+        "target": "[A] Pintu Kamar mandi [O] tidak bisa ditutup [S] negative [SSEP] [A] Kamar mandi [O] berbau selokan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2584,
+        "instance_id": 179,
+        "input": "kamar ga sesuai sama yang di foto beda jauhh bangeet, tempatnya kurang bersih [A] [O] [S]",
+        "target": "[A] kamar [O] ga sesuai sama yang di foto beda jauhh bangeet [S] negative [SSEP] [A] tempatnya [O] kurang bersih [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2585,
+        "instance_id": 180,
+        "input": "Suasananya nyaman. Tapi perlu di perbaiki kamar mandinya, kebersihannya kurang [A] [O] [S]",
+        "target": "[A] Suasananya [O] nyaman [S] positive [SSEP] [A] kamar mandinya [O] perlu di perbaiki [S] negative [SSEP] [A] kebersihannya [O] kurang [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2586,
+        "instance_id": 181,
+        "input": "pelayanan baik banget dan ramah, makanan seadanya, cukuplah buat sarapan, sprei kurang bersih, pintu kamar mandi ga bisa ditutup. sebrangnya ada kupat tahu, enak.. tingkatkan lagi di kebersihan.. [A] [O] [S]",
+        "target": "[A] pelayanan [O] baik banget [S] psotive [SSEP] [A] pelayanan [O] ramah [S] positive [SSEP] [A] makanan [O] seadanya [S] negative [SSEP] [A] sarapan [O] cukuplah [S] negative [SSEP] [A] sprei [O] kurang bersih [S] negative [SSEP] [A] pintu kamar mandi [O] ga bisa ditutup [S] negative [SSEP] [A] kupat tahu [O] enak [S] positive [SSEP] [A] kebersihan [O] tingkatkan lagi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2587,
+        "instance_id": 182,
+        "input": "so so, service nya jg kurang ramah, ya lumayan sih untuk segi harga [A] [O] [S]",
+        "target": "[A] null [O] so so [S] negative [SSEP] [A] service nya [O] kurang ramah [S] negative [SSEP] [A] segi harga [O] lumayan sih [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2588,
+        "instance_id": 183,
+        "input": "selalu menyenangkan menginap disini, namun terakhir saya dapat kamar yg jauh dari akses point wifi, juga ada nyamuk. tapi overall its good. [A] [O] [S]",
+        "target": "[A] menginap disini [O] menyenangkan [S] positive [SSEP] [A] kamar [O] jauh dari akses point wifi [S] negative [SSEP] [A] nyamuk [O] ada nyamuk [S] negative [SSEP] [A] overall [O] its good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2589,
+        "instance_id": 184,
+        "input": "wifi gk bisa dipake di dlam kmar & ac dlam kamar kurang dingin. thx [A] [O] [S]",
+        "target": "[A] wifi [O] gk bisa dipake di dlam kmar [S] negative [SSEP] [A] ac dlam kamar [O] kurang dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2590,
+        "instance_id": 185,
+        "input": "utk kamar disini nggak recommended, mending cari yg lain...nginep 2 malam dpt kamar L lantai 3 kamarnya jelek...pintu kamar mandi engsel atas lepas, jd pintu ngegantung2 dan tidak dpt ditutup sempurna...trus kamar mandi jg bau...gak ada air panas... [A] [O] [S]",
+        "target": "[A] kamar [O] nggak recommended [S] negative [SSEP] [A] kamarnya [O] jelek [S] negative [SSEP] [A] pintu kamar mandi [O] engsel atas lepas [S] jd pintu ngegantung2 dan tidak dpt ditutup sempurna [SSEP] [A] kamar mandi [O] bau [S] negative [SSEP] [A] air panas [O] gak ada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2591,
+        "instance_id": 186,
+        "input": "Ac kamar kurang dingin.. selebih ny okk [A] [O] [S]",
+        "target": "[A] Ac kamar [O] kurang dingin [S] negative [SSEP] [A] selebih ny [O] okk [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2592,
+        "instance_id": 187,
+        "input": "Nyaman menginap disana pelayanan hotel juga memuaskan hanya kamar mandinya sedikit bau jika pintu tidak dibuka sebelum dipakai. Dan pak satpamnya ramah-ramah semua [A] [O] [S]",
+        "target": "[A] menginap disana [O] Nyaman [S] positive [SSEP] [A] pelayanan hotel [O] memuaskan [S] positive [SSEP] [A] kamar mandinya [O] sedikit bau jika pintu tidak dibuka sebelum dipakai [S] negative [SSEP] [A] pak satpamnya [O] ramah-ramah semua [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2593,
+        "instance_id": 188,
+        "input": "tidak ada cemilan selama 4 hari menginap [A] [O] [S]",
+        "target": "[A] cemilan [O] tidak ada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2594,
+        "instance_id": 189,
+        "input": "Parah. Closet rusak, air panas tidak ada, shower cebok rusak dan tidak bisa digunakan. Selimut tidak diberi bila tak diminta. Pintu kunci rusak. terkunci dari luar dan tidak bisa dibuka. Terpaksa panggil tukang dari luar dan jam 00.00 baru bisa masuk kamar. Menyedihkan [A] [O] [S]",
+        "target": "[A] null [O] Parah [S] negative [SSEP] [A] Closet [O] rusak [S] negative [SSEP] [A] air panas [O] tidak ada [S] negative [SSEP] [A] shower cebok [O] rusak dan tidak bisa digunakan [S] negative [SSEP] [A] Selimut [O] tidak diberi bila tak diminta [S] negative [SSEP] [A] Pintu kunci [O] rusak [S] negative [SSEP] [A] null [O] terkunci dari luar [S] negative [SSEP] [A] null [O] tidak bisa dibuka [S] negative [SSEP] [A] null [O] Terpaksa panggil tukang dari luar dan jam 00.00 baru bisa masuk kamar [S] negative [SSEP] [A] null [O] Menyedihkan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2595,
+        "instance_id": 190,
+        "input": "Kamar mandinya agak kotor, makanannya jg agak mengecewakan. Sarapan pagi br jam 8 tp semua sdh habis [A] [O] [S]",
+        "target": "[A] Kamar mandinya [O] agak kotor [S] negative [SSEP] [A] makanannya [O] agak mengecewakan [S] negative [SSEP] [A] Sarapan pagi [O] br jam 8 tp semua sdh habis [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2596,
+        "instance_id": 191,
+        "input": "Fasilitas dan kenyamanan TOP banget. Tapi reception pelayanan ny kurang. Sama jauh kmn2, tp msh bs taxol kok :) [A] [O] [S]",
+        "target": "[A] Fasilitas [O] TOP banget [S] positive [SSEP] [A] kenyamanan [O] TOP banget [S] positive [SSEP] [A] reception pelayanan ny [O] kurang [S] negative [SSEP] [A] null [O] jauh kmn2 [S] tp msh bs taxol kok :), negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2597,
+        "instance_id": 192,
+        "input": "Kamar tidak sesuai dengan yang dicantumkan. Tidak ada handuk, tidak ada minum dan kamar tidak bisa dikunci, kamar mandi kotor. [A] [O] [S]",
+        "target": "[A] Kamar [O] tidak sesuai dengan yang dicantumkan [S] negative [SSEP] [A] handuk [O] Tidak ada [S] negative [SSEP] [A] minum [O] tidak ada [S] negative [SSEP] [A] kamar [O] tidak bisa dikunci [S] negative [SSEP] [A] kamar mandi [O] kotor [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2598,
+        "instance_id": 193,
+        "input": "banyak nyamuk, selebihnya oke2 aja [A] [O] [S]",
+        "target": "[A] nyamuk [O] banyak [S] negative [SSEP] [A] selebihnya [O] oke2 aja [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2599,
+        "instance_id": 194,
+        "input": "Fasilitas oke, namun kebersihan kurang, kamar verpasir [A] [O] [S]",
+        "target": "[A] Fasilitas [O] oke [S] positive [SSEP] [A] kebersihan [O] kurang [S] negative [SSEP] [A] kamar [O] verpasir [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2600,
+        "instance_id": 195,
+        "input": "air panasnya ga berfungsi [A] [O] [S]",
+        "target": "[A] air panasnya [O] ga berfungsi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2601,
+        "instance_id": 196,
+        "input": "kecewa banget sihh, kenapa ngasih penawaran harga termurah tapi untuk fasilitas hotel ga dikasih. hanya sekedar coffee maker aja ga dapet dengan alasan pihak hotel nya ohh ga semua airy dapet coffee maker bu oohh oke.. trs hot water di kamar mandi ga berfungsi, kolam renang airnya hijau.  1-10 utk pake aplikasi airy saya kasih nilai 4.. [A] [O] [S]",
+        "target": "[A] null [O] kecewa banget [S] negative [SSEP] [A] fasilitas hotel [O] ga dikasih [S] negative [SSEP] [A] coffee maker [O] ga dapet [S] negative [SSEP] [A] hot water di kamar mandi [O] ga berfungsi [S] negative [SSEP] [A] kolam renang [O] airnya hijau [S] negative [SSEP] [A] aplikasi airy [O] saya kasih nilai 4 [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2602,
+        "instance_id": 197,
+        "input": "Sprei kamar kotor seperti baru dipakai dan ga diganti. Wifi juga ga dapet ke ruangan yg saya tempati \ud83d\ude0c [A] [O] [S]",
+        "target": "[A] Sprei kamar [O] kotor seperti baru dipakai [S] negative [SSEP] [A] Sprei kamar [O] ga diganti [S] negative [SSEP] [A] Wifi [O] ga dapet ke ruangan yg saya tempati [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2603,
+        "instance_id": 198,
+        "input": "ada kolam renang meskipun hanya utk dewasa saja, ac dingin, tv kabel oke, dapat minum dan snack, dan alat mandi plus sisir, sayang kamar mandi agak bau, dan kamar tidak kedap suara, fasilitas ada musola, lift dan kolam renang nilai plusnya, overall oke sih, terimakasih airy [A] [O] [S]",
+        "target": "[A] kolam renang [O] ada [S] positive [SSEP] [A] kolam renang [O] hanya utk dewasa saja [S] negative [SSEP] [A] ac [O] dingin [S] positive [SSEP] [A] tv kabel [O] oke [S] positive [SSEP] [A] minum [O] dapat [S] positive [SSEP] [A] snack [O] dapat [S] positive [SSEP] [A] alat mandi plus sisir [O] dapat [S] positive [SSEP] [A] kamar mandi [O] agak bau [S] negative [SSEP] [A] kamar [O] tidak kedap suara [S] negative [SSEP] [A] musola [O] nilai plusnya [S] positive [SSEP] [A] lift [O] nilai plusnya [S] positive [SSEP] [A] kolam renang [O] nilai plusnya [S] positive [SSEP] [A] overall [O] oke sih [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2604,
+        "instance_id": 199,
+        "input": "Kamar Mandi Krg Bersih. Lemari Pakaian Tidak Layak. Selebihnya Masih Ok. [A] [O] [S]",
+        "target": "[A] Kamar Mandi [O] Krg Bersih [S] negative [SSEP] [A] Lemari Pakaian [O] Tidak Layak [S] negative [SSEP] [A] Selebihnya [O] Masih Ok [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2605,
+        "instance_id": 200,
+        "input": "Untuk menginap semalam cukup nyaman. Tapi untuk pelayanannya harus ditingkatkan lagi. [A] [O] [S]",
+        "target": "[A] null [O] cukup nyaman [S] positive [SSEP] [A] pelayanannya [O] harus ditingkatkan lagi [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2606,
+        "instance_id": 201,
+        "input": "Nyaman dan bersih, pelayanan baik, tp channel TV cuman ada 8 dan exhaust fan kamar mandi ga nyala, mohon ditingkatkan [A] [O] [S]",
+        "target": "[A] null [O] Nyaman dan bersih [S] positive [SSEP] [A] pelayanan [O] baik [S] positive [SSEP] [A] channel TV [O] cuman ada 8 [S] negative [SSEP] [A] exhaust fan kamar mandi [O] ga nyala [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2607,
+        "instance_id": 202,
+        "input": "pelayanan sangat baik, semua petugas sangat ramah, pemandangan bagus, kamar nyaman, ada cemilan dan air minum dalam kamar, jika butuh air panas di teko bs minta petugas saja. harga murah. menu sarapan lumayan banyak. saat cek in telat 15 menit,  dan saat masuk kamar,  lantai masih basah karena habis di pel dan masih sangat bau pengharum menyengat. [A] [O] [S]",
+        "target": "[A] pelayanan [O] sangat baik [S] positive [SSEP] [A] semua petugas [O] sangat ramah [S] positive [SSEP] [A] pemandangan [O] bagus [S] positive [SSEP] [A] kamar [O] nyaman [S] positive [SSEP] [A] cemilan dan air minum dalam kamar [O] ada [S] positive [SSEP] [A] air panas di teko [O] bs minta petugas saja [S] positive [SSEP] [A] harga [O] murah [S] positive [SSEP] [A] menu sarapan [O] lumayan banyak [S] positive [SSEP] [A] cek in [O] telat 15 menit [S] negative [SSEP] [A] lantai [O] masih basah karena habis di pel [S] negative [SSEP] [A] bau pengharum [O] masih sangat bau pengharum menyengat [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2608,
+        "instance_id": 203,
+        "input": "Makanan tidak enak, kamar mandi kotor, tidak ada lift naik tangga sampai lt 3, banyak asap rokok dan puntung rokok [A] [O] [S]",
+        "target": "[A] Makanan [O] tidak enak [S] negative [SSEP] [A] kamar mandi [O] kotor [S] negative [SSEP] [A] lift [O] tidak ada lift naik tangga sampai lt 3 [S] negative [SSEP] [A] asap rokok [O] banyak [S] negativev [SSEP] [A] puntung rokok [O] banyak [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2609,
+        "instance_id": 204,
+        "input": "kamar bau, bantal bau apek, ac ga dingin,,, [A] [O] [S]",
+        "target": "[A] kamar [O] bau [S] negative [SSEP] [A] bantal [O] bau apek [S] negative [SSEP] [A] ac [O] ga dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2610,
+        "instance_id": 205,
+        "input": "Kamarnya nyaman.. Ac dingin kamar mandi shower ada air panasnya, bersih, tv lcd, ada snack box nya juga.. hanya saja bawah tmpat tdur tdk ikut di sapu jdi ada debu nya.. tpi overall puas dan nyaman, staff ramah bgt.. [A] [O] [S]",
+        "target": "[A] Kamarnya [O] nyaman [S] positive [SSEP] [A] Ac [O] dingin [S] positive [SSEP] [A] kamar mandi shower [O] ada air panasnya [S] positive [SSEP] [A] kamar mandi [O] bersih [S] positive [SSEP] [A] snack box nya [O] ada snack box nya juga [S] positive [SSEP] [A] bawah tmpat tdur [O] tdk ikut di sapu jdi ada debu nya [S] negative [SSEP] [A] overall [O] puas [S] positive [SSEP] [A] overall [O] nyaman [S] positive [SSEP] [A] staff [O] ramah bgt [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2611,
+        "instance_id": 206,
+        "input": "Selimut dan bantal bau seperti belum dicuci, masih ada rambut bertebaran di bantal [A] [O] [S]",
+        "target": "[A] Selimut dan bantal [O] bau seperti belum dicuci [S] negative [SSEP] [A] bantal [O] masih ada rambut bertebaran [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2612,
+        "instance_id": 207,
+        "input": "suasana nyaman..hotel sesuai budget.lokasi sangat stategis di pusat legian..kamar mandi ok.kebersihan kamar dan sprei kurang banget..perlengkapan mandi dari airy sepertinya bekas..terutama sikat gigi nya [A] [O] [S]",
+        "target": "[A] suasana [O] nyaman [S] positive [SSEP] [A] hotel [O] sesuai budget [S] positive [SSEP] [A] lokasi [O] sangat stategis di pusat legian [S] positive [SSEP] [A] kamar mandi [O] ok [S] positive [SSEP] [A] kebersihan kamar dan sprei [O] kurang banget [S] negative [SSEP] [A] perlengkapan mandi dari airy [O] sepertinya bekas [S] negative [SSEP] [A] sikat gigi nya [O] bekas [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2613,
+        "instance_id": 208,
+        "input": "Lantai kamar kaya ada lengket2nya, mungkin karena belum dipel [A] [O] [S]",
+        "target": "[A] Lantai kamar [O] kaya ada lengket2nya [S] negative [SSEP] [A] null [O] mungkin karena belum dipel [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2614,
+        "instance_id": 209,
+        "input": "Cuma menginap 1 (satu) malam saja, perlu didouble check kebersihan kamar mandi dan toilet, tiba-tiba [A] [O] [S]",
+        "target": "[A] kebersihan kamar mandi dan toilet [O] perlu didouble check [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2615,
+        "instance_id": 210,
+        "input": "hotelnya nyaman bersih, tapi ruangannya agak sedikit bau dan pengap karena tidak ada jendela [A] [O] [S]",
+        "target": "[A] hotelnya [O] nyaman bersih [S] positive [SSEP] [A] ruangannya [O] agak sedikit bau dan pengap karena tidak ada jendela [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2616,
+        "instance_id": 211,
+        "input": "pelyanan sangat buruk terutama resepsionis yang cewek bikin naik darah . padahal kita bayar gk gratis . tv ada tapi tidak ada siaran . sangat kecewa. tolong buat onwer perlu di kasih teguran buat resepsionis yang seperti itu termkasih . dan gk recomed banget [A] [O] [S]",
+        "target": "[A] pelyanan [O] sangat buruk [S] negative [SSEP] [A] resepsionis yang cewek [O] bikin naik darah [S] negative [SSEP] [A] tv [O] tidak ada siaran [S] negative [SSEP] [A] null [O] sangat kecewa [S] negative [SSEP] [A] resepsionis yang seperti itu [O] perlu di kasih teguran [S] negative [SSEP] [A] null [O] gk recomed banget [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2617,
+        "instance_id": 212,
+        "input": "sarung bantal bau lembab warna coklat badcover juga... saya sering nginep di airyrooms biasanya putih bersih wangi ..mungkin karna discount 50% jadi dapet kamar begitu.. [A] [O] [S]",
+        "target": "[A] sarung bantal [O] bau lembab warna coklat [S] negative [SSEP] [A] badcover [O] null [S] negative [SSEP] [A] null [O] putih bersih wangi [S] positive [SSEP] [A] discount 50% [O] dapet kamar begitu [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2618,
+        "instance_id": 213,
+        "input": "Air panasnya agak kurang panas... [A] [O] [S]",
+        "target": "[A] Air panasnya [O] agak kurang panas [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2619,
+        "instance_id": 214,
+        "input": "hotel tua, cukup bersih, cukup nyaman. airy tidak diberikan snack?, harga bagus, remot ac tidak ada, [A] [O] [S]",
+        "target": "[A] hotel [O] tua [S] negative [SSEP] [A] null [O] cukup bersih [S] positive [SSEP] [A] null [O] cukup nyaman [S] positive [SSEP] [A] snack [O] tidak diberikan snack [S] negative [SSEP] [A] harga [O] bagus [S] positive [SSEP] [A] remot ac [O] tidak ada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2620,
+        "instance_id": 215,
+        "input": "kamar kurang rapi, kamar mandi kotor [A] [O] [S]",
+        "target": "[A] kamar [O] kurang rapi [S] negative [SSEP] [A] kamar mandi [O] kotor [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2621,
+        "instance_id": 216,
+        "input": "tdk ada selimut. mungkin lbh baik kl di sediakan selimut [A] [O] [S]",
+        "target": "[A] selimut [O] tdk ada [S] negative [SSEP] [A] selimut [O] mungkin lbh baik kl di sediakan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2622,
+        "instance_id": 217,
+        "input": "kamar kurang bersih, handuk nya kotor dan kamar mandi juga kotor tdk disikat [A] [O] [S]",
+        "target": "[A] kamar [O] kurang bersih [S] negative [SSEP] [A] handuk nya [O] kotor [S] negative [SSEP] [A] kamar mandi [O] kotor [S] negative [SSEP] [A] kamar mandi [O] tdk disikat [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2623,
+        "instance_id": 218,
+        "input": "beberapa fasilitas kamar mulai rusak karena usia, cat kusam membuat kesan kotor. lingkungan hotel (lorong, lobby, lift) juga kurang bersih. lokasi strategies, mudah diakses, dekat tempat makan [A] [O] [S]",
+        "target": "[A] fasilitas kamar [O] mulai rusak karena usia [S] negative [SSEP] [A] cat [O] kusam membuat kesan kotor [S] negative [SSEP] [A] lingkungan hotel (lorong, lobby, lift) [O] kurang bersih [S] negative [SSEP] [A] lokasi [O] strategies [S] positive [SSEP] [A] lokasi [O] mudah diakses [S] positive [SSEP] [A] lokasi [O] dekat tempat makan [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2624,
+        "instance_id": 219,
+        "input": "tidak ada fasilitas dari airy, tolong dicroscek lagi. kamar tidak sesuai pesanan. saat datang disuru [A] [O] [S]",
+        "target": "[A] fasilitas [O] tidak ada [S] negative [SSEP] [A] kamar [O] tidak sesuai pesanan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2625,
+        "instance_id": 220,
+        "input": "Kamar kotor, saat datang di kamarnya ada noda berwarna cokelat terus di bantalnya ada noda bercak hitam, Kotor sangat seperti tidak di cuci cuma di balik, sewaktu mau check-out dituduh mengotori selimutnya yang padahal dari waktu datang sudah ada, dan deposit mau diambil, jadi kalau kalian datang ada noda ataupun kotoran dikamar langsung komplain saja, Karena nanti kalian dituduh yang mengotori kamar itu dan deposit akan diambil, check-in baru bisa jam 2, sarapan cuma nasi goreng pake telur, Kamar mandi bau dan saluran air di bawahnya kotor sangat seperti ada rambut rambutnya, tidak akan lagi menginap di hotel itu. [A] [O] [S]",
+        "target": "[A] Kamar [O] kotor [S] negative [SSEP] [A] kamarnya [O] ada noda berwarna cokelat terus di bantalnya ada noda bercak hitam [S] negative [SSEP] [A] null [O] Kotor sangat seperti tidak di cuci cuma di balik [S] negative [SSEP] [A] selimutnya [O] dituduh mengotori selimutnya yang padahal dari waktu datang sudah ada [S] negative [SSEP] [A] deposit [O] mau diambil [S] negative [SSEP] [A] kamar itu [O] dituduh yang mengotori [S] negative [SSEP] [A] deposit [O] akan diambil [S] negative [SSEP] [A] check-in [O] baru bisa jam 2 [S] negative [SSEP] [A] sarapan [O] cuma nasi goreng pake telur [S] negative [SSEP] [A] Kamar mandi [O] bau [S] negative [SSEP] [A] saluran air di bawahnya [O] kotor sangat seperti ada rambut rambutnya [S] negative [SSEP] [A] hotel itu [O] tidak akan lagi menginap [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2626,
+        "instance_id": 221,
+        "input": "lumayan, yg kurang cuma chanel tv, snack, sama alat mandi nya aja. selebihnya bagus [A] [O] [S]",
+        "target": "[A] null [O] lumayan [S] negative [SSEP] [A] chanel tv [O] kurang [S] negative [SSEP] [A] snack [O] kurang [S] negative [SSEP] [A] alat mandi nya [O] kurang [S] negative [SSEP] [A] selebihnya [O] bagus [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2627,
+        "instance_id": 222,
+        "input": "bed cover dan sprei sepertinya jarang diganti. masi ad terlihat sisa rambut org sebelumnya. [A] [O] [S]",
+        "target": "[A] bed cover dan sprei [O] jarang diganti [S] negative [SSEP] [A] bed cover dan sprei [O] masi ad terlihat sisa rambut org sebelumnya [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2628,
+        "instance_id": 223,
+        "input": "Pelayanan sangat memuaskan, perbaiki AC karena tidak bisa diatur suhunya [A] [O] [S]",
+        "target": "[A] Pelayanan [O] sangat memuaskan [S] positive [SSEP] [A] AC [O] tidak bisa diatur suhunya [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2629,
+        "instance_id": 224,
+        "input": "Salah satu dari staf hotel ada yang kurang ramah [A] [O] [S]",
+        "target": "[A] staf hotel [O] kurang ramah [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2630,
+        "instance_id": 225,
+        "input": "Positif: dekat daerah perdagangan, ruangan cukup bersih, Pelayanan ramah dan sigap. Sirkulasi udara baik, sehingga kamar mandi tidak becek. Suasana cukup tenang untuk istirahat. Fasilitas tersedia sesuai tawaran. Negatif: handuk, sprei, sarung bantal dan selimut pencuciannya tidak bersih. Bantal bau. [A] [O] [S]",
+        "target": "[A] null [O] dekat daerah perdagangan [S] positive [SSEP] [A] ruangan [O] cukup bersih [S] positive [SSEP] [A] Pelayanan [O] ramah dan sigap [S] positive [SSEP] [A] Sirkulasi udara [O] baik [S] positive [SSEP] [A] kamar mandi [O] tidak becek [S] positive [SSEP] [A] Suasana [O] cukup tenang untuk istirahat [S] positive [SSEP] [A] Fasilitas [O] tersedia sesuai tawaran [S] positive [SSEP] [A] handuk [O] sprei [S] sarung bantal dan selimut [SSEP] [A] Bantal [O] bau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2631,
+        "instance_id": 226,
+        "input": "Cukup baik tp wc nya kurang nyaman [A] [O] [S]",
+        "target": "[A] null [O] Cukup baik [S] positive [SSEP] [A] wc nya [O] kurang nyaman [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2632,
+        "instance_id": 227,
+        "input": "Kebersihan kurang, pelayanan kurang, .....over all kapok aj [A] [O] [S]",
+        "target": "[A] Kebersihan [O] kurang [S] negative [SSEP] [A] pelayanan [O] kurang [S] negative [SSEP] [A] over all [O] kapok aj [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2633,
+        "instance_id": 228,
+        "input": "kamar bau dan kondisi tidak layak n saya yg pesannya 2 malam akhirnya cuma saya pakai 1 malam dan ngga bisa tidur n besok nya saya pindah ke airy room Al Barkah 33 dan saya kapok ke Kwitang kecil dan not recommended utk traveler lain nya n saran utk airy utk membuat assesment mitra dgn lebih baik dan terukur utk kenyamanan konsumen. [A] [O] [S]",
+        "target": "[A] kamar [O] bau [S] negative [SSEP] [A] kondisi [O] tidak layak [S] negative [SSEP] [A] null [O] ngga bisa tidur [S] negative [SSEP] [A] Kwitang kecil [O] kapok [S] negative [SSEP] [A] null [O] not recommended utk traveler lain nya [S] negative [SSEP] [A] assesment mitra [O] membuat assesment mitra dgn lebih baik dan terukur utk kenyamanan konsumen [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2634,
+        "instance_id": 229,
+        "input": "agak kotor [A] [O] [S]",
+        "target": "[A] null [O] agak kotor [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2635,
+        "instance_id": 230,
+        "input": "Kamar mandi lembab,  exhaust/vacuum di kamar mandi tidak berfungsi sehingga handuk dan kain lainnya berbau apek. Pelayanan ramah Sarapannya tidak enak Kebersihan kamar kurang baik Dengan reputasi dan room rate sekian, menurut saya mengecewakan [A] [O] [S]",
+        "target": "[A] Kamar mandi [O] lembab [S] negative [SSEP] [A] exhaust/vacuum di kamar mandi [O] tidak berfungsi sehingga handuk dan kain lainnya berbau apek [S] negative [SSEP] [A] Pelayanan [O] ramah [S] positive [SSEP] [A] Sarapannya [O] tidak enak [S] negative [SSEP] [A] Kebersihan kamar [O] kurang baik [S] negative [SSEP] [A] null [O] mengecewakan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2636,
+        "instance_id": 231,
+        "input": "Pintu kamar mandi ngga bisa ditutup karena rusak, kamar keadaan kotor kaya belom disapu, sprei juga ga bersih. AC juga ga dingin. Resepsionis yang cewe kurang ramah. [A] [O] [S]",
+        "target": "[A] Pintu kamar mandi [O] ngga bisa ditutup karena rusak [S] negative [SSEP] [A] kamar [O] keadaan kotor kaya belom disapu [S] negative [SSEP] [A] sprei [O] ga bersih [S] negative [SSEP] [A] AC [O] ga dingin [S] negative [SSEP] [A] Resepsionis yang cewe [O] kurang ramah [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2637,
+        "instance_id": 232,
+        "input": "kamar bersih, hanya saja hexosfan kamar mandi mati jadi agak bau dan lembab [A] [O] [S]",
+        "target": "[A] kamar [O] bersih [S] positive [SSEP] [A] hexosfan kamar mandi [O] mati jadi agak bau dan lembab [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2638,
+        "instance_id": 233,
+        "input": "Masih kurang Resepsionis aja yg agak lama harus menunggu lama baru datang tidak stanby dibtempat , all best lah harga murah pasilitas oke [A] [O] [S]",
+        "target": "[A] Resepsionis [O] agak lama harus menunggu lama baru datang tidak stanby dibtempat [S] negative [SSEP] [A] null [O] best [S] positive [SSEP] [A] harga [O] murah [S] positive [SSEP] [A] pasilitas [O] oke [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2639,
+        "instance_id": 234,
+        "input": "wifi kadang mati hidup, tapi kamar & fasilitas sangat baik [A] [O] [S]",
+        "target": "[A] wifi [O] kadang mati hidup [S] negative [SSEP] [A] kamar & fasilitas [O] sangat baik [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2640,
+        "instance_id": 235,
+        "input": "baik,cuma chanel tv nya gak ada jadi gak bisa nonton di kamar secara keselurahan ok kamar rapi bersih dan suasana tenang.. [A] [O] [S]",
+        "target": "[A] null [O] baik [S] positive [SSEP] [A] chanel tv nya [O] gak ada jadi gak bisa nonton [S] negative [SSEP] [A] keselurahan [O] ok [S] positive [SSEP] [A] kamar [O] rapi bersih [S] positive [SSEP] [A] suasana [O] tenang [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2641,
+        "instance_id": 236,
+        "input": "servis bagus, ownernya ramah dan baik sekali, tapi untuk kebersihan kamar kurang baik. sprei dan sarung bantal tampak kurang bersih jadi tidur kurang nyaman. [A] [O] [S]",
+        "target": "[A] servis [O] bagus [S] positive [SSEP] [A] ownernya [O] ramah dan baik sekali [S] positive [SSEP] [A] kebersihan kamar [O] kurang baik [S] negative [SSEP] [A] sprei dan sarung bantal [O] tampak kurang bersih [S] negative [SSEP] [A] tidur [O] kurang nyaman [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2642,
+        "instance_id": 237,
+        "input": "tidak ada fasilitas airy , [A] [O] [S]",
+        "target": "[A] fasilitas airy [O] tidak ada [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2643,
+        "instance_id": 238,
+        "input": "AC nya kurang dingin [A] [O] [S]",
+        "target": "[A] AC nya [O] kurang dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2644,
+        "instance_id": 239,
+        "input": "wifi nya agak lemot tp kamar dan fasilitas keren koq.. [A] [O] [S]",
+        "target": "[A] wifi nya [O] agak lemot [S] negative [SSEP] [A] kamar dan fasilitas [O] keren [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2645,
+        "instance_id": 240,
+        "input": "Tidak seperti yg diharapkan. Kamar jorok, seprei kotor dan bau, toilet rusak, gak ada air panas dan remote TV gak ada. Pokoknya kecewa berat.. [A] [O] [S]",
+        "target": "[A] null [O] Tidak seperti yg diharapkan [S] negative [SSEP] [A] Kamar [O] jorok [S] negative [SSEP] [A] seprei [O] kotor dan bau [S] negative [SSEP] [A] toilet [O] rusak [S] negative [SSEP] [A] air panas [O] gak ada [S] negative [SSEP] [A] remote TV [O] gak ada [S] negative [SSEP] [A] null [O] kecewa berat [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2646,
+        "instance_id": 241,
+        "input": "lumayanlah,tapi kamar mandi kurang bersih [A] [O] [S]",
+        "target": "[A] null [O] lumayanlah [S] negative [SSEP] [A] kamar mandi [O] kurang bersih [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2647,
+        "instance_id": 242,
+        "input": "Tempatnya kotor dan gelap remang remang [A] [O] [S]",
+        "target": "[A] Tempatnya [O] kotor [S] negative [SSEP] [A] Tempatnya [O] gelap remang remang [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2648,
+        "instance_id": 243,
+        "input": "So far lumayan sih buat budget hotel. Tapi pelayanannya agak kurang nih, \ud83d\ude02 wifi nggak konek, terus mau clean up room, kunci digantungin gitu aja di pintu kamar, nggak disimpen lagi di resepsionis \ud83d\udc94 [A] [O] [S]",
+        "target": "[A] budget hotel [O] lumayan [S] positive [SSEP] [A] pelayanannya [O] agak kurang [S] negative [SSEP] [A] wifi [O] nggak konek [S] negative [SSEP] [A] kunci [O] digantungin gitu aja di pintu kamar [S] nggak disimpen lagi di resepsionis",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2649,
+        "instance_id": 244,
+        "input": "pintu gerbang selalu dikunci sehingga kalau mau keluar atau masuk sedikit susah sedangkan itu kan bukan kos2an yg mesti ditungguin 24jam dan petugas yg menjaga rumahnya tidak ramah, dan pelayanannya tidak bagus [A] [O] [S]",
+        "target": "[A] pintu gerbang [O] selalu dikunci sehingga kalau mau keluar atau masuk sedikit susah [S] negative [SSEP] [A] petugas yg menjaga rumahnya [O] tidak ramah [S] negative [SSEP] [A] pelayanannya [O] tidak bagus [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2650,
+        "instance_id": 245,
+        "input": "Oke banget, tapi ac nya gak bisa diatur suhu nya [A] [O] [S]",
+        "target": "[A] null [O] Oke banget [S] positive [SSEP] [A] ac nya [O] gak bisa diatur suhu nya [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2651,
+        "instance_id": 246,
+        "input": "Overall semuanya baik, kecuali kebersihan kasurnya aja sih [A] [O] [S]",
+        "target": "[A] Overall semuanya [O] baik [S] positive [SSEP] [A] kebersihan kasurnya [O] null [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2652,
+        "instance_id": 247,
+        "input": "Kamar mandi kotor, jaringan TV kurang bagus. [A] [O] [S]",
+        "target": "[A] Kamar mandi [O] kotor [S] negative [SSEP] [A] jaringan TV [O] kurang bagus [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2653,
+        "instance_id": 248,
+        "input": "paling gak suka dgn pelayanan kepala service, terlalu bossy, walau jabatan bapak diatas karyawan yg lain bapak itu bukan pemilik, harusnya bapak bilang rekan kerjanya bukan anak buah, kan sama2 di gaji\ud83d\ude09,, dibenahi lagi lah aturannya jgn beda2 kalau ditanya,, biar tamu gak bingung,, breakfast gak enak sama sekali,, kalau anda ramah kami akan senang [A] [O] [S]",
+        "target": "[A] pelayanan kepala service [O] terlalu bossy [S] negative [SSEP] [A] aturannya [O] jgn beda2 kalau ditanya [S] negative [SSEP] [A] breakfast [O] gak enak sama sekali [S] negative [SSEP] [A] null [O] kalau anda ramah kami akan senang [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2654,
+        "instance_id": 249,
+        "input": "Kamarnya bagus, tapi servicenya jelek banget, tidak dapat handuk, sabun tidak ada, tidak ada kotak sampahnya juga, air minum juga tidak dapat. [A] [O] [S]",
+        "target": "[A] Kamarnya [O] bagus [S] positive [SSEP] [A] servicenya [O] jelek banget [S] negative [SSEP] [A] handuk [O] tidak dapat [S] negative [SSEP] [A] sabun [O] tidak ada [S] negative [SSEP] [A] kotak sampahnya [O] tidak ada [S] negative [SSEP] [A] air minum [O] tidak dapat [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2655,
+        "instance_id": 250,
+        "input": "tamu sy mngatakan tidak memuaskan akan pelayanan kamarnya, diberikan kamar yg tdk bisa terkunci dari luar sehingga jika keluar mencari makan harus membawa bawa ranselx naik turun kelantai 3. ketika komplen minta pindah kamar tdk diladeni alias DICUEKI padahal sdh 3x tamu saya menginap disini..... [A] [O] [S]",
+        "target": "[A] pelayanan kamarnya [O] tidak memuaskan [S] negative [SSEP] [A] kamar [O] tdk bisa terkunci dari luar [S] negative [SSEP] [A] kamar [O] harus membawa bawa ranselx naik turun kelantai 3 [S] negative [SSEP] [A] komplen minta pindah kamar [O] tdk diladeni alias DICUEKI [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2656,
+        "instance_id": 251,
+        "input": "Lokasi tengah kota, mau kemana-mana dekat. Sarapan enak, hanya sayang wi-fi tidak sampai kamar. Terima kasih Airy. [A] [O] [S]",
+        "target": "[A] Lokasi [O] tengah kota [S] mau kemana-mana dekat [SSEP] [A] Sarapan [O] enak [S] positive [SSEP] [A] wi-fi [O] tidak sampai kamar [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2657,
+        "instance_id": 252,
+        "input": "Ga bisa tidur.. Kasur dan selimut bau.. [A] [O] [S]",
+        "target": "[A] Kasur [O] bau [S] negative [SSEP] [A] selimut [O] bau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2658,
+        "instance_id": 253,
+        "input": "tidak disediakan snack airy dan perlengkapan mandi.. [A] [O] [S]",
+        "target": "[A] snack airy [O] tidak disediakan [S] negative [SSEP] [A] perlengkapan mandi [O] tidak disediakan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2659,
+        "instance_id": 254,
+        "input": "Tempatnya bersih dan nyaman.Cuma wifinya aja yg lemod.... [A] [O] [S]",
+        "target": "[A] Tempatnya [O] bersih [S] positive [SSEP] [A] Tempatnya [O] nyaman [S] positive [SSEP] [A] wifinya [O] lemod [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2660,
+        "instance_id": 255,
+        "input": "Ac nya gk dingin [A] [O] [S]",
+        "target": "[A] Ac nya [O] gk dingin [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2661,
+        "instance_id": 256,
+        "input": "Kamarnya enak luas tapi dapet sprei yg masih lembab gt jd bau [A] [O] [S]",
+        "target": "[A] Kamarnya [O] enak luas [S] positive [SSEP] [A] sprei [O] masih lembab gt jd bau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2662,
+        "instance_id": 257,
+        "input": "Kebersihan sangat tidak baik, kamar bau. [A] [O] [S]",
+        "target": "[A] Kebersihan [O] sangat tidak baik [S] negative [SSEP] [A] kamar [O] bau [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2663,
+        "instance_id": 258,
+        "input": "Pelayanan staf hotel baik, layanan Hotel sangat baik, lebih ditingkatkan lg utk saluran tv dan air kmr mandinya, so far puas. [A] [O] [S]",
+        "target": "[A] Pelayanan staf hotel [O] baik [S] positive [SSEP] [A] layanan Hotel [O] sangat baik [S] positive [SSEP] [A] saluran tv [O] lebih ditingkatkan lg [S] negative [SSEP] [A] air kmr mandinya [O] lebih ditingkatkan lg [S] negative [SSEP] [A] null [O] puas [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos"
+    },
+    {
+        "sentence_id": 2664,
+        "instance_id": 259,
+        "input": "Harga cukup murah, pelayanan baik. hanya 1 yg bermasalah...AC tidak bisa dingin meski sdh dibersihkan. [A] [O] [S]",
+        "target": "[A] Harga [O] cukup murah [S] positive [SSEP] [A] pelayanan [O] baik [S] positive [SSEP] [A] AC [O] tidak bisa dingin meski sdh dibersihkan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos"
+    }
+]

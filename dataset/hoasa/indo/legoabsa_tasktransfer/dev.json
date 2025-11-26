@@ -1,0 +1,2066 @@
+[
+    {
+        "sentence_id": 2147,
+        "instance_id": 4294,
+        "task_elements": "aos",
+        "input": "over all baik tapi kalau bisa kolong tempat tidur jg dibersihkan ya karena terdapat pampers bayi bekas| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> over all <|opinion|> baik <|sentiment|> positive;<|aspect|> kolong tempat tidur <|opinion|> dibersihkan <|sentiment|> negative;<|aspect|> kolong tempat tidur <|opinion|> terdapat pampers bayi bekas <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2148,
+        "instance_id": 4295,
+        "task_elements": "aos",
+        "input": "ac harus dicek secara berkala , tanpa harus menunggu customer complained , terimakasih| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac <|opinion|> harus dicek secara berkala <|sentiment|> negative;<|aspect|> null <|opinion|> tanpa harus menunggu customer complained <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2149,
+        "instance_id": 4296,
+        "task_elements": "aos",
+        "input": "nyaman tp ac bocor| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> ac <|opinion|> bocor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2150,
+        "instance_id": 4297,
+        "task_elements": "aos",
+        "input": "kamarnya kotor apalagi kamar mandi kotor tak terawat . wifi tidak bisa . no recommended| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamarnya <|opinion|> kotor <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> kotor tak terawat <|sentiment|> negative;<|aspect|> wifi <|opinion|> tidak bisa <|sentiment|> negative;<|aspect|> null <|opinion|> no recommended <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2151,
+        "instance_id": 4298,
+        "task_elements": "aos",
+        "input": "agak kotor di kamar yg lantai 2 .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar yg lantai 2 <|opinion|> agak kotor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2152,
+        "instance_id": 4299,
+        "task_elements": "aos",
+        "input": "cemilan ga da padahal nginap sampe 4 hari berturut2| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> cemilan <|opinion|> ga da <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2153,
+        "instance_id": 4300,
+        "task_elements": "aos",
+        "input": "seprai berdebu dan cenderung kusam . remote ac ga berfungsi . lantai kamar mandi licin bahkan dalam ke| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> seprai <|opinion|> berdebu <|sentiment|> negative;<|aspect|> seprai <|opinion|> cenderung kusam <|sentiment|> negative;<|aspect|> remote ac <|opinion|> ga berfungsi <|sentiment|> negative;<|aspect|> lantai kamar mandi <|opinion|> licin <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2154,
+        "instance_id": 4301,
+        "task_elements": "aos",
+        "input": "tmpt tdr kurang bersih| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tmpt tdr <|opinion|> kurang bersih <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2155,
+        "instance_id": 4302,
+        "task_elements": "aos",
+        "input": "kamar nyaman , staff ramah . cuman wifi error mulu , pesen with breakfast sampe jam 10 pagi blm diantar , masa harus diingetin dulu . lampu kamar agak remang2| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> nyaman <|sentiment|> positive;<|aspect|> staff <|opinion|> ramah <|sentiment|> positive;<|aspect|> wifi <|opinion|> error mulu <|sentiment|> negative;<|aspect|> null <|opinion|> pesen with breakfast sampe jam 10 pagi blm diantar <|sentiment|> negative;<|aspect|> null <|opinion|> masa harus diingetin dulu <|sentiment|> negative;<|aspect|> lampu kamar <|opinion|> agak remang2 <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2156,
+        "instance_id": 4303,
+        "task_elements": "aos",
+        "input": "secara objektif harus puas dengan fasilitas dan pelayanan yang diberikan sesuai harga kamar . ac , tv , toilet , tempat tidur bahkan ada balkonnya , lokasi mudah dijangkau hanya saja kala itu ketika check-in sambutan kurang ramau menurut saya mungkin karena resepsionisnya tdk ada yg ada bos nya jadi beda lalu lampu tidur dikamar mati . overall mantab !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> fasilitas dan pelayanan <|opinion|> puas dengan fasilitas dan pelayanan yang diberikan sesuai harga kamar <|sentiment|> positive;<|aspect|> ac <|opinion|> null <|sentiment|> positive;<|aspect|> tv <|opinion|> null <|sentiment|> positive;<|aspect|> toilet <|opinion|> null <|sentiment|> positive;<|aspect|> balkonnya <|opinion|> ada balkonnya <|sentiment|> positive;<|aspect|> lokasi <|opinion|> mudah dijangkau <|sentiment|> positive;<|aspect|> sambutan <|opinion|> kurang ramau <|sentiment|> negative;<|aspect|> null <|opinion|> resepsionisnya tdk ada yg ada bos nya jadi beda <|sentiment|> negative;<|aspect|> lampu tidur dikamar <|opinion|> mati <|sentiment|> negative;<|aspect|> overall <|opinion|> mantab ! <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2157,
+        "instance_id": 4304,
+        "task_elements": "aos",
+        "input": "pelayanannya ramah , tempat strategis&byk tempat makan . dgn budget murah udh dpt sarapan , cemilan&fasilitas kmar yg lumayan . demi kenyamanan , utk keberishan dtingkatkan lagi . next . . balik lagi ksni😊| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanannya <|opinion|> ramah <|sentiment|> positive;<|aspect|> tempat <|opinion|> strategis <|sentiment|> positive;<|aspect|> null <|opinion|> byk tempat makan <|sentiment|> positive;<|aspect|> budget <|opinion|> murah <|sentiment|> positive;<|aspect|> sarapan <|opinion|> udh dpt <|sentiment|> positive;<|aspect|> cemilan <|opinion|> udh dpt <|sentiment|> positive;<|aspect|> fasilitas kmar <|opinion|> lumayan <|sentiment|> positive;<|aspect|> keberishan <|opinion|> dtingkatkan lagi <|sentiment|> negative;<|aspect|> null <|opinion|> balik lagi ksni <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2158,
+        "instance_id": 4305,
+        "task_elements": "aos",
+        "input": "biasa aja . remote ac ga berfungsi . baru kali ini saya kecewa dgn airy . biasanya dapet souvenir dari airy , yg ini boro boro , welcome snack aja ga ada| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> biasa aja <|sentiment|> negative;<|aspect|> remote ac <|opinion|> ga berfungsi <|sentiment|> negative;<|aspect|> airy <|opinion|> kecewa <|sentiment|> negative;<|aspect|> souvenir <|opinion|> boro boro <|sentiment|> negative;<|aspect|> welcome snack <|opinion|> ga ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2159,
+        "instance_id": 4306,
+        "task_elements": "aos",
+        "input": "spreinya kurang bersih . masih ada bekas rambutnya yg kamar atas .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> spreinya <|opinion|> kurang bersih <|sentiment|> negative;<|aspect|> kamar atas <|opinion|> masih ada bekas rambutnya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2160,
+        "instance_id": 4307,
+        "task_elements": "aos",
+        "input": "lumayan . . . . tp kebersihanya masih kurang . . . selimut dan bantal nya kuning . . . harap ditingkat kan lagi . . . kebersihan nya| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> lumayan <|sentiment|> negative;<|aspect|> kebersihanya <|opinion|> masih kurang <|sentiment|> negative;<|aspect|> selimut dan bantal nya <|opinion|> kuning <|sentiment|> negative;<|aspect|> kebersihan nya <|opinion|> harap ditingkat kan lagi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2161,
+        "instance_id": 4308,
+        "task_elements": "aos",
+        "input": "kamar bersih . nyaman . ada desain gambar di dinding yang membuat kesan tersendiri sayang . enggak ada tong sampah . sama selimut di kamar| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> kamar <|opinion|> nyaman <|sentiment|> positive;<|aspect|> desain gambar di dinding <|opinion|> membuat kesan tersendiri <|sentiment|> positive;<|aspect|> tong sampah <|opinion|> enggak ada <|sentiment|> negative;<|aspect|> selimut di kamar <|opinion|> null <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2162,
+        "instance_id": 4309,
+        "task_elements": "aos",
+        "input": "awalnya sy mendapat kamar yg ac nya ga berfungsi dingin . dan saya komplain ke receptionist , lalu sy dipindahkan ke kamar yg lebih bagus . kamarnya yg baru itu nyaman , bersih , ada cahaya matahari yg buat segar , ada snack , air mineral , peralatan mandi , dsb . saya puas 👍| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac nya <|opinion|> ga berfungsi dingin <|sentiment|> negative;<|aspect|> kamar <|opinion|> lebih bagus <|sentiment|> positive;<|aspect|> kamarnya yg baru <|opinion|> nyaman <|sentiment|> positive;<|aspect|> kamarnya yg baru <|opinion|> bersih <|sentiment|> positive;<|aspect|> cahaya matahari <|opinion|> buat segar <|sentiment|> positive;<|aspect|> snack <|opinion|> ada <|sentiment|> positive;<|aspect|> air mineral <|opinion|> null <|sentiment|> positive;<|aspect|> peralatan mandi <|opinion|> null <|sentiment|> positive;<|aspect|> null <|opinion|> puas <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2163,
+        "instance_id": 4310,
+        "task_elements": "aos",
+        "input": "air shower kecil dan lama panas , wifi lambat| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air shower <|opinion|> kecil <|sentiment|> negative;<|aspect|> air shower <|opinion|> lama panas <|sentiment|> negative;<|aspect|> wifi <|opinion|> lambat <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2164,
+        "instance_id": 4311,
+        "task_elements": "aos",
+        "input": "lebih di tingkatkan kebersihan kamar .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kebersihan kamar <|opinion|> lebih di tingkatkan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2165,
+        "instance_id": 4312,
+        "task_elements": "aos",
+        "input": "cukup nyaman , nmun perlu ditingkatkan lg kebersihan kmr mndi , minimal tdk bau| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> cukup nyaman <|sentiment|> positive;<|aspect|> kebersihan kmr mndi <|opinion|> perlu ditingkatkan lg <|sentiment|> negative;<|aspect|> null <|opinion|> minimal tdk bau <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2166,
+        "instance_id": 4313,
+        "task_elements": "aos",
+        "input": "wc agak kotor , sampe malem brisik kena anak kecil kurang kedap suara| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wc <|opinion|> agak kotor <|sentiment|> negative;<|aspect|> null <|opinion|> sampe malem brisik kena anak kecil <|sentiment|> negative;<|aspect|> null <|opinion|> kurang kedap suara <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2167,
+        "instance_id": 4314,
+        "task_elements": "aos",
+        "input": "kurang siap untuk kebutuhan mandinya waterheaternya ga bisa disetel tp lumayanlah msh dpt sarapan| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kebutuhan mandinya <|opinion|> kurang siap <|sentiment|> negative;<|aspect|> waterheaternya <|opinion|> ga bisa disetel <|sentiment|> negative;<|aspect|> sarapan <|opinion|> lumayanlah msh dpt sarapan <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2168,
+        "instance_id": 4315,
+        "task_elements": "aos",
+        "input": "kamarnya luas , hotelnya tenang , kolam luas , namun dr kamar mandi ada bau tidak sedap , sepertinya dari saluran pembuangan . . but overall bagus . .! !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamarnya <|opinion|> luas <|sentiment|> positive;<|aspect|> hotelnya <|opinion|> tenang <|sentiment|> positive;<|aspect|> kolam <|opinion|> luas <|sentiment|> positive;<|aspect|> kamar mandi <|opinion|> ada bau tidak sedap <|sentiment|> negative;<|aspect|> null <|opinion|> sepertinya dari saluran pembuangan <|sentiment|> negatif;<|aspect|> overall <|opinion|> bagus <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2169,
+        "instance_id": 4316,
+        "task_elements": "aos",
+        "input": "berisik , kamar kurang bersih , bwt yg lainnya lumayanlah untuk budget segitu| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> berisik <|sentiment|> negative;<|aspect|> kamar <|opinion|> kurang bersih <|sentiment|> negative;<|aspect|> yg lainnya <|opinion|> lumayanlah untuk budget segitu <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2170,
+        "instance_id": 4317,
+        "task_elements": "aos",
+        "input": "nyman bngt . tpi knpa wifi tdk dpat dgunakan| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> nyman bngt <|sentiment|> positive;<|aspect|> wifi <|opinion|> tdk dpat dgunakan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2171,
+        "instance_id": 4318,
+        "task_elements": "aos",
+        "input": "saat kedatangan pertama ga terlalu kotor sprai nya . . karna nyaman bisa di toleran dan murab kami datang kembali . kedatangan yg kedua dgn harga lebih mahal tp sprai sngat kotor . sy minta tolong diganti tp katnya tidak ada lg sprainya dna tidak tahu taro dmna ? ? sy minta ganti kamar dibilangnya penuh . . selain sprai kotor lantai jg kotor| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> sprai nya <|opinion|> ga terlalu kotor <|sentiment|> negative;<|aspect|> null <|opinion|> nyaman bisa di toleran dan murab <|sentiment|> positive;<|aspect|> harga <|opinion|> lebih mahal <|sentiment|> negative;<|aspect|> sprai <|opinion|> sngat kotor <|sentiment|> negative;<|aspect|> sprainya <|opinion|> tidak ada lg sprainya dna tidak tahu taro dmna ? ? <|sentiment|> negative;<|aspect|> kamar <|opinion|> penuh <|sentiment|> negative;<|aspect|> sprai <|opinion|> kotor <|sentiment|> negative;<|aspect|> lantai <|opinion|> kotor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2172,
+        "instance_id": 4319,
+        "task_elements": "aos",
+        "input": "sukaa . cuma wifinya agak lemot .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> sukaa <|sentiment|> positive;<|aspect|> wifinya <|opinion|> agak lemot <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2173,
+        "instance_id": 4320,
+        "task_elements": "aos",
+        "input": "kamar bau rokok , ac kurang dingin| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> bau rokok <|sentiment|> negative;<|aspect|> ac <|opinion|> kurang dingin <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2174,
+        "instance_id": 4321,
+        "task_elements": "aos",
+        "input": "nyaman tapi lantai terasa lembab dan basah| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> lantai <|opinion|> terasa lembab dan basah <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2175,
+        "instance_id": 4322,
+        "task_elements": "aos",
+        "input": "pelayanan buruk dan tidak ada sarapan .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan <|opinion|> buruk <|sentiment|> negative;<|aspect|> sarapan <|opinion|> tidak ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2176,
+        "instance_id": 4323,
+        "task_elements": "aos",
+        "input": "nyaman , bersih , wangi tapi sayang fasilitas seperti remot tv dan saklar lampu kamarnya tidak bisa di gunakan , mohon bisa di perbaiki lagi yaa agar lebih memuaskan pelanggan good deh airyroom| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> null <|opinion|> bersih <|sentiment|> positive;<|aspect|> null <|opinion|> wangi <|sentiment|> positive;<|aspect|> fasilitas seperti remot tv dan saklar lampu kamarnya <|opinion|> tidak bisa di gunakan <|sentiment|> negative;<|aspect|> null <|opinion|> mohon bisa di perbaiki lagi <|sentiment|> negative;<|aspect|> airyroom <|opinion|> good deh <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2177,
+        "instance_id": 4324,
+        "task_elements": "aos",
+        "input": "alamat susah dicarinya , ac gk dingin , tdk ada air panas| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> alamat <|opinion|> susah dicarinya <|sentiment|> negative;<|aspect|> ac <|opinion|> gk dingin <|sentiment|> negative;<|aspect|> air panas <|opinion|> tdk ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2178,
+        "instance_id": 4325,
+        "task_elements": "aos",
+        "input": "semua fasilitas sesuai , hanya wifi aja yg kurang bagus , nyaman , bersih , dan ga ribet pokoknya ok deh| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> semua fasilitas <|opinion|> sesuai <|sentiment|> positive;<|aspect|> wifi <|opinion|> kurang bagus <|sentiment|> negative;<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> null <|opinion|> bersih <|sentiment|> positive;<|aspect|> null <|opinion|> ga ribet <|sentiment|> positive;<|aspect|> null <|opinion|> ok deh <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2179,
+        "instance_id": 4326,
+        "task_elements": "aos",
+        "input": "fasilitas baik kebersihan kurang karena lantai tampak kolor dan di kamar mandi ada kecoa| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> fasilitas <|opinion|> baik <|sentiment|> positive;<|aspect|> kebersihan <|opinion|> kurang <|sentiment|> negative;<|aspect|> lantai <|opinion|> tampak kolor <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> ada kecoa <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2180,
+        "instance_id": 4327,
+        "task_elements": "aos",
+        "input": "tv remote krg berfungsi , ac remote tdk berfungsi , wastafel kecil air nya .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tv remote <|opinion|> krg berfungsi <|sentiment|> negative;<|aspect|> ac remote <|opinion|> tdk berfungsi <|sentiment|> negative;<|aspect|> wastafel <|opinion|> kecil air nya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2181,
+        "instance_id": 4328,
+        "task_elements": "aos",
+        "input": "kedua kali nginap disini , overall good price / value . lokasi strategis , sayangnya air panas waktu itu tidak nyala dan beberapa fasilitas ( kursi , cat tembok ) belum diperbaiki . semoga makin baik ke depannya .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> nginap <|opinion|> kedua kali <|sentiment|> positive;<|aspect|> null <|opinion|> overall good price / value <|sentiment|> positive;<|aspect|> lokasi <|opinion|> strategis <|sentiment|> positive;<|aspect|> air panas <|opinion|> tidak nyala <|sentiment|> negative;<|aspect|> beberapa fasilitas ( kursi , cat tembok ) <|opinion|> belum diperbaiki <|sentiment|> negative;<|aspect|> null <|opinion|> semoga makin baik ke depannya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2182,
+        "instance_id": 4329,
+        "task_elements": "aos",
+        "input": "kamar mandi agak kotor , dan televisi tidak support untuk memutar file video dari flashdrive .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar mandi <|opinion|> agak kotor <|sentiment|> negative;<|aspect|> televisi <|opinion|> tidak support untuk memutar file video dari flashdrive <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2183,
+        "instance_id": 4330,
+        "task_elements": "aos",
+        "input": "kelebihan : pelayanan staffnya ramah . kamar bersih , ac dingin , tersedia air hangat , sarapannya soto , parkir luas , sebelah mini market , diberikan snack kekurangannya : wifi tidak unlimited , hanya 12 jam senilai rp 5000 ( berupa voucher ) , lift acnya tidak terasa n agak bau ( mgkn krn jarang digunakan )| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan staffnya <|opinion|> ramah <|sentiment|> positive;<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> ac <|opinion|> dingin <|sentiment|> positive;<|aspect|> air hangat <|opinion|> tersedia <|sentiment|> positive;<|aspect|> sarapannya <|opinion|> soto <|sentiment|> positive;<|aspect|> parkir <|opinion|> luas <|sentiment|> positive;<|aspect|> null <|opinion|> sebelah mini market <|sentiment|> positive;<|aspect|> snack <|opinion|> diberikan <|sentiment|> positive;<|aspect|> wifi <|opinion|> tidak unlimited <|sentiment|> negative;<|aspect|> wifi <|opinion|> hanya 12 jam senilai rp 5000 ( berupa voucher ) <|sentiment|> negative;<|aspect|> lift acnya <|opinion|> tidak terasa <|sentiment|> negative;<|aspect|> lift acnya <|opinion|> agak bau ( mgkn krn jarang digunakan ) <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2184,
+        "instance_id": 4331,
+        "task_elements": "aos",
+        "input": "tv layar cuma 1 / 4 , 3 / 4 bagian layar tidak jelas , siaran channel sering hilang . lebih cocok disebut homestay daripada hotel . lokasi sulit dicari karena masuk gang , terus masuk gang kecil lagi . enaknya semua snack gratis .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tv layar <|opinion|> cuma 1 / 4 <|sentiment|> negative;<|aspect|> 3 / 4 bagian layar <|opinion|> tidak jelas <|sentiment|> negative;<|aspect|> siaran channel <|opinion|> sering hilang <|sentiment|> negative;<|aspect|> null <|opinion|> lebih cocok disebut homestay daripada hotel <|sentiment|> negative;<|aspect|> lokasi <|opinion|> sulit dicari karena masuk gang <|sentiment|> terus masuk gang kecil lagi;<|aspect|> semua snack <|opinion|> gratis <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2185,
+        "instance_id": 4332,
+        "task_elements": "aos",
+        "input": "kamar kotor , kamar mandi kotor , air kecil penempatan kamar mandi tidak sesuqi| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> kotor <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> kotor <|sentiment|> negative;<|aspect|> air <|opinion|> kecil <|sentiment|> negative;<|aspect|> penempatan kamar mandi <|opinion|> tidak sesuqi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2186,
+        "instance_id": 4333,
+        "task_elements": "aos",
+        "input": "sudah cukup , hanya perlu diatasi bau apek nya saja| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> sudah cukup <|sentiment|> positive;<|aspect|> bau apek nya <|opinion|> perlu diatasi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2187,
+        "instance_id": 4334,
+        "task_elements": "aos",
+        "input": "beberapa kali mati lampu dan sprei serta selimut kurang bersih .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> mati lampu <|opinion|> beberapa kali <|sentiment|> negative;<|aspect|> sprei <|opinion|> kurang bersih <|sentiment|> negative;<|aspect|> selimut <|opinion|> kurang bersih <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2188,
+        "instance_id": 4335,
+        "task_elements": "aos",
+        "input": "fasilitas kurang memuaskan . . . saluran televisi cm ada 3 saluran , ac kurang dingin . karna kurang memuaskan saya jam 5 sore sudah cek out , masuk jam 2 siang keluar jam 5 sore .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> fasilitas <|opinion|> kurang memuaskan <|sentiment|> negative;<|aspect|> saluran televisi <|opinion|> cm ada 3 saluran <|sentiment|> negative;<|aspect|> ac <|opinion|> kurang dingin <|sentiment|> negative;<|aspect|> null <|opinion|> karna kurang memuaskan saya jam 5 sore sudah cek out <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2189,
+        "instance_id": 4336,
+        "task_elements": "aos",
+        "input": "wifi error , kamar mandi kotor , shower air hangat tidak menyala| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wifi <|opinion|> error <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> kotor <|sentiment|> negative;<|aspect|> shower air hangat <|opinion|> tidak menyala <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2190,
+        "instance_id": 4337,
+        "task_elements": "aos",
+        "input": "bersih dan nyaman , tapi ac nya kurang dingin dan juga bocor .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> bersih <|sentiment|> positive;<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> ac nya <|opinion|> kurang dingin <|sentiment|> negative;<|aspect|> ac nya <|opinion|> bocor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2191,
+        "instance_id": 4338,
+        "task_elements": "aos",
+        "input": "nyaman , memuaskan hanya saya dipojokan kamar banyak semut| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> null <|opinion|> memuaskan <|sentiment|> positive;<|aspect|> kamar <|opinion|> banyak semut <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2192,
+        "instance_id": 4339,
+        "task_elements": "aos",
+        "input": "kebersihan harap di tingkatkan| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kebersihan <|opinion|> harap di tingkatkan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2193,
+        "instance_id": 4340,
+        "task_elements": "aos",
+        "input": "501 kamar mandi agak bau , sprei nya kurang bersih . selebihnya oke| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> 501 kamar mandi <|opinion|> agak bau <|sentiment|> negative;<|aspect|> sprei nya <|opinion|> kurang bersih <|sentiment|> negative;<|aspect|> selebihnya <|opinion|> oke <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2194,
+        "instance_id": 4341,
+        "task_elements": "aos",
+        "input": "remote ac ga ada , bingung nyari mbanya malem2| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> remote ac <|opinion|> ga ada <|sentiment|> negative;<|aspect|> mbanya <|opinion|> bingung nyari mbanya malem2 <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2195,
+        "instance_id": 4342,
+        "task_elements": "aos",
+        "input": "wastafel kamar mandi sering mampet . peralatan mandi cuman dpat 1 set . untuk cleaning room nya cuman dirapiin tdk diganti badcovernya| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wastafel kamar mandi <|opinion|> sering mampet <|sentiment|> negative;<|aspect|> peralatan mandi <|opinion|> cuman dpat 1 set <|sentiment|> negative;<|aspect|> cleaning room <|opinion|> cuman dirapiin <|sentiment|> negative;<|aspect|> cleaning room <|opinion|> tdk diganti badcovernya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2196,
+        "instance_id": 4343,
+        "task_elements": "aos",
+        "input": "ac kurang dingin , listrik bunyi-bunyi mulu bikin tidak pules tidur , kunci pintu susah buat buka sama munutupnya| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac <|opinion|> kurang dingin <|sentiment|> negative;<|aspect|> listrik <|opinion|> bunyi-bunyi mulu bikin tidak pules tidur <|sentiment|> negative;<|aspect|> kunci pintu <|opinion|> susah buat buka sama munutupnya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2197,
+        "instance_id": 4344,
+        "task_elements": "aos",
+        "input": "saya pesan 3 kamar 1 kamar nya parah bgt lembab selimut kotor lagi .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> parah bgt lembab <|sentiment|> negative;<|aspect|> selimut <|opinion|> kotor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2198,
+        "instance_id": 4345,
+        "task_elements": "aos",
+        "input": "ac nya gak dingin . . . cuma brasa dry tanpa cool| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac nya <|opinion|> gak dingin <|sentiment|> negative;<|aspect|> null <|opinion|> cuma brasa dry tanpa cool <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2199,
+        "instance_id": 4346,
+        "task_elements": "aos",
+        "input": "untuk kamar . . . lumayan baik . cuma pelayanan saja yg agak kurang baik . terhadap tamu kurang ramah . semoga . . . kedepannya semakin baik| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> lumayan baik <|sentiment|> positive;<|aspect|> pelayanan <|opinion|> agak kurang baik <|sentiment|> negative;<|aspect|> terhadap tamu <|opinion|> kurang ramah <|sentiment|> negative;<|aspect|> null <|opinion|> kedepannya semakin baik <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2200,
+        "instance_id": 4347,
+        "task_elements": "aos",
+        "input": "wi fi kurang bagus| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wi fi <|opinion|> kurang bagus <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2201,
+        "instance_id": 4348,
+        "task_elements": "aos",
+        "input": "sahur lupa diantar ke kamar padahal udah pesan . hotelnya suram tapi kamar oke .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> sahur <|opinion|> lupa diantar ke kamar padahal udah pesan <|sentiment|> negative;<|aspect|> hotelnya <|opinion|> suram <|sentiment|> negative;<|aspect|> kamar <|opinion|> oke <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2202,
+        "instance_id": 4349,
+        "task_elements": "aos",
+        "input": "sangat memuaskan . sprei dan handuknya wangi , kamarnya cukup bersih dan nyaman . ac dan air panasnya berfungsi dengan baik . saluran tv sedikit bermasalah tapi cukup memuaskan . ini pengalaman kedua saya di airy gunung sahari . terima . kasih| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> sangat memuaskan <|sentiment|> positive;<|aspect|> sprei <|opinion|> wangi <|sentiment|> positive;<|aspect|> handuknya <|opinion|> wangi <|sentiment|> positive;<|aspect|> kamarnya <|opinion|> cukup bersih dan nyaman <|sentiment|> positive;<|aspect|> ac dan air panasnya <|opinion|> berfungsi dengan baik <|sentiment|> positive;<|aspect|> saluran tv <|opinion|> sedikit bermasalah <|sentiment|> negative;<|aspect|> saluran tv <|opinion|> cukup memuaskan <|sentiment|> positive;<|aspect|> null <|opinion|> ini pengalaman kedua saya di airy gunung sahari <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2203,
+        "instance_id": 4350,
+        "task_elements": "aos",
+        "input": "kamar jelek , tembok jamuran| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> jelek <|sentiment|> negative;<|aspect|> tembok <|opinion|> jamuran <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2204,
+        "instance_id": 4351,
+        "task_elements": "aos",
+        "input": "kamar nya bau jamur . . lembab . . kurang nyaman . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2205,
+        "instance_id": 4352,
+        "task_elements": "aos",
+        "input": "ga ada handuk , ac ga dingin , kamar kotor , semoga selanjutnya di upgrade lagi masalah kenyamananny| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> handuk <|opinion|> ga ada <|sentiment|> negative;<|aspect|> ac <|opinion|> ga dingin <|sentiment|> negative;<|aspect|> kamar <|opinion|> kotor <|sentiment|> negative;<|aspect|> kenyamananny <|opinion|> di upgrade lagi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2206,
+        "instance_id": 4353,
+        "task_elements": "aos",
+        "input": "kurang memuaskan . wc nya sudah jelek . ac nya berisik . . dan tempat sangat tidak nyaman . . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> kurang memuaskan <|sentiment|> negative;<|aspect|> wc nya <|opinion|> sudah jelek <|sentiment|> negative;<|aspect|> ac nya <|opinion|> berisik <|sentiment|> negative;<|aspect|> tempat <|opinion|> sangat tidak nyaman <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2207,
+        "instance_id": 4354,
+        "task_elements": "aos",
+        "input": "air panas ga berfungsi , wastafel bocor , tirainya kok kotor sekali . . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air panas <|opinion|> ga berfungsi <|sentiment|> negative;<|aspect|> wastafel <|opinion|> bocor <|sentiment|> negative;<|aspect|> tirainya <|opinion|> kotor sekali <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2208,
+        "instance_id": 4355,
+        "task_elements": "aos",
+        "input": "pelayanan memuaskan , cm air hangatnya tidak jln| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan <|opinion|> memuaskan <|sentiment|> positive;<|aspect|> air hangatnya <|opinion|> tidak jln <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2209,
+        "instance_id": 4356,
+        "task_elements": "aos",
+        "input": "hotelnya nyaman , lengkap dan luar . tapi sayang saya dapet kamar yang ac nya kurang dingin . mungkin untuk kedepannya dapat di perbaiki| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hotelnya <|opinion|> nyaman <|sentiment|> positive;<|aspect|> null <|opinion|> lengkap <|sentiment|> positive;<|aspect|> null <|opinion|> luar <|sentiment|> positive;<|aspect|> ac nya <|opinion|> kurang dingin <|sentiment|> negative;<|aspect|> null <|opinion|> kedepannya dapat di perbaiki <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2210,
+        "instance_id": 4357,
+        "task_elements": "aos",
+        "input": "all perfect , hanya kurang informatif untuk wifi dan nomor operator yg dpt dihubungi| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> all <|opinion|> perfect <|sentiment|> positive;<|aspect|> wifi <|opinion|> kurang informatif <|sentiment|> negative;<|aspect|> nomor operator yg dpt dihubungi <|opinion|> kurang informatif <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2211,
+        "instance_id": 4358,
+        "task_elements": "aos",
+        "input": "baguss sekali . lebih ditingkatkan aja pelayanan nya . senang ada airy di kampung halaman . thanks airy| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2212,
+        "instance_id": 4359,
+        "task_elements": "aos",
+        "input": "ac dingin . air panas oke . tv bruwet| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac <|opinion|> dingin <|sentiment|> positive;<|aspect|> air panas <|opinion|> oke <|sentiment|> positive;<|aspect|> tv <|opinion|> bruwet <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2213,
+        "instance_id": 4360,
+        "task_elements": "aos",
+        "input": "saya batal menginap karena listrik mati . pelayanan kurang ramah .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> listrik <|opinion|> mati <|sentiment|> negative;<|aspect|> pelayanan <|opinion|> kurang ramah <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2214,
+        "instance_id": 4361,
+        "task_elements": "aos",
+        "input": "pelayanan receptionis agak angkuh . . terutama yg cewe ngga sopan mohon manajemen tindak lanjuti| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan receptionis <|opinion|> agak angkuh <|sentiment|> negative;<|aspect|> yg cewe <|opinion|> ngga sopan <|sentiment|> negative;<|aspect|> null <|opinion|> mohon manajemen tindak lanjuti <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2215,
+        "instance_id": 4362,
+        "task_elements": "aos",
+        "input": "kamar mandi agak sedikit bau dan parkiran cukup sulit| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar mandi <|opinion|> agak sedikit bau <|sentiment|> negative;<|aspect|> parkiran <|opinion|> cukup sulit <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2216,
+        "instance_id": 4363,
+        "task_elements": "aos",
+        "input": "bau asap rokok dari kamar sebelah , sprei nya banyak noda kekuningan gtu| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> asap rokok <|opinion|> bau <|sentiment|> negative;<|aspect|> sprei nya <|opinion|> banyak noda kekuningan gtu <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2217,
+        "instance_id": 4364,
+        "task_elements": "aos",
+        "input": "kotor , ac bocor , sandal kamar ga ada . sarapan pagi ga ada . sprei dan selimut sudah bulukan . lantai berdebu , rambut dikamar mandi nyumbat saluran air . ihh airy cari rekanan yg bagus dikit . nyeremin tidurnya tapi udah kemalaman sampe mau gimana lagi .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> kotor <|sentiment|> negative;<|aspect|> ac <|opinion|> bocor <|sentiment|> negative;<|aspect|> sandal kamar <|opinion|> ga ada <|sentiment|> negative;<|aspect|> sarapan pagi <|opinion|> ga ada <|sentiment|> negative;<|aspect|> sprei <|opinion|> sudah bulukan <|sentiment|> negative;<|aspect|> selimut <|opinion|> sudah bulukan <|sentiment|> negative;<|aspect|> lantai <|opinion|> berdebu <|sentiment|> negative;<|aspect|> saluran air <|opinion|> rambut dikamar mandi nyumbat <|sentiment|> negative;<|aspect|> rekanan <|opinion|> bagus dikit <|sentiment|> negative;<|aspect|> tidurnya <|opinion|> nyeremin <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2218,
+        "instance_id": 4365,
+        "task_elements": "aos",
+        "input": "fasilitasnya not bad ! atitude karyawanya tdk memuaskan , dan hotelnya serem banyak hantu| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> fasilitasnya <|opinion|> not bad <|sentiment|> positive;<|aspect|> atitude karyawanya <|opinion|> tdk memuaskan <|sentiment|> negative;<|aspect|> hotelnya <|opinion|> serem banyak hantu <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2219,
+        "instance_id": 4366,
+        "task_elements": "aos",
+        "input": "penginapan ini cukup rensentatif dan sayangnya air panasnya tidak maksimal| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> penginapan ini <|opinion|> cukup rensentatif <|sentiment|> positive;<|aspect|> air panasnya <|opinion|> tidak maksimal <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2220,
+        "instance_id": 4367,
+        "task_elements": "aos",
+        "input": "pelayanan baik , kamar bersih , dekat dgn kuliner , hanya gak ada hot water . . siap2 kedinginan . . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan <|opinion|> baik <|sentiment|> positive;<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> null <|opinion|> dekat dgn kuliner <|sentiment|> positive;<|aspect|> hot water <|opinion|> gak ada hot water <|sentiment|> negative;<|aspect|> null <|opinion|> siap2 kedinginan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2221,
+        "instance_id": 4368,
+        "task_elements": "aos",
+        "input": "hanya wifi yg kurang memuaskan , wifi tidak bisa dipakai , selebihnya tidak masalah| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wifi <|opinion|> kurang memuaskan <|sentiment|> negative;<|aspect|> wifi <|opinion|> tidak bisa dipakai <|sentiment|> negative;<|aspect|> null <|opinion|> tidak masalah <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2222,
+        "instance_id": 4369,
+        "task_elements": "aos",
+        "input": "agak jorok wcnya dan spraynya gak bersh| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wcnya <|opinion|> agak jorok <|sentiment|> negative;<|aspect|> spraynya <|opinion|> gak bersh <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2223,
+        "instance_id": 4370,
+        "task_elements": "aos",
+        "input": "air asin , kamar kotor dan wc kotor .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air <|opinion|> asin <|sentiment|> negative;<|aspect|> kamar <|opinion|> kotor <|sentiment|> negative;<|aspect|> wc <|opinion|> kotor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2224,
+        "instance_id": 4371,
+        "task_elements": "aos",
+        "input": "ga da wifi d lantai 2 , kamar mandi ga da gantungan handuk or baju , over all bagus , n recomended| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wifi d lantai 2 <|opinion|> ga da <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> ga da gantungan handuk or baju <|sentiment|> negative;<|aspect|> over all <|opinion|> bagus <|sentiment|> positive;<|aspect|> null <|opinion|> recomended <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2225,
+        "instance_id": 4372,
+        "task_elements": "aos",
+        "input": "manajemen yg sangat buruk , , sudah terbit voucher hotel , tapi sampai disana malah kamar full| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> manajemen <|opinion|> sangat buruk <|sentiment|> negative;<|aspect|> null <|opinion|> sudah terbit voucher hotel <|sentiment|> positive;<|aspect|> kamar <|opinion|> full <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2226,
+        "instance_id": 4373,
+        "task_elements": "aos",
+        "input": "air panas tidak berfungsi , kebersihan kamar kurang| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air panas <|opinion|> tidak berfungsi <|sentiment|> negative;<|aspect|> kebersihan kamar <|opinion|> kurang <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2227,
+        "instance_id": 4374,
+        "task_elements": "aos",
+        "input": "sangat baik semua nya . . hanya tdk ada air panas utk mandi . . sdg di perbaiki . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> semua nya <|opinion|> sangat baik <|sentiment|> positive;<|aspect|> air panas utk mandi <|opinion|> tdk ada <|sentiment|> negative;<|aspect|> null <|opinion|> sdg di perbaiki . . <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2228,
+        "instance_id": 4375,
+        "task_elements": "aos",
+        "input": "kurang ramah resepsionistnya , tvnya juga gk bersih chanelnya| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> resepsionistnya <|opinion|> kurang ramah <|sentiment|> negative;<|aspect|> tvnya <|opinion|> gk bersih chanelnya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2229,
+        "instance_id": 4376,
+        "task_elements": "aos",
+        "input": "ac kamar berisik , staf hotel tidak ramah , makanan kurang sip| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac kamar <|opinion|> berisik <|sentiment|> negative;<|aspect|> staf hotel <|opinion|> tidak ramah <|sentiment|> negative;<|aspect|> makanan <|opinion|> kurang sip <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2230,
+        "instance_id": 4377,
+        "task_elements": "aos",
+        "input": "ada perbaikan air tapi ga dikasih tau sehingga sempat mandi air kotor pelayanannya kurang ramah| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> perbaikan air <|opinion|> ga dikasih tau sehingga sempat mandi air kotor <|sentiment|> negative;<|aspect|> pelayanannya <|opinion|> kurang ramah <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2231,
+        "instance_id": 4378,
+        "task_elements": "aos",
+        "input": "kamar terlalu luas , sayang cuma bisa untuk 2 orang jadi lebih keliatan mubazir . + kamar bersih , bed bersih , toilet bersih . fasilitas ok lah . harga murah banget , pake kupon diskon . - wifi ga bisa connect . sarapan kurang sesuai ( sambel lontong terlalu pedas ) . keep goin ' airy !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> terlalu luas <|sentiment|> positive;<|aspect|> null <|opinion|> sayang cuma bisa untuk 2 orang jadi lebih keliatan mubazir <|sentiment|> negative;<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> bed <|opinion|> bersih <|sentiment|> positive;<|aspect|> toilet <|opinion|> bersih <|sentiment|> positive;<|aspect|> fasilitas <|opinion|> ok lah <|sentiment|> positive;<|aspect|> harga <|opinion|> murah banget <|sentiment|> positive;<|aspect|> null <|opinion|> pake kupon diskon <|sentiment|> positive;<|aspect|> wifi <|opinion|> ga bisa connect <|sentiment|> negative;<|aspect|> sarapan <|opinion|> kurang sesuai <|sentiment|> negative;<|aspect|> sambel lontong <|opinion|> terlalu pedas <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2232,
+        "instance_id": 4379,
+        "task_elements": "aos",
+        "input": "tolong harus ada stok selimut cadangan lah , masak selimut bekas dan bau sekali ga diganti dengan alasan semua selimut dipakai ,| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> stok selimut cadangan <|opinion|> harus ada <|sentiment|> negative;<|aspect|> selimut <|opinion|> bekas <|sentiment|> negative;<|aspect|> selimut <|opinion|> bau sekali ga diganti <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2233,
+        "instance_id": 4380,
+        "task_elements": "aos",
+        "input": "saya batal menginap karena tempatnya agak jorok , bau tidak enak . baru masuk gerbang sudah di sambut dengan jemuran cucian| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tempatnya <|opinion|> agak jorok <|sentiment|> negative;<|aspect|> null <|opinion|> bau tidak enak <|sentiment|> negative;<|aspect|> masuk gerbang <|opinion|> di sambut dengan jemuran cucian <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2234,
+        "instance_id": 4381,
+        "task_elements": "aos",
+        "input": "bagus tempatnya luas , tp sayang agak sedikit kotor| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> bagus <|sentiment|> positive;<|aspect|> tempatnya <|opinion|> luas <|sentiment|> positive;<|aspect|> null <|opinion|> agak sedikit kotor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2235,
+        "instance_id": 4382,
+        "task_elements": "aos",
+        "input": "kamarnya bau tidak enak , acnya tidak dingin . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamarnya <|opinion|> bau tidak enak <|sentiment|> negative;<|aspect|> acnya <|opinion|> tidak dingin <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2236,
+        "instance_id": 4383,
+        "task_elements": "aos",
+        "input": "kamar no . 6 shower air hangat tidak berfungsi dengan baik , banyak rambut diselimut .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> shower air hangat <|opinion|> tidak berfungsi dengan baik <|sentiment|> negative;<|aspect|> selimut <|opinion|> banyak rambut <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2237,
+        "instance_id": 4384,
+        "task_elements": "aos",
+        "input": "lokasi sangat strategis , dekat dengan landmark palembang dan kuliner khas palembang di sekelilingnya . pada saat keluarga dan saya menginap di sana wifi tidak berfungsi . tidak ada shower air panas .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lokasi <|opinion|> sangat strategis <|sentiment|> positive;<|aspect|> null <|opinion|> dekat dengan landmark palembang <|sentiment|> positive;<|aspect|> null <|opinion|> kuliner khas palembang di sekelilingnya <|sentiment|> positive;<|aspect|> wifi <|opinion|> tidak berfungsi <|sentiment|> negative;<|aspect|> shower air panas <|opinion|> tidak ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2238,
+        "instance_id": 4385,
+        "task_elements": "aos",
+        "input": "bagus . . . air panas nya tidak menyala| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> bagus <|sentiment|> positive;<|aspect|> air panas nya <|opinion|> tidak menyala <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2239,
+        "instance_id": 4386,
+        "task_elements": "aos",
+        "input": "kamar nya kurang dingin krn ac nya rusak . penanganan pindah kamar lama| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2240,
+        "instance_id": 4387,
+        "task_elements": "aos",
+        "input": "lumayan , keseluruhan nyaman sayangnya , ada beberapa hal yang harus diperhatikan , kurangnya kebersihan pada kamar , ada bekas rexona di bawah kasur dari tamu awal , tapi selebihnya luar biasa . nyaman , wifi cepat . pelayanan yang baik . terimakasih . rekomended buat backpacker yang bingung nyari tempat untuk menginap , terimakasih airy . anda memang keceeee| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> lumayan <|sentiment|> negative;<|aspect|> keseluruhan <|opinion|> nyaman <|sentiment|> positive;<|aspect|> beberapa hal <|opinion|> harus diperhatikan <|sentiment|> negative;<|aspect|> kebersihan pada kamar <|opinion|> kurangnya kebersihan <|sentiment|> negative;<|aspect|> kasur <|opinion|> ada bekas rexona di bawah kasur dari tamu awal <|sentiment|> negative;<|aspect|> null <|opinion|> luar biasa <|sentiment|> positive;<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> wifi <|opinion|> cepat <|sentiment|> positive;<|aspect|> pelayanan <|opinion|> baik <|sentiment|> positive;<|aspect|> null <|opinion|> rekomended buat backpacker yang bingung nyari tempat untuk menginap <|sentiment|> positive;<|aspect|> airy <|opinion|> terimakasih <|sentiment|> positive;<|aspect|> anda <|opinion|> memang keceeee <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2241,
+        "instance_id": 4388,
+        "task_elements": "aos",
+        "input": "datang langsung ditolak karena miss comunication antara airy dan pemilik tempat tv nya rusak hordeng ga tertutup rapet kamarnya besar banget air nya kurang panas dikit kasur nyaman banget ada meja kursi jg buat kerja ada kulkas buat nyimpen makanan & minuman| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> ditolak karena miss comunication antara airy dan pemilik tempat <|sentiment|> negative;<|aspect|> tv nya <|opinion|> rusak <|sentiment|> negative;<|aspect|> hordeng <|opinion|> ga tertutup rapet <|sentiment|> negative;<|aspect|> kamarnya <|opinion|> besar banget <|sentiment|> positive;<|aspect|> air nya <|opinion|> kurang panas dikit <|sentiment|> negative;<|aspect|> kasur <|opinion|> nyaman banget <|sentiment|> positive;<|aspect|> meja kursi <|opinion|> ada meja kursi jg buat kerja <|sentiment|> positive;<|aspect|> kulkas <|opinion|> ada kulkas buat nyimpen makanan & minuman <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2242,
+        "instance_id": 4389,
+        "task_elements": "aos",
+        "input": "toiletnya kotor , banjir , dan tidak bisa di flush sangat mengecewakan . ac kurang dingin . pelayanan lu| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> toiletnya <|opinion|> kotor <|sentiment|> negative;<|aspect|> null <|opinion|> banjir <|sentiment|> negative;<|aspect|> null <|opinion|> tidak bisa di flush sangat <|sentiment|> negative;<|aspect|> null <|opinion|> sangat mengecewakan <|sentiment|> negative;<|aspect|> ac <|opinion|> kurang dingin <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2243,
+        "instance_id": 4390,
+        "task_elements": "aos",
+        "input": "kebersihannya perlu ditingkatkan lagi . . . . males banget pas baru masuk bau asap rokok gitu . . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kebersihannya <|opinion|> perlu ditingkatkan lagi <|sentiment|> negative;<|aspect|> null <|opinion|> males banget pas baru masuk bau asap rokok gitu <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2244,
+        "instance_id": 4391,
+        "task_elements": "aos",
+        "input": "kamar kotor seperti tidak pernah dibersihkan , seprei tidak diganti , kamar mandi wastafelnya bocor lampu sangat redup tembok berkarat sampai berearna hitam , air panas tidak nyala , tv gambarnya buram . hotel seperti tidak terawat padahal di foto terlihat bagus tapi ternyata hanya gambar saja . mohon segera ditingkatkan kualitasnya| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> kotor seperti tidak pernah dibersihkan <|sentiment|> negative;<|aspect|> seprei <|opinion|> tidak diganti <|sentiment|> negative;<|aspect|> kamar mandi wastafelnya <|opinion|> bocor <|sentiment|> negative;<|aspect|> lampu <|opinion|> sangat redup <|sentiment|> negative;<|aspect|> tembok <|opinion|> berkarat sampai berearna hitam <|sentiment|> negative;<|aspect|> air panas <|opinion|> tidak nyala <|sentiment|> negative;<|aspect|> tv <|opinion|> gambarnya buram <|sentiment|> negative;<|aspect|> hotel <|opinion|> seperti tidak terawat <|sentiment|> negative;<|aspect|> foto <|opinion|> terlihat bagus tapi ternyata hanya gambar saja <|sentiment|> negative;<|aspect|> kualitasnya <|opinion|> mohon segera ditingkatkan kualitasnya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2245,
+        "instance_id": 4392,
+        "task_elements": "aos",
+        "input": "ac tidak dingin , bangunan lama , naik ke lantai 3 dgn tangga , no wifi , service dari para petugas hotel yang kurang memuaskan , kualitas kebersihan kurang , tidak seperti layaknya kualitas hotel airy lain nya , mohon standard hotel airy room lebih di tingkatkan lagi , terima kasih| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac <|opinion|> tidak dingin <|sentiment|> negative;<|aspect|> bangunan <|opinion|> lama <|sentiment|> negative;<|aspect|> null <|opinion|> naik ke lantai 3 dgn tangga <|sentiment|> negative;<|aspect|> wifi <|opinion|> no wifi <|sentiment|> negative;<|aspect|> service dari para petugas hotel <|opinion|> kurang memuaskan <|sentiment|> negative;<|aspect|> kualitas kebersihan <|opinion|> kurang <|sentiment|> negative;<|aspect|> kualitas hotel airy <|opinion|> tidak seperti layaknya kualitas hotel airy lain nya <|sentiment|> negative;<|aspect|> standard hotel airy room <|opinion|> lebih di tingkatkan lagi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2246,
+        "instance_id": 4393,
+        "task_elements": "aos",
+        "input": "sepreynya bolong , remote tvnya g ada , saluran tvnya g jelas karna antenanya g ada jd g bs nonton , untungnya hanya semalem nginepnya| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> sepreynya <|opinion|> bolong <|sentiment|> negative;<|aspect|> remote tvnya <|opinion|> g ada <|sentiment|> negative;<|aspect|> saluran tvnya <|opinion|> g jelas karna antenanya g ada jd g bs nonton <|sentiment|> negative;<|aspect|> null <|opinion|> untungnya hanya semalem nginepnya <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2247,
+        "instance_id": 4394,
+        "task_elements": "aos",
+        "input": "pelayanan dari cleaning service lambat , wifi putus nyambung , cuma menang tempat strategis| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan dari cleaning service <|opinion|> lambat <|sentiment|> negative;<|aspect|> wifi <|opinion|> putus nyambung <|sentiment|> negative;<|aspect|> tempat <|opinion|> strategis <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2248,
+        "instance_id": 4395,
+        "task_elements": "aos",
+        "input": "wifi nya di lantai 2 lagi rusak , banyak serangga2 kecil , sinyal telkomsel dan 3 tidak masuk jd hp gak bisa dihubungin . pelayanan kamar oke . semua fasilitas berfungsi .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wifi nya di lantai 2 <|opinion|> rusak <|sentiment|> negative;<|aspect|> serangga2 kecil <|opinion|> banyak <|sentiment|> negative;<|aspect|> sinyal telkomsel dan 3 <|opinion|> tidak masuk jd hp gak bisa dihubungin <|sentiment|> negative;<|aspect|> pelayanan kamar <|opinion|> oke <|sentiment|> positive;<|aspect|> semua fasilitas <|opinion|> berfungsi <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2249,
+        "instance_id": 4396,
+        "task_elements": "aos",
+        "input": "sdh sering kesana . . semua nya ok . cuma pas terakhir menginap , pendingin ruangan 308 tidak dingin .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> sdh sering kesana <|sentiment|> positive;<|aspect|> semua nya <|opinion|> ok <|sentiment|> positive;<|aspect|> pendingin ruangan 308 <|opinion|> tidak dingin <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2250,
+        "instance_id": 4397,
+        "task_elements": "aos",
+        "input": "pelayanan ramah , kamar nyaman , cuma agak sempit . tv tidak terlalu jelas , ada semutnya .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan <|opinion|> ramah <|sentiment|> positive;<|aspect|> kamar <|opinion|> nyaman <|sentiment|> positive;<|aspect|> kamar <|opinion|> agak sempit <|sentiment|> negative;<|aspect|> tv <|opinion|> tidak terlalu jelas <|sentiment|> negative;<|aspect|> null <|opinion|> ada semutnya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2251,
+        "instance_id": 4398,
+        "task_elements": "aos",
+        "input": "pelayanan bagus . . . mohon ac nya segera diservice supaya lebih dingin lagi . . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan <|opinion|> bagus <|sentiment|> positive;<|aspect|> ac nya <|opinion|> segera diservice supaya lebih dingin lagi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2252,
+        "instance_id": 4399,
+        "task_elements": "aos",
+        "input": "ac nya sering mati sendiri| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac nya <|opinion|> sering mati sendiri <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2253,
+        "instance_id": 4400,
+        "task_elements": "aos",
+        "input": "kamar yang bocor , servisnya kurang , kebersihan| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> bocor <|sentiment|> negative;<|aspect|> servisnya <|opinion|> kurang <|sentiment|> negative;<|aspect|> kebersihan <|opinion|> null <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2254,
+        "instance_id": 4401,
+        "task_elements": "aos",
+        "input": "untuk ac di harap bisa lebih baik dan bisa di kondisionalkan kembali . . . terkadang ac tidak bsa d remote . . untuk air panas supaya di aktifkan . . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac <|opinion|> di harap bisa lebih baik <|sentiment|> negative;<|aspect|> ac <|opinion|> bisa di kondisionalkan kembali <|sentiment|> negative;<|aspect|> ac <|opinion|> tidak bsa d remote <|sentiment|> negative;<|aspect|> air panas <|opinion|> supaya di aktifkan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2255,
+        "instance_id": 4402,
+        "task_elements": "aos",
+        "input": "air kecil , kolam kotor , ac ga dingin , sedih bgt deh , tp petugasnya baik| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air <|opinion|> kecil <|sentiment|> negative;<|aspect|> kolam <|opinion|> kotor <|sentiment|> negative;<|aspect|> ac <|opinion|> ga dingin <|sentiment|> negative;<|aspect|> null <|opinion|> sedih bgt deh <|sentiment|> negative;<|aspect|> petugasnya <|opinion|> baik <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2256,
+        "instance_id": 4403,
+        "task_elements": "aos",
+        "input": "lokasinya sih bagus , bangunannya juga bersih , tapiii penjaganya agak kurang bersahabat . hati2 yaa kalo dateng bertiga bisa diminta ongkos tambahan , padahal waktu itu gara2 roomnya penuh . agak kapok sih nginap disini . apalagi suka banjir juga .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lokasinya <|opinion|> bagus <|sentiment|> positive;<|aspect|> bangunannya <|opinion|> bersih <|sentiment|> positive;<|aspect|> penjaganya <|opinion|> agak kurang bersahabat <|sentiment|> negative;<|aspect|> dateng bertiga <|opinion|> bisa diminta ongkos tambahan <|sentiment|> negative;<|aspect|> null <|opinion|> waktu itu gara2 roomnya penuh <|sentiment|> negative;<|aspect|> null <|opinion|> agak kapok sih nginap disini <|sentiment|> negative;<|aspect|> null <|opinion|> suka banjir <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2257,
+        "instance_id": 4404,
+        "task_elements": "aos",
+        "input": "kamar bersih . selimut kotor dan kasar lagi . ga ada remote ac . trus panas . tv tabung kecil 20 inc . air kencang . wifi ga nyampe kamar . cma 1 garis . palayanan lambat pas cek in ga ada resepsionisnya nunggu lama baru siap .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> selimut <|opinion|> kotor <|sentiment|> kasar;<|aspect|> selimut <|opinion|> kasar <|sentiment|> negative;<|aspect|> remote ac <|opinion|> ga ada <|sentiment|> negative;<|aspect|> null <|opinion|> panas <|sentiment|> negative;<|aspect|> tv tabung <|opinion|> kecil 20 inc <|sentiment|> negative;<|aspect|> air <|opinion|> kencang <|sentiment|> positive;<|aspect|> wifi <|opinion|> ga nyampe kamar <|sentiment|> negative;<|aspect|> wifi <|opinion|> cma 1 garis <|sentiment|> negative;<|aspect|> palayanan <|opinion|> lambat <|sentiment|> negative;<|aspect|> pas cek in <|opinion|> ga ada resepsionisnya nunggu lama baru siap <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2258,
+        "instance_id": 4405,
+        "task_elements": "aos",
+        "input": "breakfast enak . . fasilitas cukup baik . . hanya jalan masuk ke hotel sangat kecil . . hanya muat 1 mobil medium mpv . . kalo rombongan naik hi ace tdk muat . . dan ada kamar yg bau lembab . . mungkin pihak manajemen bisa melakukan perbaikan . . tapi overall ok hotel ini . . . harga terjangkau . . . tingkatkan terus pak nyoman . . recomended hotel with low budget| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> breakfast <|opinion|> enak <|sentiment|> positive;<|aspect|> fasilitas <|opinion|> cukup baik <|sentiment|> positive;<|aspect|> jalan masuk ke hotel <|opinion|> sangat kecil <|sentiment|> negative;<|aspect|> jalan masuk ke hotel <|opinion|> hanya muat 1 mobil medium mpv <|sentiment|> negative;<|aspect|> null <|opinion|> kalo rombongan naik hi ace tdk muat <|sentiment|> negative;<|aspect|> kamar <|opinion|> bau lembab <|sentiment|> negative;<|aspect|> pihak manajemen <|opinion|> bisa melakukan perbaikan <|sentiment|> negative;<|aspect|> overall <|opinion|> ok <|sentiment|> positive;<|aspect|> harga <|opinion|> terjangkau <|sentiment|> positive;<|aspect|> hotel <|opinion|> recomended hotel <|sentiment|> positive;<|aspect|> budget <|opinion|> low <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2259,
+        "instance_id": 4406,
+        "task_elements": "aos",
+        "input": "baik , hanya aroma airnya yg kurang mendukung saat mandi seperti bau got| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> baik <|sentiment|> positive;<|aspect|> aroma airnya <|opinion|> kurang mendukung saat mandi <|sentiment|> negative;<|aspect|> air <|opinion|> seperti bau got <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2260,
+        "instance_id": 4407,
+        "task_elements": "aos",
+        "input": "panas sekali waktu malam . wifi nya tidak berfungsi| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> malam <|opinion|> panas sekali <|sentiment|> negative;<|aspect|> wifi nya <|opinion|> tidak berfungsi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2261,
+        "instance_id": 4408,
+        "task_elements": "aos",
+        "input": "pas di kantong harga okay kagak lebay , harga dan kamar berbanding lurus , siaran tv hanya kompas tv dan tv dangdut aja .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> pas di kantong harga okay kagak lebay <|sentiment|> positive;<|aspect|> harga <|opinion|> okay kagak lebay <|sentiment|> positive;<|aspect|> harga dan kamar <|opinion|> berbanding lurus <|sentiment|> positive;<|aspect|> siaran tv <|opinion|> hanya kompas tv dan tv dangdut aja <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2262,
+        "instance_id": 4409,
+        "task_elements": "aos",
+        "input": "kebersihan kamar ( lantai ) perlu ditingkatkan lagi| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kebersihan kamar ( lantai ) <|opinion|> perlu ditingkatkan lagi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2263,
+        "instance_id": 4410,
+        "task_elements": "aos",
+        "input": "udah enak to kurang bersih| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> udah enak <|sentiment|> positive;<|aspect|> null <|opinion|> kurang bersih <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2264,
+        "instance_id": 4411,
+        "task_elements": "aos",
+        "input": "hanya jaringan wifi saja yg perlu diperbaiki , selebihny sudah ok| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> jaringan wifi <|opinion|> perlu diperbaiki <|sentiment|> negative;<|aspect|> null <|opinion|> sudah ok <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2265,
+        "instance_id": 4412,
+        "task_elements": "aos",
+        "input": "handuk kelihatan kotor dan ada bercak-bercak . . . tidak putih lagi dan sobek sobek pinggirnya .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> handuk <|opinion|> kelihatan kotor <|sentiment|> negative;<|aspect|> handuk <|opinion|> ada bercak-bercak <|sentiment|> negative;<|aspect|> null <|opinion|> tidak putih lagi <|sentiment|> negative;<|aspect|> null <|opinion|> sobek sobek pinggirnya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2266,
+        "instance_id": 4413,
+        "task_elements": "aos",
+        "input": "kamar sesuai harga . . pelayanan staff sangat baik . ada air panas . tapi sepray kuning smua . handuknya coklat bau belum kering . tidak ada lift tapi saya betah disana| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> sesuai harga <|sentiment|> positive;<|aspect|> pelayanan staff <|opinion|> sangat baik <|sentiment|> positive;<|aspect|> air panas <|opinion|> ada <|sentiment|> positive;<|aspect|> sepray <|opinion|> kuning smua <|sentiment|> negative;<|aspect|> handuknya <|opinion|> coklat <|sentiment|> negative;<|aspect|> handuknya <|opinion|> bau <|sentiment|> negative;<|aspect|> handuknya <|opinion|> belum kering <|sentiment|> negative;<|aspect|> lift <|opinion|> tidak ada <|sentiment|> negative;<|aspect|> null <|opinion|> betah disana <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2267,
+        "instance_id": 4414,
+        "task_elements": "aos",
+        "input": "kamar apek dan kebersihannya kurang diperhatikan .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> apek <|sentiment|> negative;<|aspect|> kebersihannya <|opinion|> kurang diperhatikan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2268,
+        "instance_id": 4415,
+        "task_elements": "aos",
+        "input": "ac nya lumayan dingin dan air acnya bocor jadi basah lantainya , wifinya ga ada alasannya dalam perbaikan . menu makanannya dari sekalian banyak cuma 2 aja yg tersedia , untuk kamar bagus dan luas . terimakasih .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac nya <|opinion|> lumayan dingin <|sentiment|> positive;<|aspect|> air acnya <|opinion|> bocor jadi basah lantainya <|sentiment|> negative;<|aspect|> wifinya <|opinion|> ga ada alasannya dalam perbaikan <|sentiment|> negative;<|aspect|> menu makanannya <|opinion|> dari sekalian banyak cuma 2 aja yg tersedia <|sentiment|> negative;<|aspect|> kamar <|opinion|> bagus <|sentiment|> positive;<|aspect|> kamar <|opinion|> luas <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2269,
+        "instance_id": 4416,
+        "task_elements": "aos",
+        "input": "pelayannan-nya ramah banget ❤️👍 dan kalau’pun kurang paham mereka menjelaskan lagi sampai kita paham , sarapannya juga enak , hanya saja sedikit tidak bersih kasur-nya mungkin bisa lebih baik lagi kedepan-nya , ac -nya dingin 👍 ada air hangat-nya juga untuk shower , over all it’s good not bad 😊 .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayannan-nya <|opinion|> ramah banget <|sentiment|> positive;<|aspect|> pelayannan-nya <|opinion|> menjelaskan lagi sampai kita paham <|sentiment|> positive;<|aspect|> sarapannya <|opinion|> enak <|sentiment|> positive;<|aspect|> kasur-nya <|opinion|> sedikit tidak bersih <|sentiment|> negative;<|aspect|> null <|opinion|> mungkin bisa lebih baik lagi kedepan-nya <|sentiment|> negative;<|aspect|> ac -nya <|opinion|> dingin <|sentiment|> positive;<|aspect|> air hangat-nya <|opinion|> ada <|sentiment|> positive;<|aspect|> over all <|opinion|> it’s good not bad <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2270,
+        "instance_id": 4417,
+        "task_elements": "aos",
+        "input": "parkiran jauh . kolam renang depan kamar y12 bau , kotor . baru mau masuk kamar , sampah berserakan di depan pintu . masuk kamar , lantai licin , karna ngepelnya kebanyakan sabun mungkin . tidak ada sandal hotel lagi . kamar mandi showernya patah juga .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> parkiran <|opinion|> jauh <|sentiment|> negative;<|aspect|> kolam renang depan kamar y12 <|opinion|> bau <|sentiment|> negative;<|aspect|> kolam renang depan kamar y12 <|opinion|> kotor <|sentiment|> negative;<|aspect|> sampah <|opinion|> berserakan di depan pintu <|sentiment|> negative;<|aspect|> lantai <|opinion|> licin <|sentiment|> negative;<|aspect|> null <|opinion|> kebanyakan sabun mungkin <|sentiment|> negative;<|aspect|> sandal hotel <|opinion|> tidak ada <|sentiment|> negative;<|aspect|> showernya <|opinion|> patah <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2271,
+        "instance_id": 4418,
+        "task_elements": "aos",
+        "input": "air panasnya tidak stabil| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air panasnya <|opinion|> tidak stabil <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2272,
+        "instance_id": 4419,
+        "task_elements": "aos",
+        "input": "sudah cukup baik , tapi fasilitas kamar masih kurang , sepetti tv , kamar mandi , ac tidak dingin , dan meja yg terlalu kecil ,| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> cukup baik <|sentiment|> positive;<|aspect|> fasilitas kamar <|opinion|> masih kurang <|sentiment|> negative;<|aspect|> tv <|opinion|> null <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> null <|sentiment|> negative;<|aspect|> ac <|opinion|> tidak dingin <|sentiment|> negative;<|aspect|> meja <|opinion|> terlalu kecil <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2273,
+        "instance_id": 4420,
+        "task_elements": "aos",
+        "input": "ac nya kurang dingin , selimutnya sangat tipis .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac nya <|opinion|> kurang dingin <|sentiment|> negative;<|aspect|> selimutnya <|opinion|> sangat tipis <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2274,
+        "instance_id": 4421,
+        "task_elements": "aos",
+        "input": "kamar bau dan kotor . kamar mandi kotor bau air panas ngga keluar| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> bau <|sentiment|> negative;<|aspect|> kamar <|opinion|> kotor <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> kotor <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> bau <|sentiment|> negative;<|aspect|> air panas <|opinion|> ngga keluar <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2275,
+        "instance_id": 4422,
+        "task_elements": "aos",
+        "input": "air asin . . kmr kotor . . wc kotor . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air <|opinion|> asin <|sentiment|> negative;<|aspect|> kmr <|opinion|> kotor <|sentiment|> negative;<|aspect|> wc <|opinion|> kotor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2276,
+        "instance_id": 4423,
+        "task_elements": "aos",
+        "input": "kamar masih ada bau debu . kamar mandi showernya mampet , ga ada air panas jg : ’ )| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> masih ada bau debu <|sentiment|> negative;<|aspect|> kamar mandi showernya <|opinion|> mampet <|sentiment|> negative;<|aspect|> air panas <|opinion|> ga ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2277,
+        "instance_id": 4424,
+        "task_elements": "aos",
+        "input": "ac kurang dingin . . yang lainnya sudah ok| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac <|opinion|> kurang dingin <|sentiment|> negative;<|aspect|> yang lainnya <|opinion|> sudah ok <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2278,
+        "instance_id": 4425,
+        "task_elements": "aos",
+        "input": "wifi buruk suka down| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wifi <|opinion|> buruk <|sentiment|> negative;<|aspect|> wifi <|opinion|> suka down <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2279,
+        "instance_id": 4426,
+        "task_elements": "aos",
+        "input": "air panas kecil , makanannya ala kadarnya dan tidak sesuai dengan tarif hotel kalau cuma itu saja| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air panas <|opinion|> kecil <|sentiment|> negative;<|aspect|> makanannya <|opinion|> ala kadarnya <|sentiment|> negative;<|aspect|> null <|opinion|> tidak sesuai dengan tarif hotel kalau cuma itu saja <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2280,
+        "instance_id": 4427,
+        "task_elements": "aos",
+        "input": "cek in jam 10 . dapet kamar yg di bilang cadangan di lantai 4 . soal jauh nya kamar juga kondisi tv ( kecil juga tabung ) yg berbeda dengan kamar lain di bawah masih bisa di tolerir lah tapi maaf soal ac nya ga bisa di tolerir . ga bisa istrahat karena kepanasan di dalam kamar . mohon utk di perhatikan lagi perlengkapan kamar demi kenyamanan cust .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> cek in jam 10 <|sentiment|> negative;<|aspect|> kamar <|opinion|> cadangan di lantai 4 <|sentiment|> negative;<|aspect|> jauh nya kamar <|opinion|> masih bisa di tolerir lah <|sentiment|> negative;<|aspect|> kondisi tv ( kecil juga tabung ) <|opinion|> yg berbeda dengan kamar lain di bawah <|sentiment|> negative;<|aspect|> null <|opinion|> masih bisa di tolerir lah <|sentiment|> negative;<|aspect|> ac nya <|opinion|> ga bisa di tolerir <|sentiment|> negative;<|aspect|> kamar <|opinion|> ga bisa istrahat karena kepanasan di dalam kamar <|sentiment|> negative;<|aspect|> perlengkapan kamar <|opinion|> mohon utk di perhatikan lagi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2281,
+        "instance_id": 4428,
+        "task_elements": "aos",
+        "input": "kecewa dengan hotel ini karena wifi bermasalah staff uda di panggil tapi ga bs menyelesaikan masalah . dan di dpn kamar ada telpon yang sangat mengganggu tidur karena selalu berdering terus| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hotel ini <|opinion|> kecewa <|sentiment|> negative;<|aspect|> wifi <|opinion|> bermasalah <|sentiment|> negative;<|aspect|> staff <|opinion|> uda di panggil <|sentiment|> negative;<|aspect|> staff <|opinion|> ga bs menyelesaikan masalah <|sentiment|> negative;<|aspect|> telpon <|opinion|> sangat mengganggu tidur karena selalu berdering terus <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2282,
+        "instance_id": 4429,
+        "task_elements": "aos",
+        "input": "hotel bersih dan nyaman . tp kok ga dpt box snak sm peralatan khas airy ya . . . tp males ih komplain .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hotel <|opinion|> bersih dan nyaman <|sentiment|> positive;<|aspect|> box snak sm peralatan khas airy <|opinion|> ga dpt <|sentiment|> negative;<|aspect|> null <|opinion|> tp males ih komplain <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2283,
+        "instance_id": 4430,
+        "task_elements": "aos",
+        "input": "kamarnya sebenarnya nyaman tetapi dari toiletnya tercium bau selokan padahal berada di lantai 2 . semoga diperbaiki lebih baik lagi ya .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamarnya <|opinion|> nyaman <|sentiment|> positive;<|aspect|> toiletnya <|opinion|> tercium bau selokan <|sentiment|> negative;<|aspect|> null <|opinion|> semoga diperbaiki lebih baik lagi ya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2284,
+        "instance_id": 4431,
+        "task_elements": "aos",
+        "input": "hotel cukup bagus . . wifi sangat jelek di room 519 , breakfast cukup walau menu terbatas . wakru cek in terlambat sekitar 15 menit dan unt cek out . . jam 10 . 30 sdh diingatkan .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hotel <|opinion|> cukup bagus <|sentiment|> positive;<|aspect|> wifi <|opinion|> sangat jelek <|sentiment|> negative;<|aspect|> breakfast <|opinion|> cukup walau menu terbatas <|sentiment|> negative;<|aspect|> wakru cek in <|opinion|> terlambat sekitar 15 menit <|sentiment|> negative;<|aspect|> unt cek out <|opinion|> jam 10 . 30 sdh diingatkan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2285,
+        "instance_id": 4432,
+        "task_elements": "aos",
+        "input": "but air kamar mandi a bit smelly| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air kamar mandi <|opinion|> a bit smelly <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2286,
+        "instance_id": 4433,
+        "task_elements": "aos",
+        "input": "banyak nyamuk dan kecoa . . . . lantainya juga kotor banget ! ! ! and too much noisy heeeee not that good hmmmm .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> nyamuk dan kecoa <|opinion|> banyak <|sentiment|> negative;<|aspect|> lantainya <|opinion|> kotor banget <|sentiment|> negative;<|aspect|> null <|opinion|> too much noisy <|sentiment|> negative;<|aspect|> null <|opinion|> not that good <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2287,
+        "instance_id": 4434,
+        "task_elements": "aos",
+        "input": "pelayanan yang kurang baik| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan <|opinion|> kurang baik <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2288,
+        "instance_id": 4435,
+        "task_elements": "aos",
+        "input": "kamar spt kos kos an , tidak ada handuk , tidak ada hot water parkir mobil sempit| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> spt kos kos an <|sentiment|> negative;<|aspect|> handuk <|opinion|> tidak ada <|sentiment|> negative;<|aspect|> hot water <|opinion|> tidak ada <|sentiment|> negative;<|aspect|> parkir mobil <|opinion|> sempit <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2289,
+        "instance_id": 4436,
+        "task_elements": "aos",
+        "input": "tempatnya bersih , minus wifi nya ga bisa| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tempatnya <|opinion|> bersih <|sentiment|> positive;<|aspect|> wifi nya <|opinion|> ga bisa <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2290,
+        "instance_id": 4437,
+        "task_elements": "aos",
+        "input": "bersih , nyaman dan lingkungan tenang . untuk dapur bisa diperbaiki lagi yaa . . agar lebih bersih 😉| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> bersih <|sentiment|> positive;<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> lingkungan <|opinion|> tenang <|sentiment|> positive;<|aspect|> dapur <|opinion|> bisa diperbaiki lagi yaa . . <|sentiment|> negative;<|aspect|> null <|opinion|> agar lebih bersih <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2291,
+        "instance_id": 4438,
+        "task_elements": "aos",
+        "input": "selimut nya tipis , sprei dan kain2 nya terlihat buluk , air panas nya tak berfungsi : (| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> selimut nya <|opinion|> tipis <|sentiment|> negative;<|aspect|> sprei dan kain2 nya <|opinion|> terlihat buluk <|sentiment|> negative;<|aspect|> air panas nya <|opinion|> tak berfungsi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2292,
+        "instance_id": 4439,
+        "task_elements": "aos",
+        "input": "lokasinya deket dengan stasiun krl , namun seprei masih ada bercak kotoran dan ruangannya sumpek walau ac nyala .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lokasinya <|opinion|> deket dengan stasiun krl <|sentiment|> positive;<|aspect|> seprei <|opinion|> masih ada bercak kotoran <|sentiment|> negative;<|aspect|> ruangannya <|opinion|> sumpek walau ac nyala <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2293,
+        "instance_id": 4440,
+        "task_elements": "aos",
+        "input": "mengecewakan . snack gak ada sama sekali , toiletries gak ada sama sekali , air panas gak bisa , wifi lemot maksimal .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> mengecewakan <|sentiment|> negative;<|aspect|> snack <|opinion|> gak ada sama sekali <|sentiment|> negative;<|aspect|> toiletries <|opinion|> gak ada sama sekali <|sentiment|> negative;<|aspect|> air panas <|opinion|> gak bisa <|sentiment|> negative;<|aspect|> wifi <|opinion|> lemot maksimal <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2294,
+        "instance_id": 4441,
+        "task_elements": "aos",
+        "input": "kalau segi kenyamanan agak kurang karena ac kurang dingin dan tolong kamar mandi setiap kamar rajin di bersihkan karena kemarin saya menginap ada semacam cacing hitam di lantai bawah ( kmr 202 ) . pelayanannya sangat bagus masnya ramah , disini disediain handuk| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kenyamanan <|opinion|> agak kurang <|sentiment|> negative;<|aspect|> ac <|opinion|> kurang dingin <|sentiment|> negative;<|aspect|> kamar mandi setiap kamar <|opinion|> ada semacam cacing hitam di lantai bawah <|sentiment|> negative;<|aspect|> pelayanannya <|opinion|> sangat bagus <|sentiment|> positive;<|aspect|> masnya <|opinion|> ramah <|sentiment|> positive;<|aspect|> handuk <|opinion|> disediain <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2295,
+        "instance_id": 4442,
+        "task_elements": "aos",
+        "input": "overall ok tapi saluran air menggenang dan flush closet macet| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> overall <|opinion|> ok <|sentiment|> positive;<|aspect|> saluran air <|opinion|> menggenang <|sentiment|> negative;<|aspect|> flush closet <|opinion|> macet <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2296,
+        "instance_id": 4443,
+        "task_elements": "aos",
+        "input": "untuk ac tolong diperhatikan krn ruangn tdk dingin pdhl suhu 18 drjt tp ac tidak dingin . . . yg lain ok . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> tidak dingin <|sentiment|> negative;<|aspect|> ac <|opinion|> tidak dingin <|sentiment|> negative;<|aspect|> yg lain <|opinion|> ok <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2297,
+        "instance_id": 4444,
+        "task_elements": "aos",
+        "input": "tempatnya nyaman dan bersih . cuma ketika masuk kamar , bau apek . saran saya supaya diberi pengharum ruangan| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tempatnya <|opinion|> nyaman <|sentiment|> positive;<|aspect|> tempatnya <|opinion|> bersih <|sentiment|> positive;<|aspect|> kamar <|opinion|> bau apek <|sentiment|> negative;<|aspect|> null <|opinion|> diberi pengharum ruangan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2298,
+        "instance_id": 4445,
+        "task_elements": "aos",
+        "input": "sebenarnya saya bisa kasih sangat baik kalau kebersihan kamar dijaga , tks| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kebersihan kamar <|opinion|> dijaga <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2299,
+        "instance_id": 4446,
+        "task_elements": "aos",
+        "input": "tempatnya bersih dan nyaman tdk berisik yang kurang handuknya kurang bersih atau sudah lama bisa di ganti yang baru| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tempatnya <|opinion|> bersih <|sentiment|> positive;<|aspect|> tempatnya <|opinion|> nyaman <|sentiment|> positive;<|aspect|> tempatnya <|opinion|> tdk berisik <|sentiment|> positive;<|aspect|> handuknya <|opinion|> kurang bersih atau sudah lama <|sentiment|> negative;<|aspect|> handuknya <|opinion|> bisa di ganti yang baru <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2300,
+        "instance_id": 4447,
+        "task_elements": "aos",
+        "input": "kamar jelek kasur pernya amblas . ada ac tapi tidak berfungsi jadi panas udah kayak tidak ada udara| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> jelek <|sentiment|> negative;<|aspect|> kasur pernya <|opinion|> amblas <|sentiment|> negative;<|aspect|> ac <|opinion|> tidak berfungsi jadi panas udah kayak tidak ada udara <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2301,
+        "instance_id": 4448,
+        "task_elements": "aos",
+        "input": "lokasi hotelnya strategis banget . dekat kemana2 . apalagi dekat dengan mall istana plaza . dekat pula dengan beragam tempat wisata di pusat kota . kamarnya meski kecil tapi cukup nyaman . cuma saran saya , untuk di kamar mandi tolong ditambahi dengan tempat sampah . dan memang nggak dikasih sikat sama odol ya ? trus untuk sprei dan sarung bantal guling supaya lebih bersih lagi karena masih ada bekas bercak2 . setidaknya dibersihkan dnegan pemutih pasti hilang deh . kan spreinya warna putih . tapi sejauh ini nyaman2 saja .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lokasi hotelnya <|opinion|> strategis banget <|sentiment|> positive;<|aspect|> null <|opinion|> dekat kemana2 <|sentiment|> positive;<|aspect|> null <|opinion|> dekat dengan mall istana plaza <|sentiment|> positive;<|aspect|> null <|opinion|> dekat pula dengan beragam tempat wisata di pusat kota <|sentiment|> positive;<|aspect|> kamarnya <|opinion|> kecil <|sentiment|> negative;<|aspect|> kamarnya <|opinion|> cukup nyaman <|sentiment|> positive;<|aspect|> kamar mandi <|opinion|> tolong ditambahi dengan tempat sampah <|sentiment|> negative;<|aspect|> sikat sama odol <|opinion|> nggak dikasih <|sentiment|> negative;<|aspect|> sprei dan sarung bantal guling <|opinion|> masih ada bekas bercak2 <|sentiment|> negative;<|aspect|> null <|opinion|> setidaknya dibersihkan dnegan pemutih pasti hilang deh <|sentiment|> negative;<|aspect|> sprei <|opinion|> warna putih <|sentiment|> positive;<|aspect|> null <|opinion|> nyaman2 saja <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2302,
+        "instance_id": 4449,
+        "task_elements": "aos",
+        "input": "assalamualaikum wr wb tampilan depan kotor , pelayanan kurang ramah , ac kurang dingin !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tampilan depan <|opinion|> kotor <|sentiment|> negative;<|aspect|> pelayanan <|opinion|> kurang ramah <|sentiment|> negative;<|aspect|> ac <|opinion|> kurang dingin <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2303,
+        "instance_id": 4450,
+        "task_elements": "aos",
+        "input": "kamar bersih tapi kamar mandi kotor tidak terawat .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> kamar mandi <|opinion|> kotor tidak terawat <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2304,
+        "instance_id": 4451,
+        "task_elements": "aos",
+        "input": "sudah cukup baik . harga segitu cuman untuk istrahat sudah sangat bagus . hanya saja air hangatnya kurang berfungsi dengan baik| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> cukup baik <|sentiment|> positive;<|aspect|> harga <|opinion|> sangat bagus <|sentiment|> positive;<|aspect|> air hangatnya <|opinion|> kurang berfungsi dengan baik <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2305,
+        "instance_id": 4452,
+        "task_elements": "aos",
+        "input": "kamar mandi kotor . seprei dan sarung bantal kotor| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar mandi <|opinion|> kotor <|sentiment|> negative;<|aspect|> seprei dan sarung bantal <|opinion|> kotor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2306,
+        "instance_id": 4453,
+        "task_elements": "aos",
+        "input": "air asin . channel tv hancur gambarnya admit berantem| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air <|opinion|> asin <|sentiment|> negative;<|aspect|> channel tv <|opinion|> hancur gambarnya <|sentiment|> negative;<|aspect|> admit <|opinion|> berantem <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2307,
+        "instance_id": 4454,
+        "task_elements": "aos",
+        "input": "kamar bau apek bgt , toilet kotor| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> bau apek bgt <|sentiment|> negative;<|aspect|> toilet <|opinion|> kotor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2308,
+        "instance_id": 4455,
+        "task_elements": "aos",
+        "input": "ac ga dingin , jauh dr harapan dan standard airy . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac <|opinion|> ga dingin <|sentiment|> negative;<|aspect|> null <|opinion|> jauh dr harapan dan standard airy <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2309,
+        "instance_id": 4456,
+        "task_elements": "aos",
+        "input": "kamar agak kotor , dan terlihat kurang bersih , berisik| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> agak kotor <|sentiment|> negative;<|aspect|> null <|opinion|> terlihat kurang bersih <|sentiment|> negative;<|aspect|> null <|opinion|> berisik <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2310,
+        "instance_id": 4457,
+        "task_elements": "aos",
+        "input": "receptionist kurang ramah , lift kotor dan bau , air kamar mandi kurang lancar tapi air panas dari shower mantab , kebersihan bantal dan sprei perlu dievaluasi lagi . amat disayangkan potensi yg sangat baik tidak didukung profesionalisme sdm nya , fungsi kontrolnya perlu ditingkatkan| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> receptionist <|opinion|> kurang ramah <|sentiment|> negative;<|aspect|> lift <|opinion|> kotor <|sentiment|> negative;<|aspect|> lift <|opinion|> bau <|sentiment|> negative;<|aspect|> air kamar mandi <|opinion|> kurang lancar <|sentiment|> negative;<|aspect|> air panas dari shower <|opinion|> mantab <|sentiment|> positive;<|aspect|> kebersihan bantal dan sprei <|opinion|> perlu dievaluasi lagi <|sentiment|> negative;<|aspect|> potensi <|opinion|> sangat baik tidak didukung profesionalisme sdm nya <|sentiment|> negative;<|aspect|> fungsi kontrolnya <|opinion|> perlu ditingkatkan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2311,
+        "instance_id": 4458,
+        "task_elements": "aos",
+        "input": "kolam nya kotor , free meal nya tidak sesuai dengan daftar| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kolam nya <|opinion|> kotor <|sentiment|> negative;<|aspect|> free meal nya <|opinion|> tidak sesuai dengan daftar <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2312,
+        "instance_id": 4459,
+        "task_elements": "aos",
+        "input": "kamar bau rokok , snack dan pelengkap dari airy rooms tidak ada| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> bau rokok <|sentiment|> negative;<|aspect|> snack dan pelengkap dari airy rooms <|opinion|> tidak ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2313,
+        "instance_id": 4460,
+        "task_elements": "aos",
+        "input": "kamarnya gelap , selimut kuning , kamar airy di lt 3 gk ada lift , sarapan apa adanya , wifi gk ada koneksi di kamar , gk nginap disini lg , , kecewa| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamarnya <|opinion|> gelap <|sentiment|> negative;<|aspect|> selimut <|opinion|> kuning <|sentiment|> negative;<|aspect|> kamar airy di lt 3 <|opinion|> gk ada lift <|sentiment|> negative;<|aspect|> sarapan <|opinion|> apa adanya <|sentiment|> negative;<|aspect|> wifi <|opinion|> gk ada koneksi di kamar <|sentiment|> negative;<|aspect|> null <|opinion|> gk nginap disini lg <|sentiment|> negative;<|aspect|> null <|opinion|> kecewa <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2314,
+        "instance_id": 4461,
+        "task_elements": "aos",
+        "input": "ac ga dingin sama sekali . kamar mandi banyak kerak . sprei noda dan bau . handuk cuma 1 kecil dan warna kusam . semua furniture kotor .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac <|opinion|> ga dingin sama sekali <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> banyak kerak <|sentiment|> negative;<|aspect|> sprei <|opinion|> noda <|sentiment|> negative;<|aspect|> sprei <|opinion|> bau <|sentiment|> negative;<|aspect|> handuk <|opinion|> cuma 1 kecil <|sentiment|> negative;<|aspect|> warna <|opinion|> kusam <|sentiment|> negative;<|aspect|> semua furniture <|opinion|> kotor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2315,
+        "instance_id": 4462,
+        "task_elements": "aos",
+        "input": "tolong di tingkatkan kamar mandi nya| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar mandi <|opinion|> di tingkatkan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2316,
+        "instance_id": 4463,
+        "task_elements": "aos",
+        "input": "petugas penginapan baik dan ramah , tetapi sarung bantal agak apek dan seprei kurang bersih .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> petugas penginapan <|opinion|> baik <|sentiment|> positive;<|aspect|> petugas penginapan <|opinion|> ramah <|sentiment|> positive;<|aspect|> sarung bantal <|opinion|> agak apek <|sentiment|> negative;<|aspect|> seprei <|opinion|> kurang bersih <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2317,
+        "instance_id": 4464,
+        "task_elements": "aos",
+        "input": "saluran air d westafel buntu , handuk kasar jaringan wifi tdk smpai karna dpt kamar plg ujung untuk air d showernya agak bermasalah dg air pnas dan dinginnya sehingga yg berfungsi cuman air panasnya . mau komplain nanggung karna cuma bentar disini dan musti jalan kaki kedepan jauh bgt karna dapat kamar plg ujung : /| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> saluran air d westafel <|opinion|> buntu <|sentiment|> negative;<|aspect|> handuk <|opinion|> kasar <|sentiment|> negative;<|aspect|> jaringan wifi <|opinion|> tdk smpai karna dpt kamar plg ujung <|sentiment|> negative;<|aspect|> air d showernya <|opinion|> agak bermasalah dg air pnas dan dinginnya sehingga yg berfungsi cuman air panasnya <|sentiment|> negative;<|aspect|> null <|opinion|> mau komplain nanggung karna cuma bentar disini <|sentiment|> negative;<|aspect|> kamar plg ujung <|opinion|> jauh bgt <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2318,
+        "instance_id": 4465,
+        "task_elements": "aos",
+        "input": "toilet nya kotor . kamar mandi nya juga ga bersih . untuk kasur dan lain lain oke| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> toilet nya <|opinion|> kotor <|sentiment|> negative;<|aspect|> kamar mandi nya <|opinion|> ga bersih <|sentiment|> negative;<|aspect|> kasur dan lain lain <|opinion|> oke <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2319,
+        "instance_id": 4466,
+        "task_elements": "aos",
+        "input": "tidak sesuai gambar , kamar sempit , selimut bau , kamar bau tak sedap ,| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> gambar <|opinion|> tidak sesuai gambar <|sentiment|> negative;<|aspect|> kamar <|opinion|> sempit <|sentiment|> negative;<|aspect|> selimut <|opinion|> bau <|sentiment|> negative;<|aspect|> kamar <|opinion|> bau tak sedap <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2320,
+        "instance_id": 4467,
+        "task_elements": "aos",
+        "input": "kamarnya kurang bersih lantainya msh kotor . . tuk sabun msh ditnykan dl baru diberikan . . internetnya sering trouble . . syang skali . . semoga ditingkatkan lg kwalitasnya| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamarnya <|opinion|> kurang bersih <|sentiment|> negative;<|aspect|> lantainya <|opinion|> msh kotor <|sentiment|> negative;<|aspect|> sabun <|opinion|> msh ditnykan dl baru diberikan <|sentiment|> negative;<|aspect|> internetnya <|opinion|> sering trouble <|sentiment|> negative;<|aspect|> null <|opinion|> syang skali <|sentiment|> negative;<|aspect|> kwalitasnya <|opinion|> ditingkatkan lg <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2321,
+        "instance_id": 4468,
+        "task_elements": "aos",
+        "input": "tempat oke nyaman , bagus semuanya , cuma pelayannya kurang , minta password wifi ga di kasih . alasan| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tempat <|opinion|> oke nyaman <|sentiment|> positive;<|aspect|> semuanya <|opinion|> bagus <|sentiment|> positive;<|aspect|> pelayannya <|opinion|> kurang <|sentiment|> negative;<|aspect|> password wifi <|opinion|> ga di kasih <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2322,
+        "instance_id": 4469,
+        "task_elements": "aos",
+        "input": "sangat kecewa dengan kamar dan pelayanan staffnya !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> sangat kecewa <|sentiment|> negative;<|aspect|> pelayanan staffnya <|opinion|> sangat kecewa <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2323,
+        "instance_id": 4470,
+        "task_elements": "aos",
+        "input": "dengan harga yang murah , bisa dapat breakfast / sahur pas ramadhan . lokasi strategis persis seberang gerbang stasiun cirebon . yang perlu diperbaiki adalah jangkauan wifi yang masih rendah , view dari kamar sangat terbatas , kasur yang mudah berubah bentuk , dan jangkauan tv yang masih terbatas .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> harga <|opinion|> murah <|sentiment|> positive;<|aspect|> null <|opinion|> bisa dapat breakfast / sahur pas ramadhan <|sentiment|> positive;<|aspect|> lokasi <|opinion|> strategis persis seberang gerbang stasiun cirebon <|sentiment|> positive;<|aspect|> jangkauan wifi <|opinion|> masih rendah <|sentiment|> negative;<|aspect|> view dari kamar <|opinion|> sangat terbatas <|sentiment|> negative;<|aspect|> kasur <|opinion|> mudah berubah bentuk <|sentiment|> negative;<|aspect|> jangkauan tv <|opinion|> masih terbatas <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2324,
+        "instance_id": 4471,
+        "task_elements": "aos",
+        "input": "lokasi sangat strategis , parkir luas , air hangat berfungsi dgn baik . kurang bersih , selimut agak bau , dan tv kabel tidak berfungsi .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lokasi <|opinion|> sangat strategis <|sentiment|> positive;<|aspect|> parkir <|opinion|> luas <|sentiment|> positive;<|aspect|> air hangat <|opinion|> berfungsi dgn baik <|sentiment|> positive;<|aspect|> null <|opinion|> kurang bersih <|sentiment|> negative;<|aspect|> selimut <|opinion|> agak bau <|sentiment|> negative;<|aspect|> tv kabel <|opinion|> tidak berfungsi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2325,
+        "instance_id": 4472,
+        "task_elements": "aos",
+        "input": "nyaman , bersih , tapi kasurnya sempit bener-bener untuk 2 orang dempetan tdurnya wifi susah connect| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> null <|opinion|> bersih <|sentiment|> positive;<|aspect|> kasurnya <|opinion|> sempit bener-bener untuk 2 orang dempetan tdurnya <|sentiment|> negative;<|aspect|> wifi <|opinion|> susah connect <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2326,
+        "instance_id": 4473,
+        "task_elements": "aos",
+        "input": "air hangatnya tdk bisa di gunakan wcnya bau . . tdk ada handuk| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air hangatnya <|opinion|> tdk bisa di gunakan <|sentiment|> negative;<|aspect|> wcnya <|opinion|> bau <|sentiment|> negative;<|aspect|> handuk <|opinion|> tdk ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2327,
+        "instance_id": 4474,
+        "task_elements": "aos",
+        "input": "tempat tidak sesuai dengan foto , kotor banget . air panas tdk bisa d gunakan , lokasi sangat berisik banget . menu sarapan pagi , kurang variatif .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tempat <|opinion|> tidak sesuai dengan foto <|sentiment|> negative;<|aspect|> tempat <|opinion|> kotor banget <|sentiment|> negative;<|aspect|> air panas <|opinion|> tdk bisa d gunakan <|sentiment|> negative;<|aspect|> lokasi <|opinion|> sangat berisik banget <|sentiment|> negative;<|aspect|> menu sarapan pagi <|opinion|> kurang variatif <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2328,
+        "instance_id": 4475,
+        "task_elements": "aos",
+        "input": "gak ramah , pelayanan bad service| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> gak ramah <|sentiment|> negative;<|aspect|> pelayanan <|opinion|> bad service <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2329,
+        "instance_id": 4476,
+        "task_elements": "aos",
+        "input": "kamar tidak sama gambar di foto , air shower panas mati .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> tidak sama gambar di foto <|sentiment|> negative;<|aspect|> air shower panas <|opinion|> mati <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2330,
+        "instance_id": 4477,
+        "task_elements": "aos",
+        "input": "iya , handuk harum , cuma dua hari du kasih minum . 2 saja , biasanya 2 untuk 1 malam| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> handuk <|opinion|> harum <|sentiment|> positive;<|aspect|> minum <|opinion|> cuma dua hari du kasih minum <|sentiment|> negative;<|aspect|> minum <|opinion|> biasanya 2 untuk 1 malam <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2331,
+        "instance_id": 4478,
+        "task_elements": "aos",
+        "input": "gaada selimut , air mineral pun gaada . air panas gaada , breakfeast gaada ( padahal di applikasi ada ) . kecewa banget nya karena gaada selimut di area sedingin itu . harga terlalu mahal untuk tempat yang bisa dibilang kumuh .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> selimut <|opinion|> gaada <|sentiment|> negative;<|aspect|> air mineral <|opinion|> gaada <|sentiment|> negative;<|aspect|> air panas <|opinion|> gaada <|sentiment|> negative;<|aspect|> breakfeast <|opinion|> gaada <|sentiment|> negative;<|aspect|> null <|opinion|> padahal di applikasi ada <|sentiment|> negative;<|aspect|> null <|opinion|> kecewa banget <|sentiment|> negative;<|aspect|> selimut <|opinion|> gaada selimut di area sedingin itu <|sentiment|> negative;<|aspect|> harga <|opinion|> terlalu mahal <|sentiment|> negative;<|aspect|> tempat <|opinion|> bisa dibilang kumuh <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2332,
+        "instance_id": 4479,
+        "task_elements": "aos",
+        "input": "wifii kurang kenceng , g dpat snack ma toileteries , g ada water heater . lainnya oke| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wifii <|opinion|> kurang kenceng <|sentiment|> negative;<|aspect|> snack <|opinion|> g dpat <|sentiment|> negative;<|aspect|> toileteries <|opinion|> g dpat <|sentiment|> negative;<|aspect|> water heater <|opinion|> g ada <|sentiment|> negative;<|aspect|> lainnya <|opinion|> oke <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2333,
+        "instance_id": 4480,
+        "task_elements": "aos",
+        "input": "remote ac tidak berfungsi . ada kecoa dan kaki seribu dimalam hari . porsi sarapan sedikit . ada bekas rembesan air di langit-langit kamar dan di dinding nya . akan tetapi , dengan harga yang relatif murah untuk single room , kamar ini cocok untuk para budget traveller .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> remote ac <|opinion|> tidak berfungsi <|sentiment|> negative;<|aspect|> null <|opinion|> ada kecoa dan kaki seribu <|sentiment|> negative;<|aspect|> porsi sarapan <|opinion|> sedikit <|sentiment|> negative;<|aspect|> langit-langit kamar <|opinion|> ada bekas rembesan air <|sentiment|> negative;<|aspect|> dinding nya <|opinion|> ada bekas rembesan air <|sentiment|> negative;<|aspect|> harga <|opinion|> relatif murah untuk single room <|sentiment|> positive;<|aspect|> kamar ini <|opinion|> cocok untuk para budget traveller <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2334,
+        "instance_id": 4481,
+        "task_elements": "aos",
+        "input": "kurang bersih , toiletnya ga nyaman bau , colokannya cuma satu buat tv doang| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> kurang bersih <|sentiment|> negative;<|aspect|> toiletnya <|opinion|> ga nyaman bau <|sentiment|> negative;<|aspect|> colokannya <|opinion|> cuma satu buat tv doang <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2335,
+        "instance_id": 4482,
+        "task_elements": "aos",
+        "input": "agar lebih di perhatikan kebersihan kamar dan kamar mandi dari nyamuk dan kelabang , untuk masalah penambahan hari agar di permudah . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2336,
+        "instance_id": 4483,
+        "task_elements": "aos",
+        "input": "kamarnya bagus , pelayanan ramah . cuman wifi nya mati ( rusak )| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamarnya <|opinion|> bagus <|sentiment|> positive;<|aspect|> pelayanan <|opinion|> ramah <|sentiment|> positive;<|aspect|> wifi nya <|opinion|> mati ( rusak ) <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2337,
+        "instance_id": 4484,
+        "task_elements": "aos",
+        "input": "kamar luas dan bersih , wifi tidak bisa terhubung , tolong disediakan keset juga ya . selebihnya oke| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> luas <|sentiment|> positive;<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> wifi <|opinion|> tidak bisa terhubung <|sentiment|> negative;<|aspect|> keset <|opinion|> tolong disediakan <|sentiment|> negative;<|aspect|> selebihnya <|opinion|> oke <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2338,
+        "instance_id": 4485,
+        "task_elements": "aos",
+        "input": "air hotel bau tdk bisa istirahat krn hotel pakai acara pernikahan kamar terkesan kusam dan gelap me| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air hotel <|opinion|> bau <|sentiment|> negative;<|aspect|> hotel <|opinion|> tdk bisa istirahat krn hotel pakai acara pernikahan <|sentiment|> negative;<|aspect|> kamar <|opinion|> terkesan kusam dan gelap <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2339,
+        "instance_id": 4486,
+        "task_elements": "aos",
+        "input": "pelayanan baik dan sigap . . sarapan lumayan enak untuk nasi goreng nya . . cuma ada yang perlu di perbaiki , 1 . kamar mandi kurang bersih 2 . air panas di shower mati idup jadi tiba2 dingin sendiri 3 . aliran air pada shower kurang besar / banyak . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan <|opinion|> baik <|sentiment|> positive;<|aspect|> pelayanan <|opinion|> sigap <|sentiment|> positive;<|aspect|> nasi goreng <|opinion|> lumayan enak <|sentiment|> positive;<|aspect|> null <|opinion|> cuma ada yang perlu di perbaiki <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> kurang bersih <|sentiment|> negative;<|aspect|> air panas di shower <|opinion|> mati idup jadi tiba2 dingin sendiri <|sentiment|> negative;<|aspect|> aliran air pada shower <|opinion|> kurang besar / banyak <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2340,
+        "instance_id": 4487,
+        "task_elements": "aos",
+        "input": "ac nya waktu saya menginap ada yang bocor di ac , selebihnya nyaman saya disana udeh 3 kali saya disana dan yang terakhir doang ac nya bocor| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac nya <|opinion|> bocor <|sentiment|> negative;<|aspect|> selebihnya <|opinion|> nyaman <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2341,
+        "instance_id": 4488,
+        "task_elements": "aos",
+        "input": "overall nyamanlah . lokasi dekat stasiun , banyak warung makan dan laundri si sekitar . ac dingin , kamar mandi lumayan tanpa pemanas , tv oke . cuma agak sempit aja dan wifi tidak bisa diakses .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> overall <|opinion|> nyamanlah <|sentiment|> positive;<|aspect|> lokasi <|opinion|> dekat stasiun <|sentiment|> positive;<|aspect|> null <|opinion|> banyak warung makan dan laundri si sekitar <|sentiment|> positive;<|aspect|> ac <|opinion|> dingin <|sentiment|> positive;<|aspect|> kamar mandi <|opinion|> lumayan tanpa pemanas <|sentiment|> positive;<|aspect|> tv <|opinion|> oke <|sentiment|> positive;<|aspect|> null <|opinion|> agak sempit aja <|sentiment|> negative;<|aspect|> wifi <|opinion|> tidak bisa diakses <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2342,
+        "instance_id": 4489,
+        "task_elements": "aos",
+        "input": "kamarnya bersih , nyaman , , tapi ac , nya ga kerasa dingin| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> ac <|opinion|> nya <|sentiment|> ga kerasa dingin",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2343,
+        "instance_id": 4490,
+        "task_elements": "aos",
+        "input": "kebersihan toilet perlu diperbaiki| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kebersihan toilet <|opinion|> perlu diperbaiki <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2344,
+        "instance_id": 4491,
+        "task_elements": "aos",
+        "input": "bagus tetapi sowernya mati jadi susah saat mandi . tidak ada air panas| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> bagus <|sentiment|> positive;<|aspect|> sowernya <|opinion|> mati <|sentiment|> negative;<|aspect|> mandi <|opinion|> susah <|sentiment|> negative;<|aspect|> air panas <|opinion|> tidak ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2345,
+        "instance_id": 4492,
+        "task_elements": "aos",
+        "input": "spreinya kotor kaya bekas darah gitu . jijik bgt , , baru ktahuan mlm karna d tutup sma selimut . kamar mandi kotor kayanya jarang d bersihkan . g sesuai sma foto . mengecewakan .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> spreinya <|opinion|> kotor kaya bekas darah gitu <|sentiment|> negative;<|aspect|> null <|opinion|> jijik bgt <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> kotor kayanya jarang d bersihkan <|sentiment|> negative;<|aspect|> null <|opinion|> g sesuai sma foto <|sentiment|> negative;<|aspect|> null <|opinion|> mengecewakan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2346,
+        "instance_id": 4493,
+        "task_elements": "aos",
+        "input": "banyak kecoa dan kutu dan airnya bau| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kecoa <|opinion|> banyak <|sentiment|> negative;<|aspect|> kutu <|opinion|> banyak <|sentiment|> negative;<|aspect|> airnya <|opinion|> bau <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2347,
+        "instance_id": 4494,
+        "task_elements": "aos",
+        "input": "wifi tidak bisa akses ke internet| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wifi <|opinion|> tidak bisa akses ke internet <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2348,
+        "instance_id": 4495,
+        "task_elements": "aos",
+        "input": "tidak ada handuk , air tergenang di wc pas pertama masuk . pelayanan makanan tidak sesuai menu pada saat di pesan .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> handuk <|opinion|> tidak ada <|sentiment|> negative;<|aspect|> air <|opinion|> tergenang di wc pas pertama masuk <|sentiment|> negative;<|aspect|> pelayanan makanan <|opinion|> tidak sesuai menu pada saat di pesan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2349,
+        "instance_id": 4496,
+        "task_elements": "aos",
+        "input": "pas dateng kamarnya agak bad smell , lampu nya agak remang , tapi linens bed nya clean kok 😊 , reception friendly , pokoknya overall good lah . recommended 👍| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamarnya <|opinion|> agak bad smell <|sentiment|> negative;<|aspect|> lampu nya <|opinion|> agak remang <|sentiment|> negative;<|aspect|> linens bed nya <|opinion|> clean kok <|sentiment|> positive;<|aspect|> reception <|opinion|> friendly <|sentiment|> positive;<|aspect|> overall <|opinion|> good lah <|sentiment|> positive;<|aspect|> null <|opinion|> recommended <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2350,
+        "instance_id": 4497,
+        "task_elements": "aos",
+        "input": "pelayanannya sangat kurang . . harusnya bisa check in jam 14 . 00 malah check in jam 16 . 30 kamarnya masih belom dirapihkan . . untuk fasilitas kolam renang airnya kurang terawat . . . pesen 2 kamar sampe tempat dpt 1 kamar , dan yg 1 kamarnya dikasih deket pintu gerbang dan kayaknya deket sepitank . . karna bau banget . . untung cuma 1 hari . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanannya <|opinion|> sangat kurang <|sentiment|> negative;<|aspect|> check in <|opinion|> harusnya bisa check in jam 14 . 00 malah check in jam 16 . 30 <|sentiment|> negative;<|aspect|> kamarnya <|opinion|> masih belom dirapihkan <|sentiment|> negative;<|aspect|> fasilitas kolam renang <|opinion|> airnya kurang terawat <|sentiment|> negative;<|aspect|> kamar <|opinion|> pesen 2 kamar sampe tempat dpt 1 kamar <|sentiment|> negative;<|aspect|> yg 1 kamarnya <|opinion|> dikasih deket pintu gerbang dan kayaknya deket sepitank . . karna bau banget <|sentiment|> negative;<|aspect|> null <|opinion|> untung cuma 1 hari . . <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2351,
+        "instance_id": 4498,
+        "task_elements": "aos",
+        "input": "semua bagus saya suka nyaman cuman kurangnya petugas kurang sigap dalam service kamar seperti pembaharuan minum dan cemilan serta peralatan mandi| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> semua <|opinion|> bagus <|sentiment|> positive;<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> petugas <|opinion|> kurang sigap <|sentiment|> negative;<|aspect|> service kamar <|opinion|> kurang sigap <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2352,
+        "instance_id": 4499,
+        "task_elements": "aos",
+        "input": "pelayanannya ramah dan viewnya cantik banget . next trip mampir lg kesini . cuma ada yg kurang , wastafel di kamar agak kotor dan mampet . yg lainnya oke banget| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanannya <|opinion|> ramah <|sentiment|> positive;<|aspect|> viewnya <|opinion|> cantik banget <|sentiment|> positive;<|aspect|> next trip <|opinion|> mampir lg kesini <|sentiment|> positive;<|aspect|> null <|opinion|> ada yg kurang <|sentiment|> negative;<|aspect|> wastafel di kamar <|opinion|> agak kotor dan mampet <|sentiment|> negative;<|aspect|> yg lainnya <|opinion|> oke banget <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2353,
+        "instance_id": 4500,
+        "task_elements": "aos",
+        "input": "pelayanan ramah dan cepat , sarapan juga enak , tapi masalahnya di kasur sudah gak layak . kalau ditidurin anjok papannya . . . dan kamar mandi sebaiknya selalu di beraihkan terutama kloset wc ,| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan <|opinion|> ramah <|sentiment|> positive;<|aspect|> pelayanan <|opinion|> cepat <|sentiment|> positive;<|aspect|> sarapan <|opinion|> enak <|sentiment|> positive;<|aspect|> kasur <|opinion|> sudah gak layak <|sentiment|> negative;<|aspect|> kasur <|opinion|> kalau ditidurin anjok papannya <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> sebaiknya selalu di beraihkan terutama kloset wc <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2354,
+        "instance_id": 4501,
+        "task_elements": "aos",
+        "input": "saya booking kamar airy room masa di kamar bukan seperti yang di extra nett ga ada snacky airy , ga ada bantal airy , ga ada bed runer airy , tidak sesuai seperti yang di foto airy room , recepsionis tidak ramah yang jaga pada shif sore nya perempuan , hexos bunyi berisik , air hangat tidak berfungsi , hotel city icon residence berisik karena ada pesta acara ulang tahun . yang ramah cumang staf bapak security nya saja yang jaga pada saat itu .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2355,
+        "instance_id": 4502,
+        "task_elements": "aos",
+        "input": "tempatnya nyaman . . . cm customer servisnya kurang ramah . . . tdk ada senyum sapa salam . . . flat . . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tempatnya <|opinion|> nyaman <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2356,
+        "instance_id": 4503,
+        "task_elements": "aos",
+        "input": "air panas rusak , apes dah| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air panas <|opinion|> rusak <|sentiment|> negative;<|aspect|> null <|opinion|> apes dah <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2357,
+        "instance_id": 4504,
+        "task_elements": "aos",
+        "input": "kamar mandi tidak bersih kabel tv tidak memiliki power point electricity nya down harus menunggu lama untuk on kembali| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar mandi <|opinion|> tidak bersih <|sentiment|> negative;<|aspect|> kabel tv <|opinion|> tidak memiliki power point <|sentiment|> negative;<|aspect|> electricity nya <|opinion|> down harus menunggu lama untuk on kembali <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2358,
+        "instance_id": 4505,
+        "task_elements": "aos",
+        "input": "water heaternya tidak berfungsi| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> water heaternya <|opinion|> tidak berfungsi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2359,
+        "instance_id": 4506,
+        "task_elements": "aos",
+        "input": "lokasi sebenarnya strategis , kamar kecil terus ac-nya ribut , tv masih pake antena dalam bantalnya masih bau waktu saya kesana . kamar kecil juga sempit .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lokasi <|opinion|> strategis <|sentiment|> positive;<|aspect|> kamar <|opinion|> kecil <|sentiment|> negative;<|aspect|> ac-nya <|opinion|> ribut <|sentiment|> negative;<|aspect|> tv <|opinion|> masih pake antena dalam <|sentiment|> negative;<|aspect|> bantalnya <|opinion|> masih bau <|sentiment|> negative;<|aspect|> kamar kecil <|opinion|> sempit <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2360,
+        "instance_id": 4507,
+        "task_elements": "aos",
+        "input": "receptionis sangat cakap , kamar luas , tempat parkir besar , sayang kamar mandi bau . overall good| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> receptionis <|opinion|> sangat cakap <|sentiment|> positive;<|aspect|> kamar <|opinion|> luas <|sentiment|> positive;<|aspect|> tempat parkir <|opinion|> besar <|sentiment|> positive;<|aspect|> kamar mandi <|opinion|> bau <|sentiment|> negative;<|aspect|> overall <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2361,
+        "instance_id": 4508,
+        "task_elements": "aos",
+        "input": "pelayanannya sudah ok . . . kurangnya air hangatnya tidak hdup . . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanannya <|opinion|> sudah ok <|sentiment|> positive;<|aspect|> air hangatnya <|opinion|> tidak hdup <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2362,
+        "instance_id": 4509,
+        "task_elements": "aos",
+        "input": "lokasi oke , pelayanan oke , parkiran agak sempit , hanya muat 2 mobil , kebersihan kamar bisa di tingkatkan lg , thanks| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lokasi <|opinion|> oke <|sentiment|> positive;<|aspect|> pelayanan <|opinion|> oke <|sentiment|> positive;<|aspect|> null <|opinion|> hanya muat 2 mobil <|sentiment|> negative;<|aspect|> kebersihan kamar <|opinion|> bisa di tingkatkan lg <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2363,
+        "instance_id": 4510,
+        "task_elements": "aos",
+        "input": "wastafel nya mampet n kebersihan kamar dan kolam harusnya bs lebih bersih ,| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wastafel nya <|opinion|> mampet <|sentiment|> negative;<|aspect|> kebersihan kamar dan kolam <|opinion|> harusnya bs lebih bersih <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2364,
+        "instance_id": 4511,
+        "task_elements": "aos",
+        "input": "channel tv ny kurang jernih dn kurang banyak| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> channel tv ny <|opinion|> kurang jernih <|sentiment|> negative;<|aspect|> channel tv ny <|opinion|> kurang banyak <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2365,
+        "instance_id": 4512,
+        "task_elements": "aos",
+        "input": "satpamnya ramah , kamar enak , sayang gak ada gantungan bajunya . gak ada pewangi ruangan over all oke lahh| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> satpamnya <|opinion|> ramah <|sentiment|> positive;<|aspect|> kamar <|opinion|> enak <|sentiment|> positive;<|aspect|> gantungan bajunya <|opinion|> gak ada <|sentiment|> negative;<|aspect|> pewangi ruangan <|opinion|> gak ada <|sentiment|> negative;<|aspect|> null <|opinion|> oke lahh <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2366,
+        "instance_id": 4513,
+        "task_elements": "aos",
+        "input": "ac di 303 gakada rasanya sama sekali . sampai ganggu tidur , tolong dicek . overall oke .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac <|opinion|> gakada rasanya sama sekali . sampai ganggu tidur <|sentiment|> negative;<|aspect|> overall <|opinion|> oke <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2367,
+        "instance_id": 4514,
+        "task_elements": "aos",
+        "input": "pelayanan kamar baik , cs airy sangat membantu saya dengan pelayanannya yang 24 jam . yang perlu diperbaiki hotelnya , karna kamar mandinya kurang bersih , dan tidak ada kunci privasi didalam kamar .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan kamar <|opinion|> baik <|sentiment|> positive;<|aspect|> cs airy <|opinion|> sangat membantu saya dengan pelayanannya yang 24 jam <|sentiment|> positive;<|aspect|> hotelnya <|opinion|> perlu diperbaiki <|sentiment|> negative;<|aspect|> kamar mandinya <|opinion|> kurang bersih <|sentiment|> negative;<|aspect|> kunci privasi didalam kamar <|opinion|> tidak ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2368,
+        "instance_id": 4515,
+        "task_elements": "aos",
+        "input": "airnya bau kurang sedap , dan kamar mandi kurang terawat . . perlu diperbaiki padahal sudah bagus temp| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> airnya <|opinion|> bau kurang sedap <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> kurang terawat <|sentiment|> negative;<|aspect|> null <|opinion|> perlu diperbaiki <|sentiment|> negative;<|aspect|> null <|opinion|> sudah bagus <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2369,
+        "instance_id": 4516,
+        "task_elements": "aos",
+        "input": "suka banget sama kamarnya bersih banget air snack lengkap tapi sayang tv tidak satelit tapi gpp all good😘| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamarnya <|opinion|> suka banget <|sentiment|> positive;<|aspect|> kamarnya <|opinion|> bersih banget <|sentiment|> positive;<|aspect|> air snack <|opinion|> lengkap <|sentiment|> positive;<|aspect|> tv <|opinion|> tidak satelit <|sentiment|> negative;<|aspect|> null <|opinion|> gpp all good <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2370,
+        "instance_id": 4517,
+        "task_elements": "aos",
+        "input": "chanel tv di kamar tidak bisa di liat , saluran semut semua , mngkin lain kali bisa di benahi lain2 sangat memuaskan dan sangat nyaman recommended| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> chanel tv di kamar <|opinion|> tidak bisa di liat <|sentiment|> negative;<|aspect|> null <|opinion|> saluran semut semua <|sentiment|> negative;<|aspect|> lain2 <|opinion|> sangat memuaskan <|sentiment|> positive;<|aspect|> lain2 <|opinion|> sangat nyaman <|sentiment|> positive;<|aspect|> null <|opinion|> recommended <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2371,
+        "instance_id": 4518,
+        "task_elements": "aos",
+        "input": "shower dan pemanas kamar no 7 lantai 2 perlu diperbaiki| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> shower <|opinion|> perlu diperbaiki <|sentiment|> negative;<|aspect|> pemanas kamar no 7 lantai 2 <|opinion|> perlu diperbaiki <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2372,
+        "instance_id": 4519,
+        "task_elements": "aos",
+        "input": "resepsionisnya tdk ramah| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> resepsionisnya <|opinion|> tdk ramah <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2373,
+        "instance_id": 4520,
+        "task_elements": "aos",
+        "input": "tidak ada wifi sesuai yg di iklankan . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wifi <|opinion|> tidak ada wifi sesuai yg di iklankan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2374,
+        "instance_id": 4521,
+        "task_elements": "aos",
+        "input": "kamar bersih , tapi sayang selimbut agak bau apek spt lama tidak dipakai . air panas lancar , nyaman sekali . semua staffnya ramah .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> selimbut <|opinion|> agak bau apek spt lama tidak dipakai <|sentiment|> negative;<|aspect|> air panas <|opinion|> lancar <|sentiment|> positive;<|aspect|> null <|opinion|> nyaman sekali <|sentiment|> positive;<|aspect|> semua staffnya <|opinion|> ramah <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2375,
+        "instance_id": 4522,
+        "task_elements": "aos",
+        "input": "seprainya kotor| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> seprainya <|opinion|> kotor <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2376,
+        "instance_id": 4523,
+        "task_elements": "aos",
+        "input": "serem , wc bau| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> serem <|sentiment|> negative;<|aspect|> wc <|opinion|> bau <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2377,
+        "instance_id": 4524,
+        "task_elements": "aos",
+        "input": "kamar mandi ga bersih| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar mandi <|opinion|> ga bersih <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2378,
+        "instance_id": 4525,
+        "task_elements": "aos",
+        "input": "kamar bersih , ac dingin , tv berfungsi . tapi pintu kamar mandi tidak bisa dikunci . resepsionis kurang ramah toiletries hanya diberi 1 untuk 3 hari padahal harusnya tiap hari dapat .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> ac <|opinion|> dingin <|sentiment|> positive;<|aspect|> tv <|opinion|> berfungsi <|sentiment|> positive;<|aspect|> pintu kamar mandi <|opinion|> tidak bisa dikunci <|sentiment|> negative;<|aspect|> resepsionis <|opinion|> kurang ramah <|sentiment|> negative;<|aspect|> toiletries <|opinion|> hanya diberi 1 untuk 3 hari padahal harusnya tiap hari dapat <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2379,
+        "instance_id": 4526,
+        "task_elements": "aos",
+        "input": "kamar jorok , berdebu , banyak sarang laba2 disetiap penjuru dinding . rak kmr mandi gak pernah dibersihkan tolong tegur bagian bersih2nya agar krja nya serius jangan asal2 an kasur ada bercak darah , sprey ada noda2 kelihatan gak diganti bekas tamu sebelumnya 2 hari menginap perlengkapan mandi gak diisi snack dan air minum jg tdk resepsionis jutek| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> jorok <|sentiment|> berdebu;<|aspect|> rak kmr mandi <|opinion|> gak pernah dibersihkan <|sentiment|> negative;<|aspect|> krja <|opinion|> jangan asal2 an <|sentiment|> negative;<|aspect|> kasur <|opinion|> ada bercak darah <|sentiment|> negative;<|aspect|> sprey <|opinion|> ada noda2 kelihatan gak diganti bekas tamu sebelumnya <|sentiment|> negative;<|aspect|> perlengkapan mandi <|opinion|> gak diisi <|sentiment|> negative;<|aspect|> snack dan air minum <|opinion|> null <|sentiment|> negative;<|aspect|> resepsionis <|opinion|> jutek <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2380,
+        "instance_id": 4527,
+        "task_elements": "aos",
+        "input": "remot tv kurang berfungsi dengan baik| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> remot tv <|opinion|> kurang berfungsi dengan baik <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2381,
+        "instance_id": 4528,
+        "task_elements": "aos",
+        "input": "kamarny luas . namun kebersihan kurang . waktu proses cek out menunggu agak lama . selebihnya ok| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamarny <|opinion|> luas <|sentiment|> positive;<|aspect|> kebersihan <|opinion|> kurang <|sentiment|> negative;<|aspect|> waktu proses cek out <|opinion|> menunggu agak lama <|sentiment|> negative;<|aspect|> selebihnya <|opinion|> ok <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2382,
+        "instance_id": 4529,
+        "task_elements": "aos",
+        "input": "lumayan untuk bacpakeran , harganya terjangkau banget . tempatnya bersih , cuma spreinya agak berdebu| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2383,
+        "instance_id": 4530,
+        "task_elements": "aos",
+        "input": "lumayan bagus , hanya air showernya awal panas lama2 dingin| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> lumayan bagus <|sentiment|> positive;<|aspect|> air showernya <|opinion|> awal panas lama2 dingin <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2384,
+        "instance_id": 4531,
+        "task_elements": "aos",
+        "input": "menyenangkan , namun wifi yang bermasalah sangat disayangkan| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> menyenangkan <|sentiment|> positive;<|aspect|> wifi <|opinion|> bermasalah sangat disayangkan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2385,
+        "instance_id": 4532,
+        "task_elements": "aos",
+        "input": "ac lambat dingin| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ac <|opinion|> lambat dingin <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2386,
+        "instance_id": 4533,
+        "task_elements": "aos",
+        "input": "ruangan kotor , tidak tersedia alat mandi , lain lain lumayan| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ruangan <|opinion|> kotor <|sentiment|> negative;<|aspect|> alat mandi <|opinion|> tidak tersedia <|sentiment|> negative;<|aspect|> lain lain <|opinion|> lumayan <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2387,
+        "instance_id": 4534,
+        "task_elements": "aos",
+        "input": "kamar sempit , air mati terus . ac ga dinging , remote ac tidak berfungsi| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> sempit <|sentiment|> negative;<|aspect|> air <|opinion|> mati terus <|sentiment|> negative;<|aspect|> ac <|opinion|> ga dinging <|sentiment|> negative;<|aspect|> remote ac <|opinion|> tidak berfungsi <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2388,
+        "instance_id": 4535,
+        "task_elements": "aos",
+        "input": "untuk harga 150rb cukup baik . walau ac nya ga dingin😊😊 tp pelayanan yg punya rumah cukup baik . ternyata dapat snack jg😊😊| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> harga <|opinion|> cukup baik <|sentiment|> positive;<|aspect|> ac nya <|opinion|> ga dingin <|sentiment|> negative;<|aspect|> pelayanan yg punya rumah <|opinion|> cukup baik <|sentiment|> positive;<|aspect|> snack <|opinion|> dapat snack jg <|sentiment|> positive",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2389,
+        "instance_id": 4536,
+        "task_elements": "aos",
+        "input": "kamar kotor , petugasnya ramah , riuh| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> kotor <|sentiment|> negative;<|aspect|> petugasnya <|opinion|> ramah <|sentiment|> positive;<|aspect|> null <|opinion|> riuh <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2390,
+        "instance_id": 4537,
+        "task_elements": "aos",
+        "input": "guest house yang tidak akan pernah saya rekomendasikan untuk menginap bersama keluarga karena tidak terawat berkesan pemilik tidak mau tahu dengan investasinya , sprei dan sarung bantal lubang-lubang terlihat lusuh pasti sudah terpakai bertahun-tahun , banyak nyamuk . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> guest house <|opinion|> tidak akan pernah saya rekomendasikan <|sentiment|> negative;<|aspect|> guest house <|opinion|> tidak terawat <|sentiment|> negative;<|aspect|> null <|opinion|> pemilik tidak mau tahu dengan investasinya <|sentiment|> negative;<|aspect|> sprei dan sarung bantal <|opinion|> lubang-lubang terlihat lusuh pasti sudah terpakai bertahun-tahun <|sentiment|> negative;<|aspect|> null <|opinion|> banyak nyamuk <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2391,
+        "instance_id": 4538,
+        "task_elements": "aos",
+        "input": "tidak sesuai dengan difoto kotor , sprei dan sarung bantal kuning , dan bau apek tidak recommended sama sekali| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> tidak sesuai dengan difoto <|sentiment|> negative;<|aspect|> null <|opinion|> kotor <|sentiment|> negative;<|aspect|> sprei dan sarung bantal <|opinion|> kuning <|sentiment|> negative;<|aspect|> null <|opinion|> bau apek <|sentiment|> negative;<|aspect|> null <|opinion|> tidak recommended sama sekali <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2392,
+        "instance_id": 4539,
+        "task_elements": "aos",
+        "input": "proses check-in lama , dan juga kamar yang satu wastafel nya bocor , pesan 2 kamar baru tersedia 1 harus nunggu untuk kamar yang kedua agak lama padahal check-in jam 2an harusnya sudah siap . kamar satu air panas nya ga bisa , kamar yang satu bisa tapi airnya keluar kecil , dan tidak ada tissue| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> proses check-in <|opinion|> lama <|sentiment|> negative;<|aspect|> wastafel nya <|opinion|> bocor <|sentiment|> negative;<|aspect|> kamar yang kedua <|opinion|> agak lama <|sentiment|> negative;<|aspect|> air panas nya <|opinion|> ga bisa <|sentiment|> negative;<|aspect|> airnya <|opinion|> keluar kecil <|sentiment|> negative;<|aspect|> tissue <|opinion|> tidak ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2393,
+        "instance_id": 4540,
+        "task_elements": "aos",
+        "input": "enak nyaman tempat nya , ramah pelayanan nya , tapi untuk seprai dan sarung2 bantal nya kurang bersih warna nya kusam gtu , itu aja deh hehe makasih| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tempat nya <|opinion|> enak nyaman <|sentiment|> positive;<|aspect|> pelayanan nya <|opinion|> ramah <|sentiment|> positive;<|aspect|> seprai dan sarung2 bantal nya <|opinion|> kurang bersih warna nya kusam gtu <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2394,
+        "instance_id": 4541,
+        "task_elements": "aos",
+        "input": "sekilas terlihat mewah tapi banya yg kurang , toilet kotor , handuk sangat kecil seperti lap kamar mandi , kamar banyak nyamuk , masa kamar mewah gk dapat selimut . payah !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> banya yg kurang <|sentiment|> negative;<|aspect|> toilet <|opinion|> kotor <|sentiment|> negative;<|aspect|> handuk <|opinion|> sangat kecil seperti lap kamar mandi <|sentiment|> negative;<|aspect|> kamar <|opinion|> banyak nyamuk <|sentiment|> negative;<|aspect|> selimut <|opinion|> gk dapat selimut <|sentiment|> negative;<|aspect|> null <|opinion|> payah <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2395,
+        "instance_id": 4542,
+        "task_elements": "aos",
+        "input": "kebersihannya perlu ditingkatkan , terutama di peralatan kamar mandi| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kebersihannya <|opinion|> perlu ditingkatkan <|sentiment|> negative;<|aspect|> peralatan kamar mandi <|opinion|> perlu ditingkatkan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2396,
+        "instance_id": 4543,
+        "task_elements": "aos",
+        "input": "berkesan karena dekat kemana-mana tapi yang buat saya kecewa kamarnya jorok| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> berkesan karena dekat kemana-mana <|sentiment|> positive;<|aspect|> kamarnya <|opinion|> jorok <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2397,
+        "instance_id": 4544,
+        "task_elements": "aos",
+        "input": "kamar dan pelayanan cukup oke , cuma didalem kamar signal hp drop , wifi pun gak sampe ke dlm kamar . cukup susah kalo harus keluar masuk kamar .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar dan pelayanan <|opinion|> cukup oke <|sentiment|> positive;<|aspect|> signal hp <|opinion|> drop <|sentiment|> negative;<|aspect|> wifi <|opinion|> gak sampe ke dlm kamar <|sentiment|> negative;<|aspect|> null <|opinion|> cukup susah kalo harus keluar masuk kamar <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2398,
+        "instance_id": 4545,
+        "task_elements": "aos",
+        "input": "kondisi kamar baik hanya saja kurang bersih , terlihat debu di lantai dan furniture terutama di kotak snack , lalu semprotan toiletnya lepas . kamarnya juga bau rokok , namun setelah melapor pada housekeeping langsung disemprot , sayangnya ternyata di kamar mandi bau rokoknya tetap tidak hilang . kasurnya lumayan empuk . menu sarapan alakadarnya .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kondisi kamar <|opinion|> baik <|sentiment|> positive;<|aspect|> kamar <|opinion|> kurang bersih <|sentiment|> terlihat debu di lantai dan furniture terutama di kotak snack;<|aspect|> semprotan toiletnya <|opinion|> lepas <|sentiment|> negative;<|aspect|> null <|opinion|> namun setelah melapor pada housekeeping langsung disemprot <|sentiment|> positive;<|aspect|> kamarnya <|opinion|> bau rokok <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> bau rokoknya tetap tidak hilang <|sentiment|> negative;<|aspect|> kasurnya <|opinion|> lumayan empuk <|sentiment|> positive;<|aspect|> menu sarapan <|opinion|> alakadarnya <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2399,
+        "instance_id": 4546,
+        "task_elements": "aos",
+        "input": "kotor sekali| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> kotor sekali <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2400,
+        "instance_id": 4547,
+        "task_elements": "aos",
+        "input": "tempatnya ok dan unik . . . . hanya saja air panasnya gak ada . . .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tempatnya <|opinion|> ok <|sentiment|> positive;<|aspect|> tempatnya <|opinion|> unik <|sentiment|> positive;<|aspect|> air panasnya <|opinion|> gak ada <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2401,
+        "instance_id": 4548,
+        "task_elements": "aos",
+        "input": "kamar kotor , seprai warnanya kuning-kuning , bantalnya seperti batal lama / rusak bagian dalamnya , meja kamar rusak-rusak seperti meja bekas , ac tidak berfungsi baik , kamar kotor , penjaga hotelnya jutek-jutek . tidak recommended deh .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kamar <|opinion|> kotor <|sentiment|> negative;<|aspect|> seprai <|opinion|> warnanya kuning-kuning <|sentiment|> negative;<|aspect|> bantalnya <|opinion|> seperti batal lama / rusak bagian dalamnya <|sentiment|> negative;<|aspect|> meja kamar <|opinion|> rusak-rusak seperti meja bekas <|sentiment|> negative;<|aspect|> ac <|opinion|> tidak berfungsi baik <|sentiment|> negative;<|aspect|> penjaga hotelnya <|opinion|> jutek-jutek <|sentiment|> negative;<|aspect|> null <|opinion|> tidak recommended deh <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2402,
+        "instance_id": 4549,
+        "task_elements": "aos",
+        "input": "air panas nya gak banget panas , sy bawa anak bayi kasian jadi mandi air dingin| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> air panas nya <|opinion|> gak banget panas <|sentiment|> negative;<|aspect|> anak bayi <|opinion|> kasian jadi mandi air dingin <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2403,
+        "instance_id": 4550,
+        "task_elements": "aos",
+        "input": "sesuai picture . . bersih . tp klo mlm gaboleh duduk2 diloby . prioritas buat yg bulanan .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> null <|opinion|> sesuai picture <|sentiment|> positive;<|aspect|> null <|opinion|> bersih <|sentiment|> positive;<|aspect|> diloby <|opinion|> gaboleh duduk2 <|sentiment|> negative;<|aspect|> null <|opinion|> prioritas buat yg bulanan <|sentiment|> negative",
+        "element_order": "aos"
+    },
+    {
+        "sentence_id": 2404,
+        "instance_id": 4551,
+        "task_elements": "aos",
+        "input": "pelayanan ramah , tetapi toilet pas awal masuk ada bau kurang enak . kamar kurang luas dan tidak ada hiasan dinding / motif seperti di gambar promo nya| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pelayanan <|opinion|> ramah <|sentiment|> positive;<|aspect|> toilet <|opinion|> ada bau kurang enak <|sentiment|> negative;<|aspect|> kamar <|opinion|> kurang luas <|sentiment|> negative;<|aspect|> hiasan dinding / motif <|opinion|> tidak ada hiasan dinding / motif seperti di gambar promo nya <|sentiment|> negative",
+        "element_order": "aos"
+    }
+]
