@@ -1,4 +1,3 @@
-# You need: pip install transformers datasets trl peft
 from datasets import load_dataset, Dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
 from trl import SFTTrainer, SFTConfig
@@ -167,6 +166,7 @@ def main(args):
 
     print("--- Starting SFTTrainer ---")
     history = trainer.train()
+    print(history)
     print(f"--- Training complete at {datetime.now().strftime('%Y%m%d_%H%M%S')}---")
     print(f"Duration: {datetime.now() - datetime.strptime(current_time, '%Y%m%d_%H%M%S')}")
     print(f"Model saved to {output_dir}")
@@ -178,11 +178,11 @@ if __name__ == "__main__":
     parser.add_argument("--train_json_path", type=str, required=True, help="Path to the training JSON dataset")
     parser.add_argument("--model_name", type=str, default="Qwen/Qwen2.5-0.5B", help="Pretrained model name")
     parser.add_argument("--output_dir", type=str, default="./outputs/models", help="Output directory")
-    parser.add_argument("--prompt_type", type=str, choices=["gas", "mvp", "mvp_aos", 'legoabsa'], default="mvp", help="Sampling/prompt style")
+    parser.add_argument("--prompt_type", type=str, choices=["gas", "mvp", "mvp_aos", 'legoabsa'], default="mvp_aos", help="Sampling/prompt style")
     
     parser.add_argument("--save_strategy", type=str, choices=["epoch", "best", "no"], default='best', help="Model saving mode during training")
 
-    parser.add_argument("--num_epochs", type=int, default=2, help="Number of training epochs")
+    parser.add_argument("--num_epochs", type=int, default=10, help="Number of training epochs")
     parser.add_argument("--lr", type=float, default=5e-5, help="Learning rate")
     parser.add_argument("--optimizer", type=str, default="adamw_torch", help="Optimizer to use (See `OptimizerNames` (https://github.com/huggingface/transformers/blob/main/src/transformers/training_args.py)")
     parser.add_argument("--seed", type=int, default=42, help="Training seed")
