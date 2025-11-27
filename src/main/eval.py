@@ -21,7 +21,7 @@ def main(args):
         test_data = json.load(f)
 
     # Get the input prompts, labels, sentence IDs, and task elements
-    prompts = [f'{instance["input"]} =>' for instance in test_data][:10]
+    prompts = [f'{instance["input"]} =>' for instance in test_data]
     labels = [instance['target'] for instance in test_data]
     sentence_ids = [instance['sentence_id'] for instance in test_data]
     tasks = [instance['task_elements'] for instance in test_data]
@@ -69,7 +69,7 @@ def main(args):
             batch_outputs[:, inputs['input_ids'].shape[1]:],  # Slice to remove prompt
             skip_special_tokens=True
         )
-        print(batch_outputs_text)
+        # print(batch_outputs_text)
 
         # if isinstance(batch_outputs_text, str):
             # batch_outputs_text = [batch_outputs_text]
