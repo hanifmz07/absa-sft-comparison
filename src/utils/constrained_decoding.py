@@ -15,7 +15,7 @@ class BaseConstrainedDecoder(LogitsProcessor):
 		self.input_ids = input_ids
 		self.tokenizer = tokenizer
 		self.special_token_ids = set(tokenizer.all_special_ids)
-		self.special_words = set(tokenizer(['positive', 'negative', ' positive', ' negative'], add_special_tokens=False, return_tensors='pt', padding=True, truncation=True)['input_ids'].reshape(-1).tolist())
+		self.special_words = set(tokenizer(['positive', 'negative', ' positive', ' negative', 'null', ' null'], add_special_tokens=False, return_tensors='pt', padding=True, truncation=True)['input_ids'].reshape(-1).tolist())
 	
 	def _prepare_batch_allowed_tokens(self, tokenizer: AutoTokenizer) -> None:
 		

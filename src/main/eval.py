@@ -76,13 +76,14 @@ def main(args):
 
         outputs.extend(batch_outputs_text)
 
-    # Cut off the prompts from the outputs
-    outputs = [output[len(prompts[idx]):].strip() for idx, output in enumerate(outputs)]
+    # # Cut off the prompts from the outputs
+    # outputs = [output[len(prompts[idx]):].strip() for idx, output in enumerate(outputs)]
 
     # Postprocess outputs and calculate metrics
     # Temporary storing for debugging
     output_dir = args.output_dir
     output_dir = os.path.join(output_dir, args.model_path.split("/")[-1])
+    output_dir = os.path.join(output_dir, "constrained_decoding" if args.use_constrained_decoding else "unconstrained_decoding")
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "raw_inference_results.json")
     with open(output_file, "w") as f:
@@ -142,9 +143,6 @@ def main(args):
     print("Evaluation results:", scaled_result_metrics)
 
     # Save the metric results
-    output_dir = args.output_dir
-    output_dir = os.path.join(output_dir, args.model_path.split("/")[-1])
-    os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "evaluation_results.json")
     with open(output_file, "w") as f:
         json.dump(scaled_result_metrics, f, indent=4)
