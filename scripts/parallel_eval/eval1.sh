@@ -73,8 +73,21 @@ echo "========================================================" >> "$STDOUT_LOG"
 
     EVAL_RESULT_DIR="$OUTPUT_DIR/$MODEL_NAME/$CHECKPOINT_NAME"
 
+    # If the dataset folder is "mvp_aos" or "mvp_aos_augment", use the "mvp" prompt type, if gas use "gas", else use "indolegoabsa"
+    if [ "$DATASET_FOLDER" == "mvp_aos" ] || [ "$DATASET_FOLDER" == "mvp_aos_augment" ]; then
+      PROMPT_TYPE="mvp"
+    elif [ "$DATASET_FOLDER" == "gas" ]; then
+      PROMPT_TYPE="gas"
+    elif [ "$DATASET_FOLDER" == "legoabsa_multitask" ] || [ "$DATASET_FOLDER" == "legoabsa_tasktransfer" ] || [ "$DATASET_FOLDER" == "indolegoabsa_multitask" ]; then
+      PROMPT_TYPE="legoabsa"
+    else
+      # Error handling for unexpected dataset folder
+      echo "Error: Unexpected dataset folder '$DATASET_FOLDER'. Cannot determine prompt type."
+      exit 1
+    fi  
+
     # Only run if model folder exists and hasn't been evaluated yet
-    if [ -d "$MODEL_PATH" ] && [ ! -d "$EVAL_RESULT_DIR" ]; then
+    if [ -d "$MODEL_PATH" ] && [ ! -d "$EVAL_RESULT_DIR/constrained_decoding" ] && [ ! -d "$EVAL_RESULT_DIR/unconstrained_decoding" ]; then
       echo "-----------------------------------------------------------"
       echo "Evaluating model: $MODEL_NAME (Seed: $SEED)"
       echo "-----------------------------------------------------------"
@@ -82,7 +95,7 @@ echo "========================================================" >> "$STDOUT_LOG"
       python -m src.main.eval \
         --test_json_path "$TEST_JSON" \
         --model_path "$LATEST_CHECKPOINT" \
-        --prompt_type "mvp" \
+        --prompt_type "$PROMPT_TYPE" \
         --output_dir "$EVAL_RESULT_DIR" \
         --batch_size $BATCH_SIZE \
         --save_predictions \
