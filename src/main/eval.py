@@ -13,6 +13,10 @@ def main(args):
     tokenizer = AutoTokenizer.from_pretrained(args.model_path, padding_side="left")
     model = AutoModelForCausalLM.from_pretrained(args.model_path, device_map="auto")
 
+    print("Tokenizer length:", len(tokenizer))
+    print("Embedding size:", model.get_input_embeddings().weight.shape)
+    print("Special Tokens:", tokenizer.special_tokens_map)
+
     # === Setup Device ===
     model.eval()
 
@@ -97,17 +101,50 @@ def main(args):
         if args.prompt_type == "mvp":
             # Postprocess the prediction for MvP
             # Split the target and prediction into lists
-            target_split = label.split(" [SSEP] ")
-            pred_split = pred.split(" [SSEP] ")
+            target_split = label.split("[SSEP]")
+            pred_split = pred.split("[SSEP]")
             # Strip whitespace
             target_split = [l.strip() for l in target_split]
             pred_split = [l.strip() for l in pred_split]
-        elif args.prompt_type == "gas" or args.prompt_type == "legoabsa":
+
+            # Make sure there is a whitespace before and after [A], [O], and [S]
+            target_split = [l.replace("[A]", " [A] ").replace("[O]", " [O] ").replace("[S]", " [S] ").strip() for l in target_split]
+            pred_split = [l.replace("[A]", " [A] ").replace("[O]", " [O] ").replace("[S]", " [S] ").strip() for l in pred_split]
+
+            # Replace double or more whitespaces with a single whitespace
+            target_split = [re.sub(r'\s+', ' ', l) for l in target_split]
+            pred_split = [re.sub(r'\s+', ' ', l) for l in pred_split]
+
+        elif args.prompt_type == "gas":
             # Split the target and prediction into lists (GAS and LegoABSA)
             target_split = label.split(';')
             pred_split = pred.split(';')
             target_split = [l.strip() for l in target_split]
             pred_split = [l.strip() for l in pred_split]
+
+            # Make sure there is a whitespace before and after '(' and '|'
+            target_split = [l.replace('(', ' ( ').replace(')', ' ) ').replace('|', ' | ').strip() for l in target_split]
+            pred_split = [l.replace('(', ' ( ').replace(')', ' ) ').replace('|', ' | ').strip() for l in pred_split]
+
+            # Replace double or more whitespaces with a single whitespace
+            target_split = [re.sub(r'\s+', ' ', l) for l in target_split]
+            pred_split = [re.sub(r'\s+', ' ', l) for l in pred_split]
+
+        elif args.prompt_type == "legoabsa":
+            # Split the target and prediction into lists (GAS and LegoABSA)
+            target_split = label.split(';')
+            pred_split = pred.split(';')
+            target_split = [l.strip() for l in target_split]
+            pred_split = [l.strip() for l in pred_split]
+
+            # Make sure there is a whitespace before and after '(' and '|'
+            target_split = [l.replace('<|aspect|>', ' <|aspect|> ').replace('<|opinion|>', ' <|opinion|> ').replace('<|sentiment|>', ' <|sentiment|> ').strip() for l in target_split]
+            pred_split = [l.replace('<|aspect|>', ' <|aspect|> ').replace('<|opinion|>', ' <|opinion|> ').replace('<|sentiment|>', ' <|sentiment|> ').strip() for l in pred_split]
+
+            # Replace double or more whitespaces with a single whitespace
+            target_split = [re.sub(r'\s+', ' ', l) for l in target_split]
+            pred_split = [re.sub(r'\s+', ' ', l) for l in pred_split]
+            
         else:
             raise ValueError(f"Unknown prompt type: {args.prompt_type}")
 
