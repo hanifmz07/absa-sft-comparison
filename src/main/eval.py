@@ -71,8 +71,10 @@ def main(args):
         # print(batch_outputs)
         batch_outputs_text = tokenizer.batch_decode(
             batch_outputs[:, inputs['input_ids'].shape[1]:],  # Slice to remove prompt
-            skip_special_tokens=True
+            skip_special_tokens=False if args.prompt_type == "legoabsa" else True,
         )
+        # Remove '<|endoftext|>' tokens if present
+        batch_outputs_text = [output.replace(tokenizer.eos_token, '').strip() for output in batch_outputs_text]
         # print(batch_outputs_text)
 
         # if isinstance(batch_outputs_text, str):

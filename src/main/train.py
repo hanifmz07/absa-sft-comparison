@@ -34,7 +34,7 @@ def main(args):
     # Load model
     print(f"Loading model {args.model_name}...")
     model = AutoModelForCausalLM.from_pretrained(args.model_name, dtype=torch.bfloat16 if bf16 else torch.float16, trust_remote_code=True, device_map="auto", cache_dir=os.getenv("HF_CACHE_DIR"))
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name, trust_remote_code=True, cache_dir=os.getenv("HF_CACHE_DIR"))
+    tokenizer = AutoTokenizer.from_pretrained(args.model_name, cache_dir=os.getenv("HF_CACHE_DIR"))
 
     # Add special tokens for LEGO-ABSA if needed
     if 'legoabsa' in args.train_json_path:
@@ -162,6 +162,7 @@ def main(args):
         train_dataset=dataset,
         eval_dataset=val_dataset if args.val_json_path is not None and args.eval_strategy != "no" else None,
         args=training_args,
+        processing_class=tokenizer
     )
 
     print("--- Starting SFTTrainer ---")
@@ -170,6 +171,10 @@ def main(args):
     print(f"--- Training complete at {datetime.now().strftime('%Y%m%d_%H%M%S')}---")
     print(f"Duration: {datetime.now() - datetime.strptime(current_time, '%Y%m%d_%H%M%S')}")
     print(f"Model saved to {output_dir}")
+
+    # Save tokenizer
+    tokenizer.save_pretrained(output_dir)
+    print(f"Tokenizer saved to {output_dir}")
 
 
 if __name__ == "__main__":
