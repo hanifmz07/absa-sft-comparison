@@ -113863,7 +113863,7 @@
         "instance_id": 12651,
         "task_elements": "aos",
         "input": "ok lah . . ., , , bisa dijdikan pilihan 👍 tpi hot showernya gk ada kamar laen kli yaak| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|> =>",
-        "target": "<|aspect|> null <|opinion|> ok lah . . . <|sentiment|> ;<|aspect|> hot showernya <|opinion|> gk ada <|sentiment|> negative",
+        "target": "<|aspect|> null <|opinion|> ok lah . . . <|sentiment|> positive;<|aspect|> hot showernya <|opinion|> gk ada <|sentiment|> negative",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -114106,7 +114106,7 @@
         "instance_id": 12678,
         "task_elements": "aos",
         "input": "secara keseluruhan tempat nyaman . parkirn juga aman . ac , wifii , dan air mandi juga lancar . cuma rada kecewa sama lantai kamarnya bukan keramik dan kamar mandi sdikit kotor di langit2nya . secara overal klo untuk tinggal sih okee lah| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|> =>",
-        "target": "<|aspect|> secara keseluruhan tempat <|opinion|> nyaman . <|sentiment|> positive;<|aspect|> parkirn <|opinion|> nyaman . <|sentiment|> positive;<|aspect|> ac <|opinion|>  <|sentiment|> lancar .;<|aspect|> wifii <|opinion|>  <|sentiment|> lancar .;<|aspect|> air mandi <|opinion|> lancar . <|sentiment|> positive;<|aspect|> lantai kamarnya <|opinion|> sdikit kotor <|sentiment|> negative;<|aspect|> overal <|opinion|> okee <|sentiment|> positive;<|aspect|> lantai kamarnya <|opinion|> rada kecewa <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> sdikit kotor <|sentiment|> negative;<|aspect|> secara keseluruhan <|opinion|> okee <|sentiment|> positive ) 11 .( lantai kamarnya",
+        "target": "<|aspect|> secara keseluruhan tempat <|opinion|> nyaman . <|sentiment|> positive;<|aspect|> parkirn <|opinion|> nyaman . <|sentiment|> positive;<|aspect|> ac <|opinion|> lancar <|sentiment|> positive;<|aspect|> wifii <|opinion|> lancar <|sentiment|> positive;<|aspect|> air mandi <|opinion|> lancar . <|sentiment|> positive;<|aspect|> lantai kamarnya <|opinion|> sdikit kotor <|sentiment|> negative;<|aspect|> overal <|opinion|> okee <|sentiment|> positive;<|aspect|> lantai kamarnya <|opinion|> rada kecewa <|sentiment|> negative;<|aspect|> kamar mandi <|opinion|> sdikit kotor <|sentiment|> negative;<|aspect|> secara keseluruhan <|opinion|> okee <|sentiment|> positive ) 11 .( lantai kamarnya",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -114304,7 +114304,7 @@
         "instance_id": 12700,
         "task_elements": "aos",
         "input": "kamar bersih dan nyaman , toilet bersih , hot shower tidak ada , sarapan enak , channel tv ( hampir ) semua tidak bagus butuh perbaikan antena / saluran| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|> =>",
-        "target": "<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> kamar <|opinion|> nyaman <|sentiment|> ;<|aspect|> toilet <|opinion|> bersih <|sentiment|> positive;<|aspect|> hot shower <|opinion|> tidak ada <|sentiment|> ;<|aspect|> sarapan <|opinion|> enak <|sentiment|> ;<|aspect|> channel tv <|opinion|> ( hampir ) semua tidak bagus butuh perbaikan antena / saluran <|sentiment|> negative",
+        "target": "<|aspect|> kamar <|opinion|> bersih <|sentiment|> positive;<|aspect|> kamar <|opinion|> nyaman <|sentiment|> positive;<|aspect|> toilet <|opinion|> bersih <|sentiment|> positive;<|aspect|> hot shower <|opinion|> tidak ada <|sentiment|> negative;<|aspect|> sarapan <|opinion|> enak <|sentiment|> positive;<|aspect|> channel tv <|opinion|> ( hampir ) semua tidak bagus butuh perbaikan antena / saluran <|sentiment|> negative",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -116113,7 +116113,7 @@
         "instance_id": 12901,
         "task_elements": "aos",
         "input": "kamarnya bersih dan unik , tapi sayang posisi tempat tidurnya diatas gitu , jd stiap ketinggalan barang harus naik dlu , trus kalau ke toilet hrus trun tangga . naik turun tangganya bkin capek . trus pas awal dtang ac g dingin trus tanya mba disana katanya rusak , tunggu service nya datang , pas tukang service datang ternyata ac nya g rusak .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|> =>",
-        "target": "<|aspect|> kamarnya <|opinion|> bersih <|sentiment|> positive;<|aspect|> kamarnya <|opinion|> unik <|sentiment|> ;<|aspect|> posisi tempat tidurnya <|opinion|> diatas <|sentiment|> negative;<|aspect|> ac <|opinion|> g dingin <|sentiment|> negative",
+        "target": "<|aspect|> kamarnya <|opinion|> bersih <|sentiment|> positive;<|aspect|> kamarnya <|opinion|> unik <|sentiment|> positive;<|aspect|> posisi tempat tidurnya <|opinion|> diatas <|sentiment|> negative;<|aspect|> ac <|opinion|> g dingin <|sentiment|> negative",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -117949,7 +117949,7 @@
         "instance_id": 13105,
         "task_elements": "aos",
         "input": "nyaman , dan tenang , , , hny wifi nya gk fungsi , , , jd susah buat komunikasi , , , tlg tingkatkn lagi pelayanannya| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|> =>",
-        "target": "<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> wifi nya <|opinion|> gk fungsi <|sentiment|> ;<|aspect|> pelayanannya <|opinion|> tingkatkn lagi <|sentiment|> negative;<|aspect|> null <|opinion|> tenang <|sentiment|> positive",
+        "target": "<|aspect|> null <|opinion|> nyaman <|sentiment|> positive;<|aspect|> wifi nya <|opinion|> gk fungsi <|sentiment|> negative;<|aspect|> pelayanannya <|opinion|> tingkatkn lagi <|sentiment|> negative;<|aspect|> null <|opinion|> tenang <|sentiment|> positive",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -133429,7 +133429,7 @@
         "instance_id": 14825,
         "task_elements": "aos",
         "input": "secara keseluruhan tempat nyaman . parkirn juga aman . ac , wifii , dan air mandi juga lancar . cuma rada kecewa sama lantai kamarnya bukan keramik dan kamar mandi sdikit kotor di langit2nya . secara overal klo untuk tinggal sih okee lah| aspect: <|aspect|> , opinion: <|opinion|> =>",
-        "target": "<|aspect|> secara keseluruhan tempat <|opinion|> nyaman .;<|aspect|> parkirn <|opinion|> nyaman .;<|aspect|> ac <|opinion|> ;<|aspect|> wifii <|opinion|> ;<|aspect|> air mandi <|opinion|> lancar .;<|aspect|> lantai kamarnya <|opinion|> sdikit kotor;<|aspect|> overal <|opinion|> okee;<|aspect|> lantai kamarnya <|opinion|> rada kecewa;<|aspect|> kamar mandi <|opinion|> sdikit kotor;<|aspect|> secara keseluruhan <|opinion|> okee",
+        "target": "<|aspect|> secara keseluruhan tempat <|opinion|> nyaman .;<|aspect|> parkirn <|opinion|> nyaman .;<|aspect|> ac <|opinion|> lancar;<|aspect|> wifii <|opinion|> lancar;<|aspect|> air mandi <|opinion|> lancar .;<|aspect|> lantai kamarnya <|opinion|> sdikit kotor;<|aspect|> overal <|opinion|> okee;<|aspect|> lantai kamarnya <|opinion|> rada kecewa;<|aspect|> kamar mandi <|opinion|> sdikit kotor;<|aspect|> secara keseluruhan <|opinion|> okee",
         "element_order": "ao",
         "dataset_type": "hoasa"
     },
@@ -152509,7 +152509,7 @@
         "instance_id": 16945,
         "task_elements": "aos",
         "input": "ok lah . . ., , , bisa dijdikan pilihan 👍 tpi hot showernya gk ada kamar laen kli yaak| aspect: <|aspect|> , sentiment: <|sentiment|> =>",
-        "target": "<|aspect|> null <|sentiment|> ;<|aspect|> hot showernya <|sentiment|> negative",
+        "target": "<|aspect|> null <|sentiment|> positive;<|aspect|> hot showernya <|sentiment|> negative",
         "element_order": "as",
         "dataset_type": "hoasa"
     },
@@ -152752,7 +152752,7 @@
         "instance_id": 16972,
         "task_elements": "aos",
         "input": "secara keseluruhan tempat nyaman . parkirn juga aman . ac , wifii , dan air mandi juga lancar . cuma rada kecewa sama lantai kamarnya bukan keramik dan kamar mandi sdikit kotor di langit2nya . secara overal klo untuk tinggal sih okee lah| aspect: <|aspect|> , sentiment: <|sentiment|> =>",
-        "target": "<|aspect|> secara keseluruhan tempat <|sentiment|> positive;<|aspect|> parkirn <|sentiment|> positive;<|aspect|> ac <|sentiment|> lancar .;<|aspect|> wifii <|sentiment|> lancar .;<|aspect|> air mandi <|sentiment|> positive;<|aspect|> lantai kamarnya <|sentiment|> negative;<|aspect|> overal <|sentiment|> positive;<|aspect|> lantai kamarnya <|sentiment|> negative;<|aspect|> kamar mandi <|sentiment|> negative;<|aspect|> secara keseluruhan <|sentiment|> positive ) 11 .( lantai kamarnya",
+        "target": "<|aspect|> secara keseluruhan tempat <|sentiment|> positive;<|aspect|> parkirn <|sentiment|> positive;<|aspect|> ac <|sentiment|> positive;<|aspect|> wifii <|sentiment|> positive;<|aspect|> air mandi <|sentiment|> positive;<|aspect|> lantai kamarnya <|sentiment|> negative;<|aspect|> overal <|sentiment|> positive;<|aspect|> lantai kamarnya <|sentiment|> negative;<|aspect|> kamar mandi <|sentiment|> negative;<|aspect|> secara keseluruhan <|sentiment|> positive ) 11 .( lantai kamarnya",
         "element_order": "as",
         "dataset_type": "hoasa"
     },
@@ -152950,7 +152950,7 @@
         "instance_id": 16994,
         "task_elements": "aos",
         "input": "kamar bersih dan nyaman , toilet bersih , hot shower tidak ada , sarapan enak , channel tv ( hampir ) semua tidak bagus butuh perbaikan antena / saluran| aspect: <|aspect|> , sentiment: <|sentiment|> =>",
-        "target": "<|aspect|> kamar <|sentiment|> positive;<|aspect|> kamar <|sentiment|> ;<|aspect|> toilet <|sentiment|> positive;<|aspect|> hot shower <|sentiment|> ;<|aspect|> sarapan <|sentiment|> ;<|aspect|> channel tv <|sentiment|> negative",
+        "target": "<|aspect|> kamar <|sentiment|> positive;<|aspect|> kamar <|sentiment|> positive;<|aspect|> toilet <|sentiment|> positive;<|aspect|> hot shower <|sentiment|> negative;<|aspect|> sarapan <|sentiment|> positive;<|aspect|> channel tv <|sentiment|> negative",
         "element_order": "as",
         "dataset_type": "hoasa"
     },
@@ -154759,7 +154759,7 @@
         "instance_id": 17195,
         "task_elements": "aos",
         "input": "kamarnya bersih dan unik , tapi sayang posisi tempat tidurnya diatas gitu , jd stiap ketinggalan barang harus naik dlu , trus kalau ke toilet hrus trun tangga . naik turun tangganya bkin capek . trus pas awal dtang ac g dingin trus tanya mba disana katanya rusak , tunggu service nya datang , pas tukang service datang ternyata ac nya g rusak .| aspect: <|aspect|> , sentiment: <|sentiment|> =>",
-        "target": "<|aspect|> kamarnya <|sentiment|> positive;<|aspect|> kamarnya <|sentiment|> ;<|aspect|> posisi tempat tidurnya <|sentiment|> negative;<|aspect|> ac <|sentiment|> negative",
+        "target": "<|aspect|> kamarnya <|sentiment|> positive;<|aspect|> kamarnya <|sentiment|> positive;<|aspect|> posisi tempat tidurnya <|sentiment|> negative;<|aspect|> ac <|sentiment|> negative",
         "element_order": "as",
         "dataset_type": "hoasa"
     },
@@ -156595,7 +156595,7 @@
         "instance_id": 17399,
         "task_elements": "aos",
         "input": "nyaman , dan tenang , , , hny wifi nya gk fungsi , , , jd susah buat komunikasi , , , tlg tingkatkn lagi pelayanannya| aspect: <|aspect|> , sentiment: <|sentiment|> =>",
-        "target": "<|aspect|> null <|sentiment|> positive;<|aspect|> wifi nya <|sentiment|> ;<|aspect|> pelayanannya <|sentiment|> negative;<|aspect|> null <|sentiment|> positive",
+        "target": "<|aspect|> null <|sentiment|> positive;<|aspect|> wifi nya <|sentiment|> negative;<|aspect|> pelayanannya <|sentiment|> negative;<|aspect|> null <|sentiment|> positive",
         "element_order": "as",
         "dataset_type": "hoasa"
     },
@@ -191155,7 +191155,7 @@
         "instance_id": 21239,
         "task_elements": "aos",
         "input": "ok lah . . ., , , bisa dijdikan pilihan 👍 tpi hot showernya gk ada kamar laen kli yaak| sentiment: <|sentiment|> =>",
-        "target": "<|sentiment|> ;<|sentiment|> negative",
+        "target": "<|sentiment|> positive;<|sentiment|> negative",
         "element_order": "s",
         "dataset_type": "hoasa"
     },
@@ -191398,7 +191398,7 @@
         "instance_id": 21266,
         "task_elements": "aos",
         "input": "secara keseluruhan tempat nyaman . parkirn juga aman . ac , wifii , dan air mandi juga lancar . cuma rada kecewa sama lantai kamarnya bukan keramik dan kamar mandi sdikit kotor di langit2nya . secara overal klo untuk tinggal sih okee lah| sentiment: <|sentiment|> =>",
-        "target": "<|sentiment|> positive;<|sentiment|> positive;<|sentiment|> lancar .;<|sentiment|> lancar .;<|sentiment|> positive;<|sentiment|> negative;<|sentiment|> positive;<|sentiment|> negative;<|sentiment|> negative;<|sentiment|> positive ) 11 .( lantai kamarnya",
+        "target": "<|sentiment|> positive;<|sentiment|> positive;<|sentiment|> positive;<|sentiment|> positive;<|sentiment|> positive;<|sentiment|> negative;<|sentiment|> positive;<|sentiment|> negative;<|sentiment|> negative;<|sentiment|> positive ) 11 .( lantai kamarnya",
         "element_order": "s",
         "dataset_type": "hoasa"
     },
@@ -191596,7 +191596,7 @@
         "instance_id": 21288,
         "task_elements": "aos",
         "input": "kamar bersih dan nyaman , toilet bersih , hot shower tidak ada , sarapan enak , channel tv ( hampir ) semua tidak bagus butuh perbaikan antena / saluran| sentiment: <|sentiment|> =>",
-        "target": "<|sentiment|> positive;<|sentiment|> ;<|sentiment|> positive;<|sentiment|> ;<|sentiment|> ;<|sentiment|> negative",
+        "target": "<|sentiment|> positive;<|sentiment|> positive;<|sentiment|> positive;<|sentiment|> negative;<|sentiment|> positive;<|sentiment|> negative",
         "element_order": "s",
         "dataset_type": "hoasa"
     },
@@ -193405,7 +193405,7 @@
         "instance_id": 21489,
         "task_elements": "aos",
         "input": "kamarnya bersih dan unik , tapi sayang posisi tempat tidurnya diatas gitu , jd stiap ketinggalan barang harus naik dlu , trus kalau ke toilet hrus trun tangga . naik turun tangganya bkin capek . trus pas awal dtang ac g dingin trus tanya mba disana katanya rusak , tunggu service nya datang , pas tukang service datang ternyata ac nya g rusak .| sentiment: <|sentiment|> =>",
-        "target": "<|sentiment|> positive;<|sentiment|> ;<|sentiment|> negative;<|sentiment|> negative",
+        "target": "<|sentiment|> positive;<|sentiment|> positive;<|sentiment|> negative;<|sentiment|> negative",
         "element_order": "s",
         "dataset_type": "hoasa"
     },
@@ -195241,7 +195241,7 @@
         "instance_id": 21693,
         "task_elements": "aos",
         "input": "nyaman , dan tenang , , , hny wifi nya gk fungsi , , , jd susah buat komunikasi , , , tlg tingkatkn lagi pelayanannya| sentiment: <|sentiment|> =>",
-        "target": "<|sentiment|> positive;<|sentiment|> ;<|sentiment|> negative;<|sentiment|> positive",
+        "target": "<|sentiment|> positive;<|sentiment|> negative;<|sentiment|> negative;<|sentiment|> positive",
         "element_order": "s",
         "dataset_type": "hoasa"
     },

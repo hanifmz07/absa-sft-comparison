@@ -4723,7 +4723,7 @@
         "sentence_id": 594,
         "instance_id": 2970,
         "input": "lokasi sangat dekat dengan bandara , cari makan gampang dan dekat . akses gampang . [A] [O] [S]",
-        "target": "[A] lokasi [O] sangat dekat dengan bandara [S] positive [SSEP] [A] lokasi [O] cari makan gampang dan dekat  [S] positive [SSEP] [A] akses [O] gampang [S] positive",
+        "target": "[A] lokasi [O] sangat dekat dengan bandara [S] positive [SSEP] [A] lokasi [O] cari makan gampang dan dekat [S] positive [SSEP] [A] akses [O] gampang [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -14571,7 +14571,7 @@
         "sentence_id": 1833,
         "instance_id": 9165,
         "input": "kamar bersih , layanan memuaskan tetapi ketika wifi error , semoga cepat diperbaiki . [A] [O] [S]",
-        "target": "[A] kamar [O] bersih [S] positive [SSEP] [A] layanan [O] memuaskan [S] positive [SSEP] [A] wifi [O] error [S] negative [SSEP] [A] wifi [O] semoga cepat diperbaiki  [S] negative",
+        "target": "[A] kamar [O] bersih [S] positive [SSEP] [A] layanan [O] memuaskan [S] positive [SSEP] [A] wifi [O] error [S] negative [SSEP] [A] wifi [O] semoga cepat diperbaiki [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
     },
