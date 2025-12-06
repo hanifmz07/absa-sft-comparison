@@ -12,7 +12,7 @@
         "sentence_id": 3501,
         "instance_id": 5888,
         "input": "sayang wifi tidak bagus harus keluar kamar . [A] [O] [S]",
-        "target": "[A] wifi [O]  tidak bagus harus keluar kamar [S] negative",
+        "target": "[A] wifi [O] tidak bagus harus keluar kamar [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hotel_reviews"
