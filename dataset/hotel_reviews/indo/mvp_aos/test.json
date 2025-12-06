@@ -11,7 +11,7 @@
         "sentence_id": 3501,
         "instance_id": 17505,
         "input": "sayang wifi tidak bagus harus keluar kamar . [A] [O] [S]",
-        "target": "[A] wifi [O]  tidak bagus harus keluar kamar [S] negative",
+        "target": "[A] wifi [O] tidak bagus harus keluar kamar [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -2571,7 +2571,7 @@
         "sentence_id": 3821,
         "instance_id": 19105,
         "input": "sesuai budget , dekat pusat kota , pelayanannya baik . [A] [O] [S]",
-        "target": "[A] null [O] sesuai budget  [S] positive [SSEP] [A] null [O] dekat pusat kota [S] positive [SSEP] [A] pelayanannya [O] baik [S] positive",
+        "target": "[A] null [O] sesuai budget [S] positive [SSEP] [A] null [O] dekat pusat kota [S] positive [SSEP] [A] pelayanannya [O] baik [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -4811,7 +4811,7 @@
         "sentence_id": 4101,
         "instance_id": 20505,
         "input": "serasa di rumah sendiri . kamar bersih walaupun agak sempit . [A] [O] [S]",
-        "target": "[A] kamar [O] bersih [S] positive [SSEP] [A] kamar [O] agak sempit [S] negative [SSEP] [A] null [O] serasa di rumah sendiri  [S] positive",
+        "target": "[A] kamar [O] bersih [S] positive [SSEP] [A] kamar [O] agak sempit [S] negative [SSEP] [A] null [O] serasa di rumah sendiri [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -4971,7 +4971,7 @@
         "sentence_id": 4121,
         "instance_id": 20605,
         "input": "kamar lumayan , ac cukupan , kamar mandi ada air agak hangat . cuma sayang di kamar single standar tanpa pemandangan itu tidak ada sinyal hp ( karena di bassement ) dan parah nya lagi sinyal wifi juga tidak sampai . jadi komunikasi luar terputus . [A] [O] [S]",
-        "target": "[A] kamar [O] lumayan [S] positive [SSEP] [A] ac [O] cukupan [S] positive [SSEP] [A] air agak hangat [O] ada  [S] positive [SSEP] [A] sinyal hp [O] tidak ada sinyal hp ( karena di bassement ) [S] negative [SSEP] [A] wifi [O] parah nya lagi sinyal wifi juga tidak sampai . jadi komunikasi luar terputus [S] negative",
+        "target": "[A] kamar [O] lumayan [S] positive [SSEP] [A] ac [O] cukupan [S] positive [SSEP] [A] air agak hangat [O] ada [S] positive [SSEP] [A] sinyal hp [O] tidak ada sinyal hp ( karena di bassement ) [S] negative [SSEP] [A] wifi [O] parah nya lagi sinyal wifi juga tidak sampai . jadi komunikasi luar terputus [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -5547,7 +5547,7 @@
         "sentence_id": 4193,
         "instance_id": 20965,
         "input": "sayang tidak ada pilihan kamar merokok dan sarapan yang lain oke . [A] [O] [S]",
-        "target": "[A] kamar merokok [O] tidak ada [S] negative [SSEP] [A] sarapan [O] tidak ada  [S] negative [SSEP] [A] yang lain [O] oke [S] positive",
+        "target": "[A] kamar merokok [O] tidak ada [S] negative [SSEP] [A] sarapan [O] tidak ada [S] negative [SSEP] [A] yang lain [O] oke [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -5795,7 +5795,7 @@
         "sentence_id": 4224,
         "instance_id": 21120,
         "input": "tempatnya sederhana tetapi cukup bersih , klau malam banyak suara jaangkrik dan kambing , suasana desa , mobil langsung parkir depan kamar , air lancar , air panas ada , kamar mandi agaak bau ( dari saluran air ) . [A] [O] [S]",
-        "target": "[A] tempatnya [O] sederhana [S] negative [SSEP] [A] tempatnya [O] cukup bersih [S] positive [SSEP] [A] parkir [O] mobil langsung parkir depan kamar  [S] positive [SSEP] [A] air [O] lancar [S] positive [SSEP] [A] air panas [O] ada [S] positive [SSEP] [A] kamar mandi [O] agaak bau ( dari saluran air ) [S] negative",
+        "target": "[A] tempatnya [O] sederhana [S] negative [SSEP] [A] tempatnya [O] cukup bersih [S] positive [SSEP] [A] parkir [O] mobil langsung parkir depan kamar [S] positive [SSEP] [A] air [O] lancar [S] positive [SSEP] [A] air panas [O] ada [S] positive [SSEP] [A] kamar mandi [O] agaak bau ( dari saluran air ) [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -7379,7 +7379,7 @@
         "sentence_id": 4422,
         "instance_id": 22110,
         "input": "pemilik seperti tidak tahu dan tidak kuasai aplikasi airy , kamar airynya paling ujung , tidak dikasih minum+snack gratis dari airy , shower tidak ada yang panas . lokasi strategis , kamar lumayan . mikirmikir kalau mau ngulang inap disini . [A] [O] [S]",
-        "target": "[A] pemilik [O] tidak tahu dan tidak kuasai aplikasi airy [S] negative [SSEP] [A] kamar [O] paling ujung  [S] negative [SSEP] [A] minum [O] tidak dikasih [S] negative [SSEP] [A] snack [O] tidak dikasih [S] negative [SSEP] [A] shower [O] tidak ada yang panas [S] negative [SSEP] [A] lokasi [O] strategis [S] positive [SSEP] [A] kamar [O] lumayan [S] positive [SSEP] [A] kamar [O] mikirmikir kalau mau ngulang inap disini [S] positive",
+        "target": "[A] pemilik [O] tidak tahu dan tidak kuasai aplikasi airy [S] negative [SSEP] [A] kamar [O] paling ujung [S] negative [SSEP] [A] minum [O] tidak dikasih [S] negative [SSEP] [A] snack [O] tidak dikasih [S] negative [SSEP] [A] shower [O] tidak ada yang panas [S] negative [SSEP] [A] lokasi [O] strategis [S] positive [SSEP] [A] kamar [O] lumayan [S] positive [SSEP] [A] kamar [O] mikirmikir kalau mau ngulang inap disini [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
     },

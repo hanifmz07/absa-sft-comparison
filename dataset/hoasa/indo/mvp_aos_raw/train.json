@@ -1931,7 +1931,7 @@
         "sentence_id": 241,
         "instance_id": 241,
         "input": "ok lah...,,, bisa dijdikan pilihan \ud83d\udc4d tpi hot showernya gk ada kamar laen kli yaak [A] [O] [S]",
-        "target": "[A] null [O] ok lah... [S]  [SSEP] [A] hot showernya [O] gk ada [S] negative",
+        "target": "[A] null [O] ok lah... [S] positive [SSEP] [A] hot showernya [O] gk ada [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -2147,7 +2147,7 @@
         "sentence_id": 268,
         "instance_id": 268,
         "input": "Secara keseluruhan tempat nyaman. parkirn juga aman. AC, Wifii, dan air mandi juga lancar. Cuma rada kecewa sama lantai kamarnya bukan keramik dan kamar mandi sdikit kotor di langit2nya. Secara overal klo untuk tinggal sih okee lah [A] [O] [S]",
-        "target": "[A] Secara keseluruhan tempat [O] nyaman. [S] positive [SSEP] [A] parkirn [O] nyaman. [S] positive [SSEP] [A] AC [O]  [S] lancar. [SSEP] [A] Wifii [O]  [S] lancar. [SSEP] [A] air mandi [O] lancar. [S] positive [SSEP] [A] lantai kamarnya [O] sdikit kotor [S] negative [SSEP] [A] overal [O] okee [S] positive [SSEP] [A] lantai kamarnya [O] rada kecewa [S] negative [SSEP] [A] kamar mandi [O] sdikit kotor [S] negative [SSEP] [A] Secara keseluruhan [O] okee [S] positive)11.(lantai kamarnya",
+        "target": "[A] Secara keseluruhan tempat [O] nyaman. [S] positive [SSEP] [A] parkirn [O] nyaman. [S] positive [SSEP] [A] AC [O] lancar [S] positive [SSEP] [A] Wifii [O] lancar [S] positive [SSEP] [A] air mandi [O] lancar. [S] positive [SSEP] [A] lantai kamarnya [O] sdikit kotor [S] negative [SSEP] [A] overal [O] okee [S] positive [SSEP] [A] lantai kamarnya [O] rada kecewa [S] negative [SSEP] [A] kamar mandi [O] sdikit kotor [S] negative [SSEP] [A] Secara keseluruhan [O] okee [S] positive)11.(lantai kamarnya",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -2323,7 +2323,7 @@
         "sentence_id": 290,
         "instance_id": 290,
         "input": "kamar bersih dan nyaman, toilet bersih, hot shower tidak ada, sarapan enak, channel tv (hampir) semua tidak bagus butuh perbaikan antena/saluran [A] [O] [S]",
-        "target": "[A] kamar [O] bersih [S] positive [SSEP] [A] kamar [O] nyaman [S]  [SSEP] [A] toilet [O] bersih [S] positive [SSEP] [A] hot shower [O] tidak ada [S]  [SSEP] [A] sarapan [O] enak [S]  [SSEP] [A] channel tv [O] (hampir) semua tidak bagus butuh perbaikan antena/saluran [S] negative",
+        "target": "[A] kamar [O] bersih [S] positive [SSEP] [A] kamar [O] nyaman [S] positive [SSEP] [A] toilet [O] bersih [S] positive [SSEP] [A] hot shower [O] tidak ada [S] negative [SSEP] [A] sarapan [O] enak [S] positive [SSEP] [A] channel tv [O] (hampir) semua tidak bagus butuh perbaikan antena/saluran [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -3931,7 +3931,7 @@
         "sentence_id": 491,
         "instance_id": 491,
         "input": "Kamarnya bersih dan unik, tapi sayang posisi tempat tidurnya diatas gitu, jd stiap ketinggalan barang harus naik dlu, trus kalau ke toilet hrus trun tangga. Naik turun tangganya bkin capek. Trus pas awal dtang AC g dingin trus tanya mba disana katanya rusak, tunggu service nya datang, pas tukang service datang ternyata AC nya g rusak. [A] [O] [S]",
-        "target": "[A] Kamarnya [O] bersih [S] positive [SSEP] [A] Kamarnya [O] unik [S]  [SSEP] [A] posisi tempat tidurnya [O] diatas [S] negative [SSEP] [A] AC [O] g dingin [S] negative",
+        "target": "[A] Kamarnya [O] bersih [S] positive [SSEP] [A] Kamarnya [O] unik [S] positive [SSEP] [A] posisi tempat tidurnya [O] diatas [S] negative [SSEP] [A] AC [O] g dingin [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -5563,7 +5563,7 @@
         "sentence_id": 695,
         "instance_id": 695,
         "input": "nyaman, dan tenang,,, hny wifi nya gk fungsi,,, jd susah buat komunikasi,,, tlg tingkatkn lagi pelayanannya [A] [O] [S]",
-        "target": "[A] null [O] nyaman [S] positive [SSEP] [A] wifi nya [O] gk fungsi [S]  [SSEP] [A] pelayanannya [O] tingkatkn lagi [S] negative [SSEP] [A] null [O] tenang [S] positive",
+        "target": "[A] null [O] nyaman [S] positive [SSEP] [A] wifi nya [O] gk fungsi [S] negative [SSEP] [A] pelayanannya [O] tingkatkn lagi [S] negative [SSEP] [A] null [O] tenang [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
     },

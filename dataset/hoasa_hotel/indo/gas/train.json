@@ -24511,7 +24511,7 @@
         "instance_id": 2723,
         "task_elements": "aos",
         "input": "ok lah . . ., , , bisa dijdikan pilihan 👍 tpi hot showernya gk ada kamar laen kli yaak",
-        "target": "( null | ok lah . . . |  ) ; ( hot showernya | gk ada | negative )",
+        "target": "( null | ok lah . . . | positive ) ; ( hot showernya | gk ada | negative )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -24754,7 +24754,7 @@
         "instance_id": 2750,
         "task_elements": "aos",
         "input": "secara keseluruhan tempat nyaman . parkirn juga aman . ac , wifii , dan air mandi juga lancar . cuma rada kecewa sama lantai kamarnya bukan keramik dan kamar mandi sdikit kotor di langit2nya . secara overal klo untuk tinggal sih okee lah",
-        "target": "( secara keseluruhan tempat | nyaman . | positive ) ; ( parkirn | nyaman . | positive ) ; ( ac |  | lancar . ) ; ( wifii |  | lancar . ) ; ( air mandi | lancar . | positive ) ; ( lantai kamarnya | sdikit kotor | negative ) ; ( overal | okee | positive ) ; ( lantai kamarnya | rada kecewa | negative ) ; ( kamar mandi | sdikit kotor | negative ) ; ( secara keseluruhan | okee | positive ) 11 .( lantai kamarnya )",
+        "target": "( secara keseluruhan tempat | nyaman . | positive ) ; ( parkirn | nyaman . | positive ) ; ( ac | lancar | positive ) ; ( wifii | lancar | positive ) ; ( air mandi | lancar . | positive ) ; ( lantai kamarnya | sdikit kotor | negative ) ; ( overal | okee | positive ) ; ( lantai kamarnya | rada kecewa | negative ) ; ( kamar mandi | sdikit kotor | negative ) ; ( secara keseluruhan | okee | positive ) 11 .( lantai kamarnya )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -24952,7 +24952,7 @@
         "instance_id": 2772,
         "task_elements": "aos",
         "input": "kamar bersih dan nyaman , toilet bersih , hot shower tidak ada , sarapan enak , channel tv ( hampir ) semua tidak bagus butuh perbaikan antena / saluran",
-        "target": "( kamar | bersih | positive ) ; ( kamar | nyaman |  ) ; ( toilet | bersih | positive ) ; ( hot shower | tidak ada |  ) ; ( sarapan | enak |  ) ; ( channel tv | ( hampir ) semua tidak bagus butuh perbaikan antena / saluran | negative )",
+        "target": "( kamar | bersih | positive ) ; ( kamar | nyaman | positive ) ; ( toilet | bersih | positive ) ; ( hot shower | tidak ada | negative ) ; ( sarapan | enak | positive ) ; ( channel tv | ( hampir ) semua tidak bagus butuh perbaikan antena / saluran | negative )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -26761,7 +26761,7 @@
         "instance_id": 2973,
         "task_elements": "aos",
         "input": "kamarnya bersih dan unik , tapi sayang posisi tempat tidurnya diatas gitu , jd stiap ketinggalan barang harus naik dlu , trus kalau ke toilet hrus trun tangga . naik turun tangganya bkin capek . trus pas awal dtang ac g dingin trus tanya mba disana katanya rusak , tunggu service nya datang , pas tukang service datang ternyata ac nya g rusak .",
-        "target": "( kamarnya | bersih | positive ) ; ( kamarnya | unik |  ) ; ( posisi tempat tidurnya | diatas | negative ) ; ( ac | g dingin | negative )",
+        "target": "( kamarnya | bersih | positive ) ; ( kamarnya | unik | positive ) ; ( posisi tempat tidurnya | diatas | negative ) ; ( ac | g dingin | negative )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -28597,7 +28597,7 @@
         "instance_id": 3177,
         "task_elements": "aos",
         "input": "nyaman , dan tenang , , , hny wifi nya gk fungsi , , , jd susah buat komunikasi , , , tlg tingkatkn lagi pelayanannya",
-        "target": "( null | nyaman | positive ) ; ( wifi nya | gk fungsi |  ) ; ( pelayanannya | tingkatkn lagi | negative ) ; ( null | tenang | positive )",
+        "target": "( null | nyaman | positive ) ; ( wifi nya | gk fungsi | negative ) ; ( pelayanannya | tingkatkn lagi | negative ) ; ( null | tenang | positive )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },

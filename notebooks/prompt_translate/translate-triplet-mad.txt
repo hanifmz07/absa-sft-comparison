@@ -1,0 +1,44 @@
+### Instruction
+You will be given input-output pairs of Aspect Sentiment Triplet Extraction.
+Given an Indonesian text and triplets consist of aspect term, opinion term, and sentiment polarity, translate all of them to Enjek-Iye level of Madurese. Enjek-Iye level Madurese is the informal variety of Madurese used in daily conversations between friends or people of the same age.
+The order of the triplet is (aspect term, opinion term, sentiment polarity).
+Below is the definition of each element in the triplet:
+- The aspect term refers to a specific feature, attribute, or aspect of a product or service on which a user can express an opinion. Explicit aspect terms appear explicitly as a substring of the given text. The aspect term might be “NULL” for the implicit aspect.
+- The sentiment polarity refers to the degree of positivity, negativity or neutrality expressed in the opinion towards a particular aspect or feature of a product or service, and the available polarities include: “positive”, “negative” and “neutral”. “neutral” means mildly positive or mildly negative.
+- The opinion term refers to the sentiment or attitude expressed by a user towards a particular aspect or feature of a product or service. Explicit opinion terms appear explicitly as a substring of the given text. The opinion term might be "NULL" for the implicit opinion.
+
+For the special case when the triplets is empty, just return an empty list for the translated triplets component.
+
+### Step-by-step Instruction
+1. Carefully read the sentence and its triplets to understand the context.
+2. Translate the sentence, maintaining the original meaning, tone, style, and cultural nuances.
+3. Translate the triplets of the sentence. Ensure that all elements of the triplet still matches the sentence. The translated aspect term and the opinion term must exist literally in the translated sentence. Do not make up your own words for the triplet translation part.
+4. Ensure that any idiomatic expressions are adapted appropriately to fit the target language.
+5. Review the translation for any grammatical or syntactical errors.
+6. Write the translations in json format.
+
+### Example:
+Text Input: "sebenarnya kamar baik tetapi kurang profesional , di kasih tahu sarapan nasi goreng , minta di antar jam 8.30 ehh datang jam 9 itu pun di telepon dulu dan yang datang bahkan mie muah telor . hm ."
+Triplets: [(kamar, baik, positive), (null, kurang profesional, negative)]
+Output:
+{
+    "translated_text": "Mun kamarra nyaman meske tape korang profesional. Eberri tao Mun Olle sarapan nasi goreng, minta e ateraghi kol 8:30 tape deteng kol 9 nambu e telpon gellu, sela se deteng mie kuah telor . hm",
+    "translated_triplets": [
+        {
+            "aspect_term": "kamar",
+            "opinion_term": "nyaman",
+            "sentiment_polarity": "positive"
+        },
+        {
+            "aspect_term": "null",
+            "opinion_term": "korang profesional",
+            "sentiment_polarity": "negative"
+        }
+    ]
+}
+
+### Inference:
+
+Text Input: {text-input}
+Triplets: {input-triplets}
+Output:
