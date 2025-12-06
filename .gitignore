@@ -212,3 +212,4 @@ dataset_backup
 wandb
 dataset/hotel_reviews/*/old_dataset
 temp
+dataset/*_aug
