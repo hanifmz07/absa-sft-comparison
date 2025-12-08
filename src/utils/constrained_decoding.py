@@ -15,7 +15,8 @@ class BaseConstrainedDecoder(LogitsProcessor):
 		self.input_ids = input_ids
 		self.tokenizer = tokenizer
 		self.special_token_ids = set(tokenizer.all_special_ids)
-		self.special_words = set(tokenizer(['positive', 'negative', ' positive', ' negative', 'null', ' null'], add_special_tokens=False, return_tensors='pt', padding=True, truncation=True)['input_ids'].reshape(-1).tolist())
+		self.special_words = set(tokenizer(['positive', 'negative', ' positive', 'Ġpositive', ' negative', 'Ġnegative', 'null', ' null', 'Ġnull'], add_special_tokens=False, return_tensors='pt', padding=True, truncation=True)['input_ids'].reshape(-1).tolist())
+		self.spaced_first_word = None
 	
 	def _prepare_batch_allowed_tokens(self, tokenizer: AutoTokenizer) -> None:
 		
@@ -32,11 +33,27 @@ class BaseConstrainedDecoder(LogitsProcessor):
 			list_of_tokens = self.input_ids[i].tolist()
 			words = tokenizer.decode(list_of_tokens, skip_special_tokens=True)
 			words_split = words.split(' ')
-			spaced_first_word = f' {words_split[0]}'
-			spaced_token_id = set(tokenizer(spaced_first_word, add_special_tokens=False)['input_ids'])
+			self.spaced_first_word = f' {words_split[0]}'
+
+			# Generate all substrings of the first word to handle some typos in tokenization
+			substrings = set()
+			for i in range(len(words_split[0])):
+				for j in range(i + 1, len(words_split[0]) + 1):
+					substrings.add(words_split[0][i:j])
+					if i == 0:
+						substrings.add(' ' + words_split[0][i:j])
+			
+			# Tokenizer all substrings, and filter them based on this rule: only keep those that are tokenized as a single token
+			tokenized_substrings = set()
+			for substring in substrings:
+				tokenized = tokenizer(substring, add_special_tokens=False, return_tensors='pt', padding=True, truncation=True)
+				if tokenized['input_ids'].size(1) == 1:
+					tokenized_substrings.add(tokenized['input_ids'].item())
+				
+			# spaced_token_id = set(tokenizer([self.spaced_first_word, f'Ġ{words_split[0]}'], add_special_tokens=False, return_tensors='pt', padding=True, truncation=True)['input_ids'].reshape(-1).tolist())
 
 			# Combine all allowed tokens
-			allowed_tokens = set(list_of_tokens).union(self.special_token_ids).union(self.special_words).union(spaced_token_id)
+			allowed_tokens = set(list_of_tokens).union(self.special_token_ids).union(self.special_words).union(tokenized_substrings)
 
 			# Store the allowed tokens for this batch item
 			self.batch_allowed_tokens.append(allowed_tokens)
