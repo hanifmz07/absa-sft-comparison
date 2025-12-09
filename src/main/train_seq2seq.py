@@ -192,11 +192,8 @@ def main(args):
     print(f"Duration: {datetime.now() - datetime.strptime(current_time, '%Y%m%d_%H%M%S')}")
     print(f"Model saved to {output_dir}")
 
-    # 9. Inference Example
-    input_text = "Hello, how are you today?"
-    inputs = tokenizer(input_text, return_tensors="pt").input_ids.to(model.device)
-    outputs = model.generate(inputs, max_new_tokens=40, do_sample=True, top_k=30, top_p=0.95)
-    print("Translated:", tokenizer.decode(outputs[0], skip_special_tokens=True))
+    tokenizer.save_pretrained(output_dir)
+    print(f"Tokenizer saved to {output_dir}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
