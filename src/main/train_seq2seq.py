@@ -82,14 +82,14 @@ def main(args):
     def preprocess_function(instance):
         # Tokenize inputs
         model_inputs = tokenizer(
-            instance['input'],  # Includes the separator
+            instance['input'] + " =>",  # Includes the separator
             # truncation=True
         )
 
         # Tokenize targets (labels)
         # We use text_target=... to tokenize the target text
         labels = tokenizer(
-            text_target=instance['target'], 
+            text_target= " " + instance['target'], 
             # truncation=True
         )
 
@@ -106,7 +106,7 @@ def main(args):
     if args.sample_size is not None:
         df = df.sample(n=args.sample_size, random_state=args.seed).reset_index(drop=True)
     dataset = Dataset.from_pandas(df)
-    dataset = dataset.map(preprocess_function, batched=True)
+    dataset = dataset.map(preprocess_function)
 
     # Load validation dataset if provided
     if args.val_json_path is not None and args.eval_strategy != "no":
