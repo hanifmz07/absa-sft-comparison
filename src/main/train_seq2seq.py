@@ -20,23 +20,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def main(args):
-    def preprocess_function(instance):
-        # Tokenize inputs
-        model_inputs = tokenizer(
-            instance['input'] + " =>",  # Includes the separator
-            truncation=True
-        )
-
-        # Tokenize targets (labels)
-        # We use text_target=... to tokenize the target text
-        labels = tokenizer(
-            text_target=" " + instance['target'], 
-            truncation=True
-        )
-
-        model_inputs["labels"] = labels["input_ids"]
-        return model_inputs
-
     def compute_metrics(eval_preds):
         metric = evaluate.load("sacrebleu")
         preds, labels = eval_preds
@@ -92,8 +75,27 @@ def main(args):
     else:
         print("No GPU detected, training will be on CPU.")
 
-    # 1. Load Dataset (English-Indonesian translation example)
-    # We use a small subset for demonstration
+    # Load Tokenizer & Model
+    tokenizer = AutoTokenizer.from_pretrained(args.model_name, cache_dir=os.getenv("HF_CACHE_DIR"))
+    model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name, dtype=torch.bfloat16 if bf16 else torch.float16, trust_remote_code=True, device_map="auto", cache_dir=os.getenv("HF_CACHE_DIR"))
+
+    def preprocess_function(instance):
+        # Tokenize inputs
+        model_inputs = tokenizer(
+            instance['input'],  # Includes the separator
+            # truncation=True
+        )
+
+        # Tokenize targets (labels)
+        # We use text_target=... to tokenize the target text
+        labels = tokenizer(
+            text_target=instance['target'], 
+            # truncation=True
+        )
+
+        model_inputs["labels"] = labels["input_ids"]
+        return model_inputs
+    
     # Load dataset
     print(f"Loading dataset from {args.train_json_path}...")
     with open(args.train_json_path, 'r') as f:
@@ -117,13 +119,8 @@ def main(args):
         val_dataset = Dataset.from_pandas(val_df)
         val_dataset = val_dataset.map(preprocess_function)
 
-    # Load Tokenizer & Model
-    model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name, dtype=torch.bfloat16 if bf16 else torch.float16, trust_remote_code=True, device_map="auto", cache_dir=os.getenv("HF_CACHE_DIR"))
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name, cache_dir=os.getenv("HF_CACHE_DIR"))
-
     # Training Arguments
     # Create output directory with detailed naming
-
     output_folder_name = f"{current_time}"
     output_folder_name += f"_{os.path.splitext(os.path.basename(args.train_json_path))[0]}"
     output_folder_name += f"_model-{args.model_name.split('/')[-1]}"
@@ -140,16 +137,15 @@ def main(args):
     # Set the project name where your runs will appear in the dashboard
     os.environ["WANDB_PROJECT"] = "absa-seq2seq"
 
-    args = Seq2SeqTrainingArguments(
+    model_args = Seq2SeqTrainingArguments(
         per_device_train_batch_size=args.batch_size,  # Reduce if OOM
-        output_dir=output_dir,
         learning_rate=args.lr,
         weight_decay=0.01,
         num_train_epochs=args.num_epochs,
         predict_with_generate=True,     # Essential for Seq2Seq metrics
         bf16=bf16, # Use mixed precision if on GPU
         optim=args.optimizer,
-        completion_only_loss=True,
+        # completion_only_loss=True,
 
         # Evaluation settings
         eval_strategy=args.eval_strategy,
@@ -176,7 +172,7 @@ def main(args):
     # Initialize Trainer
     trainer = Seq2SeqTrainer(
         model=model,
-        args=args,
+        args=model_args,
         train_dataset=dataset,
         eval_dataset=val_dataset if args.val_json_path is not None and args.eval_strategy != "no" else None,
         data_collator=data_collator,
