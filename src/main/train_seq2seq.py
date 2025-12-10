@@ -20,26 +20,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def main(args):
-    def compute_metrics(eval_preds):
-        metric = evaluate.load("sacrebleu")
-        preds, labels = eval_preds
-        if isinstance(preds, tuple):
-            preds = preds[0]
-        
-        # Decode generated predictions
-        decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
-        
-        # Replace -100 in the labels as we can't decode them
-        labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
-        decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-        
-        # Post-process for SacreBLEU (requires list of list for references)
-        decoded_preds = [pred.strip() for pred in decoded_preds]
-        decoded_labels = [[label.strip()] for label in decoded_labels]
-        
-        result = metric.compute(predictions=decoded_preds, references=decoded_labels)
-        return {"bleu": result["score"]}
-    
     def print_config(args):
         print("=" * 20 + " Training Configuration " + "=" * 20)
         print(f"Model Name: {args.model_name}")
@@ -177,7 +157,6 @@ def main(args):
         eval_dataset=val_dataset if args.val_json_path is not None and args.eval_strategy != "no" else None,
         data_collator=data_collator,
         tokenizer=tokenizer,
-        compute_metrics=compute_metrics,
     )
 
     # Train
