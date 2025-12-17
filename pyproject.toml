@@ -13,6 +13,7 @@ dependencies = [
     "google-genai>=1.52.0",
     "ipykernel>=7.1.0",
     "pandas>=2.3.3",
+    "sentencepiece>=0.2.1",
     "torch>=2.9.1",
     "transformers>=4.57.1",
     "trl>=0.25.1",
