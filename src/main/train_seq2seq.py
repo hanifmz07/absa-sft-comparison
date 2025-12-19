@@ -1,11 +1,13 @@
 import torch
 from datasets import Dataset
 from transformers import (
-    AutoTokenizer, 
-    AutoModelForSeq2SeqLM, 
+    # AutoTokenizer, 
+    # AutoModelForSeq2SeqLM, 
     DataCollatorForSeq2Seq, 
     Seq2SeqTrainingArguments, 
-    Seq2SeqTrainer
+    Seq2SeqTrainer,
+    MT5Tokenizer,
+    MT5ForConditionalGeneration,
 )
 from datetime import datetime
 import evaluate
@@ -56,24 +58,17 @@ def main(args):
         print("No GPU detected, training will be on CPU.")
 
     # Load Tokenizer & Model
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name, cache_dir=os.getenv("HF_CACHE_DIR"))
-    model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name, dtype=torch.bfloat16 if bf16 else torch.float16, trust_remote_code=True, device_map="auto", cache_dir=os.getenv("HF_CACHE_DIR"))
+    tokenizer = MT5Tokenizer.from_pretrained(args.model_name, cache_dir=os.getenv("HF_CACHE_DIR"), legacy=False)
+    model = MT5ForConditionalGeneration.from_pretrained(args.model_name, dtype=torch.bfloat16 if bf16 else torch.float16, trust_remote_code=True, device_map="auto", cache_dir=os.getenv("HF_CACHE_DIR"))
 
     def preprocess_function(instance):
         # Tokenize inputs
         model_inputs = tokenizer(
             instance['input'] + " =>",  # Includes the separator
-            # truncation=True
-        )
-
-        # Tokenize targets (labels)
-        # We use text_target=... to tokenize the target text
-        labels = tokenizer(
             text_target= " " + instance['target'], 
             # truncation=True
         )
 
-        model_inputs["labels"] = labels["input_ids"]
         return model_inputs
     
     # Load dataset
@@ -136,9 +131,10 @@ def main(args):
         logging_steps=1,
         report_to="wandb",
         save_strategy=args.save_strategy,
+        save_total_limit=1,
         load_best_model_at_end=True if args.save_strategy == "best" else False,
         output_dir=output_dir,
-        run_name=f"seed-{args.seed}_optimizer-{args.optimizer}_lr-{args.lr}_samplesize-{args.sample_size if args.sample_size is not None else 'all'}_data-{args.train_json_path.split('/')[3]}_{current_time}",
+        run_name=f"mtf5_seed-{args.seed}_optimizer-{args.optimizer}_lr-{args.lr}_samplesize-{args.sample_size if args.sample_size is not None else 'all'}_data-{args.train_json_path.split('/')[3]}_{current_time}",
 
         # Seed settings
         seed=args.seed,
@@ -147,16 +143,17 @@ def main(args):
 
     # Data Collator
     # This handles dynamic padding (crucial for efficiency)
-    data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
+    data_collator = DataCollatorForSeq2Seq(tokenizer, model=model, padding=True)
 
     # Initialize Trainer
+    print("--- Initializing Seq2SeqTrainer ---")
     trainer = Seq2SeqTrainer(
         model=model,
         args=model_args,
         train_dataset=dataset,
         eval_dataset=val_dataset if args.val_json_path is not None and args.eval_strategy != "no" else None,
         data_collator=data_collator,
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
     )
 
     # Train
