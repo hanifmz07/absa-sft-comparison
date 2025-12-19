@@ -1,11 +1,13 @@
 import torch
 from datasets import Dataset
 from transformers import (
-    AutoTokenizer, 
-    AutoModelForSeq2SeqLM, 
+    # AutoTokenizer, 
+    # AutoModelForSeq2SeqLM, 
     DataCollatorForSeq2Seq, 
     Seq2SeqTrainingArguments, 
-    Seq2SeqTrainer
+    Seq2SeqTrainer,
+    MT5Tokenizer,
+    MT5ForConditionalGeneration,
 )
 from datetime import datetime
 import evaluate
@@ -20,43 +22,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def main(args):
-    def preprocess_function(instance):
-        # Tokenize inputs
-        model_inputs = tokenizer(
-            instance['input'] + " =>",  # Includes the separator
-            truncation=True
-        )
-
-        # Tokenize targets (labels)
-        # We use text_target=... to tokenize the target text
-        labels = tokenizer(
-            text_target=" " + instance['target'], 
-            truncation=True
-        )
-
-        model_inputs["labels"] = labels["input_ids"]
-        return model_inputs
-
-    def compute_metrics(eval_preds):
-        metric = evaluate.load("sacrebleu")
-        preds, labels = eval_preds
-        if isinstance(preds, tuple):
-            preds = preds[0]
-        
-        # Decode generated predictions
-        decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
-        
-        # Replace -100 in the labels as we can't decode them
-        labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
-        decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-        
-        # Post-process for SacreBLEU (requires list of list for references)
-        decoded_preds = [pred.strip() for pred in decoded_preds]
-        decoded_labels = [[label.strip()] for label in decoded_labels]
-        
-        result = metric.compute(predictions=decoded_preds, references=decoded_labels)
-        return {"bleu": result["score"]}
-    
     def print_config(args):
         print("=" * 20 + " Training Configuration " + "=" * 20)
         print(f"Model Name: {args.model_name}")
@@ -92,8 +57,20 @@ def main(args):
     else:
         print("No GPU detected, training will be on CPU.")
 
-    # 1. Load Dataset (English-Indonesian translation example)
-    # We use a small subset for demonstration
+    # Load Tokenizer & Model
+    tokenizer = MT5Tokenizer.from_pretrained(args.model_name, cache_dir=os.getenv("HF_CACHE_DIR"), legacy=False)
+    model = MT5ForConditionalGeneration.from_pretrained(args.model_name, dtype=torch.bfloat16 if bf16 else torch.float16, trust_remote_code=True, device_map="auto", cache_dir=os.getenv("HF_CACHE_DIR"))
+
+    def preprocess_function(instance):
+        # Tokenize inputs
+        model_inputs = tokenizer(
+            instance['input'] + " =>",  # Includes the separator
+            text_target= " " + instance['target'], 
+            # truncation=True
+        )
+
+        return model_inputs
+    
     # Load dataset
     print(f"Loading dataset from {args.train_json_path}...")
     with open(args.train_json_path, 'r') as f:
@@ -104,7 +81,7 @@ def main(args):
     if args.sample_size is not None:
         df = df.sample(n=args.sample_size, random_state=args.seed).reset_index(drop=True)
     dataset = Dataset.from_pandas(df)
-    dataset = dataset.map(preprocess_function, batched=True)
+    dataset = dataset.map(preprocess_function)
 
     # Load validation dataset if provided
     if args.val_json_path is not None and args.eval_strategy != "no":
@@ -117,13 +94,8 @@ def main(args):
         val_dataset = Dataset.from_pandas(val_df)
         val_dataset = val_dataset.map(preprocess_function)
 
-    # Load Tokenizer & Model
-    model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name, dtype=torch.bfloat16 if bf16 else torch.float16, trust_remote_code=True, device_map="auto", cache_dir=os.getenv("HF_CACHE_DIR"))
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name, cache_dir=os.getenv("HF_CACHE_DIR"))
-
     # Training Arguments
     # Create output directory with detailed naming
-
     output_folder_name = f"{current_time}"
     output_folder_name += f"_{os.path.splitext(os.path.basename(args.train_json_path))[0]}"
     output_folder_name += f"_model-{args.model_name.split('/')[-1]}"
@@ -140,16 +112,15 @@ def main(args):
     # Set the project name where your runs will appear in the dashboard
     os.environ["WANDB_PROJECT"] = "absa-seq2seq"
 
-    args = Seq2SeqTrainingArguments(
+    model_args = Seq2SeqTrainingArguments(
         per_device_train_batch_size=args.batch_size,  # Reduce if OOM
-        output_dir=output_dir,
         learning_rate=args.lr,
         weight_decay=0.01,
         num_train_epochs=args.num_epochs,
         predict_with_generate=True,     # Essential for Seq2Seq metrics
         bf16=bf16, # Use mixed precision if on GPU
         optim=args.optimizer,
-        completion_only_loss=True,
+        # completion_only_loss=True,
 
         # Evaluation settings
         eval_strategy=args.eval_strategy,
@@ -160,9 +131,10 @@ def main(args):
         logging_steps=1,
         report_to="wandb",
         save_strategy=args.save_strategy,
+        save_total_limit=1,
         load_best_model_at_end=True if args.save_strategy == "best" else False,
         output_dir=output_dir,
-        run_name=f"seed-{args.seed}_optimizer-{args.optimizer}_lr-{args.lr}_samplesize-{args.sample_size if args.sample_size is not None else 'all'}_data-{args.train_json_path.split('/')[3]}_{current_time}",
+        run_name=f"mtf5_seed-{args.seed}_optimizer-{args.optimizer}_lr-{args.lr}_samplesize-{args.sample_size if args.sample_size is not None else 'all'}_data-{args.train_json_path.split('/')[3]}_{current_time}",
 
         # Seed settings
         seed=args.seed,
@@ -171,17 +143,17 @@ def main(args):
 
     # Data Collator
     # This handles dynamic padding (crucial for efficiency)
-    data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
+    data_collator = DataCollatorForSeq2Seq(tokenizer, model=model, padding=True)
 
     # Initialize Trainer
+    print("--- Initializing Seq2SeqTrainer ---")
     trainer = Seq2SeqTrainer(
         model=model,
-        args=args,
+        args=model_args,
         train_dataset=dataset,
         eval_dataset=val_dataset if args.val_json_path is not None and args.eval_strategy != "no" else None,
         data_collator=data_collator,
-        tokenizer=tokenizer,
-        compute_metrics=compute_metrics,
+        processing_class=tokenizer,
     )
 
     # Train
