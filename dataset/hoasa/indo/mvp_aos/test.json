@@ -258,7 +258,7 @@
     {
         "sentence_id": 2437,
         "instance_id": 2437,
-        "input": "lantai kamar mandi kamar saya agak licin , mohon dibersihkan dengan baik . overall semua sangat baik . terima kasih \ud83d\ude06 [A] [O] [S]",
+        "input": "lantai kamar mandi kamar saya agak licin , mohon dibersihkan dengan baik . overall semua sangat baik . terima kasih 😆 [A] [O] [S]",
         "target": "[A] lantai kamar mandi kamar saya [O] agak licin [S] negative [SSEP] [A] null [O] mohon dibersihkan dengan baik [S] negative [SSEP] [A] overall semua [O] sangat baik [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
@@ -386,7 +386,7 @@
     {
         "sentence_id": 2453,
         "instance_id": 2453,
-        "input": "wifi kenceng , kamar luas , ac bagus , tp kamar mandi agak kotor , makanannya enak dan harga terjangkau , tempat makan juga banyak sekitar hotel , akses kemana -mana sekitar kota dekat , thanks airyroom\ud83d\udc4d [A] [O] [S]",
+        "input": "wifi kenceng , kamar luas , ac bagus , tp kamar mandi agak kotor , makanannya enak dan harga terjangkau , tempat makan juga banyak sekitar hotel , akses kemana -mana sekitar kota dekat , thanks airyroom👍 [A] [O] [S]",
         "target": "[A] wifi [O] kenceng [S] positive [SSEP] [A] kamar [O] luas [S] positive [SSEP] [A] ac [O] bagus [S] positive [SSEP] [A] kamar mandi [O] agak kotor [S] negative [SSEP] [A] makanannya [O] enak [S] positive [SSEP] [A] harga [O] terjangkau [S] positive [SSEP] [A] tempat makan [O] banyak sekitar hotel [S] positive [SSEP] [A] akses kemana -mana sekitar kota [O] dekat [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
@@ -618,7 +618,7 @@
     {
         "sentence_id": 2482,
         "instance_id": 2482,
-        "input": "wifi bermasalah & showernya ada bag . yg bocor , selebihnya bagus . . . \ud83d\ude42 [A] [O] [S]",
+        "input": "wifi bermasalah & showernya ada bag . yg bocor , selebihnya bagus . . . 🙂 [A] [O] [S]",
         "target": "[A] wifi [O] bermasalah [S] negative [SSEP] [A] showernya [O] ada bag . yg bocor [S] negative [SSEP] [A] selebihnya [O] bagus [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
@@ -786,7 +786,7 @@
     {
         "sentence_id": 2503,
         "instance_id": 2503,
-        "input": "pelayanan sangat ramah , kamar pun rapih dah bersih tapi ada sedikit kekurangan di bagian handuk dan selimutnya sebaiknua yg sudah sobek diganti yaa . . thx\ud83d\ude0a [A] [O] [S]",
+        "input": "pelayanan sangat ramah , kamar pun rapih dah bersih tapi ada sedikit kekurangan di bagian handuk dan selimutnya sebaiknua yg sudah sobek diganti yaa . . thx😊 [A] [O] [S]",
         "target": "[A] pelayanan [O] sangat ramah [S] positive [SSEP] [A] kamar [O] rapih dah bersih [S] positive [SSEP] [A] handuk [O] sudah sobek [S] negative [SSEP] [A] selimutnya [O] sudah sobek [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
@@ -978,7 +978,7 @@
     {
         "sentence_id": 2527,
         "instance_id": 2527,
-        "input": "tv nya gak nyala \ud83d\ude11 [A] [O] [S]",
+        "input": "tv nya gak nyala 😑 [A] [O] [S]",
         "target": "[A] tv nya [O] gak nyala [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
@@ -1018,8 +1018,8 @@
     {
         "sentence_id": 2532,
         "instance_id": 2532,
-        "input": "wc ada binatang kecil\u201d , geliiii . . . [A] [O] [S]",
-        "target": "[A] wc [O] ada binatang kecil\u201d [S] negative [SSEP] [A] null [O] geliiii . . . [S] negative",
+        "input": "wc ada binatang kecil” , geliiii . . . [A] [O] [S]",
+        "target": "[A] wc [O] ada binatang kecil” [S] negative [SSEP] [A] null [O] geliiii . . . [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -1218,7 +1218,7 @@
     {
         "sentence_id": 2557,
         "instance_id": 2557,
-        "input": "sayangnya hot waternya mati . \ud83d\ude14 [A] [O] [S]",
+        "input": "sayangnya hot waternya mati . 😔 [A] [O] [S]",
         "target": "[A] hot waternya [O] mati [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
@@ -1226,7 +1226,7 @@
     {
         "sentence_id": 2558,
         "instance_id": 2558,
-        "input": "pelayanannya kurang baik bad , kasur kurang empuk , selimut tipis handuk tipis snack gak ada bad \ud83d\ude2a [A] [O] [S]",
+        "input": "pelayanannya kurang baik bad , kasur kurang empuk , selimut tipis handuk tipis snack gak ada bad 😪 [A] [O] [S]",
         "target": "[A] pelayanannya [O] kurang baik bad [S] negative [SSEP] [A] kasur [O] kurang empuk [S] negative [SSEP] [A] selimut [O] tipis [S] negative [SSEP] [A] handuk [O] tipis [S] negative [SSEP] [A] snack [O] gak ada bad [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
@@ -1266,8 +1266,8 @@
     {
         "sentence_id": 2563,
         "instance_id": 2563,
-        "input": "tempat bersih , rapi , nyaman , sesuai harga lah pokoknya , cuman wifi di atas gak ada jd mau wifian harus ke bawah , overall good\ud83d\udc4c [A] [O] [S]",
-        "target": "[A] tempat [O] bersih [S] positive [SSEP] [A] tempat [O] rapi [S] positive [SSEP] [A] tempat [O] nyaman [S] positive [SSEP] [A] tempat [O] sesuai harga lah pokoknya [S] positive [SSEP] [A] wifi di atas [O] gak ada jd mau wifian harus ke bawah [S] negative [SSEP] [A] overall [O] good\ud83d\udc4c [S] positive",
+        "input": "tempat bersih , rapi , nyaman , sesuai harga lah pokoknya , cuman wifi di atas gak ada jd mau wifian harus ke bawah , overall good👌 [A] [O] [S]",
+        "target": "[A] tempat [O] bersih [S] positive [SSEP] [A] tempat [O] rapi [S] positive [SSEP] [A] tempat [O] nyaman [S] positive [SSEP] [A] tempat [O] sesuai harga lah pokoknya [S] positive [SSEP] [A] wifi di atas [O] gak ada jd mau wifian harus ke bawah [S] negative [SSEP] [A] overall [O] good👌 [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
     },
@@ -1578,7 +1578,7 @@
     {
         "sentence_id": 2602,
         "instance_id": 2602,
-        "input": "sprei kamar kotor seperti baru dipakai dan ga diganti . wifi juga ga dapet ke ruangan yg saya tempati \ud83d\ude0c [A] [O] [S]",
+        "input": "sprei kamar kotor seperti baru dipakai dan ga diganti . wifi juga ga dapet ke ruangan yg saya tempati 😌 [A] [O] [S]",
         "target": "[A] sprei kamar [O] kotor seperti baru dipakai [S] negative [SSEP] [A] sprei kamar [O] ga diganti [S] negative [SSEP] [A] wifi [O] ga dapet ke ruangan yg saya tempati [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
@@ -1946,7 +1946,7 @@
     {
         "sentence_id": 2648,
         "instance_id": 2648,
-        "input": "so far lumayan sih buat budget hotel . tapi pelayanannya agak kurang nih , \ud83d\ude02 wifi nggak konek , terus mau clean up room , kunci digantungin gitu aja di pintu kamar , nggak disimpen lagi di resepsionis \ud83d\udc94 [A] [O] [S]",
+        "input": "so far lumayan sih buat budget hotel . tapi pelayanannya agak kurang nih , 😂 wifi nggak konek , terus mau clean up room , kunci digantungin gitu aja di pintu kamar , nggak disimpen lagi di resepsionis 💔 [A] [O] [S]",
         "target": "[A] budget hotel [O] lumayan [S] positive [SSEP] [A] pelayanannya [O] agak kurang [S] negative [SSEP] [A] wifi [O] nggak konek [S] negative [SSEP] [A] kunci [O] digantungin gitu aja di pintu kamar [S] nggak disimpen lagi di resepsionis",
         "element_order": "aos",
         "task_elements": "aos"
@@ -1986,7 +1986,7 @@
     {
         "sentence_id": 2653,
         "instance_id": 2653,
-        "input": "paling gak suka dgn pelayanan kepala service , terlalu bossy , walau jabatan bapak diatas karyawan yg lain bapak itu bukan pemilik , harusnya bapak bilang rekan kerjanya bukan anak buah , kan sama2 di gaji\ud83d\ude09 , , dibenahi lagi lah aturannya jgn beda2 kalau ditanya , , biar tamu gak bingung , , breakfast gak enak sama sekali , , kalau anda ramah kami akan senang [A] [O] [S]",
+        "input": "paling gak suka dgn pelayanan kepala service , terlalu bossy , walau jabatan bapak diatas karyawan yg lain bapak itu bukan pemilik , harusnya bapak bilang rekan kerjanya bukan anak buah , kan sama2 di gaji😉 , , dibenahi lagi lah aturannya jgn beda2 kalau ditanya , , biar tamu gak bingung , , breakfast gak enak sama sekali , , kalau anda ramah kami akan senang [A] [O] [S]",
         "target": "[A] pelayanan kepala service [O] terlalu bossy [S] negative [SSEP] [A] aturannya [O] jgn beda2 kalau ditanya [S] negative [SSEP] [A] breakfast [O] gak enak sama sekali [S] negative [SSEP] [A] null [O] kalau anda ramah kami akan senang [S] negative",
         "element_order": "aos",
         "task_elements": "aos"
