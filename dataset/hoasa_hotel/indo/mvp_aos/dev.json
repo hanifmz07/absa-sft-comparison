@@ -9516,7 +9516,7 @@
         "sentence_id": 2204,
         "instance_id": 5686,
         "input": "kamar nya bau jamur . . lembab . . kurang nyaman . . [A] [O] [S]",
-        "target": "",
+        "target": "[A] kamar nya [O] bau jamur [S] negative [SSEP] [A] null [O] lembab [S] negative [SSEP] [A] null [O] kurang nyaman [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -9579,7 +9579,7 @@
         "sentence_id": 2211,
         "instance_id": 5693,
         "input": "baguss sekali . lebih ditingkatkan aja pelayanan nya . senang ada airy di kampung halaman . thanks airy [A] [O] [S]",
-        "target": "",
+        "target": "[A] null [O] baguss sekali [S] positive [SSEP] [A] pelayanan nya [O] lebih ditingkatkan aja [S] negative [SSEP] [A] null [O] senang ada airy di kampung halaman [S] positive [SSEP] [A] airy [O] thanks [S] positive",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -9831,7 +9831,7 @@
         "sentence_id": 2239,
         "instance_id": 5721,
         "input": "kamar nya kurang dingin krn ac nya rusak . penanganan pindah kamar lama [A] [O] [S]",
-        "target": "",
+        "target": "[A] kamar nya [O] kurang dingin [S] negative [SSEP] [A] ac nya [O] rusak [S] negative [SSEP] [A] penanganan pindah kamar [O] lama [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -10695,7 +10695,7 @@
         "sentence_id": 2335,
         "instance_id": 5817,
         "input": "agar lebih di perhatikan kebersihan kamar dan kamar mandi dari nyamuk dan kelabang , untuk masalah penambahan hari agar di permudah . . [A] [O] [S]",
-        "target": "",
+        "target": "[A] kebersihan kamar dan kamar mandi [O] lebih di perhatikan kebersihan dari nyamuk dan kelabang [S] negative [SSEP] [A] masalah penambahan hari [O] agar di permudah [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -10866,7 +10866,7 @@
         "sentence_id": 2354,
         "instance_id": 5836,
         "input": "saya booking kamar airy room masa di kamar bukan seperti yang di extra nett ga ada snacky airy , ga ada bantal airy , ga ada bed runer airy , tidak sesuai seperti yang di foto airy room , recepsionis tidak ramah yang jaga pada shif sore nya perempuan , hexos bunyi berisik , air hangat tidak berfungsi , hotel city icon residence berisik karena ada pesta acara ulang tahun . yang ramah cumang staf bapak security nya saja yang jaga pada saat itu . [A] [O] [S]",
-        "target": "",
+        "target": "[A] kamar airy room [O] bukan seperti yang di extra nett [S] negative [SSEP] [A] null [O] ga ada snacky airy [S] negative [SSEP] [A] null [O] ga ada bantal airy [S] negative [SSEP] [A] null [O] ga ada bed runer airy [S] negative [SSEP] [A] foto [O] tidak sesuai seperti yang di foto airy room [S] negative [SSEP] [A] recepsionis [O] tidak ramah [S] negative [SSEP] [A] hexos [O] bunyi berisik [S] negative [SSEP] [A] air hangat [O] tidak berfungsi [S] negative [SSEP] [A] hotel city icon residence [O] berisik karena ada pesta acara ulang tahun [S] negative [SSEP] [A] staf bapak security [O] ramah [S] positive",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -11118,7 +11118,7 @@
         "sentence_id": 2382,
         "instance_id": 5864,
         "input": "lumayan untuk bacpakeran , harganya terjangkau banget . tempatnya bersih , cuma spreinya agak berdebu [A] [O] [S]",
-        "target": "",
+        "target": "[A] null [O] lumayan untuk bacpakeran [S] positive [SSEP] [A] harganya [O] terjangkau banget [S] positive [SSEP] [A] tempatnya [O] bersih [S] positive [SSEP] [A] spreinya [O] agak berdebu [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"

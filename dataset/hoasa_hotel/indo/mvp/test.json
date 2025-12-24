@@ -9156,7 +9156,7 @@
         "sentence_id": 2422,
         "instance_id": 6904,
         "input": "wifinya susah [A] [O] [S]",
-        "target": "",
+        "target": "[A] wifinya [O] susah [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"

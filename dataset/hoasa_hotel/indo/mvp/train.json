@@ -119703,7 +119703,7 @@
         "sentence_id": 178,
         "instance_id": 13300,
         "input": "tak sesuai espektasi , kamar sempit , pintu kamar mandi rusak , cek in menunggu terlalu lama , malam suara berisik dr atap kamar , tidak nyaman [A] [O] [S]",
-        "target": "",
+        "target": "[A] null [O] tak sesuai espektasi [S] negative [SSEP] [A] kamar [O] sempit [S] negative [SSEP] [A] pintu kamar mandi [O] rusak [S] negative [SSEP] [A] cek in [O] menunggu terlalu lama [S] negative [SSEP] [A] suara dr atap kamar [O] berisik [S] negative [SSEP] [A] null [O] tidak nyaman [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -119712,7 +119712,7 @@
         "sentence_id": 178,
         "instance_id": 13301,
         "input": "tak sesuai espektasi , kamar sempit , pintu kamar mandi rusak , cek in menunggu terlalu lama , malam suara berisik dr atap kamar , tidak nyaman [A] [S] [O]",
-        "target": "",
+        "target": "[A] null [S] negative [O] tak sesuai espektasi [SSEP] [A] kamar [S] negative [O] sempit [SSEP] [A] pintu kamar mandi [S] negative [O] rusak [SSEP] [A] cek in [S] negative [O] menunggu terlalu lama [SSEP] [A] suara dr atap kamar [S] negative [O] berisik [SSEP] [A] null [S] negative [O] tidak nyaman",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -119721,7 +119721,7 @@
         "sentence_id": 178,
         "instance_id": 13302,
         "input": "tak sesuai espektasi , kamar sempit , pintu kamar mandi rusak , cek in menunggu terlalu lama , malam suara berisik dr atap kamar , tidak nyaman [S] [A] [O]",
-        "target": "",
+        "target": "[S] negative [A] null [O] tak sesuai espektasi [SSEP] [S] negative [A] kamar [O] sempit [SSEP] [S] negative [A] pintu kamar mandi [O] rusak [SSEP] [S] negative [A] cek in [O] menunggu terlalu lama [SSEP] [S] negative [A] suara dr atap kamar [O] berisik [SSEP] [S] negative [A] null [O] tidak nyaman",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -119730,7 +119730,7 @@
         "sentence_id": 178,
         "instance_id": 13303,
         "input": "tak sesuai espektasi , kamar sempit , pintu kamar mandi rusak , cek in menunggu terlalu lama , malam suara berisik dr atap kamar , tidak nyaman [O] [A] [S]",
-        "target": "",
+        "target": "[O] tak sesuai espektasi [A] null [S] negative [SSEP] [O] sempit [A] kamar [S] negative [SSEP] [O] rusak [A] pintu kamar mandi [S] negative [SSEP] [O] menunggu terlalu lama [A] cek in [S] negative [SSEP] [O] berisik [A] suara dr atap kamar [S] negative [SSEP] [O] tidak nyaman [A] null [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -119739,7 +119739,7 @@
         "sentence_id": 178,
         "instance_id": 13304,
         "input": "tak sesuai espektasi , kamar sempit , pintu kamar mandi rusak , cek in menunggu terlalu lama , malam suara berisik dr atap kamar , tidak nyaman [O] [S] [A]",
-        "target": "",
+        "target": "[O] tak sesuai espektasi [S] negative [A] null [SSEP] [O] sempit [S] negative [A] kamar [SSEP] [O] rusak [S] negative [A] pintu kamar mandi [SSEP] [O] menunggu terlalu lama [S] negative [A] cek in [SSEP] [O] berisik [S] negative [A] suara dr atap kamar [SSEP] [O] tidak nyaman [S] negative [A] null",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -132573,7 +132573,7 @@
         "sentence_id": 464,
         "instance_id": 14730,
         "input": "sayangnya fasilitas hotel msi kurang lengkap . . . gak ada pemanas air , toilet sedikit bau , view luar jendela sgt kotor , sampah plastik puntung rokok bahkan k*dom berserakan di luar jendela , n sendal gak ada dgn alasan soldout . . . [A] [O] [S]",
-        "target": "",
+        "target": "[A] fasilitas hotel [O] kurang lengkap [S] negative [SSEP] [A] pemanas air [O] gak ada [S] negative [SSEP] [A] toilet [O] sedikit bau [S] negative [SSEP] [A] view luar jendela [O] sangat kotor [S] negative [SSEP] [A] sampah plastik, puntung rokok, bahkan kondom di luar jendela [O] berserakan [S] negative [SSEP] [A] sendal [O] gak ada dengan alasan sold out [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -132582,7 +132582,7 @@
         "sentence_id": 464,
         "instance_id": 14731,
         "input": "sayangnya fasilitas hotel msi kurang lengkap . . . gak ada pemanas air , toilet sedikit bau , view luar jendela sgt kotor , sampah plastik puntung rokok bahkan k*dom berserakan di luar jendela , n sendal gak ada dgn alasan soldout . . . [A] [S] [O]",
-        "target": "",
+        "target": "[A] fasilitas hotel [S] negative [O] kurang lengkap [SSEP] [A] pemanas air [S] negative [O] gak ada [SSEP] [A] toilet [S] negative [O] sedikit bau [SSEP] [A] view luar jendela [S] negative [O] sangat kotor [SSEP] [A] sampah plastik, puntung rokok, bahkan kondom di luar jendela [S] negative [O] berserakan [SSEP] [A] sendal [S] negative [O] gak ada dengan alasan sold out",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -132591,7 +132591,7 @@
         "sentence_id": 464,
         "instance_id": 14732,
         "input": "sayangnya fasilitas hotel msi kurang lengkap . . . gak ada pemanas air , toilet sedikit bau , view luar jendela sgt kotor , sampah plastik puntung rokok bahkan k*dom berserakan di luar jendela , n sendal gak ada dgn alasan soldout . . . [S] [A] [O]",
-        "target": "",
+        "target": "[S] negative [A] fasilitas hotel [O] kurang lengkap [SSEP] [S] negative [A] pemanas air [O] gak ada [SSEP] [S] negative [A] toilet [O] sedikit bau [SSEP] [S] negative [A] view luar jendela [O] sangat kotor [SSEP] [S] negative [A] sampah plastik, puntung rokok, bahkan kondom di luar jendela [O] berserakan [SSEP] [S] negative [A] sendal [O] gak ada dengan alasan sold out",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -132600,7 +132600,7 @@
         "sentence_id": 464,
         "instance_id": 14733,
         "input": "sayangnya fasilitas hotel msi kurang lengkap . . . gak ada pemanas air , toilet sedikit bau , view luar jendela sgt kotor , sampah plastik puntung rokok bahkan k*dom berserakan di luar jendela , n sendal gak ada dgn alasan soldout . . . [O] [A] [S]",
-        "target": "",
+        "target": "[O] kurang lengkap [A] fasilitas hotel [S] negative [SSEP] [O] gak ada [A] pemanas air [S] negative [SSEP] [O] sedikit bau [A] toilet [S] negative [SSEP] [O] sangat kotor [A] view luar jendela [S] negative [SSEP] [O] berserakan [A] sampah plastik, puntung rokok, bahkan kondom di luar jendela [S] negative [SSEP] [O] gak ada dengan alasan sold out [A] sendal [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -132609,7 +132609,7 @@
         "sentence_id": 464,
         "instance_id": 14734,
         "input": "sayangnya fasilitas hotel msi kurang lengkap . . . gak ada pemanas air , toilet sedikit bau , view luar jendela sgt kotor , sampah plastik puntung rokok bahkan k*dom berserakan di luar jendela , n sendal gak ada dgn alasan soldout . . . [O] [S] [A]",
-        "target": "",
+        "target": "[O] kurang lengkap [S] negative [A] fasilitas hotel [SSEP] [O] gak ada [S] negative [A] pemanas air [SSEP] [O] sedikit bau [S] negative [A] toilet [SSEP] [O] sangat kotor [S] negative [A] view luar jendela [SSEP] [O] berserakan [S] negative [A] sampah plastik, puntung rokok, bahkan kondom di luar jendela [SSEP] [O] gak ada dengan alasan sold out [S] negative [A] sendal",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -142473,7 +142473,7 @@
         "sentence_id": 684,
         "instance_id": 15830,
         "input": "harga yg murah dg kenyamanan dan kebersihan yang ok . sudah include sarapan prasmanan . lokasi di dekat jl . lingkar utara , namun masuk di jalan buntu , jd gak berisik suara kendaraan . parkir mobil juga luas . minusnya ? minim staff yg melayani ( gak ada yg bantu [A] [O] [S]",
-        "target": "",
+        "target": "[A] harga [O] murah [S] positive [SSEP] [A] kenyamanan [O] ok [S] positive [SSEP] [A] kebersihan [O] ok [S] positive [SSEP] [A] sarapan prasmanan [O] sudah include [S] positive [SSEP] [A] lokasi [O] gak berisik suara kendaraan [S] positive [SSEP] [A] parkir mobil [O] luas [S] positive [SSEP] [A] staff yg melayani [O] minim [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -142482,7 +142482,7 @@
         "sentence_id": 684,
         "instance_id": 15831,
         "input": "harga yg murah dg kenyamanan dan kebersihan yang ok . sudah include sarapan prasmanan . lokasi di dekat jl . lingkar utara , namun masuk di jalan buntu , jd gak berisik suara kendaraan . parkir mobil juga luas . minusnya ? minim staff yg melayani ( gak ada yg bantu [A] [S] [O]",
-        "target": "",
+        "target": "[A] harga [S] positive [O] murah [SSEP] [A] kenyamanan [S] positive [O] ok [SSEP] [A] kebersihan [S] positive [O] ok [SSEP] [A] sarapan prasmanan [S] positive [O] sudah include [SSEP] [A] lokasi [S] positive [O] gak berisik suara kendaraan [SSEP] [A] parkir mobil [S] positive [O] luas [SSEP] [A] staff yg melayani [S] negative [O] minim",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -142491,7 +142491,7 @@
         "sentence_id": 684,
         "instance_id": 15832,
         "input": "harga yg murah dg kenyamanan dan kebersihan yang ok . sudah include sarapan prasmanan . lokasi di dekat jl . lingkar utara , namun masuk di jalan buntu , jd gak berisik suara kendaraan . parkir mobil juga luas . minusnya ? minim staff yg melayani ( gak ada yg bantu [S] [A] [O]",
-        "target": "",
+        "target": "[S] positive [A] harga [O] murah [SSEP] [S] positive [A] kenyamanan [O] ok [SSEP] [S] positive [A] kebersihan [O] ok [SSEP] [S] positive [A] sarapan prasmanan [O] sudah include [SSEP] [S] positive [A] lokasi [O] gak berisik suara kendaraan [SSEP] [S] positive [A] parkir mobil [O] luas [SSEP] [S] negative [A] staff yg melayani [O] minim",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -142500,7 +142500,7 @@
         "sentence_id": 684,
         "instance_id": 15833,
         "input": "harga yg murah dg kenyamanan dan kebersihan yang ok . sudah include sarapan prasmanan . lokasi di dekat jl . lingkar utara , namun masuk di jalan buntu , jd gak berisik suara kendaraan . parkir mobil juga luas . minusnya ? minim staff yg melayani ( gak ada yg bantu [O] [A] [S]",
-        "target": "",
+        "target": "[O] murah [A] harga [S] positive [SSEP] [O] ok [A] kenyamanan [S] positive [SSEP] [O] ok [A] kebersihan [S] positive [SSEP] [O] sudah include [A] sarapan prasmanan [S] positive [SSEP] [O] gak berisik suara kendaraan [A] lokasi [S] positive [SSEP] [O] luas [A] parkir mobil [S] positive [SSEP] [O] minim [A] staff yg melayani [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -142509,7 +142509,7 @@
         "sentence_id": 684,
         "instance_id": 15834,
         "input": "harga yg murah dg kenyamanan dan kebersihan yang ok . sudah include sarapan prasmanan . lokasi di dekat jl . lingkar utara , namun masuk di jalan buntu , jd gak berisik suara kendaraan . parkir mobil juga luas . minusnya ? minim staff yg melayani ( gak ada yg bantu [O] [S] [A]",
-        "target": "",
+        "target": "[O] murah [S] positive [A] harga [SSEP] [O] ok [S] positive [A] kenyamanan [SSEP] [O] ok [S] positive [A] kebersihan [SSEP] [O] sudah include [S] positive [A] sarapan prasmanan [SSEP] [O] gak berisik suara kendaraan [S] positive [A] lokasi [SSEP] [O] luas [S] positive [A] parkir mobil [SSEP] [O] minim [S] negative [A] staff yg melayani",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -143643,7 +143643,7 @@
         "sentence_id": 710,
         "instance_id": 15960,
         "input": "bersih nyaman . . . saya menginap lebih dari dua malam . apakah snack dan minum hanya diberikan hari pertama check in ? padahal kan bayarnya sama harga . saya minta minum lagi kena charge 😯 . saya pikir akan dapat kan setiap harinya seperti di hotel lain . [A] [O] [S]",
-        "target": "",
+        "target": "[A] null [O] bersih nyaman [S] positive [SSEP] [A] snack dan minum [O] hanya diberikan hari pertama check in [S] negative [SSEP] [A] minum [O] kena charge [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -143652,7 +143652,7 @@
         "sentence_id": 710,
         "instance_id": 15961,
         "input": "bersih nyaman . . . saya menginap lebih dari dua malam . apakah snack dan minum hanya diberikan hari pertama check in ? padahal kan bayarnya sama harga . saya minta minum lagi kena charge 😯 . saya pikir akan dapat kan setiap harinya seperti di hotel lain . [A] [S] [O]",
-        "target": "",
+        "target": "[A] null [S] positive [O] bersih nyaman [SSEP] [A] snack dan minum [S] negative [O] hanya diberikan hari pertama check in [SSEP] [A] minum [S] negative [O] kena charge",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -143661,7 +143661,7 @@
         "sentence_id": 710,
         "instance_id": 15962,
         "input": "bersih nyaman . . . saya menginap lebih dari dua malam . apakah snack dan minum hanya diberikan hari pertama check in ? padahal kan bayarnya sama harga . saya minta minum lagi kena charge 😯 . saya pikir akan dapat kan setiap harinya seperti di hotel lain . [S] [A] [O]",
-        "target": "",
+        "target": "[S] positive [A] null [O] bersih nyaman [SSEP] [S] negative [A] snack dan minum [O] hanya diberikan hari pertama check in [SSEP] [S] negative [A] minum [O] kena charge",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -143670,7 +143670,7 @@
         "sentence_id": 710,
         "instance_id": 15963,
         "input": "bersih nyaman . . . saya menginap lebih dari dua malam . apakah snack dan minum hanya diberikan hari pertama check in ? padahal kan bayarnya sama harga . saya minta minum lagi kena charge 😯 . saya pikir akan dapat kan setiap harinya seperti di hotel lain . [O] [A] [S]",
-        "target": "",
+        "target": "[O] bersih nyaman [A] null [S] positive [SSEP] [O] hanya diberikan hari pertama check in [A] snack dan minum [S] negative [SSEP] [O] kena charge [A] minum [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -143679,7 +143679,7 @@
         "sentence_id": 710,
         "instance_id": 15964,
         "input": "bersih nyaman . . . saya menginap lebih dari dua malam . apakah snack dan minum hanya diberikan hari pertama check in ? padahal kan bayarnya sama harga . saya minta minum lagi kena charge 😯 . saya pikir akan dapat kan setiap harinya seperti di hotel lain . [O] [S] [A]",
-        "target": "",
+        "target": "[O] bersih nyaman [S] positive [A] null [SSEP] [O] hanya diberikan hari pertama check in [S] negative [A] snack dan minum [SSEP] [O] kena charge [S] negative [A] minum",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -144768,7 +144768,7 @@
         "sentence_id": 735,
         "instance_id": 16085,
         "input": "kamarnya bagus , fasilitas juga sprti hotel , saya ga nyangka sprti itu . . cuma waktu mau check in lama , yg jaga ga tau kalau adayg pesan kamar , harus telpon sana sini , klo bs list tamu sudah ada di penjaga , jd lgsung tau , dan tdk lama , [A] [O] [S]",
-        "target": "",
+        "target": "[A] kamarnya [O] bagus [S] positive [SSEP] [A] fasilitas [O] sprti hotel [S] positive [SSEP] [A] waktu mau check in [O] lama [S] negative [SSEP] [A] yg jaga [O] ga tau kalau adayg pesan kamar, harus telpon sana sini [S] negative [SSEP] [A] list tamu [O] null [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -144777,7 +144777,7 @@
         "sentence_id": 735,
         "instance_id": 16086,
         "input": "kamarnya bagus , fasilitas juga sprti hotel , saya ga nyangka sprti itu . . cuma waktu mau check in lama , yg jaga ga tau kalau adayg pesan kamar , harus telpon sana sini , klo bs list tamu sudah ada di penjaga , jd lgsung tau , dan tdk lama , [A] [S] [O]",
-        "target": "",
+        "target": "[A] kamarnya [S] positive [O] bagus [SSEP] [A] fasilitas [S] positive [O] sprti hotel [SSEP] [A] waktu mau check in [S] negative [O] lama [SSEP] [A] yg jaga [S] negative [O] ga tau kalau adayg pesan kamar, harus telpon sana sini [SSEP] [A] list tamu [S] negative [O] null",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -144786,7 +144786,7 @@
         "sentence_id": 735,
         "instance_id": 16087,
         "input": "kamarnya bagus , fasilitas juga sprti hotel , saya ga nyangka sprti itu . . cuma waktu mau check in lama , yg jaga ga tau kalau adayg pesan kamar , harus telpon sana sini , klo bs list tamu sudah ada di penjaga , jd lgsung tau , dan tdk lama , [S] [A] [O]",
-        "target": "",
+        "target": "[S] positive [A] kamarnya [O] bagus [SSEP] [S] positive [A] fasilitas [O] sprti hotel [SSEP] [S] negative [A] waktu mau check in [O] lama [SSEP] [S] negative [A] yg jaga [O] ga tau kalau adayg pesan kamar, harus telpon sana sini [SSEP] [S] negative [A] list tamu [O] null",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -144795,7 +144795,7 @@
         "sentence_id": 735,
         "instance_id": 16088,
         "input": "kamarnya bagus , fasilitas juga sprti hotel , saya ga nyangka sprti itu . . cuma waktu mau check in lama , yg jaga ga tau kalau adayg pesan kamar , harus telpon sana sini , klo bs list tamu sudah ada di penjaga , jd lgsung tau , dan tdk lama , [O] [A] [S]",
-        "target": "",
+        "target": "[O] bagus [A] kamarnya [S] positive [SSEP] [O] sprti hotel [A] fasilitas [S] positive [SSEP] [O] lama [A] waktu mau check in [S] negative [SSEP] [O] ga tau kalau adayg pesan kamar, harus telpon sana sini [A] yg jaga [S] negative [SSEP] [O] null [A] list tamu [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -144804,7 +144804,7 @@
         "sentence_id": 735,
         "instance_id": 16089,
         "input": "kamarnya bagus , fasilitas juga sprti hotel , saya ga nyangka sprti itu . . cuma waktu mau check in lama , yg jaga ga tau kalau adayg pesan kamar , harus telpon sana sini , klo bs list tamu sudah ada di penjaga , jd lgsung tau , dan tdk lama , [O] [S] [A]",
-        "target": "",
+        "target": "[O] bagus [S] positive [A] kamarnya [SSEP] [O] sprti hotel [S] positive [A] fasilitas [SSEP] [O] lama [S] negative [A] waktu mau check in [SSEP] [O] ga tau kalau adayg pesan kamar, harus telpon sana sini [S] negative [A] yg jaga [SSEP] [O] null [S] negative [A] list tamu",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -159663,7 +159663,7 @@
         "sentence_id": 1066,
         "instance_id": 17740,
         "input": "awal masuk kamar , tv ga bisa berfungsi dgn baik . trus minta pindah kamar yg tv nya ga ada masalah tapi kamar baru nya ga di prepare dgn baik . . . lantai masih terasa berpasir . . . aroma kamar kurang sedap dan amenities dan snack nya ga ada . saat itu ga ada satu pun staff yg care akan hal itu . ada sinar matahari yg masuk begitu terik lewat jendela kecil . . ga ada horden atau lapisan kaca yg bisa me reduce sinar itu . cukup mengganggu . akhir nya saya minta di kembalikan ke kamar awal dgn minta siaran tv segera di perbaiki . aroma kamar mandi juga kurang sedap di awal tapi klw sdh di pakai bau nya hilang . other than that ok . tempat yg nyaman tenang utk beristirahat , staff nya ramah2 dan ada pantry nya yg menyedia kan coffee tea + minuman cereal secara gratis 24 jam . [A] [O] [S]",
-        "target": "",
+        "target": "[A] tv [O] ga bisa berfungsi dgn baik [S] negative [SSEP] [A] kamar baru nya [O] ga di prepare dgn baik [S] negative [SSEP] [A] lantai [O] masih terasa berpasir [S] negative [SSEP] [A] aroma kamar [O] kurang sedap [S] negative [SSEP] [A] amenities [O] ga ada [S] negative [SSEP] [A] snack nya [O] ga ada [S] negative [SSEP] [A] staff [O] ga ada satu pun staff yg care akan hal itu [S] negative [SSEP] [A] sinar matahari yg masuk begitu terik lewat jendela kecil [O] ga ada horden atau lapisan kaca yg bisa me reduce sinar itu [S] negative [SSEP] [A] sinar matahari yg masuk begitu terik lewat jendela kecil [O] cukup mengganggu [S] negative [SSEP] [A] siaran tv [O] minta segera diperbaiki [S] negative [SSEP] [A] aroma kamar mandi [O] kurang sedap di awal [S] negative [SSEP] [A] null [O] ok [S] positive [SSEP] [A] tempat [O] nyaman tenang utk beristirahat [S] positive [SSEP] [A] staff nya [O] ramah2 [S] positive [SSEP] [A] pantry nya [O] menyedia kan coffee tea + minuman cereal secara gratis 24 jam [S] positive",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -159672,7 +159672,7 @@
         "sentence_id": 1066,
         "instance_id": 17741,
         "input": "awal masuk kamar , tv ga bisa berfungsi dgn baik . trus minta pindah kamar yg tv nya ga ada masalah tapi kamar baru nya ga di prepare dgn baik . . . lantai masih terasa berpasir . . . aroma kamar kurang sedap dan amenities dan snack nya ga ada . saat itu ga ada satu pun staff yg care akan hal itu . ada sinar matahari yg masuk begitu terik lewat jendela kecil . . ga ada horden atau lapisan kaca yg bisa me reduce sinar itu . cukup mengganggu . akhir nya saya minta di kembalikan ke kamar awal dgn minta siaran tv segera di perbaiki . aroma kamar mandi juga kurang sedap di awal tapi klw sdh di pakai bau nya hilang . other than that ok . tempat yg nyaman tenang utk beristirahat , staff nya ramah2 dan ada pantry nya yg menyedia kan coffee tea + minuman cereal secara gratis 24 jam . [A] [S] [O]",
-        "target": "",
+        "target": "[A] tv [S] negative [O] ga bisa berfungsi dgn baik [SSEP] [A] kamar baru nya [S] negative [O] ga di prepare dgn baik [SSEP] [A] lantai [S] negative [O] masih terasa berpasir [SSEP] [A] aroma kamar [S] negative [O] kurang sedap [SSEP] [A] amenities [S] negative [O] ga ada [SSEP] [A] snack nya [S] negative [O] ga ada [SSEP] [A] staff [S] negative [O] ga ada satu pun staff yg care akan hal itu [SSEP] [A] sinar matahari yg masuk begitu terik lewat jendela kecil [S] negative [O] ga ada horden atau lapisan kaca yg bisa me reduce sinar itu [SSEP] [A] sinar matahari yg masuk begitu terik lewat jendela kecil [S] negative [O] cukup mengganggu [SSEP] [A] siaran tv [S] negative [O] minta segera diperbaiki [SSEP] [A] aroma kamar mandi [S] negative [O] kurang sedap di awal [SSEP] [A] null [S] positive [O] ok [SSEP] [A] tempat [S] positive [O] nyaman tenang utk beristirahat [SSEP] [A] staff nya [S] positive [O] ramah2 [SSEP] [A] pantry nya [S] positive [O] menyedia kan coffee tea + minuman cereal secara gratis 24 jam",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -159681,7 +159681,7 @@
         "sentence_id": 1066,
         "instance_id": 17742,
         "input": "awal masuk kamar , tv ga bisa berfungsi dgn baik . trus minta pindah kamar yg tv nya ga ada masalah tapi kamar baru nya ga di prepare dgn baik . . . lantai masih terasa berpasir . . . aroma kamar kurang sedap dan amenities dan snack nya ga ada . saat itu ga ada satu pun staff yg care akan hal itu . ada sinar matahari yg masuk begitu terik lewat jendela kecil . . ga ada horden atau lapisan kaca yg bisa me reduce sinar itu . cukup mengganggu . akhir nya saya minta di kembalikan ke kamar awal dgn minta siaran tv segera di perbaiki . aroma kamar mandi juga kurang sedap di awal tapi klw sdh di pakai bau nya hilang . other than that ok . tempat yg nyaman tenang utk beristirahat , staff nya ramah2 dan ada pantry nya yg menyedia kan coffee tea + minuman cereal secara gratis 24 jam . [S] [A] [O]",
-        "target": "",
+        "target": "[S] negative [A] tv [O] ga bisa berfungsi dgn baik [SSEP] [S] negative [A] kamar baru nya [O] ga di prepare dgn baik [SSEP] [S] negative [A] lantai [O] masih terasa berpasir [SSEP] [S] negative [A] aroma kamar [O] kurang sedap [SSEP] [S] negative [A] amenities [O] ga ada [SSEP] [S] negative [A] snack nya [O] ga ada [SSEP] [S] negative [A] staff [O] ga ada satu pun staff yg care akan hal itu [SSEP] [S] negative [A] sinar matahari yg masuk begitu terik lewat jendela kecil [O] ga ada horden atau lapisan kaca yg bisa me reduce sinar itu [SSEP] [S] negative [A] sinar matahari yg masuk begitu terik lewat jendela kecil [O] cukup mengganggu [SSEP] [S] negative [A] siaran tv [O] minta segera diperbaiki [SSEP] [S] negative [A] aroma kamar mandi [O] kurang sedap di awal [SSEP] [S] positive [A] null [O] ok [SSEP] [S] positive [A] tempat [O] nyaman tenang utk beristirahat [SSEP] [S] positive [A] staff nya [O] ramah2 [SSEP] [S] positive [A] pantry nya [O] menyedia kan coffee tea + minuman cereal secara gratis 24 jam",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -159690,7 +159690,7 @@
         "sentence_id": 1066,
         "instance_id": 17743,
         "input": "awal masuk kamar , tv ga bisa berfungsi dgn baik . trus minta pindah kamar yg tv nya ga ada masalah tapi kamar baru nya ga di prepare dgn baik . . . lantai masih terasa berpasir . . . aroma kamar kurang sedap dan amenities dan snack nya ga ada . saat itu ga ada satu pun staff yg care akan hal itu . ada sinar matahari yg masuk begitu terik lewat jendela kecil . . ga ada horden atau lapisan kaca yg bisa me reduce sinar itu . cukup mengganggu . akhir nya saya minta di kembalikan ke kamar awal dgn minta siaran tv segera di perbaiki . aroma kamar mandi juga kurang sedap di awal tapi klw sdh di pakai bau nya hilang . other than that ok . tempat yg nyaman tenang utk beristirahat , staff nya ramah2 dan ada pantry nya yg menyedia kan coffee tea + minuman cereal secara gratis 24 jam . [O] [A] [S]",
-        "target": "",
+        "target": "[O] ga bisa berfungsi dgn baik [A] tv [S] negative [SSEP] [O] ga di prepare dgn baik [A] kamar baru nya [S] negative [SSEP] [O] masih terasa berpasir [A] lantai [S] negative [SSEP] [O] kurang sedap [A] aroma kamar [S] negative [SSEP] [O] ga ada [A] amenities [S] negative [SSEP] [O] ga ada [A] snack nya [S] negative [SSEP] [O] ga ada satu pun staff yg care akan hal itu [A] staff [S] negative [SSEP] [O] ga ada horden atau lapisan kaca yg bisa me reduce sinar itu [A] sinar matahari yg masuk begitu terik lewat jendela kecil [S] negative [SSEP] [O] cukup mengganggu [A] sinar matahari yg masuk begitu terik lewat jendela kecil [S] negative [SSEP] [O] minta segera diperbaiki [A] siaran tv [S] negative [SSEP] [O] kurang sedap di awal [A] aroma kamar mandi [S] negative [SSEP] [O] ok [A] null [S] positive [SSEP] [O] nyaman tenang utk beristirahat [A] tempat [S] positive [SSEP] [O] ramah2 [A] staff nya [S] positive [SSEP] [O] menyedia kan coffee tea + minuman cereal secara gratis 24 jam [A] pantry nya [S] positive",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -159699,7 +159699,7 @@
         "sentence_id": 1066,
         "instance_id": 17744,
         "input": "awal masuk kamar , tv ga bisa berfungsi dgn baik . trus minta pindah kamar yg tv nya ga ada masalah tapi kamar baru nya ga di prepare dgn baik . . . lantai masih terasa berpasir . . . aroma kamar kurang sedap dan amenities dan snack nya ga ada . saat itu ga ada satu pun staff yg care akan hal itu . ada sinar matahari yg masuk begitu terik lewat jendela kecil . . ga ada horden atau lapisan kaca yg bisa me reduce sinar itu . cukup mengganggu . akhir nya saya minta di kembalikan ke kamar awal dgn minta siaran tv segera di perbaiki . aroma kamar mandi juga kurang sedap di awal tapi klw sdh di pakai bau nya hilang . other than that ok . tempat yg nyaman tenang utk beristirahat , staff nya ramah2 dan ada pantry nya yg menyedia kan coffee tea + minuman cereal secara gratis 24 jam . [O] [S] [A]",
-        "target": "",
+        "target": "[O] ga bisa berfungsi dgn baik [S] negative [A] tv [SSEP] [O] ga di prepare dgn baik [S] negative [A] kamar baru nya [SSEP] [O] masih terasa berpasir [S] negative [A] lantai [SSEP] [O] kurang sedap [S] negative [A] aroma kamar [SSEP] [O] ga ada [S] negative [A] amenities [SSEP] [O] ga ada [S] negative [A] snack nya [SSEP] [O] ga ada satu pun staff yg care akan hal itu [S] negative [A] staff [SSEP] [O] ga ada horden atau lapisan kaca yg bisa me reduce sinar itu [S] negative [A] sinar matahari yg masuk begitu terik lewat jendela kecil [SSEP] [O] cukup mengganggu [S] negative [A] sinar matahari yg masuk begitu terik lewat jendela kecil [SSEP] [O] minta segera diperbaiki [S] negative [A] siaran tv [SSEP] [O] kurang sedap di awal [S] negative [A] aroma kamar mandi [SSEP] [O] ok [S] positive [A] null [SSEP] [O] nyaman tenang utk beristirahat [S] positive [A] tempat [SSEP] [O] ramah2 [S] positive [A] staff nya [SSEP] [O] menyedia kan coffee tea + minuman cereal secara gratis 24 jam [S] positive [A] pantry nya",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -161058,7 +161058,7 @@
         "sentence_id": 1097,
         "instance_id": 17895,
         "input": "makanan ringan yg disuguhkan ada yg kadaluarsa . saya nginap 2 hari tp tdk mendapat playanan sprti hal nya menginap 2 hari . handuk , sabun , makanan , minuman tidak di suguhkan di hari ke 2 . dan kamar terlihat berdebu . tidak ada cermin juga di kamar . tolong tingkatkan lagi pelayanan di tempat ini . trimakasih [A] [O] [S]",
-        "target": "",
+        "target": "[A] makanan ringan yg disuguhkan [O] ada yg kadaluarsa [S] negative [SSEP] [A] playanan [O] tdk mendapat playanan sprti hal nya menginap 2 hari [S] negative [SSEP] [A] handuk [O] tidak di suguhkan di hari ke 2 [S] negative [SSEP] [A] sabun [O] tidak di suguhkan di hari ke 2 [S] negative [SSEP] [A] makanan [O] tidak di suguhkan di hari ke 2 [S] negative [SSEP] [A] minuman [O] tidak di suguhkan di hari ke 2 [S] negative [SSEP] [A] kamar [O] terlihat berdebu [S] negative [SSEP] [A] cermin [O] tidak ada cermin juga di kamar [S] negative [SSEP] [A] pelayanan di tempat ini [O] tolong tingkatkan lagi [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -161067,7 +161067,7 @@
         "sentence_id": 1097,
         "instance_id": 17896,
         "input": "makanan ringan yg disuguhkan ada yg kadaluarsa . saya nginap 2 hari tp tdk mendapat playanan sprti hal nya menginap 2 hari . handuk , sabun , makanan , minuman tidak di suguhkan di hari ke 2 . dan kamar terlihat berdebu . tidak ada cermin juga di kamar . tolong tingkatkan lagi pelayanan di tempat ini . trimakasih [A] [S] [O]",
-        "target": "",
+        "target": "[A] makanan ringan yg disuguhkan [S] negative [O] ada yg kadaluarsa [SSEP] [A] playanan [S] negative [O] tdk mendapat playanan sprti hal nya menginap 2 hari [SSEP] [A] handuk [S] negative [O] tidak di suguhkan di hari ke 2 [SSEP] [A] sabun [S] negative [O] tidak di suguhkan di hari ke 2 [SSEP] [A] makanan [S] negative [O] tidak di suguhkan di hari ke 2 [SSEP] [A] minuman [S] negative [O] tidak di suguhkan di hari ke 2 [SSEP] [A] kamar [S] negative [O] terlihat berdebu [SSEP] [A] cermin [S] negative [O] tidak ada cermin juga di kamar [SSEP] [A] pelayanan di tempat ini [S] negative [O] tolong tingkatkan lagi",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -161076,7 +161076,7 @@
         "sentence_id": 1097,
         "instance_id": 17897,
         "input": "makanan ringan yg disuguhkan ada yg kadaluarsa . saya nginap 2 hari tp tdk mendapat playanan sprti hal nya menginap 2 hari . handuk , sabun , makanan , minuman tidak di suguhkan di hari ke 2 . dan kamar terlihat berdebu . tidak ada cermin juga di kamar . tolong tingkatkan lagi pelayanan di tempat ini . trimakasih [S] [A] [O]",
-        "target": "",
+        "target": "[S] negative [A] makanan ringan yg disuguhkan [O] ada yg kadaluarsa [SSEP] [S] negative [A] playanan [O] tdk mendapat playanan sprti hal nya menginap 2 hari [SSEP] [S] negative [A] handuk [O] tidak di suguhkan di hari ke 2 [SSEP] [S] negative [A] sabun [O] tidak di suguhkan di hari ke 2 [SSEP] [S] negative [A] makanan [O] tidak di suguhkan di hari ke 2 [SSEP] [S] negative [A] minuman [O] tidak di suguhkan di hari ke 2 [SSEP] [S] negative [A] kamar [O] terlihat berdebu [SSEP] [S] negative [A] cermin [O] tidak ada cermin juga di kamar [SSEP] [S] negative [A] pelayanan di tempat ini [O] tolong tingkatkan lagi",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -161085,7 +161085,7 @@
         "sentence_id": 1097,
         "instance_id": 17898,
         "input": "makanan ringan yg disuguhkan ada yg kadaluarsa . saya nginap 2 hari tp tdk mendapat playanan sprti hal nya menginap 2 hari . handuk , sabun , makanan , minuman tidak di suguhkan di hari ke 2 . dan kamar terlihat berdebu . tidak ada cermin juga di kamar . tolong tingkatkan lagi pelayanan di tempat ini . trimakasih [O] [A] [S]",
-        "target": "",
+        "target": "[O] ada yg kadaluarsa [A] makanan ringan yg disuguhkan [S] negative [SSEP] [O] tdk mendapat playanan sprti hal nya menginap 2 hari [A] playanan [S] negative [SSEP] [O] tidak di suguhkan di hari ke 2 [A] handuk [S] negative [SSEP] [O] tidak di suguhkan di hari ke 2 [A] sabun [S] negative [SSEP] [O] tidak di suguhkan di hari ke 2 [A] makanan [S] negative [SSEP] [O] tidak di suguhkan di hari ke 2 [A] minuman [S] negative [SSEP] [O] terlihat berdebu [A] kamar [S] negative [SSEP] [O] tidak ada cermin juga di kamar [A] cermin [S] negative [SSEP] [O] tolong tingkatkan lagi [A] pelayanan di tempat ini [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -161094,7 +161094,7 @@
         "sentence_id": 1097,
         "instance_id": 17899,
         "input": "makanan ringan yg disuguhkan ada yg kadaluarsa . saya nginap 2 hari tp tdk mendapat playanan sprti hal nya menginap 2 hari . handuk , sabun , makanan , minuman tidak di suguhkan di hari ke 2 . dan kamar terlihat berdebu . tidak ada cermin juga di kamar . tolong tingkatkan lagi pelayanan di tempat ini . trimakasih [O] [S] [A]",
-        "target": "",
+        "target": "[O] ada yg kadaluarsa [S] negative [A] makanan ringan yg disuguhkan [SSEP] [O] tdk mendapat playanan sprti hal nya menginap 2 hari [S] negative [A] playanan [SSEP] [O] tidak di suguhkan di hari ke 2 [S] negative [A] handuk [SSEP] [O] tidak di suguhkan di hari ke 2 [S] negative [A] sabun [SSEP] [O] tidak di suguhkan di hari ke 2 [S] negative [A] makanan [SSEP] [O] tidak di suguhkan di hari ke 2 [S] negative [A] minuman [SSEP] [O] terlihat berdebu [S] negative [A] kamar [SSEP] [O] tidak ada cermin juga di kamar [S] negative [A] cermin [SSEP] [O] tolong tingkatkan lagi [S] negative [A] pelayanan di tempat ini",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -163893,7 +163893,7 @@
         "sentence_id": 1160,
         "instance_id": 18210,
         "input": "kamar luas , ada restoran , kolam renang , & layanan kamar , sayangnya : kamar kotor & lembab . lingkungan sekitar kotor , kamar mandi kotor . air kecil & berbau . lokasi kamar ke parkiran cukup jauh seharusnya itu mobil golf stand by terus untuk antar jemput tamu . yang sulit pas check out harus angkat barang sendiri . jalan jg gak friendly bwt gerek koper . [A] [O] [S]",
-        "target": "",
+        "target": "[A] kamar [O] luas [S] positive [SSEP] [A] restoran [O] ada [S] positive [SSEP] [A] kolam renang [O] ada [S] positive [SSEP] [A] layanan kamar [O] ada [S] positive [SSEP] [A] kamar [O] kotor & lembab [S] negative [SSEP] [A] lingkungan sekitar [O] kotor [S] negative [SSEP] [A] kamar mandi [O] kotor [S] negative [SSEP] [A] air [O] kecil & berbau [S] negative [SSEP] [A] lokasi kamar ke parkiran [O] cukup jauh [S] negative [SSEP] [A] mobil golf [O] seharusnya itu mobil golf stand by terus untuk antar jemput tamu [S] negative [SSEP] [A] check out [O] sulit pas check out harus angkat barang sendiri [S] negative [SSEP] [A] jalan [O] gak friendly bwt gerek koper [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -163902,7 +163902,7 @@
         "sentence_id": 1160,
         "instance_id": 18211,
         "input": "kamar luas , ada restoran , kolam renang , & layanan kamar , sayangnya : kamar kotor & lembab . lingkungan sekitar kotor , kamar mandi kotor . air kecil & berbau . lokasi kamar ke parkiran cukup jauh seharusnya itu mobil golf stand by terus untuk antar jemput tamu . yang sulit pas check out harus angkat barang sendiri . jalan jg gak friendly bwt gerek koper . [A] [S] [O]",
-        "target": "",
+        "target": "[A] kamar [S] positive [O] luas [SSEP] [A] restoran [S] positive [O] ada [SSEP] [A] kolam renang [S] positive [O] ada [SSEP] [A] layanan kamar [S] positive [O] ada [SSEP] [A] kamar [S] negative [O] kotor & lembab [SSEP] [A] lingkungan sekitar [S] negative [O] kotor [SSEP] [A] kamar mandi [S] negative [O] kotor [SSEP] [A] air [S] negative [O] kecil & berbau [SSEP] [A] lokasi kamar ke parkiran [S] negative [O] cukup jauh [SSEP] [A] mobil golf [S] negative [O] seharusnya itu mobil golf stand by terus untuk antar jemput tamu [SSEP] [A] check out [S] negative [O] sulit pas check out harus angkat barang sendiri [SSEP] [A] jalan [S] negative [O] gak friendly bwt gerek koper",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -163911,7 +163911,7 @@
         "sentence_id": 1160,
         "instance_id": 18212,
         "input": "kamar luas , ada restoran , kolam renang , & layanan kamar , sayangnya : kamar kotor & lembab . lingkungan sekitar kotor , kamar mandi kotor . air kecil & berbau . lokasi kamar ke parkiran cukup jauh seharusnya itu mobil golf stand by terus untuk antar jemput tamu . yang sulit pas check out harus angkat barang sendiri . jalan jg gak friendly bwt gerek koper . [S] [A] [O]",
-        "target": "",
+        "target": "[S] positive [A] kamar [O] luas [SSEP] [S] positive [A] restoran [O] ada [SSEP] [S] positive [A] kolam renang [O] ada [SSEP] [S] positive [A] layanan kamar [O] ada [SSEP] [S] negative [A] kamar [O] kotor & lembab [SSEP] [S] negative [A] lingkungan sekitar [O] kotor [SSEP] [S] negative [A] kamar mandi [O] kotor [SSEP] [S] negative [A] air [O] kecil & berbau [SSEP] [S] negative [A] lokasi kamar ke parkiran [O] cukup jauh [SSEP] [S] negative [A] mobil golf [O] seharusnya itu mobil golf stand by terus untuk antar jemput tamu [SSEP] [S] negative [A] check out [O] sulit pas check out harus angkat barang sendiri [SSEP] [S] negative [A] jalan [O] gak friendly bwt gerek koper",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -163920,7 +163920,7 @@
         "sentence_id": 1160,
         "instance_id": 18213,
         "input": "kamar luas , ada restoran , kolam renang , & layanan kamar , sayangnya : kamar kotor & lembab . lingkungan sekitar kotor , kamar mandi kotor . air kecil & berbau . lokasi kamar ke parkiran cukup jauh seharusnya itu mobil golf stand by terus untuk antar jemput tamu . yang sulit pas check out harus angkat barang sendiri . jalan jg gak friendly bwt gerek koper . [O] [A] [S]",
-        "target": "",
+        "target": "[O] luas [A] kamar [S] positive [SSEP] [O] ada [A] restoran [S] positive [SSEP] [O] ada [A] kolam renang [S] positive [SSEP] [O] ada [A] layanan kamar [S] positive [SSEP] [O] kotor & lembab [A] kamar [S] negative [SSEP] [O] kotor [A] lingkungan sekitar [S] negative [SSEP] [O] kotor [A] kamar mandi [S] negative [SSEP] [O] kecil & berbau [A] air [S] negative [SSEP] [O] cukup jauh [A] lokasi kamar ke parkiran [S] negative [SSEP] [O] seharusnya itu mobil golf stand by terus untuk antar jemput tamu [A] mobil golf [S] negative [SSEP] [O] sulit pas check out harus angkat barang sendiri [A] check out [S] negative [SSEP] [O] gak friendly bwt gerek koper [A] jalan [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -163929,7 +163929,7 @@
         "sentence_id": 1160,
         "instance_id": 18214,
         "input": "kamar luas , ada restoran , kolam renang , & layanan kamar , sayangnya : kamar kotor & lembab . lingkungan sekitar kotor , kamar mandi kotor . air kecil & berbau . lokasi kamar ke parkiran cukup jauh seharusnya itu mobil golf stand by terus untuk antar jemput tamu . yang sulit pas check out harus angkat barang sendiri . jalan jg gak friendly bwt gerek koper . [O] [S] [A]",
-        "target": "",
+        "target": "[O] luas [S] positive [A] kamar [SSEP] [O] ada [S] positive [A] restoran [SSEP] [O] ada [S] positive [A] kolam renang [SSEP] [O] ada [S] positive [A] layanan kamar [SSEP] [O] kotor & lembab [S] negative [A] kamar [SSEP] [O] kotor [S] negative [A] lingkungan sekitar [SSEP] [O] kotor [S] negative [A] kamar mandi [SSEP] [O] kecil & berbau [S] negative [A] air [SSEP] [O] cukup jauh [S] negative [A] lokasi kamar ke parkiran [SSEP] [O] seharusnya itu mobil golf stand by terus untuk antar jemput tamu [S] negative [A] mobil golf [SSEP] [O] sulit pas check out harus angkat barang sendiri [S] negative [A] check out [SSEP] [O] gak friendly bwt gerek koper [S] negative [A] jalan",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -164838,7 +164838,7 @@
         "sentence_id": 1181,
         "instance_id": 18315,
         "input": "tidak diberi snack dan air mineral saat penambahan hari . dan uang deposit tidak kembali hanya karena sprei kasur kena noda sedikit . payah payah payah . pelayanan kurang , tapi malah ngotot nahan uang deposit . [A] [O] [S]",
-        "target": "",
+        "target": "[A] snack [O] tidak diberi [S] negative [SSEP] [A] air mineral [O] tidak diberi [S] negative [SSEP] [A] uang deposit [O] tidak kembali hanya karena sprei kasur kena noda sedikit [S] negative [SSEP] [A] null [O] payah payah payah [S] negative [SSEP] [A] pelayanan [O] kurang [S] negative [SSEP] [A] uang deposit [O] ngotot nahan [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -164847,7 +164847,7 @@
         "sentence_id": 1181,
         "instance_id": 18316,
         "input": "tidak diberi snack dan air mineral saat penambahan hari . dan uang deposit tidak kembali hanya karena sprei kasur kena noda sedikit . payah payah payah . pelayanan kurang , tapi malah ngotot nahan uang deposit . [A] [S] [O]",
-        "target": "",
+        "target": "[A] snack [S] negative [O] tidak diberi [SSEP] [A] air mineral [S] negative [O] tidak diberi [SSEP] [A] uang deposit [S] negative [O] tidak kembali hanya karena sprei kasur kena noda sedikit [SSEP] [A] null [S] negative [O] payah payah payah [SSEP] [A] pelayanan [S] negative [O] kurang [SSEP] [A] uang deposit [S] negative [O] ngotot nahan",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -164856,7 +164856,7 @@
         "sentence_id": 1181,
         "instance_id": 18317,
         "input": "tidak diberi snack dan air mineral saat penambahan hari . dan uang deposit tidak kembali hanya karena sprei kasur kena noda sedikit . payah payah payah . pelayanan kurang , tapi malah ngotot nahan uang deposit . [S] [A] [O]",
-        "target": "",
+        "target": "[S] negative [A] snack [O] tidak diberi [SSEP] [S] negative [A] air mineral [O] tidak diberi [SSEP] [S] negative [A] uang deposit [O] tidak kembali hanya karena sprei kasur kena noda sedikit [SSEP] [S] negative [A] null [O] payah payah payah [SSEP] [S] negative [A] pelayanan [O] kurang [SSEP] [S] negative [A] uang deposit [O] ngotot nahan",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -164865,7 +164865,7 @@
         "sentence_id": 1181,
         "instance_id": 18318,
         "input": "tidak diberi snack dan air mineral saat penambahan hari . dan uang deposit tidak kembali hanya karena sprei kasur kena noda sedikit . payah payah payah . pelayanan kurang , tapi malah ngotot nahan uang deposit . [O] [A] [S]",
-        "target": "",
+        "target": "[O] tidak diberi [A] snack [S] negative [SSEP] [O] tidak diberi [A] air mineral [S] negative [SSEP] [O] tidak kembali hanya karena sprei kasur kena noda sedikit [A] uang deposit [S] negative [SSEP] [O] payah payah payah [A] null [S] negative [SSEP] [O] kurang [A] pelayanan [S] negative [SSEP] [O] ngotot nahan [A] uang deposit [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -164874,7 +164874,7 @@
         "sentence_id": 1181,
         "instance_id": 18319,
         "input": "tidak diberi snack dan air mineral saat penambahan hari . dan uang deposit tidak kembali hanya karena sprei kasur kena noda sedikit . payah payah payah . pelayanan kurang , tapi malah ngotot nahan uang deposit . [O] [S] [A]",
-        "target": "",
+        "target": "[O] tidak diberi [S] negative [A] snack [SSEP] [O] tidak diberi [S] negative [A] air mineral [SSEP] [O] tidak kembali hanya karena sprei kasur kena noda sedikit [S] negative [A] uang deposit [SSEP] [O] payah payah payah [S] negative [A] null [SSEP] [O] kurang [S] negative [A] pelayanan [SSEP] [O] ngotot nahan [S] negative [A] uang deposit",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -167673,7 +167673,7 @@
         "sentence_id": 1244,
         "instance_id": 18630,
         "input": "kotor , tidak ada air , jorok , tidak nyaman . [A] [O] [S]",
-        "target": "",
+        "target": "[A] null [O] kotor [S] negative [SSEP] [A] air [O] tidak ada air [S] negative [SSEP] [A] null [O] jorok [S] negative [SSEP] [A] null [O] tidak nyaman [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -167682,7 +167682,7 @@
         "sentence_id": 1244,
         "instance_id": 18631,
         "input": "kotor , tidak ada air , jorok , tidak nyaman . [A] [S] [O]",
-        "target": "",
+        "target": "[A] null [S] negative [O] kotor [SSEP] [A] air [S] negative [O] tidak ada air [SSEP] [A] null [S] negative [O] jorok [SSEP] [A] null [S] negative [O] tidak nyaman",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -167691,7 +167691,7 @@
         "sentence_id": 1244,
         "instance_id": 18632,
         "input": "kotor , tidak ada air , jorok , tidak nyaman . [S] [A] [O]",
-        "target": "",
+        "target": "[S] negative [A] null [O] kotor [SSEP] [S] negative [A] air [O] tidak ada air [SSEP] [S] negative [A] null [O] jorok [SSEP] [S] negative [A] null [O] tidak nyaman",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -167700,7 +167700,7 @@
         "sentence_id": 1244,
         "instance_id": 18633,
         "input": "kotor , tidak ada air , jorok , tidak nyaman . [O] [A] [S]",
-        "target": "",
+        "target": "[O] kotor [A] null [S] negative [SSEP] [O] tidak ada air [A] air [S] negative [SSEP] [O] jorok [A] null [S] negative [SSEP] [O] tidak nyaman [A] null [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -167709,7 +167709,7 @@
         "sentence_id": 1244,
         "instance_id": 18634,
         "input": "kotor , tidak ada air , jorok , tidak nyaman . [O] [S] [A]",
-        "target": "",
+        "target": "[O] kotor [S] negative [A] null [SSEP] [O] tidak ada air [S] negative [A] air [SSEP] [O] jorok [S] negative [A] null [SSEP] [O] tidak nyaman [S] negative [A] null",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -175638,7 +175638,7 @@
         "sentence_id": 1421,
         "instance_id": 19515,
         "input": "pelayan kurang ramah , semua oke kamar bersih , wifi mantap , lokasi stategis over all ok [A] [O] [S]",
-        "target": "",
+        "target": "[A] pelayan [O] kurang ramah [S] negative [SSEP] [A] semua [O] oke [S] positive [SSEP] [A] kamar [O] bersih [S] positive [SSEP] [A] wifi [O] mantap [S] positive [SSEP] [A] lokasi [O] stategis [S] positive [SSEP] [A] over all [O] ok [S] positive",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -175647,7 +175647,7 @@
         "sentence_id": 1421,
         "instance_id": 19516,
         "input": "pelayan kurang ramah , semua oke kamar bersih , wifi mantap , lokasi stategis over all ok [A] [S] [O]",
-        "target": "",
+        "target": "[A] pelayan [S] negative [O] kurang ramah [SSEP] [A] semua [S] positive [O] oke [SSEP] [A] kamar [S] positive [O] bersih [SSEP] [A] wifi [S] positive [O] mantap [SSEP] [A] lokasi [S] positive [O] stategis [SSEP] [A] over all [S] positive [O] ok",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -175656,7 +175656,7 @@
         "sentence_id": 1421,
         "instance_id": 19517,
         "input": "pelayan kurang ramah , semua oke kamar bersih , wifi mantap , lokasi stategis over all ok [S] [A] [O]",
-        "target": "",
+        "target": "[S] negative [A] pelayan [O] kurang ramah [SSEP] [S] positive [A] semua [O] oke [SSEP] [S] positive [A] kamar [O] bersih [SSEP] [S] positive [A] wifi [O] mantap [SSEP] [S] positive [A] lokasi [O] stategis [SSEP] [S] positive [A] over all [O] ok",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -175665,7 +175665,7 @@
         "sentence_id": 1421,
         "instance_id": 19518,
         "input": "pelayan kurang ramah , semua oke kamar bersih , wifi mantap , lokasi stategis over all ok [O] [A] [S]",
-        "target": "",
+        "target": "[O] kurang ramah [A] pelayan [S] negative [SSEP] [O] oke [A] semua [S] positive [SSEP] [O] bersih [A] kamar [S] positive [SSEP] [O] mantap [A] wifi [S] positive [SSEP] [O] stategis [A] lokasi [S] positive [SSEP] [O] ok [A] over all [S] positive",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -175674,7 +175674,7 @@
         "sentence_id": 1421,
         "instance_id": 19519,
         "input": "pelayan kurang ramah , semua oke kamar bersih , wifi mantap , lokasi stategis over all ok [O] [S] [A]",
-        "target": "",
+        "target": "[O] kurang ramah [S] negative [A] pelayan [SSEP] [O] oke [S] positive [A] semua [SSEP] [O] bersih [S] positive [A] kamar [SSEP] [O] mantap [S] positive [A] wifi [SSEP] [O] stategis [S] positive [A] lokasi [SSEP] [O] ok [S] positive [A] over all",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -177843,7 +177843,7 @@
         "sentence_id": 1470,
         "instance_id": 19760,
         "input": "harganya sih murah , tempatnya tenang , teduh , ada kolam renang dan ac . namun bedcover dan sprei terasa belum di cuci , kamar mandi alirannya tdk lancar krn sistem aliran lbh tinggi , lantainya berdebu dan botol minum bekas penginap sebelumnya di kamar harusnya dibuang . semoga lbh ditingkatkan lagi ya . . [A] [O] [S]",
-        "target": "",
+        "target": "[A] harganya [O] murah [S] positive [SSEP] [A] tempatnya [O] tenang [S] positive [SSEP] [A] tempatnya [O] teduh [S] positive [SSEP] [A] kolam renang [O] ada [S] positive [SSEP] [A] ac [O] ada [S] positive [SSEP] [A] bedcover dan sprei [O] terasa belum di cuci [S] negative [SSEP] [A] kamar mandi alirannya [O] tdk lancar krn sistem aliran lbh tinggi [S] negative [SSEP] [A] lantainya [O] berdebu [S] negative [SSEP] [A] botol minum bekas penginap sebelumnya di kamar [O] harusnya dibuang [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -177852,7 +177852,7 @@
         "sentence_id": 1470,
         "instance_id": 19761,
         "input": "harganya sih murah , tempatnya tenang , teduh , ada kolam renang dan ac . namun bedcover dan sprei terasa belum di cuci , kamar mandi alirannya tdk lancar krn sistem aliran lbh tinggi , lantainya berdebu dan botol minum bekas penginap sebelumnya di kamar harusnya dibuang . semoga lbh ditingkatkan lagi ya . . [A] [S] [O]",
-        "target": "",
+        "target": "[A] harganya [S] positive [O] murah [SSEP] [A] tempatnya [S] positive [O] tenang [SSEP] [A] tempatnya [S] positive [O] teduh [SSEP] [A] kolam renang [S] positive [O] ada [SSEP] [A] ac [S] positive [O] ada [SSEP] [A] bedcover dan sprei [S] negative [O] terasa belum di cuci [SSEP] [A] kamar mandi alirannya [S] negative [O] tdk lancar krn sistem aliran lbh tinggi [SSEP] [A] lantainya [S] negative [O] berdebu [SSEP] [A] botol minum bekas penginap sebelumnya di kamar [S] negative [O] harusnya dibuang",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -177861,7 +177861,7 @@
         "sentence_id": 1470,
         "instance_id": 19762,
         "input": "harganya sih murah , tempatnya tenang , teduh , ada kolam renang dan ac . namun bedcover dan sprei terasa belum di cuci , kamar mandi alirannya tdk lancar krn sistem aliran lbh tinggi , lantainya berdebu dan botol minum bekas penginap sebelumnya di kamar harusnya dibuang . semoga lbh ditingkatkan lagi ya . . [S] [A] [O]",
-        "target": "",
+        "target": "[S] positive [A] harganya [O] murah [SSEP] [S] positive [A] tempatnya [O] tenang [SSEP] [S] positive [A] tempatnya [O] teduh [SSEP] [S] positive [A] kolam renang [O] ada [SSEP] [S] positive [A] ac [O] ada [SSEP] [S] negative [A] bedcover dan sprei [O] terasa belum di cuci [SSEP] [S] negative [A] kamar mandi alirannya [O] tdk lancar krn sistem aliran lbh tinggi [SSEP] [S] negative [A] lantainya [O] berdebu [SSEP] [S] negative [A] botol minum bekas penginap sebelumnya di kamar [O] harusnya dibuang",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -177870,7 +177870,7 @@
         "sentence_id": 1470,
         "instance_id": 19763,
         "input": "harganya sih murah , tempatnya tenang , teduh , ada kolam renang dan ac . namun bedcover dan sprei terasa belum di cuci , kamar mandi alirannya tdk lancar krn sistem aliran lbh tinggi , lantainya berdebu dan botol minum bekas penginap sebelumnya di kamar harusnya dibuang . semoga lbh ditingkatkan lagi ya . . [O] [A] [S]",
-        "target": "",
+        "target": "[O] murah [A] harganya [S] positive [SSEP] [O] tenang [A] tempatnya [S] positive [SSEP] [O] teduh [A] tempatnya [S] positive [SSEP] [O] ada [A] kolam renang [S] positive [SSEP] [O] ada [A] ac [S] positive [SSEP] [O] terasa belum di cuci [A] bedcover dan sprei [S] negative [SSEP] [O] tdk lancar krn sistem aliran lbh tinggi [A] kamar mandi alirannya [S] negative [SSEP] [O] berdebu [A] lantainya [S] negative [SSEP] [O] harusnya dibuang [A] botol minum bekas penginap sebelumnya di kamar [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -177879,7 +177879,7 @@
         "sentence_id": 1470,
         "instance_id": 19764,
         "input": "harganya sih murah , tempatnya tenang , teduh , ada kolam renang dan ac . namun bedcover dan sprei terasa belum di cuci , kamar mandi alirannya tdk lancar krn sistem aliran lbh tinggi , lantainya berdebu dan botol minum bekas penginap sebelumnya di kamar harusnya dibuang . semoga lbh ditingkatkan lagi ya . . [O] [S] [A]",
-        "target": "",
+        "target": "[O] murah [S] positive [A] harganya [SSEP] [O] tenang [S] positive [A] tempatnya [SSEP] [O] teduh [S] positive [A] tempatnya [SSEP] [O] ada [S] positive [A] kolam renang [SSEP] [O] ada [S] positive [A] ac [SSEP] [O] terasa belum di cuci [S] negative [A] bedcover dan sprei [SSEP] [O] tdk lancar krn sistem aliran lbh tinggi [S] negative [A] kamar mandi alirannya [SSEP] [O] berdebu [S] negative [A] lantainya [SSEP] [O] harusnya dibuang [S] negative [A] botol minum bekas penginap sebelumnya di kamar",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -183378,7 +183378,7 @@
         "sentence_id": 1593,
         "instance_id": 20375,
         "input": "selimut kurang panjang dan lebar untuk 2 orang , gambar tv jg tdk bgus , shgg tdk bs d tonton , tmpt sampah d kmr sdh sy kluarkan dpn kmr untuk dibuang oleh petugas , tp smpai mlm sy k homestay , sampah msh tdk d buang , biasanya d tmpt lain d bersihkan ada perbaikan air , shgg kotor d dpn kamar dan berisik [A] [O] [S]",
-        "target": "",
+        "target": "[A] selimut [O] kurang panjang dan lebar untuk 2 orang [S] negative [SSEP] [A] gambar tv [O] tdk bgus, shgg tdk bs d tonton [S] negative [SSEP] [A] sampah [O] msh tdk d buang [S] negative [SSEP] [A] perbaikan air [O] kotor d dpn kamar dan berisik [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -183387,7 +183387,7 @@
         "sentence_id": 1593,
         "instance_id": 20376,
         "input": "selimut kurang panjang dan lebar untuk 2 orang , gambar tv jg tdk bgus , shgg tdk bs d tonton , tmpt sampah d kmr sdh sy kluarkan dpn kmr untuk dibuang oleh petugas , tp smpai mlm sy k homestay , sampah msh tdk d buang , biasanya d tmpt lain d bersihkan ada perbaikan air , shgg kotor d dpn kamar dan berisik [A] [S] [O]",
-        "target": "",
+        "target": "[A] selimut [S] negative [O] kurang panjang dan lebar untuk 2 orang [SSEP] [A] gambar tv [S] negative [O] tdk bgus, shgg tdk bs d tonton [SSEP] [A] sampah [S] negative [O] msh tdk d buang [SSEP] [A] perbaikan air [S] negative [O] kotor d dpn kamar dan berisik",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -183396,7 +183396,7 @@
         "sentence_id": 1593,
         "instance_id": 20377,
         "input": "selimut kurang panjang dan lebar untuk 2 orang , gambar tv jg tdk bgus , shgg tdk bs d tonton , tmpt sampah d kmr sdh sy kluarkan dpn kmr untuk dibuang oleh petugas , tp smpai mlm sy k homestay , sampah msh tdk d buang , biasanya d tmpt lain d bersihkan ada perbaikan air , shgg kotor d dpn kamar dan berisik [S] [A] [O]",
-        "target": "",
+        "target": "[S] negative [A] selimut [O] kurang panjang dan lebar untuk 2 orang [SSEP] [S] negative [A] gambar tv [O] tdk bgus, shgg tdk bs d tonton [SSEP] [S] negative [A] sampah [O] msh tdk d buang [SSEP] [S] negative [A] perbaikan air [O] kotor d dpn kamar dan berisik",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -183405,7 +183405,7 @@
         "sentence_id": 1593,
         "instance_id": 20378,
         "input": "selimut kurang panjang dan lebar untuk 2 orang , gambar tv jg tdk bgus , shgg tdk bs d tonton , tmpt sampah d kmr sdh sy kluarkan dpn kmr untuk dibuang oleh petugas , tp smpai mlm sy k homestay , sampah msh tdk d buang , biasanya d tmpt lain d bersihkan ada perbaikan air , shgg kotor d dpn kamar dan berisik [O] [A] [S]",
-        "target": "",
+        "target": "[O] kurang panjang dan lebar untuk 2 orang [A] selimut [S] negative [SSEP] [O] tdk bgus, shgg tdk bs d tonton [A] gambar tv [S] negative [SSEP] [O] msh tdk d buang [A] sampah [S] negative [SSEP] [O] kotor d dpn kamar dan berisik [A] perbaikan air [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -183414,7 +183414,7 @@
         "sentence_id": 1593,
         "instance_id": 20379,
         "input": "selimut kurang panjang dan lebar untuk 2 orang , gambar tv jg tdk bgus , shgg tdk bs d tonton , tmpt sampah d kmr sdh sy kluarkan dpn kmr untuk dibuang oleh petugas , tp smpai mlm sy k homestay , sampah msh tdk d buang , biasanya d tmpt lain d bersihkan ada perbaikan air , shgg kotor d dpn kamar dan berisik [O] [S] [A]",
-        "target": "",
+        "target": "[O] kurang panjang dan lebar untuk 2 orang [S] negative [A] selimut [SSEP] [O] tdk bgus, shgg tdk bs d tonton [S] negative [A] gambar tv [SSEP] [O] msh tdk d buang [S] negative [A] sampah [SSEP] [O] kotor d dpn kamar dan berisik [S] negative [A] perbaikan air",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -198408,7 +198408,7 @@
         "sentence_id": 1927,
         "instance_id": 22045,
         "input": "kamar lumayan besar namun ac kurang dingin . air di toilet mampet [A] [O] [S]",
-        "target": "",
+        "target": "[A] kamar [O] lumayan besar [S] positive [SSEP] [A] ac [O] kurang dingin [S] negative [SSEP] [A] air di toilet [O] mampet [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -198417,7 +198417,7 @@
         "sentence_id": 1927,
         "instance_id": 22046,
         "input": "kamar lumayan besar namun ac kurang dingin . air di toilet mampet [A] [S] [O]",
-        "target": "",
+        "target": "[A] kamar [S] positive [O] lumayan besar [SSEP] [A] ac [S] negative [O] kurang dingin [SSEP] [A] air di toilet [S] negative [O] mampet",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -198426,7 +198426,7 @@
         "sentence_id": 1927,
         "instance_id": 22047,
         "input": "kamar lumayan besar namun ac kurang dingin . air di toilet mampet [S] [A] [O]",
-        "target": "",
+        "target": "[S] positive [A] kamar [O] lumayan besar [SSEP] [S] negative [A] ac [O] kurang dingin [SSEP] [S] negative [A] air di toilet [O] mampet",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -198435,7 +198435,7 @@
         "sentence_id": 1927,
         "instance_id": 22048,
         "input": "kamar lumayan besar namun ac kurang dingin . air di toilet mampet [O] [A] [S]",
-        "target": "",
+        "target": "[O] lumayan besar [A] kamar [S] positive [SSEP] [O] kurang dingin [A] ac [S] negative [SSEP] [O] mampet [A] air di toilet [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -198444,7 +198444,7 @@
         "sentence_id": 1927,
         "instance_id": 22049,
         "input": "kamar lumayan besar namun ac kurang dingin . air di toilet mampet [O] [S] [A]",
-        "target": "",
+        "target": "[O] lumayan besar [S] positive [A] kamar [SSEP] [O] kurang dingin [S] negative [A] ac [SSEP] [O] mampet [S] negative [A] air di toilet",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -199893,7 +199893,7 @@
         "sentence_id": 1960,
         "instance_id": 22210,
         "input": "nyaman , tp sayang air panas ga berfungsi [A] [O] [S]",
-        "target": "",
+        "target": "[A] null [O] nyaman [S] positive [SSEP] [A] air panas [O] ga berfungsi [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -199902,7 +199902,7 @@
         "sentence_id": 1960,
         "instance_id": 22211,
         "input": "nyaman , tp sayang air panas ga berfungsi [A] [S] [O]",
-        "target": "",
+        "target": "[A] null [S] positive [O] nyaman [SSEP] [A] air panas [S] negative [O] ga berfungsi",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -199911,7 +199911,7 @@
         "sentence_id": 1960,
         "instance_id": 22212,
         "input": "nyaman , tp sayang air panas ga berfungsi [S] [A] [O]",
-        "target": "",
+        "target": "[S] positive [A] null [O] nyaman [SSEP] [S] negative [A] air panas [O] ga berfungsi",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -199920,7 +199920,7 @@
         "sentence_id": 1960,
         "instance_id": 22213,
         "input": "nyaman , tp sayang air panas ga berfungsi [O] [A] [S]",
-        "target": "",
+        "target": "[O] nyaman [A] null [S] positive [SSEP] [O] ga berfungsi [A] air panas [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -199929,7 +199929,7 @@
         "sentence_id": 1960,
         "instance_id": 22214,
         "input": "nyaman , tp sayang air panas ga berfungsi [O] [S] [A]",
-        "target": "",
+        "target": "[O] nyaman [S] positive [A] null [SSEP] [O] ga berfungsi [S] negative [A] air panas",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -205608,7 +205608,7 @@
         "sentence_id": 2087,
         "instance_id": 22845,
         "input": "kebersihan kamar dan harga ok hanya mohon perbaiki : 1 . ac kamar bocor jika sdh on bbrp jam , tidur terganggu krn tiba2 ac panas tdk berfungsi krn bocor tsb . 2 . air minum yg diberikan rasanya agak asin , krn bukan dlm kemasan botol plastik bersegel tapi dgn teko . semoga ini diperhatikan utk diperbaiki . terima kasih [A] [O] [S]",
-        "target": "",
+        "target": "[A] kebersihan kamar [O] ok [S] positive [SSEP] [A] harga [O] ok [S] positive [SSEP] [A] ac kamar [O] bocor jika sdh on bbrp jam, tidur terganggu krn tiba2 ac panas tdk berfungsi krn bocor tsb [S] negative [SSEP] [A] air minum yg diberikan [O] rasanya agak asin, krn bukan dlm kemasan botol plastik bersegel tapi dgn teko [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -205617,7 +205617,7 @@
         "sentence_id": 2087,
         "instance_id": 22846,
         "input": "kebersihan kamar dan harga ok hanya mohon perbaiki : 1 . ac kamar bocor jika sdh on bbrp jam , tidur terganggu krn tiba2 ac panas tdk berfungsi krn bocor tsb . 2 . air minum yg diberikan rasanya agak asin , krn bukan dlm kemasan botol plastik bersegel tapi dgn teko . semoga ini diperhatikan utk diperbaiki . terima kasih [A] [S] [O]",
-        "target": "",
+        "target": "[A] kebersihan kamar [S] positive [O] ok [SSEP] [A] harga [S] positive [O] ok [SSEP] [A] ac kamar [S] negative [O] bocor jika sdh on bbrp jam, tidur terganggu krn tiba2 ac panas tdk berfungsi krn bocor tsb [SSEP] [A] air minum yg diberikan [S] negative [O] rasanya agak asin, krn bukan dlm kemasan botol plastik bersegel tapi dgn teko",
         "element_order": "aso",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -205626,7 +205626,7 @@
         "sentence_id": 2087,
         "instance_id": 22847,
         "input": "kebersihan kamar dan harga ok hanya mohon perbaiki : 1 . ac kamar bocor jika sdh on bbrp jam , tidur terganggu krn tiba2 ac panas tdk berfungsi krn bocor tsb . 2 . air minum yg diberikan rasanya agak asin , krn bukan dlm kemasan botol plastik bersegel tapi dgn teko . semoga ini diperhatikan utk diperbaiki . terima kasih [S] [A] [O]",
-        "target": "",
+        "target": "[S] positive [A] kebersihan kamar [O] ok [SSEP] [S] positive [A] harga [O] ok [SSEP] [S] negative [A] ac kamar [O] bocor jika sdh on bbrp jam, tidur terganggu krn tiba2 ac panas tdk berfungsi krn bocor tsb [SSEP] [S] negative [A] air minum yg diberikan [O] rasanya agak asin, krn bukan dlm kemasan botol plastik bersegel tapi dgn teko",
         "element_order": "sao",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -205635,7 +205635,7 @@
         "sentence_id": 2087,
         "instance_id": 22848,
         "input": "kebersihan kamar dan harga ok hanya mohon perbaiki : 1 . ac kamar bocor jika sdh on bbrp jam , tidur terganggu krn tiba2 ac panas tdk berfungsi krn bocor tsb . 2 . air minum yg diberikan rasanya agak asin , krn bukan dlm kemasan botol plastik bersegel tapi dgn teko . semoga ini diperhatikan utk diperbaiki . terima kasih [O] [A] [S]",
-        "target": "",
+        "target": "[O] ok [A] kebersihan kamar [S] positive [SSEP] [O] ok [A] harga [S] positive [SSEP] [O] bocor jika sdh on bbrp jam, tidur terganggu krn tiba2 ac panas tdk berfungsi krn bocor tsb [A] ac kamar [S] negative [SSEP] [O] rasanya agak asin, krn bukan dlm kemasan botol plastik bersegel tapi dgn teko [A] air minum yg diberikan [S] negative",
         "element_order": "oas",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -205644,7 +205644,7 @@
         "sentence_id": 2087,
         "instance_id": 22849,
         "input": "kebersihan kamar dan harga ok hanya mohon perbaiki : 1 . ac kamar bocor jika sdh on bbrp jam , tidur terganggu krn tiba2 ac panas tdk berfungsi krn bocor tsb . 2 . air minum yg diberikan rasanya agak asin , krn bukan dlm kemasan botol plastik bersegel tapi dgn teko . semoga ini diperhatikan utk diperbaiki . terima kasih [O] [S] [A]",
-        "target": "",
+        "target": "[O] ok [S] positive [A] kebersihan kamar [SSEP] [O] ok [S] positive [A] harga [SSEP] [O] bocor jika sdh on bbrp jam, tidur terganggu krn tiba2 ac panas tdk berfungsi krn bocor tsb [S] negative [A] ac kamar [SSEP] [O] rasanya agak asin, krn bukan dlm kemasan botol plastik bersegel tapi dgn teko [S] negative [A] air minum yg diberikan",
         "element_order": "osa",
         "task_elements": "aos",
         "dataset_type": "hoasa"
