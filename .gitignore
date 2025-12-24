@@ -207,7 +207,7 @@ marimo/_lsp/
 __marimo__/
 
 logs
-outputs
+outputs*
 dataset_backup
 wandb
 dataset/hotel_reviews/*/old_dataset
