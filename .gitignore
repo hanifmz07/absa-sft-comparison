@@ -215,3 +215,4 @@ temp
 dataset/*_aug
 dataset/hoasa_hotel_old
 dataset/old_unfixed_data
+models--*
