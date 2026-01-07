@@ -1,0 +1,2900 @@
+[
+    {
+        "sentence_id": 0,
+        "instance_id": 0,
+        "input": "Love Al Di La [A] [O] [S]",
+        "target": "[A] Al Di La [O] Love [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 1,
+        "instance_id": 1,
+        "input": "I recommend this place to everyone . [A] [O] [S]",
+        "target": "[A] place [O] recommend [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 2,
+        "instance_id": 2,
+        "input": "Great food . [A] [O] [S]",
+        "target": "[A] food [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 3,
+        "instance_id": 3,
+        "input": "The pastas are incredible , the risottos ( particularly the sepia ) are fantastic and the braised rabbit is amazing . [A] [O] [S]",
+        "target": "[A] pastas [O] incredible [S] positive [SSEP] [A] risottos [O] fantastic [S] positive [SSEP] [A] sepia [O] fantastic [S] positive [SSEP] [A] braised rabbit [O] amazing [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 4,
+        "instance_id": 4,
+        "input": "The food here was mediocre at best . [A] [O] [S]",
+        "target": "[A] food [O] mediocre [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 5,
+        "instance_id": 5,
+        "input": "It was totally overpriced - fish and chips was about $ 15 ... . [A] [O] [S]",
+        "target": "[A] fish and chips [O] overpriced [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 6,
+        "instance_id": 6,
+        "input": "Tasty Dog ! [A] [O] [S]",
+        "target": "[A] Dog [O] Tasty [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 7,
+        "instance_id": 7,
+        "input": "An awesome organic dog , and a conscious eco friendly establishment . [A] [O] [S]",
+        "target": "[A] dog [O] organic [S] positive [SSEP] [A] establishment [O] eco friendly [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 8,
+        "instance_id": 8,
+        "input": "But the best pork souvlaki I ever had is the main thing . [A] [O] [S]",
+        "target": "[A] pork souvlaki [O] best [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 9,
+        "instance_id": 9,
+        "input": "Super YUMMY Pizza ! [A] [O] [S]",
+        "target": "[A] Pizza [O] YUMMY [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 10,
+        "instance_id": 10,
+        "input": "I was visiting New York City with a friend and we discovered this really warm and inviting restaurant . [A] [O] [S]",
+        "target": "[A] restaurant [O] inviting [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 11,
+        "instance_id": 11,
+        "input": "I LOOOVE their eggplant pizza , as well as their pastas ! [A] [O] [S]",
+        "target": "[A] eggplant pizza [O] LOOOVE [S] positive [SSEP] [A] pastas [O] LOOOVE [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 12,
+        "instance_id": 12,
+        "input": "We had half/half pizza , mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza ! [A] [O] [S]",
+        "target": "[A] half/half pizza [O] huge [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 13,
+        "instance_id": 13,
+        "input": "Excellent food , although the interior could use some help . [A] [O] [S]",
+        "target": "[A] food [O] Excellent [S] positive [SSEP] [A] interior [O] help [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 14,
+        "instance_id": 14,
+        "input": "I paid just about $ 60 for a good meal , though : ) [A] [O] [S]",
+        "target": "[A] meal [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 15,
+        "instance_id": 15,
+        "input": "Great sake ! [A] [O] [S]",
+        "target": "[A] sake [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 16,
+        "instance_id": 16,
+        "input": "Reliable , Fresh Sushi [A] [O] [S]",
+        "target": "[A] Sushi [O] Reliable [S] positive [SSEP] [A] Sushi [O] Fresh [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 17,
+        "instance_id": 17,
+        "input": "The sashimi is always fresh and the rolls are innovative and delicious . [A] [O] [S]",
+        "target": "[A] sashimi [O] fresh [S] positive [SSEP] [A] rolls [O] innovative [S] positive [SSEP] [A] rolls [O] delicious [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 18,
+        "instance_id": 18,
+        "input": "Have never had a problem with service save a missing rice once . [A] [O] [S]",
+        "target": "[A] service [O] problem [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 19,
+        "instance_id": 19,
+        "input": "Delivery can be spot on or lacking depending on the weather and the day of the week . [A] [O] [S]",
+        "target": "[A] Delivery [O] lacking [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 20,
+        "instance_id": 20,
+        "input": "Delivery guy sometimes get upset if you do n't tip more than 10 % . [A] [O] [S]",
+        "target": "[A] Delivery guy [O] upset [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 21,
+        "instance_id": 21,
+        "input": "Best . Sushi . Ever . [A] [O] [S]",
+        "target": "[A] Sushi [O] Best [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 22,
+        "instance_id": 22,
+        "input": "This place has ruined me for neighborhood sushi . [A] [O] [S]",
+        "target": "[A] sushi [O] ruined [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 23,
+        "instance_id": 23,
+        "input": "Excellent sashimi , and the millennium roll is beyond delicious . [A] [O] [S]",
+        "target": "[A] sashimi [O] Excellent [S] positive [SSEP] [A] millennium roll [O] delicious [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 24,
+        "instance_id": 24,
+        "input": "The place is a bit hidden away , but once you get there , it 's all worth it . [A] [O] [S]",
+        "target": "[A] place [O] hidden away [S] positive [SSEP] [A] place [O] worth [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 25,
+        "instance_id": 25,
+        "input": "The waiter was attentive , the food was delicious and the views of the city were great . [A] [O] [S]",
+        "target": "[A] waiter [O] attentive [S] positive [SSEP] [A] food [O] delicious [S] positive [SSEP] [A] views of the city [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 26,
+        "instance_id": 26,
+        "input": "Great place to relax and enjoy your dinner [A] [O] [S]",
+        "target": "[A] place [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 27,
+        "instance_id": 27,
+        "input": "Good food : my favorite is the seafood spaghetti . [A] [O] [S]",
+        "target": "[A] food [O] Good [S] positive [SSEP] [A] seafood spaghetti [O] favorite [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 28,
+        "instance_id": 28,
+        "input": "Excellent food for great prices [A] [O] [S]",
+        "target": "[A] food [O] Excellent [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 29,
+        "instance_id": 29,
+        "input": "The wait staff is very courteous and accomodating . [A] [O] [S]",
+        "target": "[A] wait staff [O] courteous [S] positive [SSEP] [A] wait staff [O] accomodating [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 30,
+        "instance_id": 30,
+        "input": "The space is limited so be prepared to wait up to 45 minutes - 1 hour , but be richly rewarded when you savor the delicious indo-chinese food . [A] [O] [S]",
+        "target": "[A] space [O] limited [S] negative [SSEP] [A] indo-chinese food [O] delicious [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 31,
+        "instance_id": 31,
+        "input": "my favorite place lol [A] [O] [S]",
+        "target": "[A] place [O] favorite [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 32,
+        "instance_id": 32,
+        "input": "i love their chicken pasta cant remember the name but is sooo good [A] [O] [S]",
+        "target": "[A] chicken pasta [O] love [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 33,
+        "instance_id": 33,
+        "input": "im not necessarily fanatical about this place , but it was a fun time for low pirces . [A] [O] [S]",
+        "target": "[A] place [O] fanatical [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 34,
+        "instance_id": 34,
+        "input": "lobster was good , nothing spectacular . [A] [O] [S]",
+        "target": "[A] lobster [O] good [S] neutral [SSEP] [A] lobster [O] nothing spectacular [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 35,
+        "instance_id": 35,
+        "input": "its just a fun place to go , not a five star restaraunt . [A] [O] [S]",
+        "target": "[A] restaraunt [O] five star [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 36,
+        "instance_id": 36,
+        "input": "I think the pizza is so overrated and was under cooked . [A] [O] [S]",
+        "target": "[A] pizza [O] overrated [S] negative [SSEP] [A] pizza [O] under cooked [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 37,
+        "instance_id": 37,
+        "input": "Had no flavor and the staff is rude and not attentive . [A] [O] [S]",
+        "target": "[A] staff [O] rude [S] negative [SSEP] [A] staff [O] not attentive [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 38,
+        "instance_id": 38,
+        "input": "I love this place [A] [O] [S]",
+        "target": "[A] place [O] love [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 39,
+        "instance_id": 39,
+        "input": "The service was quick and friendly . [A] [O] [S]",
+        "target": "[A] service [O] quick [S] positive [SSEP] [A] service [O] friendly [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 40,
+        "instance_id": 40,
+        "input": "I thought the restaurant was nice and clean . [A] [O] [S]",
+        "target": "[A] restaurant [O] nice [S] positive [SSEP] [A] restaurant [O] clean [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 41,
+        "instance_id": 41,
+        "input": "I ordered the vitello alla marsala and I was pretty impressed . [A] [O] [S]",
+        "target": "[A] vitello alla marsala [O] impressed [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 42,
+        "instance_id": 42,
+        "input": "The veal and the mushrooms were cooked perfectly . [A] [O] [S]",
+        "target": "[A] veal [O] perfectly [S] positive [SSEP] [A] mushrooms [O] perfectly [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 43,
+        "instance_id": 43,
+        "input": "The potato balls were not dry at all ... in fact it was buttery . [A] [O] [S]",
+        "target": "[A] potato balls [O] not dry [S] positive [SSEP] [A] potato balls [O] buttery [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 44,
+        "instance_id": 44,
+        "input": "WORST PLACE ON SMITH STREET IN BROOKLYN [A] [O] [S]",
+        "target": "[A] PLACE [O] WORST [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 45,
+        "instance_id": 45,
+        "input": "Very immature bartender , didnt know how to make specific drinks , service was so slowwwww , the food was not fresh or warm , waitresses were busy flirting with men at the bar and werent very attentive to all the customers . [A] [O] [S]",
+        "target": "[A] bartender [O] immature [S] negative [SSEP] [A] service [O] slowwwww [S] negative [SSEP] [A] food [O] not fresh or warm [S] negative [SSEP] [A] waitresses [O] werent very attentive [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 46,
+        "instance_id": 46,
+        "input": "I would never recommend this place to anybody even for a casual dinner . [A] [O] [S]",
+        "target": "[A] place [O] never recommend [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 47,
+        "instance_id": 47,
+        "input": "the food is always fresh ... [A] [O] [S]",
+        "target": "[A] food [O] fresh [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 48,
+        "instance_id": 48,
+        "input": "overpriced japanese food with mediocre service [A] [O] [S]",
+        "target": "[A] japanese food [O] overpriced [S] negative [SSEP] [A] service [O] mediocre [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 49,
+        "instance_id": 49,
+        "input": "food was luke warm . [A] [O] [S]",
+        "target": "[A] food [O] luke warm [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 50,
+        "instance_id": 50,
+        "input": "The waitress was not attentive at all . [A] [O] [S]",
+        "target": "[A] waitress [O] not attentive [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 51,
+        "instance_id": 51,
+        "input": "The food was excellent as well as service , however , I left The Four Seasons very dissappointed . [A] [O] [S]",
+        "target": "[A] food [O] excellent [S] positive [SSEP] [A] service [O] excellent [S] positive [SSEP] [A] The Four Seasons [O] dissappointed [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 52,
+        "instance_id": 52,
+        "input": "Red Dragon Roll - my favorite thing to eat , of any food group - hands down [A] [O] [S]",
+        "target": "[A] Red Dragon Roll [O] favorite [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 53,
+        "instance_id": 53,
+        "input": "The Seafood Dynamite is also otherworldly . [A] [O] [S]",
+        "target": "[A] Seafood Dynamite [O] otherworldly [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 54,
+        "instance_id": 54,
+        "input": "Favorite Sushi in NYC [A] [O] [S]",
+        "target": "[A] Sushi [O] Favorite [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 55,
+        "instance_id": 55,
+        "input": "An unpretentious spot in Park Slope , the sushi is consistently good , the service is pleasant , effective and unassuming . [A] [O] [S]",
+        "target": "[A] spot [O] unpretentious [S] positive [SSEP] [A] sushi [O] good [S] positive [SSEP] [A] service [O] pleasant [S] positive [SSEP] [A] service [O] effective [S] positive [SSEP] [A] service [O] unassuming [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 56,
+        "instance_id": 56,
+        "input": "In the summer months , the back garden area is really nice . [A] [O] [S]",
+        "target": "[A] back garden area [O] nice [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 57,
+        "instance_id": 57,
+        "input": "The rolls are creative and I have yet to find another sushi place that serves up more inventive yet delicious japanese food . [A] [O] [S]",
+        "target": "[A] rolls [O] creative [S] positive [SSEP] [A] japanese food [O] inventive [S] positive [SSEP] [A] japanese food [O] delicious [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 58,
+        "instance_id": 58,
+        "input": "The Dancing , White River and Millenium rolls are musts . [A] [O] [S]",
+        "target": "[A] Dancing , White River and Millenium rolls [O] musts [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 59,
+        "instance_id": 59,
+        "input": "I CAN EAT HERE EVERY DAY OF THE WEEK REALLY LOL LOVE THIS PLACE ... ) [A] [O] [S]",
+        "target": "[A] PLACE [O] LOVE [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 60,
+        "instance_id": 60,
+        "input": "Gross food – Wow- [A] [O] [S]",
+        "target": "[A] food [O] Gross [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 61,
+        "instance_id": 61,
+        "input": "And $ 11 for a plate of bland guacamole ? [A] [O] [S]",
+        "target": "[A] guacamole [O] bland [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 62,
+        "instance_id": 62,
+        "input": "Oh , and I never write reviews -- I just was so moved by how bad this place was , I felt it was my duty to spread the word . [A] [O] [S]",
+        "target": "[A] place [O] bad [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 63,
+        "instance_id": 63,
+        "input": "Great Indian Food ! [A] [O] [S]",
+        "target": "[A] Indian Food [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 64,
+        "instance_id": 64,
+        "input": "The food was good , the place was clean and affordable . [A] [O] [S]",
+        "target": "[A] food [O] good [S] positive [SSEP] [A] place [O] clean [S] positive [SSEP] [A] place [O] affordable [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 65,
+        "instance_id": 65,
+        "input": "I noticed alot of indian people eatting there which is a great sign for an indian place ! [A] [O] [S]",
+        "target": "[A] indian place [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 66,
+        "instance_id": 66,
+        "input": "This is one of my favorite spot , very relaxing the food is great all the times , celebrated my engagement and my wedding here , it was very well organized . [A] [O] [S]",
+        "target": "[A] food [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 67,
+        "instance_id": 67,
+        "input": "The staff is very good . [A] [O] [S]",
+        "target": "[A] staff [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 68,
+        "instance_id": 68,
+        "input": "Love their drink menu . [A] [O] [S]",
+        "target": "[A] drink menu [O] Love [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 69,
+        "instance_id": 69,
+        "input": "I highly recommend this beautiful place . [A] [O] [S]",
+        "target": "[A] place [O] recommend [S] positive [SSEP] [A] place [O] beautiful [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 70,
+        "instance_id": 70,
+        "input": "Nice view of river and NYC . [A] [O] [S]",
+        "target": "[A] view of river and NYC [O] Nice [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 71,
+        "instance_id": 71,
+        "input": "Great survice [A] [O] [S]",
+        "target": "[A] survice [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 72,
+        "instance_id": 72,
+        "input": "A beautifully designed dreamy Egyptian restaurant that gets sceney at night . [A] [O] [S]",
+        "target": "[A] Egyptian restaurant [O] dreamy [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 73,
+        "instance_id": 73,
+        "input": "Watch the talented belly dancers as you enjoy delicious baba ganoush that 's more lemony than smoky . [A] [O] [S]",
+        "target": "[A] baba ganoush [O] enjoy delicious [S] positive [SSEP] [A] belly dancers [O] talented [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 74,
+        "instance_id": 74,
+        "input": "Raymond the bartender rocks ! [A] [O] [S]",
+        "target": "[A] Raymond [O] rocks [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 75,
+        "instance_id": 75,
+        "input": "Pacifico is a great place to casually hang out . [A] [O] [S]",
+        "target": "[A] Pacifico [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 76,
+        "instance_id": 76,
+        "input": "The drinks are great , especially when made by Raymond . [A] [O] [S]",
+        "target": "[A] drinks [O] great [S] positive [SSEP] [A] Raymond [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 77,
+        "instance_id": 77,
+        "input": "The omlette for brunch is great ... [A] [O] [S]",
+        "target": "[A] omlette for brunch [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 78,
+        "instance_id": 78,
+        "input": "the spinach is fresh , definately not frozen ... [A] [O] [S]",
+        "target": "[A] spinach [O] fresh [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 79,
+        "instance_id": 79,
+        "input": "quacamole at pacifico is yummy , as are the wings with chimmichuri . [A] [O] [S]",
+        "target": "[A] quacamole [O] yummy [S] positive [SSEP] [A] wings with chimmichuri [O] yummy [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 80,
+        "instance_id": 80,
+        "input": "A weakness is the chicken in the salads . [A] [O] [S]",
+        "target": "[A] chicken in the salads [O] weakness [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 81,
+        "instance_id": 81,
+        "input": "Also , I personally was n't a fan of the portobello and asparagus mole . [A] [O] [S]",
+        "target": "[A] portobello and asparagus mole [O] fan [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 82,
+        "instance_id": 82,
+        "input": "Overall , decent food at a good price , with friendly people . [A] [O] [S]",
+        "target": "[A] food [O] decent [S] positive [SSEP] [A] people [O] friendly [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 83,
+        "instance_id": 83,
+        "input": "Best Indian Restaurant in the City [A] [O] [S]",
+        "target": "[A] Indian Restaurant [O] Best [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 84,
+        "instance_id": 84,
+        "input": "Decor needs to be upgraded but the food is amazing ! [A] [O] [S]",
+        "target": "[A] Decor [O] upgraded [S] negative [SSEP] [A] food [O] amazing [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 85,
+        "instance_id": 85,
+        "input": "This small Astoria souvlaki spot makes what many consider the best gyros in New York . [A] [O] [S]",
+        "target": "[A] gyros [O] best [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 86,
+        "instance_id": 86,
+        "input": "What really makes it shine is the food , which is aggressively seasoned with Cyrpriot spices , and all made in-house ( even the gyro meat and sausages ) , and made of much higher quality ingredients that might otherwise be expected . [A] [O] [S]",
+        "target": "[A] food [O] shine [S] positive [SSEP] [A] gyro meat [O] in-house [S] positive [SSEP] [A] sausages [O] in-house [S] positive [SSEP] [A] ingredients [O] higher quality [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 87,
+        "instance_id": 87,
+        "input": "All the various Greek and Cypriot dishes are excellent , but the gyro is the reason to come -- if you do n't eat one your trip was wasted . [A] [O] [S]",
+        "target": "[A] Greek and Cypriot dishes [O] excellent [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 88,
+        "instance_id": 88,
+        "input": "Best restaurant in Brooklyn [A] [O] [S]",
+        "target": "[A] restaurant [O] Best [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 89,
+        "instance_id": 89,
+        "input": "Great food , amazing service , this place is a class act . [A] [O] [S]",
+        "target": "[A] food [O] Great [S] positive [SSEP] [A] service [O] amazing [S] positive [SSEP] [A] place [O] class act [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 90,
+        "instance_id": 90,
+        "input": "The veal was incredible last night . [A] [O] [S]",
+        "target": "[A] veal [O] incredible [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 91,
+        "instance_id": 91,
+        "input": "This place is a must visit ! [A] [O] [S]",
+        "target": "[A] place [O] must visit [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 92,
+        "instance_id": 92,
+        "input": "The food is all shared so we get to order together and eat together . [A] [O] [S]",
+        "target": "[A] food [O] shared [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 93,
+        "instance_id": 93,
+        "input": "I 've enjoyed 99 % of the dishes we 've ordered with the only exceptions being the occasional too-authentic-for-me dish ( I 'm a daring eater but not THAT daring ) . [A] [O] [S]",
+        "target": "[A] dishes [O] enjoyed [S] positive [SSEP] [A] dish [O] too-authentic-for-me [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 94,
+        "instance_id": 94,
+        "input": "My daughter 's wedding reception at Water 's Edge received the highest compliments from our guests . [A] [O] [S]",
+        "target": "[A] Water 's Edge [O] highest compliments [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 95,
+        "instance_id": 95,
+        "input": "Everyone raved about the atmosphere ( elegant rooms and absolutely incomparable views ) and the fabulous food ! [A] [O] [S]",
+        "target": "[A] atmosphere [O] raved [S] positive [SSEP] [A] rooms [O] elegant [S] positive [SSEP] [A] views [O] incomparable [S] positive [SSEP] [A] food [O] fabulous [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 96,
+        "instance_id": 96,
+        "input": "Service was wonderful ; [A] [O] [S]",
+        "target": "[A] Service [O] wonderful [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 97,
+        "instance_id": 97,
+        "input": "Paul , the maitre d ' , was totally professional and always on top of things . [A] [O] [S]",
+        "target": "[A] Paul [O] professional [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 98,
+        "instance_id": 98,
+        "input": "Service ok but unfriendly , filthy bathroom . [A] [O] [S]",
+        "target": "[A] Service [O] ok [S] negative [SSEP] [A] Service [O] unfriendly [S] negative [SSEP] [A] bathroom [O] filthy [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 99,
+        "instance_id": 99,
+        "input": "The bar drinks were Eh , ok to say the least . [A] [O] [S]",
+        "target": "[A] bar drinks [O] ok [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 100,
+        "instance_id": 100,
+        "input": "The stuff tilapia was horrid ... tasted like cardboard . [A] [O] [S]",
+        "target": "[A] stuff tilapia [O] horrid [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 101,
+        "instance_id": 101,
+        "input": "oh speaking of bathroom , the mens bathroom was disgusting . [A] [O] [S]",
+        "target": "[A] mens bathroom [O] disgusting [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 102,
+        "instance_id": 102,
+        "input": "The wine list was extensive - though the staff did not seem knowledgeable about wine pairings . [A] [O] [S]",
+        "target": "[A] wine list [O] extensive [S] positive [SSEP] [A] staff [O] not seem knowledgeable [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 103,
+        "instance_id": 103,
+        "input": "The bread we received was horrible - rock hard and cold - and the `` free '' appetizer of olives was disappointing . [A] [O] [S]",
+        "target": "[A] bread [O] horrible [S] negative [SSEP] [A] bread [O] rock hard [S] negative [SSEP] [A] bread [O] cold [S] negative [SSEP] [A] appetizer of olives [O] disappointing [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 104,
+        "instance_id": 104,
+        "input": "However , our main course was wonderful . [A] [O] [S]",
+        "target": "[A] main course [O] wonderful [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 105,
+        "instance_id": 105,
+        "input": "I had fish and my husband had the filet - both of which exceeded our expectations . [A] [O] [S]",
+        "target": "[A] fish [O] exceeded our expectations [S] positive [SSEP] [A] filet [O] exceeded our expectations [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 106,
+        "instance_id": 106,
+        "input": "The dessert ( we had a pear torte ) was good - but , once again , the staff was unable to provide appropriate drink suggestions . [A] [O] [S]",
+        "target": "[A] pear torte [O] good [S] positive [SSEP] [A] staff [O] unable to provide [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 107,
+        "instance_id": 107,
+        "input": "Not what I would expect for the price and prestige of this location . [A] [O] [S]",
+        "target": "[A] location [O] expect [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 108,
+        "instance_id": 108,
+        "input": "All in all , I would return - as it was a beautiful restaurant - but I hope the staff pays more attention to the little details in the future . [A] [O] [S]",
+        "target": "[A] restaurant [O] beautiful [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 109,
+        "instance_id": 109,
+        "input": "short and sweet – seating is great : it 's romantic , cozy and private . [A] [O] [S]",
+        "target": "[A] seating [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 110,
+        "instance_id": 110,
+        "input": "The boths are not as small as some of the reviews make them out to look they 're perfect for 2 people . [A] [O] [S]",
+        "target": "[A] boths [O] not as small [S] positive [SSEP] [A] boths [O] perfect [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 111,
+        "instance_id": 111,
+        "input": "The service was extremely fast and attentive ( thanks to the service button on your table ) but I barely understood 1 word when the waiter took our order . [A] [O] [S]",
+        "target": "[A] service [O] fast [S] positive [SSEP] [A] service [O] attentive [S] positive [SSEP] [A] service button [O] thanks to [S] positive [SSEP] [A] waiter [O] barely understood [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 112,
+        "instance_id": 112,
+        "input": "The food was ok and fair nothing to go crazy . [A] [O] [S]",
+        "target": "[A] food [O] ok [S] neutral [SSEP] [A] food [O] fair [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 113,
+        "instance_id": 113,
+        "input": "Over all the looks of the place exceeds the actual meals . [A] [O] [S]",
+        "target": "[A] looks [O] exceeds [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 114,
+        "instance_id": 114,
+        "input": "Subtle food and service [A] [O] [S]",
+        "target": "[A] food [O] Subtle [S] positive [SSEP] [A] service [O] Subtle [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 115,
+        "instance_id": 115,
+        "input": "Noodle pudding is exactly the type of service and food I enjoy . [A] [O] [S]",
+        "target": "[A] service [O] enjoy [S] positive [SSEP] [A] food [O] enjoy [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 116,
+        "instance_id": 116,
+        "input": "Servers are all different , Greg is my favorite . [A] [O] [S]",
+        "target": "[A] Greg [O] favorite [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 117,
+        "instance_id": 117,
+        "input": "I go out to eat and like my courses , servers are patient and never rush courses or force another drink . [A] [O] [S]",
+        "target": "[A] servers [O] patient [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 118,
+        "instance_id": 118,
+        "input": "amazing fresh dogs but best of all endless toppings ! ! ! [A] [O] [S]",
+        "target": "[A] dogs [O] amazing fresh [S] positive [SSEP] [A] toppings [O] best [S] positive [SSEP] [A] toppings [O] endless [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 119,
+        "instance_id": 119,
+        "input": "amazing fun for hot dog lovers of all ages PLEASE do yourself a favor and check this place out ! ! ! ! [A] [O] [S]",
+        "target": "[A] hot dog [O] amazing fun [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 120,
+        "instance_id": 120,
+        "input": "Stepping into Casa La Femme last night was a true experience unlike any other in New York ! [A] [O] [S]",
+        "target": "[A] Casa La Femme [O] true [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 121,
+        "instance_id": 121,
+        "input": "Highly impressed from the decor to the food to the hospitality to the great night I had ! [A] [O] [S]",
+        "target": "[A] decor [O] impressed [S] positive [SSEP] [A] food [O] impressed [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 122,
+        "instance_id": 122,
+        "input": "The have a great cocktail with Citrus Vodka and lemon and lime juice and mint leaves that is to die for ! [A] [O] [S]",
+        "target": "[A] cocktail with Citrus Vodka and lemon and lime juice and mint leaves [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 123,
+        "instance_id": 123,
+        "input": "Food took some time to prepare , all worth waiting for . [A] [O] [S]",
+        "target": "[A] Food [O] worth [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 124,
+        "instance_id": 124,
+        "input": "We were drawn into the belly dancing show that captivated the crowd . [A] [O] [S]",
+        "target": "[A] belly dancing show [O] captivated [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 125,
+        "instance_id": 125,
+        "input": "I never write on these sites but this restaurant is def worth commending ! [A] [O] [S]",
+        "target": "[A] restaurant [O] worth [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 126,
+        "instance_id": 126,
+        "input": "The menu looked great , and the waiter was very nice , but when the food came , it was average . [A] [O] [S]",
+        "target": "[A] waiter [O] nice [S] positive [SSEP] [A] food [O] average [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 127,
+        "instance_id": 127,
+        "input": "I have worked in restaurants and cook a lot , and there is no way a maggot should be able to get into well prepared food . [A] [O] [S]",
+        "target": "[A] food [O] well prepared [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 128,
+        "instance_id": 128,
+        "input": "For a restaurant with such a good reputation and that is usually so packed , there was no reason for such a lack of intelligent customer service . [A] [O] [S]",
+        "target": "[A] restaurant [O] good reputation [S] positive [SSEP] [A] customer service [O] intelligent [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 129,
+        "instance_id": 129,
+        "input": "Great place , great value . [A] [O] [S]",
+        "target": "[A] place [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 130,
+        "instance_id": 130,
+        "input": "The food is flavorful , plentiful and reasonably priced . [A] [O] [S]",
+        "target": "[A] food [O] flavorful [S] positive [SSEP] [A] food [O] plentiful [S] positive [SSEP] [A] food [O] reasonably priced [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 131,
+        "instance_id": 131,
+        "input": "The atmosphere is relaxed and casual . [A] [O] [S]",
+        "target": "[A] atmosphere [O] relaxed [S] positive [SSEP] [A] atmosphere [O] casual [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 132,
+        "instance_id": 132,
+        "input": "It 's a great place to order from or sit-in . [A] [O] [S]",
+        "target": "[A] place [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 133,
+        "instance_id": 133,
+        "input": "Sushi experience was unbelievable with my fiance . [A] [O] [S]",
+        "target": "[A] Sushi [O] unbelievable [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 134,
+        "instance_id": 134,
+        "input": "Good creative rolls ! [A] [O] [S]",
+        "target": "[A] rolls [O] Good creative [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 135,
+        "instance_id": 135,
+        "input": "Yamato is an excellent place to go if youre not into sashimi , or if you have friends who doesnt like sushi much . [A] [O] [S]",
+        "target": "[A] Yamato [O] excellent [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 136,
+        "instance_id": 136,
+        "input": "They have great rolls , the triple color and norwegetan rolls , are awesome and filling . [A] [O] [S]",
+        "target": "[A] rolls [O] great [S] positive [SSEP] [A] triple color and norwegetan rolls [O] awesome [S] positive [SSEP] [A] triple color and norwegetan rolls [O] filling [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 137,
+        "instance_id": 137,
+        "input": "One special roll and one regular roll is enough to fill you up , but save room for dessert ! [A] [O] [S]",
+        "target": "[A] dessert [O] save room [S] positive [SSEP] [A] special roll [O] enough [S] positive [SSEP] [A] regular roll [O] enough [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 138,
+        "instance_id": 138,
+        "input": "They have a delicious banana chocolate dessert , as well as a great green tea tempura . [A] [O] [S]",
+        "target": "[A] banana chocolate dessert [O] delicious [S] positive [SSEP] [A] green tea tempura [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 139,
+        "instance_id": 139,
+        "input": "The appetizers are also delicious ! [A] [O] [S]",
+        "target": "[A] appetizers [O] delicious [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 140,
+        "instance_id": 140,
+        "input": "Amazing food . [A] [O] [S]",
+        "target": "[A] food [O] Amazing [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 141,
+        "instance_id": 141,
+        "input": "Mazing interior . [A] [O] [S]",
+        "target": "[A] interior [O] Mazing [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 142,
+        "instance_id": 142,
+        "input": "Great food ! [A] [O] [S]",
+        "target": "[A] food [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 143,
+        "instance_id": 143,
+        "input": "I 've had my fair share of modern Japanese and this spot delivers . [A] [O] [S]",
+        "target": "[A] modern Japanese [O] delivers [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 144,
+        "instance_id": 144,
+        "input": "The atmosphere was pretty nice but had a bit lacking , which it tries to make up for with a crazy scheme of mirrors . [A] [O] [S]",
+        "target": "[A] atmosphere [O] nice [S] negative [SSEP] [A] scheme of mirrors [O] crazy [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 145,
+        "instance_id": 145,
+        "input": "Despite the confusing mirrors this will likely be my go-to for modern Japanese food for the foreseeable future . [A] [O] [S]",
+        "target": "[A] modern Japanese food [O] go-to for [S] positive [SSEP] [A] mirrors [O] confusing [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 146,
+        "instance_id": 146,
+        "input": "Indo Chinese food , pretty good ... [A] [O] [S]",
+        "target": "[A] Indo Chinese food [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 147,
+        "instance_id": 147,
+        "input": "Not a very fancy place but very good Chinese style Indian food . [A] [O] [S]",
+        "target": "[A] place [O] fancy [S] neutral [SSEP] [A] Chinese style Indian food [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 148,
+        "instance_id": 148,
+        "input": "The chicken lollipop is my favorite , most of the dishes ( I have to agree with a previous reviewer ) are quite oily and very spicy , espeically the Chilli Chicken . [A] [O] [S]",
+        "target": "[A] chicken lollipop [O] favorite [S] positive [SSEP] [A] dishes [O] oily [S] negative [SSEP] [A] dishes [O] spicy [S] negative [SSEP] [A] Chilli Chicken [O] oily [S] negative [SSEP] [A] Chilli Chicken [O] spicy [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 149,
+        "instance_id": 149,
+        "input": "My mom originally introduced me to this place , but even she ( being Indian ) feels the food can be somewhat over the top spicy and far too oily . [A] [O] [S]",
+        "target": "[A] food [O] spicy [S] negative [SSEP] [A] food [O] oily [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 150,
+        "instance_id": 150,
+        "input": "I was speechless by the horrible food . [A] [O] [S]",
+        "target": "[A] food [O] speechless [S] negative [SSEP] [A] food [O] horrible [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 151,
+        "instance_id": 151,
+        "input": "I attended a holiday dinner at the restaurant , and the food was majorly disappointing . [A] [O] [S]",
+        "target": "[A] food [O] disappointing [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 152,
+        "instance_id": 152,
+        "input": "This is the MOST wonderful restaurant in all of New York City , not just Brooklyn ... [A] [O] [S]",
+        "target": "[A] restaurant [O] wonderful [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 153,
+        "instance_id": 153,
+        "input": "for 7 years they have put out the most tasty , most delicious food and kept it that way ... [A] [O] [S]",
+        "target": "[A] food [O] tasty [S] positive [SSEP] [A] food [O] delicious [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 154,
+        "instance_id": 154,
+        "input": "never swaying , never a bad meal , never bad service ... [A] [O] [S]",
+        "target": "[A] meal [O] never a bad [S] positive [SSEP] [A] service [O] never bad [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 155,
+        "instance_id": 155,
+        "input": "great food , great wine list , great service in a great neighborhood ... [A] [O] [S]",
+        "target": "[A] food [O] great [S] positive [SSEP] [A] wine list [O] great [S] positive [SSEP] [A] service [O] great [S] positive [SSEP] [A] neighborhood [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 156,
+        "instance_id": 156,
+        "input": "Patsy 's Pizza - true love [A] [O] [S]",
+        "target": "[A] Patsy 's Pizza [O] true love [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 157,
+        "instance_id": 157,
+        "input": "Hands down the best pizza on the planet . [A] [O] [S]",
+        "target": "[A] pizza [O] best [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 158,
+        "instance_id": 158,
+        "input": "great hot dogs . [A] [O] [S]",
+        "target": "[A] hot dogs [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 159,
+        "instance_id": 159,
+        "input": "the hot dogs were juicy and tender inside and had plenty of crunch and snap on the outside . [A] [O] [S]",
+        "target": "[A] hot dogs [O] juicy [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 160,
+        "instance_id": 160,
+        "input": "great toppings definitely a place you need to check out for late night munchies or a mid day boost ! [A] [O] [S]",
+        "target": "[A] toppings [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 161,
+        "instance_id": 161,
+        "input": "For me dishes a little oily , but overall dining experience good . [A] [O] [S]",
+        "target": "[A] dishes [O] oily [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 162,
+        "instance_id": 162,
+        "input": "Helpful service and average price per dish $ 10 . [A] [O] [S]",
+        "target": "[A] service [O] Helpful [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 163,
+        "instance_id": 163,
+        "input": "The only thing that strikes you is the decor ? ( not very pleasant ) . [A] [O] [S]",
+        "target": "[A] decor [O] not very pleasant [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 164,
+        "instance_id": 164,
+        "input": "great food [A] [O] [S]",
+        "target": "[A] food [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 165,
+        "instance_id": 165,
+        "input": "This place has great indian chinese food . [A] [O] [S]",
+        "target": "[A] indian chinese food [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 166,
+        "instance_id": 166,
+        "input": "Be prepared to wait , because the place is pretty tiny . [A] [O] [S]",
+        "target": "[A] place [O] tiny [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 167,
+        "instance_id": 167,
+        "input": "Even though the place is not beautiful , the food speaks for itself . [A] [O] [S]",
+        "target": "[A] place [O] not beautiful [S] negative [SSEP] [A] food [O] speaks for itself [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 168,
+        "instance_id": 168,
+        "input": "Best Indian Chinese in the city , by far ! [A] [O] [S]",
+        "target": "[A] Indian Chinese [O] Best [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 169,
+        "instance_id": 169,
+        "input": "The martinis are amazing and very fairly priced . [A] [O] [S]",
+        "target": "[A] martinis [O] amazing [S] positive [SSEP] [A] martinis [O] fairly priced [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 170,
+        "instance_id": 170,
+        "input": "THE SERVICE IS AMAZING , i 've had different waiters and they were all nice , which is a rare thing in NYC . [A] [O] [S]",
+        "target": "[A] SERVICE [O] AMAZING [S] positive [SSEP] [A] waiters [O] nice [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 171,
+        "instance_id": 171,
+        "input": "The DJ is awesome , I have been there for my birthday and a bunch of other times with friends and I keep going back . [A] [O] [S]",
+        "target": "[A] DJ [O] awesome [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 172,
+        "instance_id": 172,
+        "input": "Everything on the menu is great . [A] [O] [S]",
+        "target": "[A] menu [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 173,
+        "instance_id": 173,
+        "input": "This establishment is the real deal . [A] [O] [S]",
+        "target": "[A] establishment [O] real deal [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 174,
+        "instance_id": 174,
+        "input": "Wish NY had more of these kind of places : intimate , superb food , homey , top notch all the way around , certainly worth the wait . [A] [O] [S]",
+        "target": "[A] food [O] superb [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 175,
+        "instance_id": 175,
+        "input": "Look , the appetizers were really good . [A] [O] [S]",
+        "target": "[A] appetizers [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 176,
+        "instance_id": 176,
+        "input": "The entree was also very good . [A] [O] [S]",
+        "target": "[A] entree [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 177,
+        "instance_id": 177,
+        "input": "Yes , the place is classy and beautiful , but they most certainly target the uber whealthy Not the common joe that wants to go all out every once in a while . [A] [O] [S]",
+        "target": "[A] place [O] classy [S] negative [SSEP] [A] place [O] beautiful [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 178,
+        "instance_id": 178,
+        "input": "Vanison was good but not amazing . [A] [O] [S]",
+        "target": "[A] Vanison [O] good [S] neutral [SSEP] [A] Vanison [O] not amazing [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 179,
+        "instance_id": 179,
+        "input": "Bison was quite excellent however . [A] [O] [S]",
+        "target": "[A] Bison [O] excellent [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 180,
+        "instance_id": 180,
+        "input": "Dessert : pure disaster . [A] [O] [S]",
+        "target": "[A] Dessert [O] disaster [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 181,
+        "instance_id": 181,
+        "input": "I read reviews that called the restaurant too expensive and I thought to myself , but may be it is worth it . [A] [O] [S]",
+        "target": "[A] restaurant [O] expensive [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 182,
+        "instance_id": 182,
+        "input": "All in all , the food was great ( except for the dessserts ) . [A] [O] [S]",
+        "target": "[A] food [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 183,
+        "instance_id": 183,
+        "input": "The environment is very upscale and you will see a lot of rich guys with trophy wives or just highly paid escorts . [A] [O] [S]",
+        "target": "[A] environment [O] upscale [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 184,
+        "instance_id": 184,
+        "input": "If you are going for the food , it will not be worth it . [A] [O] [S]",
+        "target": "[A] food [O] worth [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 185,
+        "instance_id": 185,
+        "input": "You would think they would make up for it with service , sadly , no . [A] [O] [S]",
+        "target": "[A] service [O] sadly [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 186,
+        "instance_id": 186,
+        "input": "Service was just ok , it is not what you 'd expect for $ 500 . [A] [O] [S]",
+        "target": "[A] Service [O] ok [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 187,
+        "instance_id": 187,
+        "input": "I literally just got back home after visiting Casa La Femme and was so offended by my visit felt it necessary to try and warn other diners who value their money and time . [A] [O] [S]",
+        "target": "[A] Casa La Femme [O] offended [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 188,
+        "instance_id": 188,
+        "input": "The place is beautiful ! [A] [O] [S]",
+        "target": "[A] place [O] beautiful [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 189,
+        "instance_id": 189,
+        "input": "The hostess was very pleasant . [A] [O] [S]",
+        "target": "[A] hostess [O] pleasant [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 190,
+        "instance_id": 190,
+        "input": "However , our $ 14 drinks were were horrible ! [A] [O] [S]",
+        "target": "[A] drinks [O] horrible [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 191,
+        "instance_id": 191,
+        "input": "We asked for sides which the waiter than admitted that he forgot to put in that part of our order . [A] [O] [S]",
+        "target": "[A] waiter [O] forgot [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 192,
+        "instance_id": 192,
+        "input": "My chicken was inedible as there were so many fatty lumps which i had to keep spitting out into my napkin . [A] [O] [S]",
+        "target": "[A] chicken [O] inedible [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 193,
+        "instance_id": 193,
+        "input": "By the time we left our wallets were empy and so were our stomachs AND we missed the show we were supposed to see following our dinner , which would have been acceptable if we got to enjoy the experience of good food and belly dancers ! [A] [O] [S]",
+        "target": "[A] food [O] good [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 194,
+        "instance_id": 194,
+        "input": "If it seemed possible to do so while there I would have fought my bill since my dinner portion of my meal was inedible ! [A] [O] [S]",
+        "target": "[A] meal [O] inedible [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 195,
+        "instance_id": 195,
+        "input": "I have never left a restaurant feeling as if i was abused , and wasted my hard earned money . [A] [O] [S]",
+        "target": "[A] restaurant [O] abused [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 196,
+        "instance_id": 196,
+        "input": "The menu is fairly simple without much descriptions . [A] [O] [S]",
+        "target": "[A] menu [O] simple [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 197,
+        "instance_id": 197,
+        "input": "There was no tap beer that evening , which was a disappointment . [A] [O] [S]",
+        "target": "[A] beer [O] disappointment [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 198,
+        "instance_id": 198,
+        "input": "Not much of a selection of bottled beer either , we went with Brahma . [A] [O] [S]",
+        "target": "[A] selection of bottled beer [O] Not much [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 199,
+        "instance_id": 199,
+        "input": "The appetizers we ordered were served quickly - an order of fried oysters and clams were delicious but a tiny portion ( maybe 3 of each ) . [A] [O] [S]",
+        "target": "[A] fried oysters and clams [O] delicious [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 200,
+        "instance_id": 200,
+        "input": "The lobster knuckles ( special of the day ) were ok , but pretty tasteless . [A] [O] [S]",
+        "target": "[A] lobster knuckles [O] ok [S] negative [SSEP] [A] lobster knuckles [O] tasteless [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 201,
+        "instance_id": 201,
+        "input": "I had the Thai style Fried Sea Bass ... which was very good . [A] [O] [S]",
+        "target": "[A] Thai style Fried Sea Bass [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 202,
+        "instance_id": 202,
+        "input": "Everyone seemed generally happy with their food , except my brother who had the grilled Mahi Mahi , seemingly drenched in Grapfruit Juice ! [A] [O] [S]",
+        "target": "[A] food [O] happy [S] positive [SSEP] [A] grilled Mahi Mahi [O] drenched [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 203,
+        "instance_id": 203,
+        "input": "I heard the lobster roll was excellent . [A] [O] [S]",
+        "target": "[A] lobster roll [O] excellent [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 204,
+        "instance_id": 204,
+        "input": "All in all the food was good - a little on the expensive side , but fresh . [A] [O] [S]",
+        "target": "[A] food [O] good [S] negative [SSEP] [A] food [O] expensive [S] negative [SSEP] [A] food [O] fresh [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 205,
+        "instance_id": 205,
+        "input": "Service not the friendliest to our `` large party '' ! [A] [O] [S]",
+        "target": "[A] Service [O] not the friendliest [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 206,
+        "instance_id": 206,
+        "input": "Great Indian food [A] [O] [S]",
+        "target": "[A] Indian food [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 207,
+        "instance_id": 207,
+        "input": "Food was amazing - I love Indian food and eat it quite regularly , but I can say this is one of the best I 've had . [A] [O] [S]",
+        "target": "[A] Food [O] amazing [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 208,
+        "instance_id": 208,
+        "input": "Very `` normal Indian food '' , but done really well . [A] [O] [S]",
+        "target": "[A] Indian food [O] normal [S] positive [SSEP] [A] Indian food [O] well [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 209,
+        "instance_id": 209,
+        "input": "The lunch buffet is expensive but is deff worth it . [A] [O] [S]",
+        "target": "[A] lunch buffet [O] expensive [S] positive [SSEP] [A] lunch buffet [O] worth [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 210,
+        "instance_id": 210,
+        "input": "We have gone for dinner only a few times but the same great quality and service is given . [A] [O] [S]",
+        "target": "[A] service [O] great [S] positive [SSEP] [A] dinner [O] great quality [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 211,
+        "instance_id": 211,
+        "input": "Bukhara is on my top 5 Indian places in NYC [A] [O] [S]",
+        "target": "[A] Bukhara [O] top [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 212,
+        "instance_id": 212,
+        "input": "I have never been so disgusted by both food an service . [A] [O] [S]",
+        "target": "[A] food [O] disgusted [S] negative [SSEP] [A] service [O] disgusted [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 213,
+        "instance_id": 213,
+        "input": "However , once I received my predictably mediocre order of what Dokebi thinks passes as Korean fair , ( sometimes you have to settle when it 's your only option ) , I got through about half my kimchee before I found a piece of random lettuce accompanied by a far more disgusting , slimy , clearly bad piece of fish skin . [A] [O] [S]",
+        "target": "[A] kimchee [O] disgusting [S] negative [SSEP] [A] Korean fair [O] mediocre [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 214,
+        "instance_id": 214,
+        "input": "My girlfriend , being slightly more aggressive , and having been equally disgusted causing her to throw out the remainder of her barely eaten meal , called back only to be informed that I was probably wrong and that it was most likely an oyster , and that we were also blacklisted from their restaurant . [A] [O] [S]",
+        "target": "[A] meal [O] disgusted [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 215,
+        "instance_id": 215,
+        "input": "It was n't as if this restaurant had any major bragging points before hand , but now it 's simply repulsive . [A] [O] [S]",
+        "target": "[A] restaurant [O] repulsive [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 216,
+        "instance_id": 216,
+        "input": "Gorgeous place ideal for a romantic dinner [A] [O] [S]",
+        "target": "[A] place [O] Gorgeous [S] positive [SSEP] [A] place [O] ideal [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 217,
+        "instance_id": 217,
+        "input": "I book a gorgeous white organza tent which included a four course prix fix menu which we enjoyed a lot . [A] [O] [S]",
+        "target": "[A] four course prix fix menu [O] enjoyed [S] positive [SSEP] [A] white organza tent [O] gorgeous [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 218,
+        "instance_id": 218,
+        "input": "The service was spectacular as the waiter knew everything about the menu and his recommendations were amazing ! [A] [O] [S]",
+        "target": "[A] service [O] spectacular [S] positive [SSEP] [A] waiter [O] amazing [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 219,
+        "instance_id": 219,
+        "input": "I completely recommend Casa La Femme for any special occasion and to REALLY impress your date . [A] [O] [S]",
+        "target": "[A] Casa La Femme [O] recommend [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 220,
+        "instance_id": 220,
+        "input": "The bibimbap was average , but the stone bowl was n't even close to sizzling . [A] [O] [S]",
+        "target": "[A] bibimbap [O] average [S] neutral [SSEP] [A] stone bowl [O] was n't even close to sizzling [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 221,
+        "instance_id": 221,
+        "input": "Too bad I had paid an extra $ 2 for the stone bowl . [A] [O] [S]",
+        "target": "[A] stone bowl [O] bad [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 222,
+        "instance_id": 222,
+        "input": "The nakgi-bokum was horrible . [A] [O] [S]",
+        "target": "[A] nakgi-bokum [O] horrible [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 223,
+        "instance_id": 223,
+        "input": "Easily the worst stir-fried squid I 've ever tasted . [A] [O] [S]",
+        "target": "[A] stir-fried squid [O] worst [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 224,
+        "instance_id": 224,
+        "input": "The side dishes were passable , and I did get a refill upon request . [A] [O] [S]",
+        "target": "[A] side dishes [O] passable [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 225,
+        "instance_id": 225,
+        "input": "The real problem I had with this place was the complete lack of service . [A] [O] [S]",
+        "target": "[A] service [O] lack of [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 226,
+        "instance_id": 226,
+        "input": "My wife had barely touched that mess of a dish . [A] [O] [S]",
+        "target": "[A] dish [O] mess [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 227,
+        "instance_id": 227,
+        "input": "The wife had the risotto which was amazing . [A] [O] [S]",
+        "target": "[A] risotto [O] amazing [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 228,
+        "instance_id": 228,
+        "input": "The farro salad and the mashed yukon potatoes were also extremely tasty . [A] [O] [S]",
+        "target": "[A] farro salad [O] tasty [S] positive [SSEP] [A] mashed yukon potatoes [O] tasty [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 229,
+        "instance_id": 229,
+        "input": "i love margherita pizza – i looove east village pizza [A] [O] [S]",
+        "target": "[A] east village pizza [O] love [S] positive [SSEP] [A] margherita pizza [O] looove [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 230,
+        "instance_id": 230,
+        "input": "Love this place , every time we are in the city this is one of the places we always go . [A] [O] [S]",
+        "target": "[A] place [O] Love [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 231,
+        "instance_id": 231,
+        "input": "A quintessential slice of NYC pizza . [A] [O] [S]",
+        "target": "[A] slice of NYC pizza [O] quintessential [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 232,
+        "instance_id": 232,
+        "input": "The crust has a great bite and a good chew , the sauce is light with a nice acidity to it , the salt from the cheese is great , really heightens the flavor of all the other components . [A] [O] [S]",
+        "target": "[A] crust [O] great [S] positive [SSEP] [A] crust [O] good [S] positive [SSEP] [A] sauce [O] light [S] positive [SSEP] [A] cheese [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 233,
+        "instance_id": 233,
+        "input": "Personally I like the margherita pizza better , but they are all good . [A] [O] [S]",
+        "target": "[A] margherita pizza [O] like [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 234,
+        "instance_id": 234,
+        "input": "Possibly the Most Romantic Restaurant in the City [A] [O] [S]",
+        "target": "[A] Restaurant [O] Romantic [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 235,
+        "instance_id": 235,
+        "input": "This is undoubtedly my favorite modern Japanese brasserie ( that don ’ t serve sushi ) , and in my opinion , one of the most romantic restaurants in the city ! [A] [O] [S]",
+        "target": "[A] modern Japanese brasserie [O] favorite [S] positive [SSEP] [A] modern Japanese brasserie [O] romantic [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 236,
+        "instance_id": 236,
+        "input": "Not only is it an adventure getting to this somewhat hidden spot , once you enter the unmarked wooden doors , the zen and intimate décor will make you feel like you ’ re no longer in the city . [A] [O] [S]",
+        "target": "[A] spot [O] hidden [S] neutral [SSEP] [A] décor [O] intimate [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 237,
+        "instance_id": 237,
+        "input": "If you ’ re planning to come here , make sure that your date is someone whom you really like since you ’ ll be ushered to private booths where there will be no people or food watching ( choose the ones on the ground level that have glass ceilings so you may see the stars in the sky ! ) . [A] [O] [S]",
+        "target": "[A] private booths [O] ushered [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 238,
+        "instance_id": 238,
+        "input": "We started off with a delightful sashimi amuse bouche . [A] [O] [S]",
+        "target": "[A] sashimi amuse bouche [O] delightful [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 239,
+        "instance_id": 239,
+        "input": "I picked the Grilled Black Cod as my entree , which I absolutely devoured while someone commented that the Grilled Salmon dish was better . [A] [O] [S]",
+        "target": "[A] Grilled Black Cod [O] devoured [S] positive [SSEP] [A] Grilled Salmon dish [O] better [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 240,
+        "instance_id": 240,
+        "input": "For desserts , we tried the frozen black sesame mousse ( interesting but not extraordinary ) and matcha ( powdered green tea ) and blueberry cheesecake , which was phenomenal . [A] [O] [S]",
+        "target": "[A] frozen black sesame mousse [O] interesting [S] neutral [SSEP] [A] frozen black sesame mousse [O] extraordinary [S] neutral [SSEP] [A] matcha ( powdered green tea ) and blueberry cheesecake [O] phenomenal [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 241,
+        "instance_id": 241,
+        "input": "Maybe it was the great company ( I had friends visiting from Philly – yes , it was not a date this time ) or the super reasonable price point , but I just can ’ t say enough good things about this brasserie . [A] [O] [S]",
+        "target": "[A] brasserie [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 242,
+        "instance_id": 242,
+        "input": "The service leaves much to be desired , from feeling like you are rushed the place your order , to being ignored the rest of the night . [A] [O] [S]",
+        "target": "[A] service [O] leaves much to be desired [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 243,
+        "instance_id": 243,
+        "input": "They are extremely rude , not even apologizing for the horrible service we got and handing us a bill well over $ 500 for some drinks adn their pita bread ! [A] [O] [S]",
+        "target": "[A] service [O] horrible [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 244,
+        "instance_id": 244,
+        "input": "Great Shabu Shabu [A] [O] [S]",
+        "target": "[A] Shabu Shabu [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 245,
+        "instance_id": 245,
+        "input": "I tried a couple other dishes but was n't too impressed . [A] [O] [S]",
+        "target": "[A] dishes [O] was n't too impressed [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 246,
+        "instance_id": 246,
+        "input": "The meat is fresh , the sauces are great , you get kimchi and a salad free with your meal and service is good too . [A] [O] [S]",
+        "target": "[A] meat [O] fresh [S] positive [SSEP] [A] sauces [O] great [S] positive [SSEP] [A] service [O] good [S] positive [SSEP] [A] kimchi [O] free [S] positive [SSEP] [A] salad [O] free [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 247,
+        "instance_id": 247,
+        "input": "Dokebi gives Williamsburg the right one-two punch of classic Korean food and fusion twists like pork belly tacos . [A] [O] [S]",
+        "target": "[A] Korean food [O] classic [S] positive [SSEP] [A] fusion twists [O] classic [S] positive [SSEP] [A] pork belly tacos [O] classic [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 248,
+        "instance_id": 248,
+        "input": "The hot dogs are good , yes , but the reason to get over here is the fantastic pork croquette sandwich , perfect on its supermarket squishy bun . [A] [O] [S]",
+        "target": "[A] hot dogs [O] good [S] positive [SSEP] [A] pork croquette sandwich [O] fantastic [S] positive [SSEP] [A] bun [O] perfect [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 249,
+        "instance_id": 249,
+        "input": "The food tasted very good . [A] [O] [S]",
+        "target": "[A] food [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 250,
+        "instance_id": 250,
+        "input": "The family seafood entree was very good . [A] [O] [S]",
+        "target": "[A] family seafood entree [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 251,
+        "instance_id": 251,
+        "input": "The main entree was also very good . [A] [O] [S]",
+        "target": "[A] main entree [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 252,
+        "instance_id": 252,
+        "input": "Price is high but the food is good , so I would come back again . [A] [O] [S]",
+        "target": "[A] food [O] good [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 253,
+        "instance_id": 253,
+        "input": "This place has totally weird decor , stairs going up with mirrored walls - I am surprised how no one yet broke their head or fall off the stairs - mirrored walls make you dizzy and delusional ... [A] [O] [S]",
+        "target": "[A] decor [O] weird [S] negative [SSEP] [A] mirrored walls [O] dizzy [S] negative [SSEP] [A] mirrored walls [O] delusional [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 254,
+        "instance_id": 254,
+        "input": "This place is not inviting and the food is totally weird . [A] [O] [S]",
+        "target": "[A] place [O] not inviting [S] negative [SSEP] [A] food [O] weird [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 255,
+        "instance_id": 255,
+        "input": "The concept of japanese tapas is newly created and clearly does n't work . [A] [O] [S]",
+        "target": "[A] japanese tapas [O] does n't work [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 256,
+        "instance_id": 256,
+        "input": "The food they serve is not comforting , not appetizing and uncooked . [A] [O] [S]",
+        "target": "[A] food [O] not comforting [S] negative [SSEP] [A] food [O] not appetizing [S] negative [SSEP] [A] food [O] uncooked [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 257,
+        "instance_id": 257,
+        "input": "Good Food [A] [O] [S]",
+        "target": "[A] Food [O] Good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 258,
+        "instance_id": 258,
+        "input": "The food was great and tasty , but the sitting space was too small , I do n't like being cramp in a corner . [A] [O] [S]",
+        "target": "[A] food [O] great [S] positive [SSEP] [A] food [O] tasty [S] positive [SSEP] [A] sitting space [O] too small [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 259,
+        "instance_id": 259,
+        "input": "Over all it was a very nice romantic place . [A] [O] [S]",
+        "target": "[A] place [O] nice romantic [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 260,
+        "instance_id": 260,
+        "input": "A coworker and I tried Pacifico after work a few Fridays and loved it . [A] [O] [S]",
+        "target": "[A] Pacifico [O] loved [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 261,
+        "instance_id": 261,
+        "input": "The atmosphere was great . [A] [O] [S]",
+        "target": "[A] atmosphere [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 262,
+        "instance_id": 262,
+        "input": "The food we ordered was excellent , although I would n't say the margaritas were anything to write home about . [A] [O] [S]",
+        "target": "[A] food [O] excellent [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 263,
+        "instance_id": 263,
+        "input": "Our waitress was n't mean , but not especially warm or attentive either . [A] [O] [S]",
+        "target": "[A] waitress [O] was n't mean [S] neutral [SSEP] [A] waitress [O] not especially warm or attentive [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 264,
+        "instance_id": 264,
+        "input": "I must say I am surprised by the bad reviews of the restaurant earlier in the year , though . [A] [O] [S]",
+        "target": "[A] restaurant [O] bad [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 265,
+        "instance_id": 265,
+        "input": "The servers at Flatbush Farm appear to have perfected that ghastly technique of making you feel guilty and ashamed for deigning to attract their attention . [A] [O] [S]",
+        "target": "[A] servers [O] perfected [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 266,
+        "instance_id": 266,
+        "input": "A different server enhanced the fun , dumping our entrees in front of us halfway through our appetizer ( which was delicious ) . [A] [O] [S]",
+        "target": "[A] server [O] enhanced [S] negative [SSEP] [A] appetizer [O] delicious [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 267,
+        "instance_id": 267,
+        "input": "Overall the food quality was pretty good , though I hear the salmon is much better when it has n't sat cooling in front of the guest . [A] [O] [S]",
+        "target": "[A] food [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 268,
+        "instance_id": 268,
+        "input": "The place has a nice fit-out , some attractive furnishings and , from what I could tell , a reasonable wine list ( I was given the food menu when I asked for the carte des vins ) [A] [O] [S]",
+        "target": "[A] fit-out [O] nice [S] positive [SSEP] [A] furnishings [O] attractive [S] positive [SSEP] [A] wine list [O] reasonable [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 269,
+        "instance_id": 269,
+        "input": "Everything was going good until we got our meals . [A] [O] [S]",
+        "target": "[A] meals [O] good [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 270,
+        "instance_id": 270,
+        "input": "I took one look at the chicken and I was appalled . [A] [O] [S]",
+        "target": "[A] chicken [O] appalled [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 271,
+        "instance_id": 271,
+        "input": "It was served with skin , over a bed of extremely undercooked spinach and mashed potatoes . [A] [O] [S]",
+        "target": "[A] spinach [O] undercooked [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 272,
+        "instance_id": 272,
+        "input": "I took one bite from the $ 24 salmon , and I have never , in the 17 years I have been going to restaurants tasted salmon as fishy , as dry , and as bland as the one in Flatbush Farms . [A] [O] [S]",
+        "target": "[A] salmon [O] fishy [S] negative [SSEP] [A] salmon [O] dry [S] negative [SSEP] [A] salmon [O] bland [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 273,
+        "instance_id": 273,
+        "input": "This is where it really really gets bad : the manager said , there is absolutely nothing we can do , it 's a matter of taste that she did n't like it , and I can not comp it . [A] [O] [S]",
+        "target": "[A] manager [O] bad [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 274,
+        "instance_id": 274,
+        "input": "The manager came to the table and said we can do what we want , so we paid for what we did enjoy , the drinks and appetizers , and walked out . [A] [O] [S]",
+        "target": "[A] drinks [O] enjoy [S] positive [SSEP] [A] appetizers [O] enjoy [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 275,
+        "instance_id": 275,
+        "input": "THIS STAFF SHOULD BE FIRED . [A] [O] [S]",
+        "target": "[A] STAFF [O] FIRED [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 276,
+        "instance_id": 276,
+        "input": "cirspy crust margherita pizza [A] [O] [S]",
+        "target": "[A] margherita pizza [O] cirspy crust [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 277,
+        "instance_id": 277,
+        "input": "it was really good pizza . [A] [O] [S]",
+        "target": "[A] pizza [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 278,
+        "instance_id": 278,
+        "input": "the crust was imazingly cooked well and pizza was fully loaded : ) : ) : ) [A] [O] [S]",
+        "target": "[A] crust [O] cooked well [S] positive [SSEP] [A] pizza [O] fully loaded [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 279,
+        "instance_id": 279,
+        "input": "Single Worst Restaurant in Manhattan [A] [O] [S]",
+        "target": "[A] Restaurant [O] Worst [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 280,
+        "instance_id": 280,
+        "input": "I 'll being with a couple of positives : cool decor , good pita and hummus , and grilled octopus that was actually pretty tasty . [A] [O] [S]",
+        "target": "[A] decor [O] cool [S] positive [SSEP] [A] pita [O] good [S] positive [SSEP] [A] hummus [O] good [S] positive [SSEP] [A] grilled octopus [O] tasty [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 281,
+        "instance_id": 281,
+        "input": "It is quite a spectacular scene i 'll give them that . [A] [O] [S]",
+        "target": "[A] scene [O] spectacular [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 282,
+        "instance_id": 282,
+        "input": "The decor however seems to be the distraction so you wo n't notice that you just payed 300 bucks for some cold eggplant that took 2 FRICKIN HOURS TO COME ! ! ! ! [A] [O] [S]",
+        "target": "[A] decor [O] distraction [S] neutral [SSEP] [A] eggplant [O] cold [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 283,
+        "instance_id": 283,
+        "input": "Great Hot Dogs ! [A] [O] [S]",
+        "target": "[A] Hot Dogs [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 284,
+        "instance_id": 284,
+        "input": "The hot dogs are top notch , and they 're Slamwich is amazing ! [A] [O] [S]",
+        "target": "[A] hot dogs [O] top notch [S] positive [SSEP] [A] Slamwich [O] amazing [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 285,
+        "instance_id": 285,
+        "input": "Going to Bark is always worth the train ride , and will make your tongue and belly very happy ! [A] [O] [S]",
+        "target": "[A] Bark [O] worth [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 286,
+        "instance_id": 286,
+        "input": "But nonetheless -- great spot , great food . [A] [O] [S]",
+        "target": "[A] spot [O] great [S] positive [SSEP] [A] food [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 287,
+        "instance_id": 287,
+        "input": "Fabulous food - if the front of house staff do n't put you off – [A] [O] [S]",
+        "target": "[A] food [O] Fabulous [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 288,
+        "instance_id": 288,
+        "input": "Each time we 've been , the front of house staff ( not the waiters - they 're fantastic - but the people who greet and seat you ) has been so hideous to us that were it not for the exceptional fish dishes I would never return . [A] [O] [S]",
+        "target": "[A] waiters [O] fantastic [S] positive [SSEP] [A] front of house staff [O] hideous [S] negative [SSEP] [A] fish dishes [O] exceptional [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 289,
+        "instance_id": 289,
+        "input": "As BFC does n't take reservations you almost always have to wait by the bar - and be abused by the front of house staff until you are seated , which can be over an hour later ! [A] [O] [S]",
+        "target": "[A] front of house staff [O] abused [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 290,
+        "instance_id": 290,
+        "input": "The frizzy retro girl ( with winged/ Dame Edna glasses ) will yell at you if you try to order a drink . [A] [O] [S]",
+        "target": "[A] girl [O] frizzy [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 291,
+        "instance_id": 291,
+        "input": "I 'd be horrified if my staff were turning away customers so early and so rudely ! [A] [O] [S]",
+        "target": "[A] staff [O] horrified [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 292,
+        "instance_id": 292,
+        "input": "There 's another girl who I ca n't describe , she is about 5'6 '' with brown hair , who eavesdrops on your conversation and chimes in - except she only hears the last part of what you said , so her uninvited opinions are often out of context and nothing to do with what you 're *really* talking about . [A] [O] [S]",
+        "target": "[A] girl [O] uninvited [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 293,
+        "instance_id": 293,
+        "input": "Considering you will spend at least $ 60 a head , I expect better service . [A] [O] [S]",
+        "target": "[A] service [O] expect better [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 294,
+        "instance_id": 294,
+        "input": "The food and service were fine , however the maitre-D was incredibly unwelcoming and arrogant . [A] [O] [S]",
+        "target": "[A] food [O] fine [S] positive [SSEP] [A] service [O] fine [S] positive [SSEP] [A] maitre-D [O] unwelcoming [S] negative [SSEP] [A] maitre-D [O] arrogant [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 295,
+        "instance_id": 295,
+        "input": "While finishing our meals which included a high-end bottle of wine , our son 's fiance joined us for a glass of wine and dessert . [A] [O] [S]",
+        "target": "[A] bottle of wine [O] high-end [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 296,
+        "instance_id": 296,
+        "input": "This guy refused to seat her and she left , followed shortly by the four of us , but not before I told him that in my 40 years of world travel , including Paris , that I had never seen such a display of bad behavior by a frontman in a restaurant . [A] [O] [S]",
+        "target": "[A] frontman [O] bad [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 297,
+        "instance_id": 297,
+        "input": "Best meal in a long time ! [A] [O] [S]",
+        "target": "[A] meal [O] Best [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 298,
+        "instance_id": 298,
+        "input": "Mussles and calamari were superb Saturday evening . [A] [O] [S]",
+        "target": "[A] Mussles [O] superb [S] positive [SSEP] [A] calamari [O] superb [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 299,
+        "instance_id": 299,
+        "input": "I had the Lamb special which was perfect . [A] [O] [S]",
+        "target": "[A] Lamb special [O] perfect [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 300,
+        "instance_id": 300,
+        "input": "My father had the flank steak which was very good , and my mother had the swordfish . [A] [O] [S]",
+        "target": "[A] flank steak [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 301,
+        "instance_id": 301,
+        "input": "The Four Seasons restaurant is a great experience . [A] [O] [S]",
+        "target": "[A] The Four Seasons restaurant [O] great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 302,
+        "instance_id": 302,
+        "input": "The food is great and the environment is even better . [A] [O] [S]",
+        "target": "[A] food [O] great [S] positive [SSEP] [A] environment [O] better [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 303,
+        "instance_id": 303,
+        "input": "Here the hot dog is elevated to the level of a real entree with numerous variations available . [A] [O] [S]",
+        "target": "[A] hot dog [O] elevated [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 304,
+        "instance_id": 304,
+        "input": "Great Atmosphere [A] [O] [S]",
+        "target": "[A] Atmosphere [O] Great [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 305,
+        "instance_id": 305,
+        "input": "I highly recommend the fish tacos , everything else was ok . [A] [O] [S]",
+        "target": "[A] fish tacos [O] recommend [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 306,
+        "instance_id": 306,
+        "input": "Cool atmosphere , the fire place in the back really ads to it but needs a bit more heat throughout on a cold night . [A] [O] [S]",
+        "target": "[A] atmosphere [O] Cool [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 307,
+        "instance_id": 307,
+        "input": "Poor service and management [A] [O] [S]",
+        "target": "[A] service [O] Poor [S] negative [SSEP] [A] management [O] Poor [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 308,
+        "instance_id": 308,
+        "input": "Had an awful experience at Casa la Femme on a Saturday dinner . [A] [O] [S]",
+        "target": "[A] Casa la Femme [O] awful [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 309,
+        "instance_id": 309,
+        "input": "The manager was rude and handled the situation extremely poorly . [A] [O] [S]",
+        "target": "[A] manager [O] rude [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 310,
+        "instance_id": 310,
+        "input": "Can ’ t believe how an expensive NYC restaurant can be so disrespectful to its clients . [A] [O] [S]",
+        "target": "[A] restaurant [O] expensive [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 311,
+        "instance_id": 311,
+        "input": "The food is very good , but not outstanding . [A] [O] [S]",
+        "target": "[A] food [O] good [S] neutral [SSEP] [A] food [O] not outstanding [S] neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 312,
+        "instance_id": 312,
+        "input": "The bread was stale , the salad was overpriced and empty . [A] [O] [S]",
+        "target": "[A] bread [O] stale [S] negative [SSEP] [A] salad [O] overpriced [S] negative [SSEP] [A] salad [O] empty [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 313,
+        "instance_id": 313,
+        "input": "The pasta was well cooked , did n't have enough sauce though or flavor . [A] [O] [S]",
+        "target": "[A] pasta [O] well cooked [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 314,
+        "instance_id": 314,
+        "input": "The hostess was rude and I got a distinct feeling that they did not want to serve us . [A] [O] [S]",
+        "target": "[A] hostess [O] rude [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 315,
+        "instance_id": 315,
+        "input": "The only thing that my friend left out is that when we sat down at the bar the bartender disappeared . [A] [O] [S]",
+        "target": "[A] bartender [O] disappeared [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 316,
+        "instance_id": 316,
+        "input": "Shame on this place for the horrible rude staff and non-existent customer service . [A] [O] [S]",
+        "target": "[A] staff [O] rude [S] negative [SSEP] [A] customer service [O] non-existent [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 317,
+        "instance_id": 317,
+        "input": "bad staff [A] [O] [S]",
+        "target": "[A] staff [O] bad [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 318,
+        "instance_id": 318,
+        "input": "I generally like this place . [A] [O] [S]",
+        "target": "[A] place [O] like [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 319,
+        "instance_id": 319,
+        "input": "The food is good . [A] [O] [S]",
+        "target": "[A] food [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 320,
+        "instance_id": 320,
+        "input": "The design of the space is good . [A] [O] [S]",
+        "target": "[A] space [O] good [S] positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    },
+    {
+        "sentence_id": 321,
+        "instance_id": 321,
+        "input": "But the service is HORRID ! [A] [O] [S]",
+        "target": "[A] service [O] HORRID [S] negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest15"
+    }
+]

@@ -1,0 +1,1973 @@
+[
+    {
+        "sentence_id": 0,
+        "instance_id": 2718,
+        "input": "In the shop , these MacBooks are encased in a soft rubber enclosure - so you will never know about the razor edge until you buy it , get it home , break the seal and use it ( very clever con ) .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> rubber enclosure <|opinion|> soft <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 1,
+        "instance_id": 2719,
+        "input": "This laptop meets every expectation and Windows 7 is great !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Windows 7 <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 2,
+        "instance_id": 2720,
+        "input": "Drivers updated ok but the BIOS update froze the system up and the computer shut down .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> system <|opinion|> froze <|sentiment|> negative;<|aspect|> BIOS update <|opinion|> froze <|sentiment|> negative;<|aspect|> Drivers <|opinion|> ok <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 3,
+        "instance_id": 2721,
+        "input": "The fact that you can spend over $ 100 on just a webcam underscores the value of this machine .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> value <|opinion|> underscores <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 4,
+        "instance_id": 2722,
+        "input": "It rarely works and when it does it 's incredibly slow .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> works <|opinion|> rarely <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 5,
+        "instance_id": 2723,
+        "input": "It 's so much easier to navigate through the operating system , to find files , and it runs a lot faster !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> runs <|opinion|> faster <|sentiment|> positive;<|aspect|> operating system <|opinion|> easier <|sentiment|> positive;<|aspect|> find files <|opinion|> faster <|sentiment|> positive;<|aspect|> navigate <|opinion|> easier <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 6,
+        "instance_id": 2724,
+        "input": "I am using the external speaker -- sound is good .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> external speaker <|opinion|> good <|sentiment|> positive;<|aspect|> sound <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 7,
+        "instance_id": 2725,
+        "input": "The battery life seems to be very good , and have had no issues with it .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> battery life <|opinion|> good <|sentiment|> positive;<|aspect|> battery life <|opinion|> no issues <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 8,
+        "instance_id": 2726,
+        "input": "Temperatures on the outside were alright but i did not track in Core Processing Unit temperatures .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Temperatures <|opinion|> alright <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 9,
+        "instance_id": 2727,
+        "input": "After about a week I finally got it back and was told that the motherboard had failed and so they installed a new motherboard .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> motherboard <|opinion|> new <|sentiment|> neutral;<|aspect|> motherboard <|opinion|> failed <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 10,
+        "instance_id": 2728,
+        "input": "It was slow , locked up , and also had hardware replaced after only 2 months !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hardware <|opinion|> replaced <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 11,
+        "instance_id": 2729,
+        "input": "Yes , the computer was light weight , less expensive than the average laptop , and was pretty self explantory in use .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> use <|opinion|> self explantory <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 12,
+        "instance_id": 2730,
+        "input": "Keyboard is great , very quiet for all the typing that I do .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Keyboard <|opinion|> quiet <|sentiment|> positive;<|aspect|> Keyboard <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 13,
+        "instance_id": 2731,
+        "input": "The keyboard feels good and I type just fine on it .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> keyboard <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 14,
+        "instance_id": 2732,
+        "input": "I thought the white Mac computers looked dirty too quicly where you use the mousepad and where you place your hands when typing .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> mousepad <|opinion|> dirty <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 15,
+        "instance_id": 2733,
+        "input": "My favorite part of this computer is that it has a vga port so I can connect it to a bigger screen .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> vga port <|opinion|> favorite <|sentiment|> positive;<|aspect|> screen <|opinion|> bigger <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 16,
+        "instance_id": 2734,
+        "input": "Granted , it 's still a very new laptop but in comparison to my previous laptops and desktops , my Mac boots up noticeably quicker .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> boots up <|opinion|> quicker <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 17,
+        "instance_id": 2735,
+        "input": "It caught a virus that completely wiped out my hard drive in a matter of hours .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hard drive <|opinion|> wiped out <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 18,
+        "instance_id": 2736,
+        "input": "The AMD Turin processor seems to always perform so much better than Intel .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> AMD Turin processor <|opinion|> better <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 19,
+        "instance_id": 2737,
+        "input": "High price tag , however .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> price tag <|opinion|> High <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 20,
+        "instance_id": 2738,
+        "input": "I custom ordered the machine from HP and could NOT understand the techie due to his accent .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> techie <|opinion|> NOT understand <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 21,
+        "instance_id": 2739,
+        "input": "For the not so good , I got the stock screen - which is VERY glossy .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> stock screen <|opinion|> glossy <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 22,
+        "instance_id": 2740,
+        "input": "The gray color was a good choice .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> gray color <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 23,
+        "instance_id": 2741,
+        "input": "I would like to have volume buttons rather than the adjustment that is on the front .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> volume buttons <|opinion|> like <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 24,
+        "instance_id": 2742,
+        "input": "The processor a AMD Semprom at 2.1 ghz is a bummer it does not have the power for HD or heavy computing .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> processor <|opinion|> bummer <|sentiment|> negative;<|aspect|> computing <|opinion|> heavy <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 25,
+        "instance_id": 2743,
+        "input": "It is easy to use , fast and has great graphics for the money .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> use <|opinion|> easy <|sentiment|> positive;<|aspect|> graphics <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 26,
+        "instance_id": 2744,
+        "input": "I like how the Mac OS is so simple and easy to use .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Mac OS <|opinion|> like <|sentiment|> positive;<|aspect|> use <|opinion|> easy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 27,
+        "instance_id": 2745,
+        "input": "Obviously one of the most important features of any computer is the `` human interface .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> features <|opinion|> most important <|sentiment|> neutral;<|aspect|> human interface <|opinion|> most important <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 28,
+        "instance_id": 2746,
+        "input": "A great feature is the spotlight search : one can search for documents by simply typing a keyword , rather than parsing tens of file folders for a document .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> feature <|opinion|> great <|sentiment|> positive;<|aspect|> spotlight search <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 29,
+        "instance_id": 2747,
+        "input": "I 've had to call Apple support to set up my new printer and have had wonderful experiences with helpful , english speaking ( from Vancouver ) techs that walked me through the processes to help me .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Apple support <|opinion|> wonderful <|sentiment|> positive;<|aspect|> techs <|opinion|> helpful <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 30,
+        "instance_id": 2748,
+        "input": "I need graphic power to run my Adobe Creative apps efficiently .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> graphic power <|opinion|> efficiently <|sentiment|> neutral;<|aspect|> Adobe Creative apps <|opinion|> efficiently <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 31,
+        "instance_id": 2749,
+        "input": "upon giving them the serial number the first thing I was told , was that it was out of warranty and I could pay to have it repaired .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> warranty <|opinion|> out of <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 32,
+        "instance_id": 2750,
+        "input": "Laptop was in new condition and operational , but for the audio problem when 1st sent for repair .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> audio <|opinion|> problem <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 33,
+        "instance_id": 2751,
+        "input": "I was disappointed when I realized that the keyboard does n't light up on this model .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> keyboard <|opinion|> does n't light up <|sentiment|> negative;<|aspect|> keyboard <|opinion|> disappointed <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 34,
+        "instance_id": 2752,
+        "input": "It runs perfectly .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> runs <|opinion|> perfectly <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 35,
+        "instance_id": 2753,
+        "input": "Sometimes the screen even goes black on this computer .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> screen <|opinion|> black <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 36,
+        "instance_id": 2754,
+        "input": "Its fast and another thing I like is that it has three USB ports .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> USB ports <|opinion|> like <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 37,
+        "instance_id": 2755,
+        "input": "The salesman talked us into this computer away from another we were looking at and we have had nothing but problems with software problems and just not happy with it .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> software <|opinion|> not happy <|sentiment|> negative;<|aspect|> software <|opinion|> problems <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 38,
+        "instance_id": 2756,
+        "input": "That system is fixed .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> system <|opinion|> fixed <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 39,
+        "instance_id": 2757,
+        "input": "I would not recommend this to anyone wanting a notebook expecting the performance of a Desktop it does not meet the expectations .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> performance <|opinion|> not recommend <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 40,
+        "instance_id": 2758,
+        "input": "The Macbook arrived in a nice twin packing and sealed in the box , all the functions works great .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> functions <|opinion|> great <|sentiment|> positive;<|aspect|> twin packing <|opinion|> nice <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 41,
+        "instance_id": 2759,
+        "input": "It 's super fast and a great value for the price !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> price <|opinion|> great <|sentiment|> positive;<|aspect|> value <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 42,
+        "instance_id": 2760,
+        "input": "It drives me crazy when I want to download a game or something of that nature and I ca n't play it because its not compatable with the software .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> software <|opinion|> not compatable <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 43,
+        "instance_id": 2761,
+        "input": "The online tutorial videos make it super easy to learn if you have always used a PC .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> online tutorial videos <|opinion|> easy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 44,
+        "instance_id": 2762,
+        "input": "It was very easy to just pick up and use -- It did not take long to get used to the Mac OS .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Mac OS <|opinion|> easy <|sentiment|> positive;<|aspect|> use <|opinion|> easy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 45,
+        "instance_id": 2763,
+        "input": "Features like the font are very block-like and old school .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> font <|opinion|> old <|sentiment|> negative;<|aspect|> Features <|opinion|> block-like <|sentiment|> negative;<|aspect|> font <|opinion|> block-like <|sentiment|> negative;<|aspect|> Features <|opinion|> old <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 46,
+        "instance_id": 2764,
+        "input": "It is loaded with programs that is of no good for the average user , that makes it run way to slow .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> run <|opinion|> slow <|sentiment|> negative;<|aspect|> programs <|opinion|> no good <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 47,
+        "instance_id": 2765,
+        "input": "Now , , , , , my monitor has been acting up for about 2 months .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> monitor <|opinion|> acting up <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 48,
+        "instance_id": 2766,
+        "input": "Also , the extended warranty was a problem .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> extended warranty <|opinion|> problem <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 49,
+        "instance_id": 2767,
+        "input": "They sent it back with a huge crack in it and it still did n't work .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> work <|opinion|> did n't <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 50,
+        "instance_id": 2768,
+        "input": "The size is perfect and I do not recommend anything bigger except for any person who can exceed the limited space it gives you .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> space <|opinion|> limited <|sentiment|> negative;<|aspect|> size <|opinion|> perfect <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 51,
+        "instance_id": 2769,
+        "input": "the mouse buttons are hard to push .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> mouse buttons <|opinion|> hard <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 52,
+        "instance_id": 2770,
+        "input": "The price is another driving influence that made me purchase this laptop .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> price <|opinion|> driving <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 53,
+        "instance_id": 2771,
+        "input": "It is stamped and not in pieces therefore it is a stronger more resilient frame .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> frame <|opinion|> stronger <|sentiment|> positive;<|aspect|> frame <|opinion|> resilient <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 54,
+        "instance_id": 2772,
+        "input": "I would like at least a 4 hr . battery life .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> battery life <|opinion|> like <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 55,
+        "instance_id": 2773,
+        "input": "Clear picture on it and everything .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> picture <|opinion|> Clear <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 56,
+        "instance_id": 2774,
+        "input": "Screen is awesome , battery life is good .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Screen <|opinion|> awesome <|sentiment|> positive;<|aspect|> battery life <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 57,
+        "instance_id": 2775,
+        "input": "Somehow the system clock got messed up after reboot .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> system clock <|opinion|> messed up <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 58,
+        "instance_id": 2776,
+        "input": "HP said it was out of warranty .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> warranty <|opinion|> out of <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 59,
+        "instance_id": 2777,
+        "input": "I like those programs better than Office and you can save your files to be completely compatible with the Office programs as well .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> programs <|opinion|> better <|sentiment|> positive;<|aspect|> Office programs <|opinion|> compatible <|sentiment|> neutral;<|aspect|> programs <|opinion|> like <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 60,
+        "instance_id": 2778,
+        "input": "Great wifi too .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wifi <|opinion|> Great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 61,
+        "instance_id": 2779,
+        "input": "The lcd screen stopped working on mine after 10 months .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lcd screen <|opinion|> stopped <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 62,
+        "instance_id": 2780,
+        "input": "We have had numerous problems with Vista , such as Adobe Flash player just quits and has to be uninstalled and then reinsalled , Internet Explore just quits and you lose whatever you were working on , also , the same Windows update has appeared on this computer since we got it and has been updated probably 400 times , the same update .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Windows update <|opinion|> problems <|sentiment|> negative;<|aspect|> Adobe Flash player <|opinion|> problems <|sentiment|> negative;<|aspect|> update <|opinion|> problems <|sentiment|> negative;<|aspect|> Vista <|opinion|> problems <|sentiment|> negative;<|aspect|> Internet Explore <|opinion|> problems <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 63,
+        "instance_id": 2781,
+        "input": "I always have used a tower home PC and jumped to the laptop and have been very satisfied with its performance .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> performance <|opinion|> satisfied <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 64,
+        "instance_id": 2782,
+        "input": "The Apple applications ( ex . iPhoto ) are fun , easy , and really cool to use ( unlike the competition ) !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> iPhoto <|opinion|> fun <|sentiment|> positive;<|aspect|> Apple applications <|opinion|> fun <|sentiment|> positive;<|aspect|> Apple applications <|opinion|> cool <|sentiment|> positive;<|aspect|> iPhoto <|opinion|> cool <|sentiment|> positive;<|aspect|> iPhoto <|opinion|> easy <|sentiment|> positive;<|aspect|> Apple applications <|opinion|> easy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 65,
+        "instance_id": 2783,
+        "input": "First it burned or fused the power adapter plug .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> power adapter plug <|opinion|> fused <|sentiment|> negative;<|aspect|> power adapter plug <|opinion|> burned <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 66,
+        "instance_id": 2784,
+        "input": "It was still working , but there was nothing on the screen .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> screen <|opinion|> nothing <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 67,
+        "instance_id": 2785,
+        "input": "Though the picture , video , and music software is nowhere close to professional grade software Im used to ( CS5 ) but does the job for beginner and even intermediate media designers .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> video <|opinion|> does the job <|sentiment|> negative;<|aspect|> picture <|opinion|> nowhere close to professional <|sentiment|> negative;<|aspect|> picture <|opinion|> does the job <|sentiment|> negative;<|aspect|> music software <|opinion|> nowhere close to professional <|sentiment|> negative;<|aspect|> video <|opinion|> nowhere close to professional <|sentiment|> negative;<|aspect|> music software <|opinion|> does the job <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 68,
+        "instance_id": 2786,
+        "input": "The much lauded combined touch pad and clicker is a nightmare .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> combined touch pad and clicker <|opinion|> nightmare <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 69,
+        "instance_id": 2787,
+        "input": "The Unibody construction is solid , sleek and beautiful .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Unibody construction <|opinion|> solid <|sentiment|> positive;<|aspect|> Unibody construction <|opinion|> sleek <|sentiment|> positive;<|aspect|> Unibody construction <|opinion|> beautiful <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 70,
+        "instance_id": 2788,
+        "input": "This MacBook is an outstanding product with great value .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> value <|opinion|> outstanding <|sentiment|> positive;<|aspect|> value <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 71,
+        "instance_id": 2789,
+        "input": "No temporary replacement , they are out of replacements because `` many computers had problems with the Nvidia chipset `` -Inquired status of repair .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Nvidia chipset <|opinion|> problems <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 72,
+        "instance_id": 2790,
+        "input": "I BOUGHT THIS LAP TOP AND THE CHARGE TIME DOSE N'T LAST AS LONG AS THEY SAY IT WILL MORE LIKE 2 HOURS| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> CHARGE TIME <|opinion|> LONG <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 73,
+        "instance_id": 2791,
+        "input": "The feature are good enough for what I need .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> feature <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 74,
+        "instance_id": 2792,
+        "input": "Finally , the biggest problem has been tech support .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> tech support <|opinion|> problem <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 75,
+        "instance_id": 2793,
+        "input": "( I had been a Windows/Linux user before this ) I love the size because the screen is big enough for what I use it for ( Internet , artwork ) , and yet it is small enough to be reasonably portable .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> screen <|opinion|> small <|sentiment|> positive;<|aspect|> screen <|opinion|> big <|sentiment|> positive;<|aspect|> size <|opinion|> love <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 76,
+        "instance_id": 2794,
+        "input": "Plain and simple , it ( laptop ) runs great and loads fast .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> runs <|opinion|> great <|sentiment|> positive;<|aspect|> loads <|opinion|> fast <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 77,
+        "instance_id": 2795,
+        "input": "It was a great laptop , ran great and was really fast .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ran <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 78,
+        "instance_id": 2796,
+        "input": "The only problem is a lack of screen resolutions !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> screen resolutions <|opinion|> problem <|sentiment|> negative;<|aspect|> screen resolutions <|opinion|> lack <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 79,
+        "instance_id": 2797,
+        "input": "It is very well built .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> built <|opinion|> well <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 80,
+        "instance_id": 2798,
+        "input": "The design is awesome , quality is unprecedented .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> design <|opinion|> awesome <|sentiment|> positive;<|aspect|> quality <|opinion|> unprecedented <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 81,
+        "instance_id": 2799,
+        "input": "AND the best part is that it even comes with a free printer ( when they have a certain promotion/offer going , of course ) !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> printer <|opinion|> free <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 82,
+        "instance_id": 2800,
+        "input": "it is very easy for anyone to use an apple and specially the mcbook pro notebook .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> use <|opinion|> easy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 83,
+        "instance_id": 2801,
+        "input": "The touchpad is very intuitive , so much so that I never want to use buttons to click again !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> touchpad <|opinion|> intuitive <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 84,
+        "instance_id": 2802,
+        "input": "tons of bloatware and junk programs .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> programs <|opinion|> junk <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 85,
+        "instance_id": 2803,
+        "input": "The real stand out on this computer is the feel of the keyboard and it 's speed .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> speed <|opinion|> stand out <|sentiment|> positive;<|aspect|> keyboard <|opinion|> stand out <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 86,
+        "instance_id": 2804,
+        "input": "Delivery was early too .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Delivery <|opinion|> early <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 87,
+        "instance_id": 2805,
+        "input": "Laptops are usually used on the go , so why not give you a better battery ?| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> battery <|opinion|> better <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 88,
+        "instance_id": 2806,
+        "input": "I was n't a big fan of the Netbooks but this one was very well designed .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> designed <|opinion|> well <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 89,
+        "instance_id": 2807,
+        "input": "I still have that stupid bluetooth mouse to !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> bluetooth mouse <|opinion|> stupid <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 90,
+        "instance_id": 2808,
+        "input": "2nd Best computer in the world only one way this computer might become the best is that it needs to upgreade patches to make less easier for people to hack into| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> patches <|opinion|> needs to upgreade <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 91,
+        "instance_id": 2809,
+        "input": "It could be a perfect laptop if it would have faster system memory and its radeon 5850 would have DDR5 instead of DDR3 .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> system memory <|opinion|> faster <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 92,
+        "instance_id": 2810,
+        "input": "I definitely suggest getting an extended warranty , you will probably need it !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> extended warranty <|opinion|> suggest <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 93,
+        "instance_id": 2811,
+        "input": "The only thing I wish is the 15 inch MacBook Pro has much better speakers on the side of the keyboard .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> speakers <|opinion|> better <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 94,
+        "instance_id": 2812,
+        "input": "Keys stick periodically and I havent had the laptop for 45 days yet .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Keys <|opinion|> stick <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 95,
+        "instance_id": 2813,
+        "input": "It 's graphics are n't bad at all , for the lower end of the MacBook Pro spectrum , easily capable of running StarCraft II and other games with comparable graphics .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> graphics <|opinion|> are n't bad <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 96,
+        "instance_id": 2814,
+        "input": "I have Vista , so I am unable to install and uninstall some programs .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> install <|opinion|> unable <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 97,
+        "instance_id": 2815,
+        "input": "i am a huge computer person i love anykind of computer that works well , but when i got this one i was so happy with the way it works and how it runs its amazing .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> runs <|opinion|> amazing <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 98,
+        "instance_id": 2816,
+        "input": "Its white color is stylish for college students and easy to take to carry and take to classes .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> color <|opinion|> stylish <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 99,
+        "instance_id": 2817,
+        "input": "I took off a star because the machine has a lot of junk software on it .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> software <|opinion|> junk <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 100,
+        "instance_id": 2818,
+        "input": "The battery life is great .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> battery life <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 101,
+        "instance_id": 2819,
+        "input": "I sent it back and found this time that the battery was faulty , so I got a new one and some other fixes they found .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> battery <|opinion|> faulty <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 102,
+        "instance_id": 2820,
+        "input": "Great pick for portability and affordability .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> affordability <|opinion|> Great <|sentiment|> positive;<|aspect|> portability <|opinion|> Great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 103,
+        "instance_id": 2821,
+        "input": "It 's fast , it 's easy easy easy to set up , easy to hook to my wireless network .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> set up <|opinion|> easy easy easy <|sentiment|> positive;<|aspect|> hook to my wireless network <|opinion|> easy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 104,
+        "instance_id": 2822,
+        "input": "I previously purchased a 13 '' macbook ( had pro specs and was aluminum style ) which had a nvidia 9800 ( If I am not mistaken ) and it had major heating issues .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> nvidia 9800 <|opinion|> issues <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 105,
+        "instance_id": 2823,
+        "input": "Oh yea , has no numeric pad on the side .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> numeric pad <|opinion|> no <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 106,
+        "instance_id": 2824,
+        "input": "More times that not the screen pops up saying I have a bad internet connection , or the page ca n't be displayed .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> internet connection <|opinion|> bad <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 107,
+        "instance_id": 2825,
+        "input": "The ease of use is wonderful .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> use <|opinion|> wonderful <|sentiment|> positive;<|aspect|> use <|opinion|> ease <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 108,
+        "instance_id": 2826,
+        "input": "Best thing is I can use existing 32 bit old programs .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> programs <|opinion|> Best <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 109,
+        "instance_id": 2827,
+        "input": "The only thing I would change about it is the mouse keys .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> mouse keys <|opinion|> change <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 110,
+        "instance_id": 2828,
+        "input": "After that I turned to email in my next vain help to get them to acknowledge that the warranty was still valid .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> warranty <|opinion|> valid <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 111,
+        "instance_id": 2829,
+        "input": "They have developed excellent proprietary software for editing video and pictures and I 'm looking forward to utilizing these tools on the regular .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> proprietary software <|opinion|> excellent <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 112,
+        "instance_id": 2830,
+        "input": "Graphics are clean and sharp , internet interfaces are seamless .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> internet interfaces <|opinion|> seamless <|sentiment|> positive;<|aspect|> Graphics <|opinion|> clean <|sentiment|> positive;<|aspect|> Graphics <|opinion|> sharp <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 113,
+        "instance_id": 2831,
+        "input": "But after using it a couple of weeks , the overall operation is poor .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> operation <|opinion|> poor <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 114,
+        "instance_id": 2832,
+        "input": "I already have a HP laptop I bought last year that 's standard size .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> size <|opinion|> standard <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 115,
+        "instance_id": 2833,
+        "input": "I just plug this into my 22 '' Monitor and the speedy MacOSX performs just as well on this dual-core that my Dell did with Windows 7 with a quad-core .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> MacOSX <|opinion|> well <|sentiment|> positive;<|aspect|> MacOSX <|opinion|> speedy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 116,
+        "instance_id": 2834,
+        "input": "Good monitor and performed well .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> monitor <|opinion|> Good <|sentiment|> positive;<|aspect|> performed <|opinion|> well <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 117,
+        "instance_id": 2835,
+        "input": "the mouse pad and buttons are the worst i 've ever seen .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> buttons <|opinion|> worst <|sentiment|> negative;<|aspect|> mouse pad <|opinion|> worst <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 118,
+        "instance_id": 2836,
+        "input": "It really is perfect for work and play .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> work <|opinion|> perfect <|sentiment|> positive;<|aspect|> play <|opinion|> perfect <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 119,
+        "instance_id": 2837,
+        "input": "Eventually my battery would n't charge , so unless I had it plugged in it would n't even power on .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> battery <|opinion|> would n't charge <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 120,
+        "instance_id": 2838,
+        "input": "My first problem was with the pre-loaded Norton Firewall/Security program .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pre-loaded Norton Firewall/Security program <|opinion|> problem <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 121,
+        "instance_id": 2839,
+        "input": "I had a USB connect but , i ca n't use it because it is not compatible .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> USB connect <|opinion|> not compatible <|sentiment|> negative;<|aspect|> USB connect <|opinion|> ca n't use <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 122,
+        "instance_id": 2840,
+        "input": "It is easy to use , good quality and good price .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> quality <|opinion|> good <|sentiment|> positive;<|aspect|> price <|opinion|> good <|sentiment|> positive;<|aspect|> use <|opinion|> easy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 123,
+        "instance_id": 2841,
+        "input": "After 2 months of complaints , Asus finally sent the right power supply to my techies .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> power supply <|opinion|> right <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 124,
+        "instance_id": 2842,
+        "input": "That included the extra Sony Sonic Stage software , the speakers and the subwoofer I got ( that WAS worth the money ) , the bluetooth mouse for my supposedly bluetooth enabled computer , the extended life battery and the Docking port .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> subwoofer <|opinion|> worth <|sentiment|> positive;<|aspect|> speakers <|opinion|> worth <|sentiment|> positive;<|aspect|> Sony Sonic Stage software <|opinion|> extra <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 125,
+        "instance_id": 2843,
+        "input": "also the keyboard does not liht up so unless your sitting in a room with some light you cant see anything and thats bad for me because my boyfriend tends to watch tv in the dark at night which leaves me with no way of seeing the keyboard .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> keyboard <|opinion|> bad <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 126,
+        "instance_id": 2844,
+        "input": "I agree with the previous comment that ASUS TECH SUPPORT IS HORRIBLE WHICH IS A CON IN MY OPINION .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ASUS TECH SUPPORT <|opinion|> HORRIBLE <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 127,
+        "instance_id": 2845,
+        "input": "I would recommend this computer to anyone searching for the perfect laptop , and the battery life is amazing .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> battery life <|opinion|> amazing <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 128,
+        "instance_id": 2846,
+        "input": "Not easy to carry .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> carry <|opinion|> easy <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 129,
+        "instance_id": 2847,
+        "input": "Summary : I 've had this laptop for 2 months , out of the blue the power adapter stops working .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> power adapter <|opinion|> stops working <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 130,
+        "instance_id": 2848,
+        "input": "Of course , for a student , weight is always an issue .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> weight <|opinion|> issue <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 131,
+        "instance_id": 2849,
+        "input": "2.The wireless card is low quality .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wireless card <|opinion|> low quality <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 132,
+        "instance_id": 2850,
+        "input": "They offer the best warranty in the business , and do n't 3rd party it out like Toshiba .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> warranty <|opinion|> best <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 133,
+        "instance_id": 2851,
+        "input": "The only problems are the sound isnt very loud I have to wear headphones .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> sound <|opinion|> isnt very loud <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 134,
+        "instance_id": 2852,
+        "input": "There are no viruses or spyware to worry about like on a Windows computer .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Windows <|opinion|> worry about <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 135,
+        "instance_id": 2853,
+        "input": "while about 8 years ago , I hope that the quality has changed .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> quality <|opinion|> hope <|sentiment|> negative;<|aspect|> quality <|opinion|> changed <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 136,
+        "instance_id": 2854,
+        "input": "The difference is it 's a whole lot of fun using the laptop now , still learning the Apple navigation , but is fun and comes with a lot of cool apps .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> apps <|opinion|> cool <|sentiment|> positive;<|aspect|> Apple navigation <|opinion|> fun <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 137,
+        "instance_id": 2855,
+        "input": "The display is awesome .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> display <|opinion|> awesome <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 138,
+        "instance_id": 2856,
+        "input": "The speakers on it are useless too .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> speakers <|opinion|> useless <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 139,
+        "instance_id": 2857,
+        "input": "In early May I got it back and this time I only had it back for 1 day before it had a NEW issue so it was sent back in for the 6th time they `` expedited '' the repairs so I was only supposed to have to be without it for 3 days and it was supposed to be fixed , by a `` Senior Tech '' .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Senior Tech <|opinion|> supposed to be fixed <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 140,
+        "instance_id": 2858,
+        "input": "Adjust the sensitivity since it 's not that responsive to begin with .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> sensitivity <|opinion|> not that responsive <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 141,
+        "instance_id": 2859,
+        "input": "Also , I have had a lot of trouble with the shift key to go to other lines .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> shift key <|opinion|> trouble <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 142,
+        "instance_id": 2860,
+        "input": "iLife is easily compatible with Microsoft Office so you can send and receive files from a PC .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> iLife <|opinion|> easily compatible <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 143,
+        "instance_id": 2861,
+        "input": "Fully charged , the MacBook Pro can last about five hours unplugged .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> charged <|opinion|> Fully <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 144,
+        "instance_id": 2862,
+        "input": "Also the display is exceptional !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> display <|opinion|> exceptional <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 145,
+        "instance_id": 2863,
+        "input": "Your cursor will end up all over the freaking place , , , it 's not uncommon for me to accidentally delete words , sentences , paragraphs because of this mousepad .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> cursor <|opinion|> end up <|sentiment|> negative;<|aspect|> cursor <|opinion|> freaking <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 146,
+        "instance_id": 2864,
+        "input": "Then I 've fixed the DC jack ( inside the unit ) , rewired the DC jack to the OUTside of the laptop , replaced the power brick .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> DC jack <|opinion|> rewired <|sentiment|> neutral;<|aspect|> power brick <|opinion|> replaced <|sentiment|> neutral;<|aspect|> DC jack <|opinion|> fixed <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 147,
+        "instance_id": 2865,
+        "input": "Great product , very easy to use and great graphics .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> use <|opinion|> easy <|sentiment|> positive;<|aspect|> graphics <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 148,
+        "instance_id": 2866,
+        "input": "The built-in webcam is great for Skype and similar video-chat services .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> built-in webcam <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 149,
+        "instance_id": 2867,
+        "input": "THE MOTHERBOARD IS DEAD !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> MOTHERBOARD <|opinion|> DEAD <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 150,
+        "instance_id": 2868,
+        "input": "This process continued to repeat itself until the mother board had been replaced 4 times and the hard drive replaced 3 times .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> mother board <|opinion|> replaced <|sentiment|> negative;<|aspect|> hard drive <|opinion|> replaced <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 151,
+        "instance_id": 2869,
+        "input": "I could n't believe how long the battery lasted on a single charge .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> charge <|opinion|> single <|sentiment|> positive;<|aspect|> battery <|opinion|> long <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 152,
+        "instance_id": 2870,
+        "input": "The backlit keys are wonderful when you are working in the dark .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> backlit keys <|opinion|> wonderful <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 153,
+        "instance_id": 2871,
+        "input": "The most recent being that my Safari internet browser is freaking out on me , but I have just been using firefox instead .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Safari internet browser <|opinion|> freaking out <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 154,
+        "instance_id": 2872,
+        "input": "The DVD drive randomly pops open when it is in my backpack as well , which is annoying .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> DVD drive <|opinion|> annoying <|sentiment|> negative;<|aspect|> DVD drive <|opinion|> randomly pops open <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 155,
+        "instance_id": 2873,
+        "input": "Its also FUN to use !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> use <|opinion|> FUN <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 156,
+        "instance_id": 2874,
+        "input": "The graphics and screen are stunning and although I was a PC person , I was able to understand how to use a mac fairly quickly .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> graphics <|opinion|> stunning <|sentiment|> positive;<|aspect|> screen <|opinion|> stunning <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 157,
+        "instance_id": 2875,
+        "input": "I just took the broken cords into the Apple store and they gave me new ones .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> cords <|opinion|> broken <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 158,
+        "instance_id": 2876,
+        "input": "The screen is gorgeous - yummy good .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> screen <|opinion|> good <|sentiment|> positive;<|aspect|> screen <|opinion|> gorgeous <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 159,
+        "instance_id": 2877,
+        "input": "The Macbook starts fast , does n't crash , has a fantastic display , is small and light ( I have the 13.3 '' model ) , and is n't always complaining about updates , lost connections , errors , blue screens , etc .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> starts <|opinion|> fast <|sentiment|> positive;<|aspect|> display <|opinion|> fantastic <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 160,
+        "instance_id": 2878,
+        "input": "The guy then said that if I insist on having the hinge tightened , they can do it for me but I have to accept the condition after the `` repair '' .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hinge <|opinion|> tightened <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 161,
+        "instance_id": 2879,
+        "input": "so in a brief summary i would have to say that i would not recommend dell vostro 1000 to anyone due to it being a down right awful setup so in my opinion you should steer clear of them if you want a decent laptop .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> setup <|opinion|> awful <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 162,
+        "instance_id": 2880,
+        "input": "My friend just had to replace his entire motherboard , so did my wife , and it looks like I will have to as well .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> motherboard <|opinion|> replace <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 163,
+        "instance_id": 2881,
+        "input": "First , it does not have a push button to open the lid .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> push button <|opinion|> does not <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 164,
+        "instance_id": 2882,
+        "input": "The screen almost looked like a barcode when it froze .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> screen <|opinion|> froze <|sentiment|> negative;<|aspect|> screen <|opinion|> barcode <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 165,
+        "instance_id": 2883,
+        "input": "I love the solid machined aluminum frame , and the keyboard is the best of any laptop I 've used .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> keyboard <|opinion|> best <|sentiment|> positive;<|aspect|> machined aluminum frame <|opinion|> love <|sentiment|> positive;<|aspect|> machined aluminum frame <|opinion|> solid <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 166,
+        "instance_id": 2884,
+        "input": "You can even run a parallels type program easily and run any leftover PC software that you absolutely can not be without .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> parallels type program <|opinion|> easily <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 167,
+        "instance_id": 2885,
+        "input": "It has easy to use features and all the speed and power I could ask for .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> speed <|opinion|> easy <|sentiment|> positive;<|aspect|> features <|opinion|> easy <|sentiment|> positive;<|aspect|> power <|opinion|> easy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 168,
+        "instance_id": 2886,
+        "input": "The Mac Snow Leopard O/S is extremely easy to use , although very different than Win XP , Visa or Win7 .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Mac Snow Leopard O/S <|opinion|> different <|sentiment|> positive;<|aspect|> Mac Snow Leopard O/S <|opinion|> easy to use <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 169,
+        "instance_id": 2887,
+        "input": "super fast processor and really nice graphics card ...| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> graphics card <|opinion|> nice <|sentiment|> positive;<|aspect|> processor <|opinion|> fast <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 170,
+        "instance_id": 2888,
+        "input": "I dislike the weight and size , cubersome .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> size <|opinion|> dislike <|sentiment|> negative;<|aspect|> size <|opinion|> cubersome <|sentiment|> negative;<|aspect|> weight <|opinion|> cubersome <|sentiment|> negative;<|aspect|> weight <|opinion|> dislike <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 171,
+        "instance_id": 2889,
+        "input": "I love windows 7 but i ca n't give Toshiba any credit for that , unless y'all get serious about ergonomics and making required connections less obtrusive i will be looking to different manufacturer next time .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> connections <|opinion|> less obtrusive <|sentiment|> negative;<|aspect|> windows 7 <|opinion|> love <|sentiment|> positive;<|aspect|> ergonomics <|opinion|> serious <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 172,
+        "instance_id": 2890,
+        "input": "Not sure how I recommend it for quality gaming , as I have a desktop rig for that reason .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> gaming <|opinion|> quality <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 173,
+        "instance_id": 2891,
+        "input": "Great value , fast delivery -- Computer works as if brand new , no problems , very pleased| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> delivery <|opinion|> pleased <|sentiment|> positive;<|aspect|> value <|opinion|> pleased <|sentiment|> positive;<|aspect|> delivery <|opinion|> fast <|sentiment|> positive;<|aspect|> value <|opinion|> Great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 174,
+        "instance_id": 2892,
+        "input": "so the fact that the computer does not work on the 24 twenty fourth day is my fault .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> work <|opinion|> does not <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 175,
+        "instance_id": 2893,
+        "input": "I would definitely reccomend this if you are in the market for an ease to use , stylish , fun , awesome computer .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> use <|opinion|> ease <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 176,
+        "instance_id": 2894,
+        "input": "The Windows 7 Starter is , in my opinion , a great way to think about using your netbook : basics , basics , basics .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Windows 7 Starter <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 177,
+        "instance_id": 2895,
+        "input": "So we exchanged it for the same on and after 2 hours it did n't work .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> work <|opinion|> did n't <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 178,
+        "instance_id": 2896,
+        "input": "The OS is still as fast as the day that the laptop was purchased and continues to run flawlessly .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> OS <|opinion|> fast <|sentiment|> positive;<|aspect|> run <|opinion|> flawlessly <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 179,
+        "instance_id": 2897,
+        "input": "After way too many times sending the thing in for repairs ( delivery service was slow , and without the laptop I had no access to the internet , and thus no way of tracking it to find out when I might hope to see my computer again ) , it finally kicked the bucket after just over 2 years .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> delivery service <|opinion|> slow <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 180,
+        "instance_id": 2898,
+        "input": "The only thing I wish this had was the option to turn off the touchpad with a button like my big 16 '' laptop does .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> touchpad <|opinion|> turn off <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 181,
+        "instance_id": 2899,
+        "input": "I especially like the backlit keyboard .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> backlit keyboard <|opinion|> like <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 182,
+        "instance_id": 2900,
+        "input": "The buttons you have to press a little harder than most .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> buttons <|opinion|> harder <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 183,
+        "instance_id": 2901,
+        "input": "But to be honest , I do n't use my computer for anything like graphics editing and complex data analysis and gaming .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> gaming <|opinion|> do n't use <|sentiment|> neutral;<|aspect|> complex data analysis <|opinion|> do n't use <|sentiment|> neutral;<|aspect|> graphics editing <|opinion|> do n't use <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 184,
+        "instance_id": 2902,
+        "input": "The one thing I wish it had was a detailed hardcopy manuel .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hardcopy manuel <|opinion|> wish <|sentiment|> negative;<|aspect|> hardcopy manuel <|opinion|> detailed <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 185,
+        "instance_id": 2903,
+        "input": "the mcbook pro notebook will make it easy for you to write and read your emails at blazing speeds .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> speeds <|opinion|> blazing <|sentiment|> positive;<|aspect|> speeds <|opinion|> easy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 186,
+        "instance_id": 2904,
+        "input": "However , I love this particular Mac because its very fast , great size , and has fantastic features like the lighted keyboard and easy mouse pad .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> mouse pad <|opinion|> easy <|sentiment|> positive;<|aspect|> mouse pad <|opinion|> fantastic <|sentiment|> positive;<|aspect|> features <|opinion|> fantastic <|sentiment|> positive;<|aspect|> lighted keyboard <|opinion|> fantastic <|sentiment|> positive;<|aspect|> size <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 187,
+        "instance_id": 2905,
+        "input": "We paid for the three year warranty and the extended warranty after that one ended as well .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> extended warranty <|opinion|> paid for <|sentiment|> neutral;<|aspect|> three year warranty <|opinion|> paid for <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 188,
+        "instance_id": 2906,
+        "input": "My husband got me this for Chrismas after getting me a very expensive laptop that did not work after 2 days .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> work <|opinion|> not <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 189,
+        "instance_id": 2907,
+        "input": "The resolution is even higher then any other laptop on the market .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> resolution <|opinion|> higher <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 190,
+        "instance_id": 2908,
+        "input": "But with A WAY Bigger Screen , and IS able to connect to an HDMI .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Screen <|opinion|> Bigger <|sentiment|> positive;<|aspect|> HDMI <|opinion|> able to connect <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 191,
+        "instance_id": 2909,
+        "input": "the graphics are awful and the wireless switch it at the top rather than the side which I am used to it being on the side .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> graphics <|opinion|> awful <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 192,
+        "instance_id": 2910,
+        "input": "The speakers are terrible and are probably the cheapest ones I have ever seen in a laptop so if your planning to listen to music I suggest you get something better .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> speakers <|opinion|> terrible <|sentiment|> negative;<|aspect|> speakers <|opinion|> cheapest <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 193,
+        "instance_id": 2911,
+        "input": "I have had no problems with it unlike some hardware defects on past models .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hardware <|opinion|> defects <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 194,
+        "instance_id": 2912,
+        "input": "Not to mention the fact that your mac comes fully loaded with all necessary basic programs .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> programs <|opinion|> necessary <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 195,
+        "instance_id": 2913,
+        "input": "If this is an improvement in Customer Service then I would hate too see what it was before !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Customer Service <|opinion|> improvement <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 196,
+        "instance_id": 2914,
+        "input": "For me I was lucky and a local store was selling them for $ 2000 off and Best Buy matched their price so I was able to buy one for under $ 1000| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> price <|opinion|> lucky <|sentiment|> positive;<|aspect|> price <|opinion|> Best <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 197,
+        "instance_id": 2915,
+        "input": "The layout of the MacBook is horrible and confusing ;| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> layout <|opinion|> confusing <|sentiment|> negative;<|aspect|> layout <|opinion|> horrible <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 198,
+        "instance_id": 2916,
+        "input": "Was not happy with one of the programs on it .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> one of the programs <|opinion|> not happy <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 199,
+        "instance_id": 2917,
+        "input": "The first one sent : Touchpad did n't work The second sent : USB did n't work The third sent : Touchpad did n't work The fourth sent : Has n't arrived yet .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Touchpad <|opinion|> did n't work <|sentiment|> negative;<|aspect|> USB <|opinion|> did n't work <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 200,
+        "instance_id": 2918,
+        "input": "In November my computer messed up entirely and would n't power on after intalling a Windows update , I had to have my HD flashed and lost EVERYTHING on it , including my school assignments and irriplaceable pictures that were only in digital format and several other things , when this update was installed for some reason I was unable to roll back the drivers and everything to an earlier working condition because when the update was installed it deleted my history .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Windows update <|opinion|> messed up <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 201,
+        "instance_id": 2919,
+        "input": "Overall : Poor , Features : Average , Performance : Poor , Battery Life : Excellent , Price -- Value : Poor| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Performance <|opinion|> Poor <|sentiment|> negative;<|aspect|> Battery Life <|opinion|> Excellent <|sentiment|> positive;<|aspect|> Value <|opinion|> Poor <|sentiment|> negative;<|aspect|> Price <|opinion|> Poor <|sentiment|> negative;<|aspect|> Features <|opinion|> Average <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 202,
+        "instance_id": 2920,
+        "input": "The graphics are stunning .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> graphics <|opinion|> stunning <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 203,
+        "instance_id": 2921,
+        "input": "( I found a 2GB stick for a bit under $ 50 ) Nice and portable and definitely a decent enough system to keep you entertained while sitting in the airplane for a couple of hours , or at the hotel taking care of some last minute details and documents .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> system <|opinion|> portable <|sentiment|> positive;<|aspect|> system <|opinion|> decent <|sentiment|> positive;<|aspect|> system <|opinion|> Nice <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 204,
+        "instance_id": 2922,
+        "input": "after much effort and 10 days ASUS replaced itThe WiFi is very weak .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> WiFi <|opinion|> weak <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 205,
+        "instance_id": 2923,
+        "input": ", Applications respond immediately ( not like the tired MS applications ) .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Applications <|opinion|> respond immediately <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 206,
+        "instance_id": 2924,
+        "input": "The only drawback for me is how dirty the screen gets , and rather quickly too .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> screen <|opinion|> dirty <|sentiment|> negative;<|aspect|> screen <|opinion|> quickly <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 207,
+        "instance_id": 2925,
+        "input": "Seems to slow down occassionally but can run many applications ( ie Internet tabs , programs , etc ) simultaneously .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> applications <|opinion|> many <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 208,
+        "instance_id": 2926,
+        "input": "Not to mention sometimes the whole charger unit will decide not to work entirely .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> charger unit <|opinion|> not to work entirely <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 209,
+        "instance_id": 2927,
+        "input": "I have other computers that get strong signals that do n't drop in places that this `` net '' book loses its signal .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> signals <|opinion|> strong <|sentiment|> positive;<|aspect|> signal <|opinion|> loses <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 210,
+        "instance_id": 2928,
+        "input": "Anyway , in early July of this year , the DVD burner stopped working , and the computer stared having issues with power supply .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> power supply <|opinion|> issues <|sentiment|> negative;<|aspect|> DVD burner <|opinion|> stopped working <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 211,
+        "instance_id": 2929,
+        "input": "The screen gets smeary and dusty very quickly and it 's very noticeable .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> screen <|opinion|> noticeable <|sentiment|> negative;<|aspect|> screen <|opinion|> dusty <|sentiment|> negative;<|aspect|> screen <|opinion|> smeary <|sentiment|> negative;<|aspect|> screen <|opinion|> quickly <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 212,
+        "instance_id": 2930,
+        "input": "The battery life , before the battery completely died of course , left much to be desired .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> battery life <|opinion|> left much to be desired <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 213,
+        "instance_id": 2931,
+        "input": "It had most of the features and all of the power that I wanted to replace my desktop machine .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> features <|opinion|> wanted <|sentiment|> positive;<|aspect|> power <|opinion|> wanted <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 214,
+        "instance_id": 2932,
+        "input": "It seemed to be a very nice laptop except I was not able to load my Garmin GPS software or Microsoft Office 2003 .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Garmin GPS software <|opinion|> not able to load <|sentiment|> negative;<|aspect|> Microsoft Office 2003 <|opinion|> not able to load <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 215,
+        "instance_id": 2933,
+        "input": "Was very much worth the price i paid .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> price <|opinion|> worth <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 216,
+        "instance_id": 2934,
+        "input": "This is a great little computer for the price .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> price <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 217,
+        "instance_id": 2935,
+        "input": "All apple associates are always willing to help you out with anything , no matter when you purchased the computer and how many years passed .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> apple associates <|opinion|> willing <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    },
+    {
+        "sentence_id": 218,
+        "instance_id": 2936,
+        "input": "I would like to use a different operating system altogether .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> operating system <|opinion|> like <|sentiment|> neutral;<|aspect|> operating system <|opinion|> different <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "lapt14"
+    }
+]

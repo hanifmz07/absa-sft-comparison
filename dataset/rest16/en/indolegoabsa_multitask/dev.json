@@ -1,0 +1,1892 @@
+[
+    {
+        "sentence_id": 0,
+        "instance_id": 4285,
+        "input": "The food is very average ... the Thai fusion stuff is a bit too sweet , every thing they serve is too sweet here .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> average <|sentiment|> negative;<|aspect|> Thai fusion stuff <|opinion|> too sweet <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 1,
+        "instance_id": 4286,
+        "input": "We went around 9:30 on a Friday and it had died down a bit by then so the service was great !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 2,
+        "instance_id": 4287,
+        "input": "we love th pink pony .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pink pony <|opinion|> love <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 3,
+        "instance_id": 4288,
+        "input": "the food is decent .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> decent <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 4,
+        "instance_id": 4289,
+        "input": "however , it 's the service that leaves a bad taste in my mouth .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> bad taste <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 5,
+        "instance_id": 4290,
+        "input": "i happen to have a policy that goes along with a little bit of self-respect , which includes not letting a waiter intimidate me , i.e . make me feel bad asking for trivialities like water , or the check .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> waiter <|opinion|> bad <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 6,
+        "instance_id": 4291,
+        "input": "I tend to judge a sushi restaurant by its sea urchin , which was heavenly at sushi rose .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> sea urchin <|opinion|> heavenly <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 7,
+        "instance_id": 4292,
+        "input": "The sushi seemed pretty fresh and was adequately proportioned .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> sushi <|opinion|> fresh <|sentiment|> positive;<|aspect|> sushi <|opinion|> proportioned <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 8,
+        "instance_id": 4293,
+        "input": "In the evening , this place attracted a well dressed , with it , NY crowd .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> crowd <|opinion|> attracted <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 9,
+        "instance_id": 4294,
+        "input": "The food was well prepared and the service impecable .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> impecable <|sentiment|> positive;<|aspect|> food <|opinion|> well prepared <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 10,
+        "instance_id": 4295,
+        "input": "The Prix Fixe menu is worth every penny and you get more than enough ( both in quantity AND quality ) .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Prix Fixe menu <|opinion|> worth <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 11,
+        "instance_id": 4296,
+        "input": "The kitchen however , is almost always slow .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> kitchen <|opinion|> slow <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 12,
+        "instance_id": 4297,
+        "input": "Add to that great service and great food at a reasonable price and you have yourself the beginning of a great evening .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> great <|sentiment|> positive;<|aspect|> food <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 13,
+        "instance_id": 4298,
+        "input": "The pizza was delivered cold and the cheese was n't even fully melted !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> cheese <|opinion|> was n't even fully melted <|sentiment|> negative;<|aspect|> pizza <|opinion|> cold <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 14,
+        "instance_id": 4299,
+        "input": "Yes , they use fancy ingredients , but even fancy ingredients do n't make for good pizza unless someone knows how to get the crust right .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ingredients <|opinion|> fancy <|sentiment|> positive;<|aspect|> pizza <|opinion|> good <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 15,
+        "instance_id": 4300,
+        "input": "Best Pastrami I ever had and great portion without being ridiculous .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Pastrami <|opinion|> Best <|sentiment|> positive;<|aspect|> portion <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 16,
+        "instance_id": 4301,
+        "input": "My wife had the fried shrimp which are huge and loved it .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> fried shrimp <|opinion|> loved <|sentiment|> positive;<|aspect|> fried shrimp <|opinion|> huge <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 17,
+        "instance_id": 4302,
+        "input": "This place is the most Japanese it can ever get .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> Japanese <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 18,
+        "instance_id": 4303,
+        "input": "Leon is an East Village gem : casual but hip , with well prepared basic French bistro fare , good specials , a warm and lively atmosphere .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> atmosphere <|opinion|> lively <|sentiment|> positive;<|aspect|> atmosphere <|opinion|> warm <|sentiment|> positive;<|aspect|> specials <|opinion|> good <|sentiment|> positive;<|aspect|> French bistro fare <|opinion|> well prepared <|sentiment|> positive;<|aspect|> Leon <|opinion|> hip <|sentiment|> positive;<|aspect|> Leon <|opinion|> casual <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 19,
+        "instance_id": 4304,
+        "input": "The food was bland oily .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> bland oily <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 20,
+        "instance_id": 4305,
+        "input": "I went there for lunch and it was not as good as I expected from the reviews I read .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lunch <|opinion|> not as good as I expected <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 21,
+        "instance_id": 4306,
+        "input": "This place is great .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 22,
+        "instance_id": 4307,
+        "input": "Great pizza and fantastic service .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> fantastic <|sentiment|> positive;<|aspect|> pizza <|opinion|> Great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 23,
+        "instance_id": 4308,
+        "input": "The place is small and cramped but the food is fantastic .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> cramped <|sentiment|> negative;<|aspect|> food <|opinion|> fantastic <|sentiment|> positive;<|aspect|> place <|opinion|> small <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 24,
+        "instance_id": 4309,
+        "input": "Moules were excellent , lobster ravioli was VERY salty !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lobster ravioli <|opinion|> salty <|sentiment|> negative;<|aspect|> Moules <|opinion|> excellent <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 25,
+        "instance_id": 4310,
+        "input": "Service is not exactly five star , but thats not really a big deal .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Service <|opinion|> not exactly five star <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 26,
+        "instance_id": 4311,
+        "input": "Downstairs lounge is always a good attraction| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Downstairs lounge <|opinion|> good attraction <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 27,
+        "instance_id": 4312,
+        "input": "The staff is incredibly helpful and attentive .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> staff <|opinion|> helpful <|sentiment|> positive;<|aspect|> staff <|opinion|> attentive <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 28,
+        "instance_id": 4313,
+        "input": "Rude service , medicore food ... there are tons of restaurants in NY ... stay away from this one| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> Rude <|sentiment|> negative;<|aspect|> food <|opinion|> medicore <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 29,
+        "instance_id": 4314,
+        "input": "I had a great time at Jekyll and Hyde !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Jekyll and Hyde <|opinion|> great time <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 30,
+        "instance_id": 4315,
+        "input": "The food was good too .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 31,
+        "instance_id": 4316,
+        "input": "The tuna and wasabe potatoes are excellent .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wasabe potatoes <|opinion|> excellent <|sentiment|> positive;<|aspect|> tuna <|opinion|> excellent <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 32,
+        "instance_id": 4317,
+        "input": "Great service , great food .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> Great <|sentiment|> positive;<|aspect|> food <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 33,
+        "instance_id": 4318,
+        "input": "The pizza is delicious - they use fresh mozzarella instead of the cheap , frozen , shredded cheese common to most pizzaria 's .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pizza <|opinion|> delicious <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 34,
+        "instance_id": 4319,
+        "input": "He served me an Uni Hand roll , which I never had before , and let me tell you ... IT WAS HEAVEN !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Uni Hand roll <|opinion|> HEAVEN <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 35,
+        "instance_id": 4320,
+        "input": "My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary , and to our surprise it was fantastic .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Jekyll and Hyde Pub <|opinion|> great <|sentiment|> positive;<|aspect|> Jekyll and Hyde Pub <|opinion|> fantastic <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 36,
+        "instance_id": 4321,
+        "input": "This was my frist time at Cafe St. Bart 's and I must say how delicious the food and the service was .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> delicious <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 37,
+        "instance_id": 4322,
+        "input": "I have to highly recommend the lobster roll - not to much mayo ; you can tell it was a fresh lobster .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lobster <|opinion|> fresh <|sentiment|> positive;<|aspect|> lobster roll <|opinion|> recommend <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 38,
+        "instance_id": 4323,
+        "input": "All the staff is absolutely professional ! !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> staff <|opinion|> professional <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 39,
+        "instance_id": 4324,
+        "input": "This restaurant was way overhyped .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> restaurant <|opinion|> overhyped <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 40,
+        "instance_id": 4325,
+        "input": "It 's boring on the inside , and our sushi was pretty below average ... the tuna was soggy and the other rolls had no flavor .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> sushi <|opinion|> below average <|sentiment|> negative;<|aspect|> tuna <|opinion|> soggy <|sentiment|> negative;<|aspect|> rolls <|opinion|> no flavor <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 41,
+        "instance_id": 4326,
+        "input": "Their pad penang is delicious and everything else is fantastic .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pad penang <|opinion|> delicious <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 42,
+        "instance_id": 4327,
+        "input": "The price is reasonable although the service is poor .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> poor <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 43,
+        "instance_id": 4328,
+        "input": "The spicy Tuna roll is huge and probably the best that I 've had at this price range .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> spicy Tuna roll <|opinion|> best <|sentiment|> positive;<|aspect|> spicy Tuna roll <|opinion|> huge <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 44,
+        "instance_id": 4329,
+        "input": "The staff was accomodating , the food was absolutely delicious and the place is lovely .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> staff <|opinion|> accomodating <|sentiment|> positive;<|aspect|> place <|opinion|> lovely <|sentiment|> positive;<|aspect|> food <|opinion|> delicious <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 45,
+        "instance_id": 4330,
+        "input": "The food is authentic Italian - delicious !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> authentic Italian <|sentiment|> positive;<|aspect|> food <|opinion|> delicious <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 46,
+        "instance_id": 4331,
+        "input": "I 'm still mad that i had to pay for lousy food .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> lousy <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 47,
+        "instance_id": 4332,
+        "input": "Very affordable and excellent ambient !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> ambient <|opinion|> affordable <|sentiment|> positive;<|aspect|> ambient <|opinion|> excellent <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 48,
+        "instance_id": 4333,
+        "input": "We wo n't go to this place again for a good meal .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> meal <|opinion|> good <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 49,
+        "instance_id": 4334,
+        "input": "However , I think this place is a good hang out spot .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 50,
+        "instance_id": 4335,
+        "input": "Cute place , nice wait staff but would never go there again .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wait staff <|opinion|> nice <|sentiment|> positive;<|aspect|> place <|opinion|> Cute <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 51,
+        "instance_id": 4336,
+        "input": "Someone else recommended the dessert - we also left that .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> dessert <|opinion|> recommended <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 52,
+        "instance_id": 4337,
+        "input": "I 've never had bad service and the fish is fresh and delicious .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> fish <|opinion|> fresh <|sentiment|> positive;<|aspect|> service <|opinion|> never had bad <|sentiment|> positive;<|aspect|> fish <|opinion|> delicious <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 53,
+        "instance_id": 4338,
+        "input": "The place is so cool and the service is prompt and curtious .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> cool <|sentiment|> positive;<|aspect|> service <|opinion|> curtious <|sentiment|> positive;<|aspect|> service <|opinion|> prompt <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 54,
+        "instance_id": 4339,
+        "input": "My boyfriend had the New England Chowder it was good but I think the award should go to the Lobster Bisque .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> New England Chowder <|opinion|> good <|sentiment|> positive;<|aspect|> Lobster Bisque <|opinion|> award <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 55,
+        "instance_id": 4340,
+        "input": "The characters really make for an enjoyable experience .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> characters <|opinion|> enjoyable <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 56,
+        "instance_id": 4341,
+        "input": "Food was good not great not worth the wait or another visit| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Food <|opinion|> good not great not worth the wait or another visit <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 57,
+        "instance_id": 4342,
+        "input": "The lox is always fresh too .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> lox <|opinion|> fresh <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 58,
+        "instance_id": 4343,
+        "input": "The service is ok , some of the people did n't get what they asked for .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> ok <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 59,
+        "instance_id": 4344,
+        "input": "The wine the service was very good too .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wine <|opinion|> good <|sentiment|> positive;<|aspect|> service <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 60,
+        "instance_id": 4345,
+        "input": "Great staff .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> staff <|opinion|> Great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 61,
+        "instance_id": 4346,
+        "input": "The hostess and the waitress were incredibly rude and did everything they could to rush us out .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hostess <|opinion|> rude <|sentiment|> negative;<|aspect|> waitress <|opinion|> rude <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 62,
+        "instance_id": 4347,
+        "input": "This place is always packed .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> packed <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 63,
+        "instance_id": 4348,
+        "input": "and yes Dal Bukhara is so dam good and so are all the kababs .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Dal Bukhara <|opinion|> good <|sentiment|> positive;<|aspect|> kababs <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 64,
+        "instance_id": 4349,
+        "input": "I have been to Roth 's twice and both times were very disappointing .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Roth 's <|opinion|> disappointing <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 65,
+        "instance_id": 4350,
+        "input": "Chennai Garden is my favorite Indian restaurant in the city .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Chennai Garden <|opinion|> favorite <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 66,
+        "instance_id": 4351,
+        "input": "They have authentic Indian at amazin prices .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Indian <|opinion|> authentic <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 67,
+        "instance_id": 4352,
+        "input": "It 's a rather cramped and busy restaurant and it closes early .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> restaurant <|opinion|> cramped <|sentiment|> negative;<|aspect|> restaurant <|opinion|> busy <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 68,
+        "instance_id": 4353,
+        "input": "Food is excellent .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Food <|opinion|> excellent <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 69,
+        "instance_id": 4354,
+        "input": "Fish is so very fresh .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Fish <|opinion|> fresh <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 70,
+        "instance_id": 4355,
+        "input": "Love YUKA .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> YUKA <|opinion|> Love <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 71,
+        "instance_id": 4356,
+        "input": "The food is so cheap and the waiters are nice .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> waiters <|opinion|> nice <|sentiment|> positive;<|aspect|> food <|opinion|> cheap <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 72,
+        "instance_id": 4357,
+        "input": "Be sure to try the seasonal , and always delicious , specials .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> specials <|opinion|> seasonal <|sentiment|> positive;<|aspect|> specials <|opinion|> delicious <|sentiment|> positive;<|aspect|> specials <|opinion|> try <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 73,
+        "instance_id": 4358,
+        "input": "Salads are a delicious way to begin the meal .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Salads <|opinion|> delicious <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 74,
+        "instance_id": 4359,
+        "input": "I would definitely recommend SEA if you like thai cuisine !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> thai cuisine <|opinion|> like <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 75,
+        "instance_id": 4360,
+        "input": "I absolutely Loved this place .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> Loved <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 76,
+        "instance_id": 4361,
+        "input": "Everything was wonderful ; food , drinks , staff , mileau .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> wonderful <|sentiment|> positive;<|aspect|> drinks <|opinion|> wonderful <|sentiment|> positive;<|aspect|> mileau <|opinion|> wonderful <|sentiment|> positive;<|aspect|> staff <|opinion|> wonderful <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 77,
+        "instance_id": 4362,
+        "input": "Nice Family owned traditional restaurant .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> restaurant <|opinion|> traditional <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 78,
+        "instance_id": 4363,
+        "input": "I also ordered the Change Mojito , which was out of this world .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Change Mojito <|opinion|> out of this world <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 79,
+        "instance_id": 4364,
+        "input": "The place was nice and calm .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> calm <|sentiment|> positive;<|aspect|> place <|opinion|> nice <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 80,
+        "instance_id": 4365,
+        "input": "Consequently , their burgers fell apart in their hands and made such a mess that they did'nt feel like finishing them .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> burgers <|opinion|> fell apart <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 81,
+        "instance_id": 4366,
+        "input": "I had a huge pastrami sandwich on a roll .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pastrami sandwich on a roll <|opinion|> huge <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 82,
+        "instance_id": 4367,
+        "input": "THe back garden sitting area is very pleasant , where you can see their personal herb garden .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> back garden sitting area <|opinion|> pleasant <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 83,
+        "instance_id": 4368,
+        "input": "We ended our great experience by having Gulab Jamun ( dessert ) recommended by the waiter .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Gulab Jamun ( dessert ) <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 84,
+        "instance_id": 4369,
+        "input": "I thanked my friend who recommended me this restaurant and will certainly recommend it to others .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> restaurant <|opinion|> recommend <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 85,
+        "instance_id": 4370,
+        "input": "I am reluctant to write because I would not want my jem of a pizza place to become overcrowded .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pizza place <|opinion|> overcrowded <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 86,
+        "instance_id": 4371,
+        "input": "While their kitchen food is delicious , their Sushi is out of this world .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Sushi <|opinion|> out of this world <|sentiment|> positive;<|aspect|> kitchen food <|opinion|> delicious <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 87,
+        "instance_id": 4372,
+        "input": "Thalia is a beautiful restaurant with beautiful people serving you , but the food does n't quite match up .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> people <|opinion|> beautiful <|sentiment|> positive;<|aspect|> food <|opinion|> does n't quite match up <|sentiment|> negative;<|aspect|> Thalia <|opinion|> beautiful <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 88,
+        "instance_id": 4373,
+        "input": "I expected quite a bit more from such an expensive menu .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> menu <|opinion|> expensive <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 89,
+        "instance_id": 4374,
+        "input": "The view is spectacular , and the food is great .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> view <|opinion|> spectacular <|sentiment|> positive;<|aspect|> food <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 90,
+        "instance_id": 4375,
+        "input": "Authentic Taiwanese food that 's cheap ... what more could you ask for ?| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Taiwanese food <|opinion|> Authentic <|sentiment|> positive;<|aspect|> Taiwanese food <|opinion|> cheap <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 91,
+        "instance_id": 4376,
+        "input": "Kind , attentive wait staff .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wait staff <|opinion|> Kind <|sentiment|> positive;<|aspect|> wait staff <|opinion|> attentive <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 92,
+        "instance_id": 4377,
+        "input": "My friend devoured her chicken and mashed potatos .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> chicken and mashed potatos <|opinion|> devoured <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 93,
+        "instance_id": 4378,
+        "input": "The atmosphere is unheralded , the service impecible , and the food magnificant .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> magnificant <|sentiment|> positive;<|aspect|> service <|opinion|> impecible <|sentiment|> positive;<|aspect|> atmosphere <|opinion|> unheralded <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 94,
+        "instance_id": 4379,
+        "input": "This is such a lovely , peaceful place to eat outside .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> lovely <|sentiment|> positive;<|aspect|> place <|opinion|> peaceful <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 95,
+        "instance_id": 4380,
+        "input": "Great sushi experience .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> sushi <|opinion|> Great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 96,
+        "instance_id": 4381,
+        "input": "This place is not worth the prices .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> not worth the prices <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 97,
+        "instance_id": 4382,
+        "input": "Love Pizza 33 ...| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Pizza 33 <|opinion|> Love <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 98,
+        "instance_id": 4383,
+        "input": "The rice was poor quality and was cooked so badly it was hard .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> rice <|opinion|> poor quality <|sentiment|> negative;<|aspect|> rice <|opinion|> cooked so badly <|sentiment|> negative;<|aspect|> rice <|opinion|> hard <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 99,
+        "instance_id": 4384,
+        "input": "The fish was adequate , but inexpertly sliced .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> fish <|opinion|> adequate <|sentiment|> negative;<|aspect|> fish <|opinion|> inexpertly sliced <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 100,
+        "instance_id": 4385,
+        "input": "The wait staff is pleasant , fun , and for the most part gorgeous ( in the wonderful aesthetic beautification way , not in that she's-way-cuter-than-me-that-b @ # $ * way ) .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wait staff <|opinion|> gorgeous <|sentiment|> positive;<|aspect|> wait staff <|opinion|> pleasant <|sentiment|> positive;<|aspect|> wait staff <|opinion|> fun <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 101,
+        "instance_id": 4386,
+        "input": "But the best part about LS is the late night atmosphere , delightfully free of the BTs .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> late night atmosphere <|opinion|> best <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 102,
+        "instance_id": 4387,
+        "input": "Suan is a great place that I often take my friends ( classmates ) too .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Suan <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 103,
+        "instance_id": 4388,
+        "input": "noodles with shrimp and chicken and coconut juice is the MUST !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> noodles with shrimp and chicken and coconut juice <|opinion|> MUST <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 104,
+        "instance_id": 4389,
+        "input": "I can not imagine a friendlier staff working in a restaurant .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> staff <|opinion|> friendlier <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 105,
+        "instance_id": 4390,
+        "input": "I can not imagine better Indian food in all of the city .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Indian food <|opinion|> better <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 106,
+        "instance_id": 4391,
+        "input": "if you 're daring , try the balsamic vinegar over icecream , it 's wonderful !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> balsamic vinegar over icecream <|opinion|> try <|sentiment|> positive;<|aspect|> balsamic vinegar over icecream <|opinion|> wonderful <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 107,
+        "instance_id": 4392,
+        "input": "The rest of the dim sum , though pricey by Chinatown standards , is worth it .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> dim sum <|opinion|> pricey <|sentiment|> positive;<|aspect|> dim sum <|opinion|> worth <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 108,
+        "instance_id": 4393,
+        "input": "A few tips : skip the turnip cake , roast pork buns and egg custards .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> turnip cake <|opinion|> skip <|sentiment|> negative;<|aspect|> roast pork buns <|opinion|> skip <|sentiment|> negative;<|aspect|> egg custards <|opinion|> skip <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 109,
+        "instance_id": 4394,
+        "input": "The food was exceptional .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> exceptional <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 110,
+        "instance_id": 4395,
+        "input": "it 's a perfect place to have a amazing indian food .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> indian food <|opinion|> amazing <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 111,
+        "instance_id": 4396,
+        "input": "Drawbacks : service is slow and they do n't toast !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> slow <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 112,
+        "instance_id": 4397,
+        "input": "Downtown Dinner 2002 - Prixe fix : Appetizers were ok , waiter gave me poor suggestion ... try the potato stuff kanish best one .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> potato stuff kanish <|opinion|> best <|sentiment|> positive;<|aspect|> potato stuff kanish <|opinion|> try <|sentiment|> positive;<|aspect|> waiter <|opinion|> poor <|sentiment|> negative;<|aspect|> Appetizers <|opinion|> ok <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 113,
+        "instance_id": 4398,
+        "input": "The anti-pasta was excellent , especially the calamari , as were the filling pasta mains .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> anti-pasta <|opinion|> excellent <|sentiment|> positive;<|aspect|> pasta mains <|opinion|> excellent <|sentiment|> positive;<|aspect|> calamari <|opinion|> excellent <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 114,
+        "instance_id": 4399,
+        "input": "Great food , great decor , great service .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> Great <|sentiment|> positive;<|aspect|> service <|opinion|> great <|sentiment|> positive;<|aspect|> decor <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 115,
+        "instance_id": 4400,
+        "input": "Not the typical NYC gimmick theme restaurant .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> restaurant <|opinion|> Not the typical <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 116,
+        "instance_id": 4401,
+        "input": "Service was very prompt but slightly rushed .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Service <|opinion|> prompt <|sentiment|> negative;<|aspect|> Service <|opinion|> rushed <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 117,
+        "instance_id": 4402,
+        "input": "I ca n't wait for summer , when they serve outside on their gigantic patio .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> patio <|opinion|> gigantic <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 118,
+        "instance_id": 4403,
+        "input": "Good drink .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> drink <|opinion|> Good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 119,
+        "instance_id": 4404,
+        "input": "i 've been to sapphire twice and both times the food was fine , if not good .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> fine <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 120,
+        "instance_id": 4405,
+        "input": "stick with the chicken , beef , and lamb dishes .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> beef <|opinion|> stick <|sentiment|> positive;<|aspect|> chicken <|opinion|> stick <|sentiment|> positive;<|aspect|> lamb dishes <|opinion|> stick <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 121,
+        "instance_id": 4406,
+        "input": "service is friendly , and never had a problem walking in and getting a table .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> friendly <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 122,
+        "instance_id": 4407,
+        "input": "skip dessert .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> dessert <|opinion|> skip <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 123,
+        "instance_id": 4408,
+        "input": "Pizza was a little soggy .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Pizza <|opinion|> soggy <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 124,
+        "instance_id": 4409,
+        "input": "This place is a great bargain .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> great bargain <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 125,
+        "instance_id": 4410,
+        "input": "The design and atmosphere is just as good .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> design <|opinion|> good <|sentiment|> positive;<|aspect|> atmosphere <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 126,
+        "instance_id": 4411,
+        "input": "the drinks are amazing and half off till 8pm .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> drinks <|opinion|> amazing <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 127,
+        "instance_id": 4412,
+        "input": "This is an amazing place to try some roti rolls .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> roti rolls <|opinion|> try <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 128,
+        "instance_id": 4413,
+        "input": "The food 's as good as ever .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 129,
+        "instance_id": 4414,
+        "input": "Best drumsticks over rice and sour spicy soup in town !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> drumsticks over rice <|opinion|> Best <|sentiment|> positive;<|aspect|> sour spicy soup <|opinion|> Best <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 130,
+        "instance_id": 4415,
+        "input": "The service is good and the resturant is clean .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> resturant <|opinion|> clean <|sentiment|> positive;<|aspect|> service <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 131,
+        "instance_id": 4416,
+        "input": "We recently decided to try this location , and to our delight , they have outdoor seating , perfect since I had my yorkie with me .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> outdoor seating <|opinion|> perfect <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 132,
+        "instance_id": 4417,
+        "input": "Great Indian food and the service is incredible .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> incredible <|sentiment|> positive;<|aspect|> Indian food <|opinion|> Great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 133,
+        "instance_id": 4418,
+        "input": "The food here does a great service to the name ( Cantonese that is ... ) .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 134,
+        "instance_id": 4419,
+        "input": "good music , great food , speedy service affordable prices .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> music <|opinion|> good <|sentiment|> positive;<|aspect|> service <|opinion|> speedy <|sentiment|> positive;<|aspect|> food <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 135,
+        "instance_id": 4420,
+        "input": "Atmosphere is nice and relaxed too ...| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Atmosphere <|opinion|> nice <|sentiment|> positive;<|aspect|> Atmosphere <|opinion|> relaxed <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 136,
+        "instance_id": 4421,
+        "input": "If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> sushi chef <|opinion|> miserable <|sentiment|> negative;<|aspect|> staff <|opinion|> unfriendly <|sentiment|> negative;<|aspect|> fish <|opinion|> low quality <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 137,
+        "instance_id": 4422,
+        "input": "One would think we 'd get an apology or complimentary drinks - instead , we got a snobby waiter would n't even take our order for 15 minutes and gave us lip when we asked him to do so .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> waiter <|opinion|> snobby <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 138,
+        "instance_id": 4423,
+        "input": "With so many good restaurants on the UWS , I do n't need overpriced food , absurdly arrogant wait-staff who do n't recognize they work at a glorified diner , clumsy service , and management that does n't care .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> overpriced <|sentiment|> negative;<|aspect|> service <|opinion|> clumsy <|sentiment|> negative;<|aspect|> wait-staff <|opinion|> arrogant <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 139,
+        "instance_id": 4424,
+        "input": "$ 20 for all you can eat sushi can not be beaten .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> all you can eat sushi <|opinion|> beaten <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 140,
+        "instance_id": 4425,
+        "input": "Food was good and the view of the new york city skiline was terrific even on a foggy rainy day like that of when I went .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Food <|opinion|> good <|sentiment|> positive;<|aspect|> view of the new york city skiline <|opinion|> terrific <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 141,
+        "instance_id": 4426,
+        "input": "Although they do the typical what kind of water would you like questions the service was good and overall very relaxing to place to eat .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> good <|sentiment|> positive;<|aspect|> place <|opinion|> relaxing <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 142,
+        "instance_id": 4427,
+        "input": "The pizza was pretty good and huge .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pizza <|opinion|> huge <|sentiment|> positive;<|aspect|> pizza <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 143,
+        "instance_id": 4428,
+        "input": "La Rosa waltzes in , and I think they are doing it the best .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> La Rosa <|opinion|> best <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 144,
+        "instance_id": 4429,
+        "input": "The mussels were fantastic and so was the dessert ... definitely going to be back very soon .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> mussels <|opinion|> fantastic <|sentiment|> positive;<|aspect|> dessert <|opinion|> fantastic <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 145,
+        "instance_id": 4430,
+        "input": "I have been coming here for years and have nothing but good things to say about the service and the great staff at La Lanterna .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> staff <|opinion|> great <|sentiment|> positive;<|aspect|> service <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 146,
+        "instance_id": 4431,
+        "input": "Love Al Di La| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Al Di La <|opinion|> Love <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 147,
+        "instance_id": 4432,
+        "input": "An awesome organic dog , and a conscious eco friendly establishment .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> establishment <|opinion|> eco friendly <|sentiment|> positive;<|aspect|> dog <|opinion|> organic <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 148,
+        "instance_id": 4433,
+        "input": "But the best pork souvlaki I ever had is the main thing .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pork souvlaki <|opinion|> best <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 149,
+        "instance_id": 4434,
+        "input": "I LOOOVE their eggplant pizza , as well as their pastas !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> eggplant pizza <|opinion|> LOOOVE <|sentiment|> positive;<|aspect|> pastas <|opinion|> LOOOVE <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 150,
+        "instance_id": 4435,
+        "input": "We had half/half pizza , mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> half/half pizza <|opinion|> huge <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 151,
+        "instance_id": 4436,
+        "input": "Reliable , Fresh Sushi| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Sushi <|opinion|> Fresh <|sentiment|> positive;<|aspect|> Sushi <|opinion|> Reliable <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 152,
+        "instance_id": 4437,
+        "input": "The sashimi is always fresh and the rolls are innovative and delicious .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> rolls <|opinion|> delicious <|sentiment|> positive;<|aspect|> sashimi <|opinion|> fresh <|sentiment|> positive;<|aspect|> rolls <|opinion|> innovative <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 153,
+        "instance_id": 4438,
+        "input": "Delivery guy sometimes get upset if you do n't tip more than 10 % .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Delivery guy <|opinion|> upset <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 154,
+        "instance_id": 4439,
+        "input": "The place is a bit hidden away , but once you get there , it 's all worth it .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> hidden away <|sentiment|> positive;<|aspect|> place <|opinion|> worth <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 155,
+        "instance_id": 4440,
+        "input": "Good food : my favorite is the seafood spaghetti .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> seafood spaghetti <|opinion|> favorite <|sentiment|> positive;<|aspect|> food <|opinion|> Good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 156,
+        "instance_id": 4441,
+        "input": "The wait staff is very courteous and accomodating .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> wait staff <|opinion|> courteous <|sentiment|> positive;<|aspect|> wait staff <|opinion|> accomodating <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 157,
+        "instance_id": 4442,
+        "input": "I thought the restaurant was nice and clean .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> restaurant <|opinion|> nice <|sentiment|> positive;<|aspect|> restaurant <|opinion|> clean <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 158,
+        "instance_id": 4443,
+        "input": "WORST PLACE ON SMITH STREET IN BROOKLYN| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> PLACE <|opinion|> WORST <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 159,
+        "instance_id": 4444,
+        "input": "The waitress was not attentive at all .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> waitress <|opinion|> not attentive <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 160,
+        "instance_id": 4445,
+        "input": "The Seafood Dynamite is also otherworldly .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Seafood Dynamite <|opinion|> otherworldly <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 161,
+        "instance_id": 4446,
+        "input": "In the summer months , the back garden area is really nice .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> back garden area <|opinion|> nice <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 162,
+        "instance_id": 4447,
+        "input": "The rolls are creative and I have yet to find another sushi place that serves up more inventive yet delicious japanese food .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> rolls <|opinion|> creative <|sentiment|> positive;<|aspect|> japanese food <|opinion|> delicious <|sentiment|> positive;<|aspect|> japanese food <|opinion|> inventive <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 163,
+        "instance_id": 4448,
+        "input": "I CAN EAT HERE EVERY DAY OF THE WEEK REALLY LOL LOVE THIS PLACE ... )| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> PLACE <|opinion|> LOVE <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 164,
+        "instance_id": 4449,
+        "input": "Great Indian Food !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Indian Food <|opinion|> Great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 165,
+        "instance_id": 4450,
+        "input": "This is one of my favorite spot , very relaxing the food is great all the times , celebrated my engagement and my wedding here , it was very well organized .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 166,
+        "instance_id": 4451,
+        "input": "Love their drink menu .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> drink menu <|opinion|> Love <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 167,
+        "instance_id": 4452,
+        "input": "A beautifully designed dreamy Egyptian restaurant that gets sceney at night .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Egyptian restaurant <|opinion|> dreamy <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 168,
+        "instance_id": 4453,
+        "input": "Watch the talented belly dancers as you enjoy delicious baba ganoush that 's more lemony than smoky .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> baba ganoush <|opinion|> enjoy delicious <|sentiment|> positive;<|aspect|> belly dancers <|opinion|> talented <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 169,
+        "instance_id": 4454,
+        "input": "The drinks are great , especially when made by Raymond .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Raymond <|opinion|> great <|sentiment|> positive;<|aspect|> drinks <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 170,
+        "instance_id": 4455,
+        "input": "Decor needs to be upgraded but the food is amazing !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> amazing <|sentiment|> positive;<|aspect|> Decor <|opinion|> upgraded <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 171,
+        "instance_id": 4456,
+        "input": "Great food , amazing service , this place is a class act .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> Great <|sentiment|> positive;<|aspect|> service <|opinion|> amazing <|sentiment|> positive;<|aspect|> place <|opinion|> class act <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 172,
+        "instance_id": 4457,
+        "input": "Paul , the maitre d ' , was totally professional and always on top of things .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Paul <|opinion|> professional <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 173,
+        "instance_id": 4458,
+        "input": "The bar drinks were Eh , ok to say the least .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> bar drinks <|opinion|> ok <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 174,
+        "instance_id": 4459,
+        "input": "The bread we received was horrible - rock hard and cold - and the `` free '' appetizer of olives was disappointing .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> bread <|opinion|> horrible <|sentiment|> negative;<|aspect|> bread <|opinion|> cold <|sentiment|> negative;<|aspect|> appetizer of olives <|opinion|> disappointing <|sentiment|> negative;<|aspect|> bread <|opinion|> rock hard <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 175,
+        "instance_id": 4460,
+        "input": "short and sweet – seating is great : it 's romantic , cozy and private .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> seating <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 176,
+        "instance_id": 4461,
+        "input": "The service was extremely fast and attentive ( thanks to the service button on your table ) but I barely understood 1 word when the waiter took our order .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> waiter <|opinion|> barely understood <|sentiment|> negative;<|aspect|> service <|opinion|> attentive <|sentiment|> positive;<|aspect|> service button <|opinion|> thanks to <|sentiment|> positive;<|aspect|> service <|opinion|> fast <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 177,
+        "instance_id": 4462,
+        "input": "Highly impressed from the decor to the food to the hospitality to the great night I had !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> impressed <|sentiment|> positive;<|aspect|> decor <|opinion|> impressed <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 178,
+        "instance_id": 4463,
+        "input": "Food took some time to prepare , all worth waiting for .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Food <|opinion|> worth <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 179,
+        "instance_id": 4464,
+        "input": "The menu looked great , and the waiter was very nice , but when the food came , it was average .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> menu <|opinion|> great <|sentiment|> positive;<|aspect|> food <|opinion|> average <|sentiment|> neutral;<|aspect|> waiter <|opinion|> nice <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 180,
+        "instance_id": 4465,
+        "input": "It 's a great place to order from or sit-in .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 181,
+        "instance_id": 4466,
+        "input": "Yamato is an excellent place to go if youre not into sashimi , or if you have friends who doesnt like sushi much .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Yamato <|opinion|> excellent <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 182,
+        "instance_id": 4467,
+        "input": "I 've had my fair share of modern Japanese and this spot delivers .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> modern Japanese <|opinion|> delivers <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 183,
+        "instance_id": 4468,
+        "input": "Everything on the menu is great .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> menu <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 184,
+        "instance_id": 4469,
+        "input": "Bison was quite excellent however .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Bison <|opinion|> excellent <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 185,
+        "instance_id": 4470,
+        "input": "All in all , the food was great ( except for the dessserts ) .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 186,
+        "instance_id": 4471,
+        "input": "However , our $ 14 drinks were were horrible !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> drinks <|opinion|> horrible <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 187,
+        "instance_id": 4472,
+        "input": "The menu is fairly simple without much descriptions .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> menu <|opinion|> simple <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 188,
+        "instance_id": 4473,
+        "input": "Not much of a selection of bottled beer either , we went with Brahma .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> selection of bottled beer <|opinion|> Not much <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 189,
+        "instance_id": 4474,
+        "input": "All in all the food was good - a little on the expensive side , but fresh .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> good <|sentiment|> negative;<|aspect|> food <|opinion|> expensive <|sentiment|> negative;<|aspect|> food <|opinion|> fresh <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 190,
+        "instance_id": 4475,
+        "input": "It was n't as if this restaurant had any major bragging points before hand , but now it 's simply repulsive .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> restaurant <|opinion|> repulsive <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 191,
+        "instance_id": 4476,
+        "input": "Gorgeous place ideal for a romantic dinner| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> Gorgeous <|sentiment|> positive;<|aspect|> place <|opinion|> ideal <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 192,
+        "instance_id": 4477,
+        "input": "The nakgi-bokum was horrible .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> nakgi-bokum <|opinion|> horrible <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 193,
+        "instance_id": 4478,
+        "input": "The side dishes were passable , and I did get a refill upon request .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> side dishes <|opinion|> passable <|sentiment|> neutral",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 194,
+        "instance_id": 4479,
+        "input": "My wife had barely touched that mess of a dish .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> dish <|opinion|> mess <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 195,
+        "instance_id": 4480,
+        "input": "The wife had the risotto which was amazing .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> risotto <|opinion|> amazing <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 196,
+        "instance_id": 4481,
+        "input": "The crust has a great bite and a good chew , the sauce is light with a nice acidity to it , the salt from the cheese is great , really heightens the flavor of all the other components .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> cheese <|opinion|> great <|sentiment|> positive;<|aspect|> crust <|opinion|> good <|sentiment|> positive;<|aspect|> sauce <|opinion|> light <|sentiment|> positive;<|aspect|> crust <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 197,
+        "instance_id": 4482,
+        "input": "I picked the Grilled Black Cod as my entree , which I absolutely devoured while someone commented that the Grilled Salmon dish was better .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Grilled Salmon dish <|opinion|> better <|sentiment|> positive;<|aspect|> Grilled Black Cod <|opinion|> devoured <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 198,
+        "instance_id": 4483,
+        "input": "The service leaves much to be desired , from feeling like you are rushed the place your order , to being ignored the rest of the night .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> service <|opinion|> leaves much to be desired <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 199,
+        "instance_id": 4484,
+        "input": "The hot dogs are good , yes , but the reason to get over here is the fantastic pork croquette sandwich , perfect on its supermarket squishy bun .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> pork croquette sandwich <|opinion|> fantastic <|sentiment|> positive;<|aspect|> bun <|opinion|> perfect <|sentiment|> positive;<|aspect|> hot dogs <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 200,
+        "instance_id": 4485,
+        "input": "The family seafood entree was very good .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> family seafood entree <|opinion|> good <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 201,
+        "instance_id": 4486,
+        "input": "Price is high but the food is good , so I would come back again .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> good <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 202,
+        "instance_id": 4487,
+        "input": "This place is not inviting and the food is totally weird .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> place <|opinion|> not inviting <|sentiment|> negative;<|aspect|> food <|opinion|> weird <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 203,
+        "instance_id": 4488,
+        "input": "A coworker and I tried Pacifico after work a few Fridays and loved it .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Pacifico <|opinion|> loved <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 204,
+        "instance_id": 4489,
+        "input": "The food we ordered was excellent , although I would n't say the margaritas were anything to write home about .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> food <|opinion|> excellent <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 205,
+        "instance_id": 4490,
+        "input": "The hot dogs are top notch , and they 're Slamwich is amazing !| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> hot dogs <|opinion|> top notch <|sentiment|> positive;<|aspect|> Slamwich <|opinion|> amazing <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 206,
+        "instance_id": 4491,
+        "input": "But nonetheless -- great spot , great food .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> spot <|opinion|> great <|sentiment|> positive;<|aspect|> food <|opinion|> great <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 207,
+        "instance_id": 4492,
+        "input": "This guy refused to seat her and she left , followed shortly by the four of us , but not before I told him that in my 40 years of world travel , including Paris , that I had never seen such a display of bad behavior by a frontman in a restaurant .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> frontman <|opinion|> bad <|sentiment|> negative",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 208,
+        "instance_id": 4493,
+        "input": "Mussles and calamari were superb Saturday evening .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Mussles <|opinion|> superb <|sentiment|> positive;<|aspect|> calamari <|opinion|> superb <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    },
+    {
+        "sentence_id": 209,
+        "instance_id": 4494,
+        "input": "I had the Lamb special which was perfect .| aspect: <|aspect|> , opinion: <|opinion|> , sentiment: <|sentiment|>",
+        "target": "<|aspect|> Lamb special <|opinion|> perfect <|sentiment|> positive",
+        "element_order": "aos",
+        "task_elements": "aos",
+        "dataset_type": "rest16"
+    }
+]
