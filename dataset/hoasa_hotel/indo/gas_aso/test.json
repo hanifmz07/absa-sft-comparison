@@ -103,7 +103,7 @@
         "instance_id": 3511,
         "task_elements": "aos",
         "input": "kamarnya butuh perbaikan . dinding kamar dan pintupintu .",
-        "target": "( kamarnya | negative | butuh perbaikan ) ; ( dinding kamar | negative | butuh perbaikan ) ; ( pintupintu | negative | butuh perbaikan )",
+        "target": "( kamarnya | negative | butuh perbaikan )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -139,7 +139,7 @@
         "instance_id": 3515,
         "task_elements": "aos",
         "input": "setiap mau check in pasti dihotel ini , karena pelayanannya sangat baik .",
-        "target": "( check in | positive | pasti dihotel ini ) ; ( pelayanannya | positive | sangat baik )",
+        "target": "( check in | positive | setiap mau check in pasti dihotel ini , karena pelayanannya sangat baik )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -220,7 +220,7 @@
         "instance_id": 3524,
         "task_elements": "aos",
         "input": "ac nya kurang dingin di kamar 515 .",
-        "target": "( ac nya | negative | kurang dingin )",
+        "target": "( ac nya | negative | kurang dingin di kamar 515 )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -274,7 +274,7 @@
         "instance_id": 3530,
         "task_elements": "aos",
         "input": "sayang , breakfastnya sudah ditiadakan oleh airy .",
-        "target": "( breakfastnya | negative | sudah ditiadakan oleh airy )",
+        "target": "( breakfastnya | negative | breakfastnya sudah ditiadakan oleh airy )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -400,7 +400,7 @@
         "instance_id": 3544,
         "task_elements": "aos",
         "input": "dilayani dengan baik . check in lebih awal tidak kena biaya .",
-        "target": "( null | positive | dilayani dengan baik ) ; ( check in | positive | lebih awal tidak kena biaya )",
+        "target": "( null | positive | dilayani dengan baik ) ; ( check in lebih awal | positive | tidak kena biaya )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -454,7 +454,7 @@
         "instance_id": 3550,
         "task_elements": "aos",
         "input": "sebenarx kalau dari segi pelayanan airy mmg sudah oke banget tetapi . yang jadi . masalah tidak bisa refund atau reschedule . berhubung saya kembali ke cirebon nya di undur ke tanggal 12 okt jadinya kamarnya hangus kalau bisa kedepanx agar bisa reschedule . terimakasih .",
-        "target": "( pelayanan | positive | oke banget ) ; ( refund | negative | tidak bisa ) ; ( reschedule | negative | tidak bisa )",
+        "target": "( pelayanan | positive | oke banget ) ; ( null | negative | tidak bisa refund atau reschedule . berhubung saya kembali ke cirebon nya di undur ke tanggal 12 okt jadinya kamarnya hangus kalau bisa kedepanx agar bisa reschedule )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -508,7 +508,7 @@
         "instance_id": 3556,
         "task_elements": "aos",
         "input": "keran kamar mandi rusak sudah lapor . tidak ada perbaikan .",
-        "target": "( keran kamar mandi | negative | rusak sudah lapor . tidak ada perbaikan )",
+        "target": "( keran kamar mandi | negative | rusak ) ; ( keran kamar mandi | negative | sudah lapor . tidak ada perbaikan )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -598,7 +598,7 @@
         "instance_id": 3566,
         "task_elements": "aos",
         "input": "mirip kost an . mmg masih baru sih . overall , semua bagus . cuma miris buanget pas masuk kamar . hp saya langsung no signal . di kota besar yang sudah 4g tetapi signal 2g juga tidak ada . masa kita tidak bisa komunikasian sama keluarga . kalau mau telepon harus lari ke teras untuk dapatkan signal .",
-        "target": "( null | negative | mirip kost an ) ; ( overall | positive | bagus ) ; ( signal | negative | hp saya langsung no signal )",
+        "target": "( null | negative | mirip kost an ) ; ( overall | positive | bagus ) ; ( signal | negative | miris buanget pas masuk kamar . hp saya langsung no signal . di kota besar yang sudah 4g tetapi signal 2g juga tidak ada . masa kita tidak bisa komunikasian sama keluarga . kalau mau telepon harus lari ke teras untuk dapatkan signal )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -643,7 +643,7 @@
         "instance_id": 3571,
         "task_elements": "aos",
         "input": "awal nya susah cari alamatnya tetapi di no telepon lokasi baru saya bisa temukan alamat nya akibat jadwal .",
-        "target": "( alamatnya | negative | susah cari alamatnya )",
+        "target": "( alamatnya | negative | awal nya susah cari alamatnya ) ; ( alamatnya | positive | no telepon lokasi baru saya bisa temukan alamat nya akibat jadwal )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -652,7 +652,7 @@
         "instance_id": 3572,
         "task_elements": "aos",
         "input": "tidak ada hanger juga di lemari .",
-        "target": "( hanger | negative | tidak ada )",
+        "target": "( hanger | negative | tidak ada hanger juga di lemari )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -724,7 +724,7 @@
         "instance_id": 3580,
         "task_elements": "aos",
         "input": "pelayanannya bagus . sampai diantar ke bandara dengan juga .",
-        "target": "( pelayanannya | positive | bagus . sampai diantar ke bandara dengan juga )",
+        "target": "( pelayanannya | positive | bagus ) ; ( pelayanannya | positive | sampai diantar ke bandara dengan juga )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -769,7 +769,7 @@
         "instance_id": 3585,
         "task_elements": "aos",
         "input": "kamar luas , ada kursi lipat , kurang cermin saja di kamar , cerminnya cuma yang di kamar mandi jadi harus menunggu yang di kamar mandi selasai baru bisa dandan ?",
-        "target": "( kamar | positive | luas ) ; ( kursi lipat | positive | ada ) ; ( cermin | negative | kurang cermin saja di kamar )",
+        "target": "( kamar | positive | luas ) ; ( kursi lipat | positive | ada ) ; ( cermin | negative | kurang cermin saja di kamar , cerminnya cuma yang di kamar mandi jadi harus menunggu yang di kamar mandi selasai baru bisa dandan )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -814,7 +814,7 @@
         "instance_id": 3590,
         "task_elements": "aos",
         "input": "ktnya ada hot showernya ternyata tidak ada , di buat di kasih air minum tetapi nyatanya juga tidak . mohon di perbaiki lagi . terimakasih .",
-        "target": "( hot showernya | negative | tidak ada ) ; ( air minum | negative | nyatanya juga tidak ) ; ( null | negative | mohon di perbaiki lagi )",
+        "target": "( hot showernya | negative | ktnya ada hot showernya ternyata tidak ada ) ; ( air minum | negative | di buat di kasih air minum tetapi nyatanya juga tidak ) ; ( null | negative | mohon di perbaiki lagi )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -877,7 +877,7 @@
         "instance_id": 3597,
         "task_elements": "aos",
         "input": "kecewa penjaganya karena kita datangnya sudah malam dan masih ada kerjaan balik lagi ke hotel sudah jam 11 malam , karena kesiangan bangun jam 11 . siang baru cari makan ketika jam 12 lagi mandi sudah di gedorgedor sama penjaganya dengan muka asam dan tidak ramah ketika kita bilang masih siapsiap dulu dengan galaknya dia bilang ' jangan lamalama dan itu orang menunggui di depan kamar .",
-        "target": "( penjaganya | negative | kecewa ) ; ( penjaganya | negative | di gedorgedor sama penjaganya dengan muka asam dan tidak ramah ) ; ( penjaganya | negative | dengan galaknya dia bilang ' jangan lamalama ) ; ( penjaganya | negative | menunggui di depan kamar )",
+        "target": "( penjaganya | negative | ketika jam 12 lagi mandi sudah di gedorgedor sama penjaganya dengan muka asam dan tidak ramah ketika kita bilang masih siapsiap dulu dengan galaknya dia bilang ' jangan lamalama dan itu orang menunggui di depan kamar )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -886,7 +886,7 @@
         "instance_id": 3598,
         "task_elements": "aos",
         "input": "air untuk mandi pagi tidak ada , dengan alasan habis dari pihak penginapan , jadwal kami jadi molor dikarenakan hal tersebut . konfirmasi pertama , kami diminta tunggu 15 menit , ternyata masih belum ada . konfirmasi kedua , kami diinfokan lagi proses pengecekan oleh pihak penginapan dan alhasil belum juga lancar air ke kamar kami .",
-        "target": "( air untuk mandi pagi | negative | tidak ada , dengan alasan habis dari pihak penginapan )",
+        "target": "( air | negative | tidak ada , dengan alasan habis dari pihak penginapan , jadwal kami jadi molor dikarenakan hal tersebut . konfirmasi pertama , kami diminta tunggu 15 menit , ternyata masih belum ada . konfirmasi kedua , kami diinfokan lagi proses pengecekan oleh pihak penginapan dan alhasil belum juga lancar air ke kamar kami )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -931,7 +931,7 @@
         "instance_id": 3603,
         "task_elements": "aos",
         "input": "kondisinya cukup baik , hanya dapatnya tempat yang paling atas sehingga lumayan juga pas membawa travel bag . karena tanpa ada lift .",
-        "target": "( kondisinya | positive | cukup baik ) ; ( tempat | negative | paling atas sehingga lumayan juga pas membawa travel bag ) ; ( lift | negative | tanpa ada )",
+        "target": "( kondisinya | positive | cukup baik ) ; ( tempat | negative | hanya dapatnya tempat yang paling atas sehingga lumayan juga pas membawa travel bag . karena tanpa ada lift )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -1057,7 +1057,7 @@
         "instance_id": 3617,
         "task_elements": "aos",
         "input": "lokasi bagus tengah kota . kamar bersih hanya saja kamar mandi bau busuk , makanan biasa saja staf recepsionis tidak ramah , akses internet tidak ada dan kamar lantai 3 tidak ada lift .",
-        "target": "( lokasi | positive | bagus tengah kota ) ; ( kamar | positive | bersih ) ; ( kamar mandi | negative | bau busuk ) ; ( makanan | negative | biasa saja ) ; ( akses internet | negative | tidak ada ) ; ( staf recepsionis | negative | tidak ramah ) ; ( lift | negative | tidak ada )",
+        "target": "( lokasi | positive | bagus tengah kota ) ; ( kamar | positive | bersih ) ; ( kamar mandi | negative | bau busuk ) ; ( makanan | negative | biasa saja ) ; ( akses internet | negative | tidak ada ) ; ( staf recepsionis | negative | tidak ramah ) ; ( kamar | negative | lantai 3 tidak ada lift )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -1272,8 +1272,8 @@
         "sentence_id": 3641,
         "instance_id": 3641,
         "task_elements": "aos",
-        "input": "lantai kamar mandi licin , tidak disediakan shower cap , pintu kamar mandi gagangnya berat / sulit diputar khawatir tidak bisa dibuka / terkunci dari dalam , alangkah baiknya disediakan petunjuk arah kiblat di dalam kamar .",
-        "target": "( lantai kamar mandi | negative | licin ) ; ( shower cap | negative | tidak disediakan ) ; ( pintu kamar mandi gagangnya | negative | berat / sulit diputar khawatir tidak bisa dibuka / terkunci dari dalam ) ; ( petunjuk arah kiblat | negative | alangkah baiknya disediakan petunjuk arah kiblat di dalam kamar )",
+        "input": "lantai kamar mandi licin , tidak disediakan shower cap , pintu kamar mandi gagangnya berat/sulit diputar khawatir tidak bisa dibuka/terkunci dari dalam , alangkah baiknya disediakan petunjuk arah kiblat di dalam kamar .",
+        "target": "( lantai kamar mandi | negative | licin ) ; ( shower cap | negative | tidak disediakan ) ; ( pintu kamar mandi gagangnya | negative | berat/sulit diputar khawatir tidak bisa dibuka/terkunci dari dalam ) ; ( petunjuk arah kiblat | negative | alangkah baiknya disediakan petunjuk arah kiblat di dalam kamar )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -1300,7 +1300,7 @@
         "instance_id": 3644,
         "task_elements": "aos",
         "input": "hmm tidak sesuai ekpektasi , bangunan lama dan kurang bersih , kamar mandinya airnya mengalir terus , jadi berisik , tv masih tabung , kecewa sih untuk di harga itu tetapi fasilitas seperti itu , sarapannya juga tidak banyak pilihan , pas mau makan sudah dingin recepsionis tidak ramah .",
-        "target": "( null | negative | hmm tidak sesuai ekpektasi ) ; ( bangunan | negative | lama ) ; ( bangunan | negative | kurang bersih ) ; ( kamar mandinya | negative | airnya mengalir terus , jadi berisik ) ; ( tv | negative | masih tabung ) ; ( harga | negative | kecewa sih untuk di harga itu tetapi fasilitas seperti itu ) ; ( sarapannya | negative | tidak banyak pilihan , pas mau makan sudah dingin ) ; ( recepsionis | negative | tidak ramah )",
+        "target": "( bangunan | negative | lama ) ; ( bangunan | negative | kurang bersih ) ; ( kamar mandinya airnya | negative | mengalir terus , jadi berisik ) ; ( tv | negative | masih tabung ) ; ( harga | negative | kecewa sih untuk di harga itu tetapi fasilitas seperti itu ) ; ( sarapannya | negative | tidak banyak pilihan , pas mau makan sudah dingin ) ; ( recepsionis | negative | tidak ramah ) ; ( null | negative | tidak sesuai ekpektasi )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -1516,7 +1516,7 @@
         "instance_id": 3668,
         "task_elements": "aos",
         "input": "free wifi mengecewakan karena tidak bisa digunakan intalasi listrik kurang rapi .",
-        "target": "( free wifi | negative | mengecewakan karena tidak bisa digunakan ) ; ( intalasi listrik | negative | kurang rapi )",
+        "target": "(  | negative |  ) ; ( intalasi listrik | negative | kurang rapi )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -1543,7 +1543,7 @@
         "instance_id": 3671,
         "task_elements": "aos",
         "input": "pelayanan nya memuaskan , kamar nya bersih dan rapi . hanya saja breakfast nya tidak sesuai dengan kapasitas room nya , alias cepat habis .",
-        "target": "( pelayanan nya | positive | memuaskan ) ; ( kamar nya | positive | bersih ) ; ( kamar nya | positive | rapi ) ; ( breakfast nya | negative | tidak sesuai dengan kapasitas room nya , alias cepat habis )",
+        "target": "( pelayanan nya | positive | memuaskan ) ; ( kamar nya | positive | bersih ) ; ( kamar nya | positive | rapi ) ; ( breakfast nya | negative | tidak sesuai dengan kapasitas room nya ) ; ( breakfast | negative | cepat habis )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -1696,7 +1696,7 @@
         "instance_id": 3688,
         "task_elements": "aos",
         "input": "kamar sangat bersih dan nyaman , hotel bersih , akan lebih baik ada hair dryer di kamar .",
-        "target": "( kamar | positive | sangat bersih ) ; ( kamar | positive | nyaman ) ; ( hotel | positive | bersih ) ; ( hari dryer | negative | akan lebih baik ada hair dryer di kamar )",
+        "target": "( kamar | positive | sangat bersih ) ; ( kamar | positive | nyaman ) ; ( hotel | positive | bersih ) ; ( null | negative | akan lebih baik ada hair dryer di kamar )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -1750,7 +1750,7 @@
         "instance_id": 3694,
         "task_elements": "aos",
         "input": "saya minta minum lagi kena charge . saya pikir akan dapat kan setiap harinya seperti di hotel lain .",
-        "target": "( minum | negative | minta minum lagi kena charge )",
+        "target": "( null | negative | minta minum lagi kena charge . saya pikir akan dapat kan setiap harinya seperti di hotel lain )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -1786,7 +1786,7 @@
         "instance_id": 3698,
         "task_elements": "aos",
         "input": "tempatnya nyaman tetapi pelayanan kurang bagus bolak balik minta perlengkapan mandi . handuk . juga hanya dikasih minuman gelas .",
-        "target": "( tempatnya | positive | nyaman ) ; ( pelayanan | negative | kurang bagus bolak balik minta perlengkapan mandi . handuk ) ; ( minuman | negative | hanya dikasih minuman gelas )",
+        "target": "( tempatnya | positive | nyaman ) ; ( pelayanan | negative | kurang bagus bolak balik minta perlengkapan mandi . handuk . juga hanya dikasih minuman gelas )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -1894,7 +1894,7 @@
         "instance_id": 3710,
         "task_elements": "aos",
         "input": "aku suka disini . dapat kue basah dan ada coffee yang super enak .",
-        "target": "( null | positive | suka ) ; ( kue basah | positive | dapat ) ; ( coffee | positive | super enak )",
+        "target": "( null | positive | suka ) ; ( kue basah | positive | super enak ) ; ( coffee | positive | super enak )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -1930,7 +1930,7 @@
         "instance_id": 3714,
         "task_elements": "aos",
         "input": "cemilan tidak ada padahal inap sampai 4 hari berturutberturut .",
-        "target": "( cemilan | negative | tidak ada )",
+        "target": "( cemilan | negative | tidak ada padahal inap sampai 4 hari berturutberturut )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -2254,7 +2254,7 @@
         "instance_id": 3750,
         "task_elements": "aos",
         "input": "pas dapat kamar yang airnya mengalir terus , buat susah tidur . makanan iya alhamdulillah , lokasi strategis . lorong menuju kamar apek , ganti atau hilangkan karpetnya saja mungkin akan lebih baik . staf ? hm .",
-        "target": "( airnya | negative | mengalir terus , buat susah tidur ) ; ( makanan | positive | alhamdulillah ) ; ( lokasi | positive | strategis ) ; ( lorong menuju kamar | negative | apek ) ; ( karpetnya | negative | ganti atau hilangkan karpetnya saja mungkin akan lebih baik )",
+        "target": "( airnya | negative | mengalir terus , buat susah tidur ) ; ( makanan | positive | alhamdulillah ) ; ( lokasi | positive | strategis ) ; ( lorong | negative | lorong menuju kamar apek ) ; ( lorong | negative | ganti atau hilangkan karpetnya saja mungkin akan lebih baik )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -2299,7 +2299,7 @@
         "instance_id": 3755,
         "task_elements": "aos",
         "input": "kamar nyaman cuma parkir untuk kendaraan roda 4 yang kurang jadi agak kesulitan untuk parkir .",
-        "target": "( kamar | positive | nyaman ) ; ( parkir untuk kendaraan roda 4 | negative | kurang jadi agak kesulitan untuk parkir )",
+        "target": "( kamar | positive | nyaman ) ; ( parkir | negative | parkir untuk kendaraan roda 4 yang kurang jadi agak kesulitan untuk parkir )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -2487,8 +2487,8 @@
         "sentence_id": 3776,
         "instance_id": 3776,
         "task_elements": "aos",
-        "input": "terima kasih atas fasilitasnya . kamar mandi ( air panas ) oke . tempat tidur oke . lemari oke . ac oke snack oke . tempat strategis , dekat swalayan dan tempat makan . parkir motor ada , tetapi sempit . wifi lumayan . tv sinyal sering kabur . alat sholat kurang lengkap , hanya tersedia sajadah . pintu gerbang komplek buka jam 05 : 00 s / d 23 : 00 wib .",
-        "target": "( kamar mandi | positive | oke ) ; ( air panas | positive | oke ) ; ( tempat tidur | positive | oke ) ; ( lemari | positive | oke ) ; ( ac | positive | oke ) ; ( snack | positive | oke ) ; ( tempat | positive | strategis ) ; ( null | positive | dekat swalayan dan tempat makan ) ; ( parkir motor | positive | ada ) ; ( parkir motor | negative | sempit ) ; ( wifi | positive | lumayan ) ; ( tv sinyal | negative | sering kabur ) ; ( alat sholat | negative | kurang lengkap , hanya tersedia sajadah ) ; ( pintu gerbang komplek | negative | buka jam 05 : 00 s / d 23 : 00 wib )",
+        "input": "terima kasih atas fasilitasnya . kamar mandi ( air panas ) oke . tempat tidur oke . lemari oke . ac oke snack oke . tempat strategis , dekat swalayan dan tempat makan . parkir motor ada , tetapi sempit . wifi lumayan . tv sinyal sering kabur . alat sholat kurang lengkap , hanya tersedia sajadah . pintu gerbang komplek buka jam 05:00 s/d 23:00 wib .",
+        "target": "( kamar mandi | positive | oke ) ; ( air panas | positive | oke ) ; ( tempat tidur | positive | oke ) ; ( lemari | positive | oke ) ; ( ac | positive | oke ) ; ( snack | positive | oke ) ; ( tempat | positive | strategis ) ; ( null | positive | dekat swalayan dan tempat makan ) ; ( parkir motor | positive | ada ) ; ( parkir motor | negative | sempit ) ; ( wifi | positive | lumayan ) ; ( tv sinyal | negative | sering kabur ) ; ( alat sholat | negative | kurang lengkap , hanya tersedia sajadah ) ; ( pintu gerbang komplek | negative | buka jam 05:00 s/d 23:00 wib )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -2632,7 +2632,7 @@
         "instance_id": 3792,
         "task_elements": "aos",
         "input": "bersih dan aman , lokasi strategis , dekat kuliner dan mart di kawasan bsd .",
-        "target": "( lokasi | positive | strategis , dekat kuliner dan mart di kawasan bsd ) ; ( null | positive | bersih ) ; ( null | positive | aman )",
+        "target": "( lokasi | positive | strategis , dekat kuliner dan mart di kawasan bsd ) ; ( null | positive | bersih dan aman )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -2848,7 +2848,7 @@
         "instance_id": 3816,
         "task_elements": "aos",
         "input": "handuk kasih double , ac kurang dingin , semoga lebih baik lagi .",
-        "target": "( handuk | negative | kasih double ) ; ( ac | negative | kurang dingin ) ; ( null | negative | semoga lebih baik lagi )",
+        "target": "( handuk | negative | kasih double ) ; ( ac | negative | kurang dingin ) ; ( ac | negative | semoga lebih baik lagi )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -2929,7 +2929,7 @@
         "instance_id": 3825,
         "task_elements": "aos",
         "input": "kamar lumayan luas tetapi kurang bersih , ada beberapa tembok lembab dan terdapat kecoak .",
-        "target": "( kamar | positive | lumayan luas ) ; ( kamar | negative | kurang bersih ) ; ( kamar | negative | ada beberapa tembok lembab ) ; ( kamar | negative | terdapat kecoak )",
+        "target": "( kamar | positive | lumayan luas ) ; ( kamar | negative | kurang bersih ) ; ( beberapa tembok | negative | lembab ) ; ( null | negative | terdapat kecoak )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -2947,7 +2947,7 @@
         "instance_id": 3827,
         "task_elements": "aos",
         "input": "nyaman , tetapi baru kali ini inap di airy ini tidak dapat snack box yang biasanya di kasih .",
-        "target": "( snack box | negative | tidak dapat ) ; ( null | positive | nyaman )",
+        "target": "( snack box | negative | baru kali ini inap di airy ini tidak dapat snack box yang biasanya di kasih ) ; ( null | positive | nyaman )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -2974,7 +2974,7 @@
         "instance_id": 3830,
         "task_elements": "aos",
         "input": "tv pakai antena dalam kamar , jadi tidak jelas , aqua botol cuma 1 dalam dua hari , pemisah antar kamar menggunakan triplex .",
-        "target": "( tv | negative | pakai antena dalam kamar , jadi tidak jelas ) ; ( aqua botol | negative | cuma 1 dalam dua hari ) ; ( pemisah antar kamar | negative | menggunakan triplex )",
+        "target": "( tv | negative | pakai antena dalam kamar , jadi tidak jelas ) ; ( aqua botol | negative | cuma 1 dalam dua hari ) ; ( null | negative | pemisah antar kamar menggunakan triplex )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3117,8 +3117,8 @@
         "sentence_id": 3846,
         "instance_id": 3846,
         "task_elements": "aos",
-        "input": "2 kali kesini , ac masih saja tidak seberapa dingin , alat mandi juga cuma sabun tidak ada sampo , air panas / hangat tidak berfungsi .",
-        "target": "( ac | negative | 2 kali kesini , ac masih saja tidak seberapa dingin ) ; ( sampo | negative | tidak ada ) ; ( alat mandi | negative | cuma sabun ) ; ( air panas / hangat | negative | tidak berfungsi )",
+        "input": "2 kali kesini , ac masih saja tidak seberapa dingin , alat mandi juga cuma sabun tidak ada sampo , air panas/hangat tidak berfungsi .",
+        "target": "( ac | negative | 2 kali kesini , ac masih saja tidak seberapa dingin ) ; ( sampo | negative | tidak ada ) ; ( alat mandi | negative | cuma sabun ) ; ( air panas/hangat | negative | tidak berfungsi )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3289,7 +3289,7 @@
         "instance_id": 3865,
         "task_elements": "aos",
         "input": "cuma air panasnya yang bermasalah . air panas di shower lebih dingin dan lebih tidak jalan di banding di wastafel .",
-        "target": "( air panasnya | negative | bermasalah ) ; ( air panas di shower | negative | lebih dingin ) ; ( air panas di shower | negative | lebih tidak jalan di banding di wastafel )",
+        "target": "( air panasnya | negative | bermasalah ) ; ( air panas di shower | positive | lebih dingin ) ; ( air panas di shower | negative | lebih tidak jalan di banding di wastafel )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3325,7 +3325,7 @@
         "instance_id": 3869,
         "task_elements": "aos",
         "input": "tidak ada shower air panas , tv tabung , kamar kotor berdebu bau rokok , kolam renang kotor , kamar mandi model jaman old .",
-        "target": "( shower air panas | negative | tidak ada ) ; ( tv | negative | tabung ) ; ( kamar | negative | kotor ) ; ( kamar | negative | berdebu ) ; ( kamar | negative | bau rokok ) ; ( kolam renang | negative | kotor ) ; ( kamar mandi | negative | model jaman old )",
+        "target": "( shower air panas | negative | tidak ada ) ; ( tv | negative | tabung ) ; ( kamar | negative | kotor berdebu bau rokok ) ; ( kolam renang | negative | kotor ) ; ( kamar mandi | negative | model jaman old )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3352,7 +3352,7 @@
         "instance_id": 3872,
         "task_elements": "aos",
         "input": "kamar rapi , nyaman , pelayanan ramah . recomended banget deh . tetapi sayang pas buka tirai jendela , pemandangan nya kurang bagus .",
-        "target": "( kamar | positive | rapi ) ; ( kamar | positive | nyaman ) ; ( pelayanan | positive | ramah ) ; ( pemandangan nya | negative | kurang bagus ) ; ( null | positive | recomended banget )",
+        "target": "( kamar | positive | rapi , nyaman ) ; ( pelayanan | positive | ramah ) ; ( pemandangan nya | negative | kurang bagus ) ; ( null | positive | recomended banget )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3469,7 +3469,7 @@
         "instance_id": 3885,
         "task_elements": "aos",
         "input": "cuma sayang belum ada musholla didalam kalau mau ke musholla harus jalan beberapa meter dulu dari situ .",
-        "target": "( musholla | negative | belum ada musholla didalam kalau mau ke musholla harus jalan beberapa meter dulu dari situ )",
+        "target": "( musholla | negative | belum ada musholla didalam ) ; ( musholla | negative | kalau mau ke musholla harus jalan beberapa meter dulu dari situ )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3559,7 +3559,7 @@
         "instance_id": 3895,
         "task_elements": "aos",
         "input": "asyik dikamar ada snack gratis dan air minum kamarnya bersih nyaman cuma air hangatnya saja suka ada suka tidak jadi tidak bisa dipastikan kalau mau pakai air hangat . terimakasih .",
-        "target": "( snack gratis | positive | ada ) ; ( air minum | positive | ada ) ; ( kamarnya | positive | bersih ) ; ( kamarnya | positive | nyaman ) ; ( air hangatnya | negative | suka ada suka tidak jadi tidak bisa dipastikan kalau mau pakai air hangat )",
+        "target": "( snack gratis | positive | ada ) ; ( air minum | positive | ada ) ; ( kamarnya | positive | bersih ) ; ( kamarnya | positive | nyaman ) ; ( air hangatnya | negative | suka ada suka tidak ) ; ( air hangatnya | negative | tidak bisa dipastikan kalau mau pakai air hangat )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3622,7 +3622,7 @@
         "instance_id": 3902,
         "task_elements": "aos",
         "input": "not recommended karena sering air mati , tidak ada air panasnya , tamu berkunjung cuma boleh 5mnt saja , karyawannya judes banget .",
-        "target": "( null | negative | not recommended karena sering air mati ) ; ( air panasnya | negative | tidak ada ) ; ( tamu berkunjung | negative | cuma boleh 5mnt saja ) ; ( karyawannya | negative | judes banget )",
+        "target": "( null | negative | not recommended karena sering air mati ) ; ( air panasnya | negative | tidak ada ) ; ( null | negative | tamu berkunjung cuma boleh 5mnt saja ) ; ( karyawannya | negative | judes banget )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3649,7 +3649,7 @@
         "instance_id": 3905,
         "task_elements": "aos",
         "input": "banyak nyamuk , bau , keset tidak menyerap air , bednya kotor sampai buat badan gatalgatal .",
-        "target": "( keset | negative | tidak menyerap air ) ; ( bednya | negative | kotor sampai buat badan gatalgatal ) ; ( null | negative | banyak nyamuk ) ; ( null | negative | bau )",
+        "target": "( keset | negative | tidak menyerap air ) ; ( bednya | negative | kotor ) ; ( bednya | negative | buat badan gatalgatal ) ; ( null | negative | banyak nyamuk ) ; ( null | negative | bau )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3811,7 +3811,7 @@
         "instance_id": 3923,
         "task_elements": "aos",
         "input": "air botol , snack tidak tersedia tisu juga tidak ada . mohon untuk memperbaiki fasilitas terutama kamar mandi .",
-        "target": "( air botol | negative | tidak tersedia ) ; ( snack | negative | tidak tersedia ) ; ( tisu | negative | tidak ada ) ; ( kamar mandi | negative | mohon untuk memperbaiki fasilitas )",
+        "target": "( air botol | negative | tidak tersedia ) ; ( snack | negative | tidak tersedia ) ; ( tisu | negative | tidak ada ) ; ( kamar mandi | negative | mohon untuk memperbaiki fasilitas terutama kamar mandi )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3856,7 +3856,7 @@
         "instance_id": 3928,
         "task_elements": "aos",
         "input": "kamar bau , selimut dan handuk kusam . stafnya tidak ramah . kamar tidak sesuai ekspektasi , sempit dan pengap . breakfast seperti makanan untuk kucing , jadi cari sarapan di luar . untuk harga segitu , tidak worth it .",
-        "target": "( kamar | negative | bau ) ; ( selimut | negative | kusam ) ; ( handuk | negative | kusam ) ; ( stafnya | negative | tidak ramah ) ; ( kamar | negative | tidak sesuai ekspektasi ) ; ( kamar | negative | sempit ) ; ( kamar | negative | pengap ) ; ( breakfast | negative | seperti makanan untuk kucing , jadi cari sarapan di luar ) ; ( harga | negative | tidak worth it )",
+        "target": "( kamar | negative | bau ) ; ( selimut | negative | kusam ) ; ( handuk | negative | kusam ) ; ( stafnya | negative | tidak ramah ) ; ( kamar | negative | tidak sesuai ekspektasi ) ; ( kamar | negative | sempit ) ; ( kamar | negative | pengap ) ; ( breakfast | negative | seperti makanan untuk kucing , jadi cari sarapan di luar ) ; ( null | negative | untuk harga segitu , tidak worth it )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3901,7 +3901,7 @@
         "instance_id": 3933,
         "task_elements": "aos",
         "input": "tempat bagus dan bersih , pelayanan ramah , lokasi bagus di pusat kota , .",
-        "target": "( tempat | positive | bagus ) ; ( tempat | positive | bersih ) ; ( pelayanan | positive | ramah ) ; ( lokasi | positive | bagus di pusat kota )",
+        "target": "( tempat | positive | bagus ) ; ( tempat | positive | bersih ) ; ( pelayanan | positive | ramah ) ; ( lokasi | positive | bagus ) ; ( lokasi | positive | di pusat kota )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -3928,7 +3928,7 @@
         "instance_id": 3936,
         "task_elements": "aos",
         "input": "lingkungan tenang , cuma di kamar tidak ada petunjuk arah kiblat . tidak masalah sih tetapi alangkah baiknya kalau ada .",
-        "target": "( lingkungan | positive | tenang ) ; ( petunjuk arah kiblat | negative | tidak ada petunjuk arah kiblat . tidak masalah sih tetapi alangkah baiknya kalau ada )",
+        "target": "( lingkungan | positive | tenang ) ; ( petunjuk arah kiblat | negative | tidak ada ) ; ( petunjuk arah kiblat | negative | alangkah baiknya kalau ada )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -4000,7 +4000,7 @@
         "instance_id": 3944,
         "task_elements": "aos",
         "input": "sangat memuaskan . kamar dibersihkan tiap hari , handuk diganti , ada welcome snack , dilengkapi dengan pemanas air dan pengering rambut .",
-        "target": "( kamar | positive | dibersihkan tiap hari ) ; ( handuk | positive | diganti ) ; ( welcome snack | positive | ada ) ; ( pemanas air | positive | ada ) ; ( pengering rambut | positive | ada ) ; ( null | positive | sangat memuaskan )",
+        "target": "( kamar | positive | dibersihkan tiap hari ) ; ( handuk | positive | diganti ) ; ( welcome snack | positive | ada ) ; ( pemanas air | positive | dilengkapi ) ; ( pengering rambut | positive | dilengkapi ) ; ( null | positive | sangat memuaskan )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -4270,7 +4270,7 @@
         "instance_id": 3974,
         "task_elements": "aos",
         "input": "kamar sempit , bersih , iya sesuai budget . cs dan pelayanan sangat ramah , letak nya strategis bisa dijangkau kmana saja . terimakasih .",
-        "target": "( kamar | negative | sempit ) ; ( kamar | positive | bersih ) ; ( kamar | positive | sesuai budget ) ; ( cs | positive | sangat ramah ) ; ( pelayanan | positive | sangat ramah ) ; ( letak nya | positive | strategis bisa dijangkau kmana saja )",
+        "target": "( kamar | negative | sempit ) ; ( kamar | positive | bersih ) ; ( kamar | positive | sesuai budget ) ; ( cs | positive | sangat ramah ) ; ( pelayanan | positive | sangat ramah ) ; ( letak nya | positive | strategis ) ; ( letak nya | positive | bisa dijangkau kmana saja )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -4351,7 +4351,7 @@
         "instance_id": 3983,
         "task_elements": "aos",
         "input": "yang perlu diperbaiki channel tv nya gambarnya kurang bagus kalau bisa sih pakai tv kabel saja he .",
-        "target": "( channel tv nya | negative | gambarnya kurang bagus ) ; ( tv | negative | kalau bisa sih pakai tv kabel saja )",
+        "target": "( channel tv nya gambarnya | negative | kurang bagus ) ; ( tv | negative | kalau bisa sih pakai tv kabel saja )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -4513,7 +4513,7 @@
         "instance_id": 4001,
         "task_elements": "aos",
         "input": "3 . tidak ada bantal biru khas airy , snacksnack kualitas rasanya jauh dari biasanya . : ( .",
-        "target": "( bantal biru khas airy | negative | tidak ada ) ; ( snacksnack | negative | kualitas rasanya jauh dari biasanya )",
+        "target": "( bantal biru | negative | tidak ada bantal biru khas airy ) ; ( snacksnack kualitas rasanya | negative | jauh dari biasanya )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -4549,7 +4549,7 @@
         "instance_id": 4005,
         "task_elements": "aos",
         "input": "kamar luas dan rapi , tetapi sayang untuk tv kebetulan sedang jelek sinyalnya dan minta ganti ke kamar yang lain yang memiliki sinyal bagus tidak di perbolehkan karena pesan dari airy rooms dan tidak tersedia wifi .",
-        "target": "( kamar | positive | luas ) ; ( kamar | positive | rapi ) ; ( tv | negative | jelek sinyalnya ) ; ( minta ganti ke kamar yang lain | negative | tidak di perbolehkan karena pesan dari airy rooms ) ; ( wifi | negative | tidak tersedia )",
+        "target": "( kamar | positive | luas ) ; ( kamar | positive | rapi ) ; ( tv | negative | jelek sinyalnya ) ; ( null | negative | minta ganti ke kamar yang lain yang memiliki sinyal bagus tidak di perbolehkan karena pesan dari airy rooms ) ; ( wifi | negative | tidak tersedia )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -4557,8 +4557,8 @@
         "sentence_id": 4006,
         "instance_id": 4006,
         "task_elements": "aos",
-        "input": "dari fasilitas , saya kecewa karena wifi yang tidak bisa diakses . dan layanan breakfast yang tidak dikonfirmasikan batas waktu , sehingga tidak bisa saya dapatkan karena layanan hanya sampai jam 9 . 00 .",
-        "target": "( wifi | negative | kecewa karena wifi yang tidak bisa diakses ) ; ( breakfast | negative | layanan breakfast yang tidak dikonfirmasikan batas waktu ) ; ( breakfast | negative | tidak bisa saya dapatkan karena layanan hanya sampai jam 9 . 00 )",
+        "input": "dari fasilitas , saya kecewa karena wifi yang tidak bisa diakses . dan layanan breakfast yang tidak dikonfirmasikan batas waktu , sehingga tidak bisa saya dapatkan karena layanan hanya sampai jam 9.00 .",
+        "target": "( fasilitas | negative | kecewa karena wifi yang tidak bisa diakses ) ; ( breakfast | negative | layanan breakfast yang tidak dikonfirmasikan batas waktu ) ; ( breakfast | negative | tidak bisa saya dapatkan karena layanan hanya sampai jam 9.00 )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -4827,7 +4827,7 @@
         "sentence_id": 4036,
         "instance_id": 4036,
         "task_elements": "aos",
-        "input": "kamar no . 6 perlu perbaikan pintu kamar mandi . tidak bisa ditutup .",
+        "input": "kamar no.6 perlu perbaikan pintu kamar mandi . tidak bisa ditutup .",
         "target": "( kamar | negative | perlu perbaikan ) ; ( pintu kamar mandi | negative | tidak bisa ditutup )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
@@ -5197,7 +5197,7 @@
         "instance_id": 4077,
         "task_elements": "aos",
         "input": "bukan macam penginapan . sudah konfirmasi . bahkan tidak ada kamar . buang uang saja .",
-        "target": "( null | negative | bukan macam penginapan ) ; ( kamar | negative | sudah konfirmasi . bahkan tidak ada kamar ) ; ( null | negative | buang uang saja )",
+        "target": "( kamar | negative | tidak ada ) ; ( uang | negative | buang uang saja )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -5889,8 +5889,8 @@
         "sentence_id": 4154,
         "instance_id": 4154,
         "task_elements": "aos",
-        "input": "ac panas , jet washer closet bocor , semburan air dari head shower kurang baik dan tidak merata . jelas pihak hotel tidak melakukan perawatan dengan memadai . sarapan baru siap jam 8 pagi , tidak ada informasi saat pembelian . saya meninggalkan penginapan pukul 7 . 45 sehingga siasia membayar lebih untuk sarapan .",
-        "target": "( ac | negative | panas ) ; ( jet washer closet | negative | bocor ) ; ( semburan air dari head shower | negative | kurang baik ) ; ( semburan air dari head shower | negative | tidak merata ) ; ( pihak hotel | negative | tidak melakukan perawatan dengan memadai ) ; ( sarapan | negative | sarapan baru siap jam 8 pagi , tidak ada informasi saat pembelian . saya meninggalkan penginapan pukul 7 . 45 sehingga siasia membayar lebih untuk sarapan )",
+        "input": "ac panas , jet washer closet bocor , semburan air dari head shower kurang baik dan tidak merata . jelas pihak hotel tidak melakukan perawatan dengan memadai . sarapan baru siap jam 8 pagi , tidak ada informasi saat pembelian . saya meninggalkan penginapan pukul 7.45 sehingga siasia membayar lebih untuk sarapan .",
+        "target": "( ac | negative | panas ) ; ( jet washer closet | negative | bocor ) ; ( semburan air dari head shower | negative | kurang baik ) ; ( semburan air dari head shower | negative | tidak merata ) ; ( pihak hotel | negative | tidak melakukan perawatan dengan memadai ) ; ( sarapan | negative | sarapan baru siap jam 8 pagi , tidak ada informasi saat pembelian . saya meninggalkan penginapan pukul 7.45 sehingga siasia membayar lebih untuk sarapan )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -6907,7 +6907,7 @@
         "instance_id": 4267,
         "task_elements": "aos",
         "input": "kamar oke , tetapi untuk ac kurang dingin breakfast nya sederhana tetapi nikmat blower kamar mandi tidak berfungsi . overall semua okeyy lah .",
-        "target": "( kamar | positive | oke ) ; ( ac | negative | kurang dingin ) ; ( breakfast nya | negative | sederhana ) ; ( breakfast nya | positive | nikmat ) ; ( blower kamar mandi | negative | tidak berfungsi ) ; ( overall | positive | okey )",
+        "target": "( kamar | positive | oke ) ; ( ac | negative | kurang dingin ) ; ( breakfast nya | positive | sederhana ) ; ( breakfast nya | positive | nikmat ) ; ( blower kamar mandi | negative | tidak berfungsi ) ; ( overall | positive | okeyy )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -7464,8 +7464,8 @@
         "sentence_id": 4329,
         "instance_id": 4329,
         "task_elements": "aos",
-        "input": "ac kurang optimal atau dingin ' y kurang .",
-        "target": "( ac | negative | kurang optimal ) ; ( ac | negative | dingin ' y kurang )",
+        "input": "ac kurang optimal atau dingin'y kurang .",
+        "target": "( ac | negative | kurang optimal ) ; ( ac | negative | dingin'y kurang )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -8059,7 +8059,7 @@
         "instance_id": 4395,
         "task_elements": "aos",
         "input": "ac kurang dingin . pencahayaan kurang karena lampu kamar cuma 2 dan remangremang . banyak nyamuk , sarang labalaba di langitlangit kamar dan toilet . handuk kotor ada bekas karatan . kamar dan toilet baunya apek . tidak ada aroma hrum sedikitpun dalam kamar . yah sesuai harga .",
-        "target": "( ac | negative | kurang dingin ) ; ( pencahayaan | negative | kurang karena lampu kamar cuma 2 ) ; ( pencahayaan | negative | remangremang ) ; ( kamar | negative | banyak nyamuk , sarang labalaba di langitlangit ) ; ( toilet | negative | banyak nyamuk , sarang labalaba di langitlangit ) ; ( handuk | negative | kotor ) ; ( handuk | negative | ada bekas karatan ) ; ( kamar | negative | baunya apek ) ; ( toilet | negative | baunya apek ) ; ( kamar | negative | tidak ada aroma hrum sedikitpun dalam kamar ) ; ( null | negative | sesuai harga )",
+        "target": "( ac | negative | kurang dingin ) ; ( pencahayaan | negative | kurang karena lampu kamar cuma 2 ) ; ( pencahayaan | negative | remangremang ) ; ( kamar dan toilet | negative | banyak nyamuk , sarang labalaba di langitlangit ) ; ( handuk | negative | kotor ) ; ( handuk | negative | ada bekas karatan ) ; ( kamar | negative | baunya apek ) ; ( toilet | negative | baunya apek ) ; ( kamar | negative | tidak ada aroma hrum sedikitpun dalam kamar ) ; ( null | negative | sesuai harga )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -8149,7 +8149,7 @@
         "instance_id": 4405,
         "task_elements": "aos",
         "input": "bangunan sangat mewah , harga murah , pemandangan sawah luar biasa romantis .",
-        "target": "( bangunan | positive | sangat mewah ) ; ( harga | positive | murah ) ; ( pemandangan | positive | luar biasa romantis )",
+        "target": "( bangunan | positive | sangat mewah ) ; ( harga | positive | murah ) ; ( pemandangan sawah | positive | luar biasa romantis )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -8401,7 +8401,7 @@
         "instance_id": 4433,
         "task_elements": "aos",
         "input": "pelayanan okey . bersih , lumayan lah .",
-        "target": "( pelayanan | positive | okey ) ; ( null | positive | bersih ) ; ( null | positive | lumayan lah )",
+        "target": "( pelayanan | positive | okey ) ; ( null | positive | bersih ) ; ( null | positive | lumayan )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -8616,8 +8616,8 @@
         "sentence_id": 4457,
         "instance_id": 4457,
         "task_elements": "aos",
-        "input": "untuk tempatnya bersih nyaman , tetapi sayangnya pukul 22 . 00 gerbang sudah ditutup , tidak bisa akses keluar masuk penginapan , sehingga tidak cocok untuk yang sedang ada acara sampai larut malam .",
-        "target": "( tempatnya | positive | bersih ) ; ( tempatnya | positive | nyaman ) ; ( gerbang | negative | sayangnya pukul 22 . 00 gerbang sudah ditutup ) ; ( null | negative | tidak cocok untuk yang sedang ada acara sampai larut malam )",
+        "input": "untuk tempatnya bersih nyaman , tetapi sayangnya pukul 22.00 gerbang sudah ditutup , tidak bisa akses keluar masuk penginapan , sehingga tidak cocok untuk yang sedang ada acara sampai larut malam .",
+        "target": "( tempatnya | positive | bersih ) ; ( tempatnya | positive | nyaman ) ; ( gerbang | negative | sayangnya pukul 22.00 gerbang sudah ditutup ) ; ( null | negative | tidak cocok untuk yang sedang ada acara sampai larut malam )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -8680,7 +8680,7 @@
         "instance_id": 4464,
         "task_elements": "aos",
         "input": "kamar bersih , fasilitas lengkap ( perlengkapan mandi , pemanas air , air mineral ) plus dapat makanan ringan dari airy ( hotel lain jarang memberikan snack ) . next time kami akan inap di airy lagi .",
-        "target": "( kamar | positive | bersih ) ; ( fasilitas | positive | lengkap ) ; ( perlengkapan mandi | positive | lengkap ) ; ( pemanas air | positive | lengkap ) ; ( air mineral | positive | lengkap ) ; ( makanan ringan | positive | dapat ) ; ( null | positive | next time kami akan inap di airy lagi )",
+        "target": "( kamar | positive | bersih ) ; ( fasilitas | positive | lengkap ) ; ( perlengkapan mandi | positive | lengkap ) ; ( pemanas air | positive | lengkap ) ; ( air mineral | positive | lengkap ) ; ( makanan ringan | positive | dapat ) ; ( airy | positive | next time kami akan inap di airy lagi )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -8760,8 +8760,8 @@
         "sentence_id": 4473,
         "instance_id": 4473,
         "task_elements": "aos",
-        "input": "kamar bersih , pelayanan bagus . check in tidak bisa tepat jam 14 . 00 karena masih menunggu housekeeping .",
-        "target": "( kamar | positive | bersih ) ; ( pelayanan | positive | bagus ) ; ( check in | negative | tidak bisa tepat jam 14 . 00 karena masih menunggu housekeeping )",
+        "input": "kamar bersih , pelayanan bagus . check in tidak bisa tepat jam 14.00 karena masih menunggu housekeeping .",
+        "target": "( kamar | positive | bersih ) ; ( pelayanan | positive | bagus ) ; ( check in | negative | tidak bisa tepat jam 14.00 karena masih menunggu housekeeping )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -8904,8 +8904,8 @@
         "sentence_id": 4489,
         "instance_id": 4489,
         "task_elements": "aos",
-        "input": "kenyamanan kurang keran air panas tidak maksimal . suara gaduh di luar sering terdengar . dan suara / aktivitas tetangga sebelah kamar terdengar . karena dinding dari triplek . semoga segera ada perbaikan . terimakasih .",
-        "target": "( kenyamanan | negative | kurang ) ; ( keran air panas | negative | tidak maksimal ) ; ( null | negative | suara gaduh di luar sering terdengar ) ; ( null | negative | suara / aktivitas tetangga sebelah kamar terdengar . karena dinding dari triplek ) ; ( null | negative | semoga segera ada perbaikan )",
+        "input": "kenyamanan kurang keran air panas tidak maksimal . suara gaduh di luar sering terdengar . dan suara/aktivitas tetangga sebelah kamar terdengar . karena dinding dari triplek . semoga segera ada perbaikan . terimakasih .",
+        "target": "( kenyamanan | negative | kurang ) ; ( keran air panas | negative | tidak maksimal ) ; ( null | negative | suara gaduh di luar sering terdengar ) ; ( null | negative | suara/aktivitas tetangga sebelah kamar terdengar . karena dinding dari triplek ) ; ( null | negative | semoga segera ada perbaikan )",
         "element_order": "aos",
         "dataset_type": "hotel_reviews"
     },
@@ -9022,7 +9022,7 @@
         "instance_id": 4502,
         "task_elements": "aos",
         "input": "harga terjangkau , kamar luas , ada sofa , semua oke , kecuali kamar mandi . seharian keluar bau tak sedap entah apa masalahnya .",
-        "target": "( harga | positive | terjangkau ) ; ( kamar | positive | luas ) ; ( sofa | positive | null ) ; ( semua | positive | oke ) ; ( kamar mandi | negative | keluar bau tak sedap )",
+        "target": "( harga | positive | terjangkau ) ; ( kamar | positive | luas ) ; ( sofa | positive | ada ) ; ( semua | positive | oke ) ; ( kamar mandi | negative | keluar bau tak sedap )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9058,7 +9058,7 @@
         "instance_id": 4506,
         "task_elements": "aos",
         "input": "suasana . . and view-nya . . kerennnnn . . . pegawainya ramahh . . . datang langsung check in . . . dan diantar ke kamar . . . untuk fasilitas buat anak2 lumayan . . . ada perosotan ayunan dan mainan lainnya . . kolam renang juga . . tp kolamnya dingin . . . dan kurang bersih . . mohon ditingkatkan jg utk kebersihan kamar nya . thanks airy . . thank ariandri . . . sukses selalu . .",
-        "target": "( suasana | positive | kerennnnn ) ; ( view-nya | positive | kerennnnn ) ; ( pegawainya | positive | ramahh ) ; ( null | positive | datang langsung check in . . . dan diantar ke kamar ) ; ( fasilitas buat anak2 | positive | lumayan ) ; ( perosotan ayunan | positive | ada ) ; ( mainan lainnya | positive | ada ) ; ( kolamnya | negative | dingin ) ; ( kolamnya | negative | kurang bersih ) ; ( kebersihan kamar nya | negative | mohon ditingkatkan )",
+        "target": "( suasana | positive | kerennnnn ) ; ( view-nya | positive | kerennnnn ) ; ( pegawainya | positive | ramahh ) ; ( null | positive | datang langsung check in . . . dan diantar ke kamar ) ; ( fasilitas buat anak2 | negative | lumayan ) ; ( kolamnya | negative | dingin ) ; ( kolamnya | negative | kurang bersih ) ; ( kebersihan kamar nya | negative | mohon ditingkatkan )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9085,7 +9085,7 @@
         "instance_id": 4509,
         "task_elements": "aos",
         "input": "kamar luas dan rapi , tapi sayang untuk tv kebetulan sedang jelek sinyalnya dan minta ganti ke kamar yg lain yg memiliki sinyal bagus tidak di perbolehkan karena pesan dari airy rooms dan tidak tersedia wifi",
-        "target": "( kamar | positive | luas ) ; ( kamar | positive | rapi ) ; ( tv | negative | jelek sinyalnya ) ; ( minta ganti ke kamar yg lain | negative | tidak di perbolehkan ) ; ( wifi | negative | tidak tersedia )",
+        "target": "( kamar | positive | luas ) ; ( kamar | positive | rapi ) ; ( tv | negative | jelek sinyalnya ) ; ( minta ganti ke kamar yg lain yg memiliki sinyal bagus | negative | tidak di perbolehkan ) ; ( wifi | negative | tidak tersedia )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9103,7 +9103,7 @@
         "instance_id": 4511,
         "task_elements": "aos",
         "input": "pelayanan kurang ramah dan cuek , swower ga berpungsih dg baik kamar mandi licin dan hampir mau jatuh trus",
-        "target": "( pelayanan | negative | kurang ramah ) ; ( pelayanan | negative | cuek ) ; ( swower | negative | ga berpungsih dg baik ) ; ( kamar mandi | negative | licin dan hampir mau jatuh trus )",
+        "target": "( pelayanan | negative | kurang ramah ) ; ( pelayanan | negative | cuek ) ; ( swower | negative | ga berpungsih dg baik ) ; ( kamar mandi | negative | licin ) ; ( null | negative | hampir mau jatuh trus )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9148,7 +9148,7 @@
         "instance_id": 4516,
         "task_elements": "aos",
         "input": "baiknya cuman dekat dengan perbelanjaan cihampelas . kamarnya lembab , cat nya udah lapuk , agak berdebu , seprainya kurang bersih dan tanpa logo airy rooms , debit air nya kecil ( kurang puas mandinya ) , tidak ada remote ac ( jd minta petugas buat atur suhu .",
-        "target": "( null | positive | dekat dengan perbelanjaan cihampelas ) ; ( kamarnya | negative | lembab ) ; ( cat nya | negative | udah lapuk ) ; ( kamarnya | negative | agak berdebu ) ; ( seprainya | negative | kurang bersih ) ; ( seprainya | negative | tanpa logo airy rooms ) ; ( debit air nya | negative | kecil ( kurang puas mandinya ) ) ; ( remote ac | negative | tidak ada ( jd minta petugas buat atur suhu )",
+        "target": "( null | positive | dekat dengan perbelanjaan cihampelas ) ; ( kamarnya | negative | lembab ) ; ( cat nya | negative | udah lapuk ) ; ( null | negative | agak berdebu ) ; ( seprainya | negative | kurang bersih ) ; ( null | negative | tanpa logo airy rooms ) ; ( debit air nya | negative | kecil ) ; ( debit air nya | negative | kurang puas mandinya ) ; ( remote ac | negative | tidak ada ) ; ( null | negative | minta petugas buat atur suhu )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9391,7 +9391,7 @@
         "instance_id": 4543,
         "task_elements": "aos",
         "input": "parah . . . pesan 2 kamar , 1 kamarnya tidak ada perlengkapan airy belum di siapkan , karena tidak terdetect kalau pesan 2 kamar . . . kamar bau apek . . . not recomended lah",
-        "target": "( null | negative | parah ) ; ( kamarnya | negative | tidak ada perlengkapan airy belum di siapkan ) ; ( pesan 2 kamar | negative | tidak terdetect kalau pesan 2 kamar ) ; ( kamar | negative | bau apek ) ; ( null | negative | not recomended lah )",
+        "target": "( null | negative | parah ) ; ( 1 kamarnya | negative | tidak ada perlengkapan airy belum di siapkan ) ; ( null | negative | karena tidak terdetect kalau pesan 2 kamar ) ; ( kamar | negative | bau apek ) ; ( null | negative | not recomended lah )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9409,7 +9409,7 @@
         "instance_id": 4545,
         "task_elements": "aos",
         "input": "hotelnya bagus , makanan cukup , wifi kurang merata",
-        "target": "( hotelnya | positive | bagus ) ; ( makanan | positive | cukup ) ; ( wifi | negative | kurang merata )",
+        "target": "( hotelnya | positive | bagus ) ; ( makanan | negative | cukup ) ; ( wifi | negative | kurang merata )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9517,7 +9517,7 @@
         "instance_id": 4557,
         "task_elements": "aos",
         "input": "awalnya sudah merasa tidak nyaman karena lantai kamar agak berdebu . setelah masuk , cek handuk & keset serta tempat sampah tidak disediakan , sambungan colokan tv ke stop kontak jg tidak ada . setelah minta pihak hotel dg cepat merespon . giliran mandi pagi , air di kamar mandi sama sekali tidak keluar , ditunggu satu jam jg tidak keluar jg . kecewa skali",
-        "target": "( null | negative | sudah merasa tidak nyaman ) ; ( lantai kamar | negative | agak berdebu ) ; ( handuk | negative | tidak disediakan ) ; ( keset | negative | tidak disediakan ) ; ( tempat sampah | negative | tidak disediakan ) ; ( sambungan colokan tv ke stop kontak | negative | tidak ada ) ; ( pihak hotel | positive | dg cepat merespon ) ; ( air di kamar mandi | negative | sama sekali tidak keluar , ditunggu satu jam jg tidak keluar jg ) ; ( null | negative | kecewa skali )",
+        "target": "( null | negative | sudah merasa tidak nyaman ) ; ( lantai kamar | negative | agak berdebu ) ; ( handuk & keset serta tempat sampah | negative | tidak disediakan ) ; ( sambungan colokan tv ke stop kontak | negative | tidak ada ) ; ( pihak hotel | positive | dg cepat merespon ) ; ( air di kamar mandi | negative | sama sekali tidak keluar ) ; ( null | negative | kecewa skali )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9697,7 +9697,7 @@
         "instance_id": 4577,
         "task_elements": "aos",
         "input": "tidak rekomendasi servis kurang baik . . ga punya etika . . kalau saya niat ga baik pasti nyelundup ini terang2 an . . biasany kan wkt check out baru ditotal misal kena charge . . lha ini malem2 langsung minta dipintu . di kamarnya tidak ada kaca . .",
-        "target": "( null | negative | tidak rekomendasi ) ; ( servis | negative | kurang baik ) ; ( null | negative | ga punya etika ) ; ( null | negative | lha ini malem2 langsung minta dipintu ) ; ( kaca | negative | tidak ada )",
+        "target": "( null | negative | tidak rekomendasi ) ; ( servis | negative | kurang baik ) ; ( null | negative | ga punya etika ) ; ( null | negative | biasany kan wkt check out baru ditotal misal kena charge . . lha ini malem2 langsung minta dipintu ) ; ( kamarnya | negative | tidak ada kaca )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9715,7 +9715,7 @@
         "instance_id": 4579,
         "task_elements": "aos",
         "input": "1 . dalam kamar ada bbrp nyamuk . 2 . gantungan dlm kmr ada 2 yg patah ( saat masuk kmr sdh patah . . namun tdk d perbaiki / diganti ) . 3 . air panas tdk berfungsi . 4 . stop kontak deket wastafel terlalu tinggi , utk nge charge hp sngt tdk nyaman . . krn kabel gak sampai ,",
-        "target": "( kamar | negative | ada bbrp nyamuk ) ; ( gantungan | negative | ada 2 yg patah ( saat masuk kmr sdh patah . . namun tdk d perbaiki / diganti ) ) ; ( air panas | negative | tdk berfungsi ) ; ( stop kontak | negative | terlalu tinggi ) ; ( stop kontak | negative | utk nge charge hp sngt tdk nyaman . . krn kabel gak sampai )",
+        "target": "( nyamuk | negative | ada bbrp nyamuk ) ; ( gantungan dlm kmr | negative | ada 2 yg patah ) ; ( air panas | negative | tdk berfungsi ) ; ( stop kontak deket wastafel | negative | terlalu tinggi ) ; ( null | negative | nge charge hp sngt tdk nyaman . . krn kabel gak sampai )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9823,7 +9823,7 @@
         "instance_id": 4591,
         "task_elements": "aos",
         "input": "1 . tempat sampah penuh sampah dan tidak dibersihkan pada saat kami nginap . 2 . banyak nyamuk sehingga tidur tidak nyenyak . 3 . tidak ada sandal untuk dipakai di kamar .",
-        "target": "( tempat sampah | negative | penuh sampah ) ; ( tempat sampah | negative | tidak dibersihkan ) ; ( null | negative | banyak nyamuk sehingga tidur tidak nyenyak ) ; ( sandal | negative | tidak ada )",
+        "target": "( tempat sampah | negative | penuh sampah dan tidak dibersihkan pada saat kami nginap ) ; ( nyamuk | negative | banyak nyamuk sehingga tidur tidak nyenyak ) ; ( sandal | negative | tidak ada sandal untuk dipakai di kamar )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9850,7 +9850,7 @@
         "instance_id": 4594,
         "task_elements": "aos",
         "input": "ada beberapa receptionist dan security yang kurang ramah terhadap local guest seperti saya dan keluarga . membuat sangat kurang nyaman , berbeda dengan bartender yang di rooftop bar sangat ramah dan baik , juga bapak security di hari terakhir saya check out beliau membantu saya di parkiran .",
-        "target": "( receptionist | negative | kurang ramah terhadap local guest ) ; ( security | negative | kurang ramah terhadap local guest ) ; ( null | negative | membuat sangat kurang nyaman ) ; ( bartender yang di rooftop bar | positive | sangat ramah dan baik ) ; ( bapak security di hari terakhir saya check out | positive | membantu saya di parkiran )",
+        "target": "( receptionist dan security | negative | kurang ramah terhadap local guest ) ; ( null | negative | membuat sangat kurang nyaman ) ; ( bartender yang di rooftop bar | positive | sangat ramah dan baik ) ; ( bapak security di hari terakhir saya check out | positive | membantu saya di parkiran )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -9858,7 +9858,7 @@
         "sentence_id": 2661,
         "instance_id": 4595,
         "task_elements": "aos",
-        "input": "mohon kebersihan di tingkatkan , masa wc nya ada kecoa . . . ! ! !",
+        "input": "mohon kebersihan di tingkatkan , masa wc nya ada kecoa . . .! ! !",
         "target": "( kebersihan | negative | di tingkatkan ) ; ( wc nya | negative | ada kecoa )",
         "element_order": "aos",
         "dataset_type": "hoasa"
@@ -10030,7 +10030,7 @@
         "instance_id": 4614,
         "task_elements": "aos",
         "input": "tempatnya nyaman tapi pelayannan kurang bagus bolak balik minta perlengkapan mandi . . . . handuk . . . . juga hanya dikasih minuman gelas",
-        "target": "( tempatnya | positive | nyaman ) ; ( pelayannan | negative | kurang bagus bolak balik minta perlengkapan mandi . . . . handuk . . . . ) ; ( minuman gelas | negative | hanya dikasih minuman gelas )",
+        "target": "( tempatnya | positive | nyaman ) ; ( pelayannan | negative | kurang bagus ) ; ( pelayannan | negative | bolak balik minta perlengkapan mandi . . . . handuk . . . . ) ; ( minuman gelas | negative | hanya dikasih minuman gelas )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10057,7 +10057,7 @@
         "instance_id": 4617,
         "task_elements": "aos",
         "input": "lokasi d gang sempit , susah dtemui . datang awal , tdk bisa early check in , hrs nambah fee , hrs tgu smpk jm14 . ruang tunggu pengap , bau rokok . kamar kurang bersih , byk byk sekali kecoa , byk debu . lgsg check out stlh liat kamar spt itu .",
-        "target": "( lokasi | negative | d gang sempit ) ; ( lokasi | negative | susah dtemui ) ; ( early check in | negative | tdk bisa ) ; ( early check in | negative | hrs nambah fee ) ; ( null | negative | hrs tgu smpk jm14 ) ; ( ruang tunggu | negative | pengap ) ; ( ruang tunggu | negative | bau rokok ) ; ( kamar | negative | kurang bersih ) ; ( kamar | negative | byk byk sekali kecoa ) ; ( kamar | negative | byk debu ) ; ( kamar | negative | lgsg check out stlh liat kamar spt itu )",
+        "target": "( lokasi | negative | d gang sempit ) ; ( lokasi | negative | susah dtemui ) ; ( early check in | negative | tdk bisa ) ; ( fee | negative | hrs nambah fee ) ; ( null | negative | hrs tgu smpk jm14 ) ; ( ruang tunggu | negative | pengap ) ; ( ruang tunggu | negative | bau rokok ) ; ( kamar | negative | kurang bersih ) ; ( kamar | negative | byk byk sekali kecoa ) ; ( kamar | negative | byk debu ) ; ( kamar | negative | lgsg check out stlh liat kamar spt itu )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10228,7 +10228,7 @@
         "instance_id": 4636,
         "task_elements": "aos",
         "input": "4x menginap disini akhir nya air panas nya ada juga hahahahhaa",
-        "target": "( air panas | positive | ada juga )",
+        "target": "( air panas | positive | 4x menginap disini akhir nya air panas nya ada juga )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10255,7 +10255,7 @@
         "instance_id": 4639,
         "task_elements": "aos",
         "input": "ruangan lebar . namun kekurangannya tidak ada hot shower . kamar dibersihkan tanpa diminta , tetapi hal tersebut sangat berbahaya untuk menjaga kepercayaan pelanggan . sebaiknya kamar jgn dibersihkan tanpa diminta . csnya ramah .",
-        "target": "( ruangan | positive | lebar ) ; ( hot shower | negative | tidak ada ) ; ( kamar dibersihkan tanpa diminta | negative | sangat berbahaya untuk menjaga kepercayaan pelanggan ) ; ( csnya | positive | ramah )",
+        "target": "( ruangan | positive | lebar ) ; ( hot shower | negative | kekurangannya tidak ada hot shower ) ; ( kamar | negative | dibersihkan tanpa diminta , tetapi hal tersebut sangat berbahaya untuk menjaga kepercayaan pelanggan ) ; ( csnya | positive | ramah )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10300,7 +10300,7 @@
         "instance_id": 4644,
         "task_elements": "aos",
         "input": "sayangnya : 1 . handuknya bau 2 . odolnya bekas pas saya buka , sudah terpakai 3 . wifi tidak sampai ke kamar 4 . alamat sepertinya ga sesuai . harusnya dangdeur indah 1 no 20 bukan dangdeur indah no 20 . tks",
-        "target": "( null | negative | sayangnya ) ; ( handuknya | negative | bau ) ; ( odolnya | negative | bekas pas saya buka , sudah terpakai ) ; ( wifi | negative | tidak sampai ke kamar ) ; ( alamat | negative | sepertinya ga sesuai )",
+        "target": "( null | negative | sayangnya ) ; ( handuknya | negative | bau ) ; ( odolnya | negative | bekas pas saya buka ) ; ( odolnya | negative | sudah terpakai ) ; ( wifi | negative | tidak sampai ke kamar ) ; ( alamat | negative | sepertinya ga sesuai )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10327,7 +10327,7 @@
         "instance_id": 4647,
         "task_elements": "aos",
         "input": "kamar dan suasana nya nyaman sayangnya gak ada lap kaki di depan kamar mandi bikin banjir dan licin",
-        "target": "( kamar | positive | nyaman ) ; ( suasana nya | positive | nyaman ) ; ( lap kaki | negative | gak ada lap kaki di depan kamar mandi bikin banjir dan licin )",
+        "target": "( kamar dan suasana nya | positive | nyaman ) ; ( lap kaki | negative | gak ada lap kaki di depan kamar mandi ) ; ( null | negative | bikin banjir dan licin )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10390,7 +10390,7 @@
         "instance_id": 4654,
         "task_elements": "aos",
         "input": "secara keseluruhan baik . kurangnya di sarapan yg hanya menu sederhana , kolam renang juga agak kotor dan sinyal wifi yang tidak bisa menjangkau hingga ujung kamar . kondisi kamar sendiri cukup bagus dan bersih .",
-        "target": "( keseluruhan | positive | baik ) ; ( sarapan | negative | hanya menu sederhana ) ; ( kolam renang | negative | agak kotor ) ; ( sinyal wifi | negative | tidak bisa menjangkau hingga ujung kamar ) ; ( kondisi kamar | positive | cukup bagus ) ; ( kondisi kamar | positive | bersih )",
+        "target": "( keseluruhan | positive | baik ) ; ( sarapan | negative | hanya menu sederhana ) ; ( kolam renang | negative | agak kotor ) ; ( sinyal wifi | negative | tidak bisa menjangkau hingga ujung kamar ) ; ( kondisi kamar | positive | cukup bagus dan bersih )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10480,7 +10480,7 @@
         "instance_id": 4664,
         "task_elements": "aos",
         "input": "kebersihan selimut , sarung bantal , handuk kurang kamar kurang wangi wifi tidak bisa",
-        "target": "( kebersihan selimut | negative | kurang ) ; ( kebersihan sarung bantal | negative | kurang ) ; ( kebersihan handuk | negative | kurang ) ; ( kamar | negative | kurang wangi ) ; ( wifi | negative | tidak bisa )",
+        "target": "( kebersihan selimut | negative | kurang ) ; ( sarung bantal | negative | kurang ) ; ( handuk | negative | kurang ) ; ( kamar | negative | kurang wangi ) ; ( wifi | negative | tidak bisa )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10507,7 +10507,7 @@
         "instance_id": 4667,
         "task_elements": "aos",
         "input": "kamarnya jorok : ( apalagi kamar mandinya : (",
-        "target": "( kamarnya | negative | jorok ) ; ( kamar mandinya | negative | null )",
+        "target": "( kamarnya | negative | jorok ) ; ( kamar mandinya | negative | jorok )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10516,7 +10516,7 @@
         "instance_id": 4668,
         "task_elements": "aos",
         "input": "sprayx kasar dan berbulu . ac nya ribut",
-        "target": "( sprayx | negative | kasar ) ; ( sprayx | negative | berbulu ) ; ( ac nya | negative | ribut )",
+        "target": "( sprayx | negative | kasar dan berbulu ) ; ( ac nya | negative | ribut )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10561,7 +10561,7 @@
         "instance_id": 4673,
         "task_elements": "aos",
         "input": "kecewa dengan pelayanannya yang kurang ramah",
-        "target": "( pelayanannya | negative | kurang ramah ) ; ( null | negative | kecewa )",
+        "target": "( pelayanannya | negative | kurang ramah )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10642,7 +10642,7 @@
         "instance_id": 4682,
         "task_elements": "aos",
         "input": "salah satu kamarnya bau toilet , saya jd pindah kamar , kamarnya jg sempit bgt gak cocok bw keluarga",
-        "target": "( kamarnya | negative | bau toilet ) ; ( kamarnya | negative | sempit bgt gak cocok bw keluarga )",
+        "target": "( kamarnya | negative | bau toilet ) ; ( kamarnya | negative | sempit bgt ) ; ( kamarnya | negative | gak cocok bw keluarga )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10686,7 +10686,7 @@
         "sentence_id": 2753,
         "instance_id": 4687,
         "task_elements": "aos",
-        "input": "biasanya aku dpt snack d room ini gada sama sekali ac nya bau cuka ( gatau kaya cuka tapi aneh banget )",
+        "input": "biasanya aku dpt snack d room ini gada sama sekali ac nya bau cuka ( gatau kaya cuka tapi aneh banget",
         "target": "( snack | negative | gada sama sekali ) ; ( ac nya | negative | bau cuka ( gatau kaya cuka tapi aneh banget )",
         "element_order": "aos",
         "dataset_type": "hoasa"
@@ -10705,7 +10705,7 @@
         "instance_id": 4689,
         "task_elements": "aos",
         "input": "fasilitasnya lumayan lengkap ada air panas , tv , snack , ac , dan peralatan mandi , kasur empuk , parkiran tapi yg kurang itu sarung bantal yg warnanya kusam jadi terkesan usang dan kotor , cat tembok yg mulai mengelupas dan selimut yang tipis . . . . overall lumayan bagus untuk harga segitu kedepannya mungkin lebih ditingkatkan lagi untuk fasilitas kamarnya",
-        "target": "( fasilitasnya | positive | lumayan lengkap ) ; ( air panas | positive | ada ) ; ( tv | positive | ada ) ; ( snack | positive | ada ) ; ( ac | positive | ada ) ; ( peralatan mandi | positive | ada ) ; ( kasur | positive | empuk ) ; ( parkiran | positive | ada ) ; ( sarung bantal | negative | warnanya kusam jadi terkesan usang dan kotor ) ; ( cat tembok | negative | mulai mengelupas ) ; ( selimut | negative | tipis ) ; ( overall | positive | lumayan bagus untuk harga segitu ) ; ( fasilitas kamarnya | negative | mungkin lebih ditingkatkan lagi )",
+        "target": "( fasilitasnya | positive | lumayan lengkap ) ; ( kasur | positive | empuk ) ; ( sarung bantal | negative | warnanya kusam jadi terkesan usang dan kotor ) ; ( cat tembok | negative | mulai mengelupas ) ; ( selimut | negative | tipis ) ; ( overall | positive | lumayan bagus untuk harga segitu ) ; ( fasilitas kamarnya | negative | mungkin lebih ditingkatkan lagi )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10713,7 +10713,7 @@
         "sentence_id": 2756,
         "instance_id": 4690,
         "task_elements": "aos",
-        "input": "sangat menyenangkan sekali . . . . kamarnya nyaman , rapih , bersih dan over all sangat bagus . cocok buat refresh pikiran saat liburan meninggalkan beban kerjaan yg berat . . . layanan trhadap plangganpun sangat baik . hanya 1 aja usulan dari saya klo bisa di dlm ruangan ada pngharum ruangan biar lebih berasa sempurna : ) over all very2 good",
+        "input": "sangat menyenangkan sekali . . . . kamarnya nyaman , rapih , bersih dan over all sangat bagus . cocok buat refresh pikiran saat liburan meninggalkan beban kerjaan yg berat . . . layanan trhadap planggan pun sangat baik . hanya 1 aja usulan dari saya klo bisa di dlm ruangan ada pngharum ruangan biar lebih berasa sempurna : ) over all very2 good",
         "target": "( null | positive | sangat menyenangkan sekali ) ; ( kamarnya | positive | nyaman ) ; ( kamarnya | positive | rapih ) ; ( kamarnya | positive | bersih ) ; ( kamarnya | positive | over all sangat bagus ) ; ( null | positive | cocok buat refresh pikiran saat liburan meninggalkan beban kerjaan yg berat ) ; ( layanan trhadap planggan | positive | sangat baik ) ; ( pngharum ruangan | negative | di dlm ruangan ada pngharum ruangan biar lebih berasa sempurna ) ; ( over all | positive | very2 good )",
         "element_order": "aos",
         "dataset_type": "hoasa"
@@ -10768,7 +10768,7 @@
         "instance_id": 4696,
         "task_elements": "aos",
         "input": "gak nyaman banget , krna ac nya rusak , gak dingin trs suka mati sndiri dlm beberapa wktu , trs airnya gak mengalir dgn lancar suka ngadat . kebersihan msh oke , cuman sayang gda tempat penampung sampah .",
-        "target": "( null | negative | gak nyaman banget ) ; ( ac nya | negative | rusak , gak dingin trs suka mati sndiri dlm beberapa wktu ) ; ( airnya | negative | gak mengalir dgn lancar ) ; ( airnya | negative | suka ngadat ) ; ( kebersihan | positive | msh oke ) ; ( tempat penampung sampah | negative | sayang gda )",
+        "target": "( null | negative | gak nyaman banget ) ; ( ac nya | negative | rusak , gak dingin trs suka mati sndiri dlm beberapa wktu ) ; ( airnya | negative | gak mengalir dgn lancar ) ; ( airnya | negative | suka ngadat ) ; ( kebersihan | positive | msh oke ) ; ( tempat penampung sampah | negative | sayang gda tempat penampung sampah )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10858,7 +10858,7 @@
         "instance_id": 4706,
         "task_elements": "aos",
         "input": "so so , service nya jg kurang ramah , ya lumayan sih untuk segi harga",
-        "target": "( null | negative | so so ) ; ( service nya | negative | kurang ramah ) ; ( harga | positive | lumayan sih )",
+        "target": "( null | negative | so so ) ; ( service nya | negative | kurang ramah ) ; ( segi harga | negative | lumayan sih )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10885,7 +10885,7 @@
         "instance_id": 4709,
         "task_elements": "aos",
         "input": "utk kamar disini nggak recommended , mending cari yg lain . . . nginep 2 malam dpt kamar l lantai 3 kamarnya jelek . . . pintu kamar mandi engsel atas lepas , jd pintu ngegantung2 dan tidak dpt ditutup sempurna . . . trus kamar mandi jg bau . . . gak ada air panas . . .",
-        "target": "( kamar | negative | nggak recommended ) ; ( null | negative | mending cari yg lain ) ; ( kamarnya | negative | jelek ) ; ( pintu kamar mandi | negative | engsel atas lepas , jd pintu ngegantung2 dan tidak dpt ditutup sempurna ) ; ( kamar mandi | negative | bau ) ; ( air panas | negative | gak ada )",
+        "target": "( kamar | negative | nggak recommended ) ; ( kamarnya | negative | jelek ) ; ( pintu kamar mandi | negative | engsel atas lepas , jd pintu ngegantung2 dan tidak dpt ditutup sempurna ) ; ( kamar mandi | negative | bau ) ; ( air panas | negative | gak ada )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -10938,7 +10938,7 @@
         "sentence_id": 2781,
         "instance_id": 4715,
         "task_elements": "aos",
-        "input": "fasilitas dan kenyamanan top banget . tapi reception pelayanan ny kurang . sama jauh kmn2 , tp msh bs taxol kok : )",
+        "input": "fasilitas dan kenyamanan top banget . tapi reception pelayanan ny kurang . sama jauh kmn2 , tp msh bs taxol kok",
         "target": "( fasilitas | positive | top banget ) ; ( kenyamanan | positive | top banget ) ; ( reception pelayanan ny | negative | kurang ) ; ( null | negative | jauh kmn2 , tp msh bs taxol kok )",
         "element_order": "aos",
         "dataset_type": "hoasa"
@@ -10957,7 +10957,7 @@
         "instance_id": 4717,
         "task_elements": "aos",
         "input": "banyak nyamuk , selebihnya oke2 aja",
-        "target": "( null | negative | banyak nyamuk ) ; ( selebihnya | positive | oke2 aja )",
+        "target": "( nyamuk | negative | banyak ) ; ( selebihnya | positive | oke2 aja )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -11002,7 +11002,7 @@
         "instance_id": 4722,
         "task_elements": "aos",
         "input": "ada kolam renang meskipun hanya utk dewasa saja , ac dingin , tv kabel oke , dapat minum dan snack , dan alat mandi plus sisir , sayang kamar mandi agak bau , dan kamar tidak kedap suara , fasilitas ada musola , lift dan kolam renang nilai plusnya , overall oke sih , terimakasih airy",
-        "target": "( kolam renang | positive | ada ) ; ( kolam renang | negative | hanya utk dewasa saja ) ; ( ac | positive | dingin ) ; ( tv kabel | positive | oke ) ; ( minum | positive | dapat ) ; ( snack | positive | dapat ) ; ( alat mandi plus sisir | positive | dapat ) ; ( kamar mandi | negative | agak bau ) ; ( kamar | negative | tidak kedap suara ) ; ( musola | positive | ada ) ; ( lift | positive | nilai plusnya ) ; ( kolam renang | positive | nilai plusnya ) ; ( overall | positive | oke sih )",
+        "target": "( kolam renang | positive | ada ) ; ( kolam renang | negative | hanya utk dewasa saja ) ; ( ac | positive | dingin ) ; ( tv kabel | positive | oke ) ; ( minum | positive | dapat ) ; ( snack | positive | dapat ) ; ( alat mandi plus sisir | positive | dapat ) ; ( kamar mandi | negative | agak bau ) ; ( kamar | negative | tidak kedap suara ) ; ( musola | positive | nilai plusnya ) ; ( lift | positive | nilai plusnya ) ; ( kolam renang | positive | nilai plusnya ) ; ( overall | positive | oke sih )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -11137,7 +11137,7 @@
         "instance_id": 4737,
         "task_elements": "aos",
         "input": "sarung bantal bau lembab warna coklat badcover juga . . . saya sering nginep di airyrooms biasanya putih bersih wangi . . mungkin karna discount 50% jadi dapet kamar begitu . .",
-        "target": "( sarung bantal | negative | bau lembab warna coklat ) ; ( badcover | negative | bau lembab warna coklat )",
+        "target": "( sarung bantal | negative | bau lembab warna coklat ) ; ( badcover | negative | bau lembab warna coklat ) ; ( null | positive | putih bersih wangi ) ; ( discount 50% | negative | dapet kamar begitu )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -11209,7 +11209,7 @@
         "instance_id": 4745,
         "task_elements": "aos",
         "input": "kamar kotor , saat datang di kamarnya ada noda berwarna cokelat terus di bantalnya ada noda bercak hitam , kotor sangat seperti tidak di cuci cuma di balik , sewaktu mau check-out dituduh mengotori selimutnya yang padahal dari waktu datang sudah ada , dan deposit mau diambil , jadi kalau kalian datang ada noda ataupun kotoran dikamar langsung komplain saja , karena nanti kalian dituduh yang mengotori kamar itu dan deposit akan diambil , check-in baru bisa jam 2 , sarapan cuma nasi goreng pake telur , kamar mandi bau dan saluran air di bawahnya kotor sangat seperti ada rambut rambutnya , tidak akan lagi menginap di hotel itu .",
-        "target": "( kamar | negative | kotor ) ; ( kamarnya | negative | ada noda berwarna cokelat terus di bantalnya ada noda bercak hitam ) ; ( null | negative | kotor sangat seperti tidak di cuci cuma di balik ) ; ( selimutnya | negative | dituduh mengotori selimutnya yang padahal dari waktu datang sudah ada ) ; ( deposit | negative | mau diambil ) ; ( check-in | negative | baru bisa jam 2 ) ; ( sarapan | negative | cuma nasi goreng pake telur ) ; ( kamar mandi | negative | bau ) ; ( saluran air di bawahnya | negative | kotor sangat seperti ada rambut rambutnya ) ; ( hotel itu | negative | tidak akan lagi menginap )",
+        "target": "( kamar | negative | kotor ) ; ( kamarnya | negative | ada noda berwarna cokelat terus di bantalnya ada noda bercak hitam ) ; ( null | negative | kotor sangat seperti tidak di cuci cuma di balik ) ; ( selimutnya | negative | dituduh mengotori selimutnya yang padahal dari waktu datang sudah ada ) ; ( deposit | negative | mau diambil ) ; ( kamar itu | negative | dituduh yang mengotori ) ; ( deposit | negative | akan diambil ) ; ( check-in | negative | baru bisa jam 2 ) ; ( sarapan | negative | cuma nasi goreng pake telur ) ; ( kamar mandi | negative | bau ) ; ( saluran air di bawahnya | negative | kotor sangat seperti ada rambut rambutnya ) ; ( hotel itu | negative | tidak akan lagi menginap )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -11452,7 +11452,7 @@
         "instance_id": 4772,
         "task_elements": "aos",
         "input": "overall semuanya baik , kecuali kebersihan kasurnya aja sih",
-        "target": "( overall semuanya | positive | baik ) ; ( kebersihan kasurnya | negative | null )",
+        "target": "( overall semuanya | positive | baik ) ; ( kebersihan kasurnya | negative | semuanya baik , kecuali kebersihan kasurnya )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -11488,7 +11488,7 @@
         "instance_id": 4776,
         "task_elements": "aos",
         "input": "tamu sy mngatakan tidak memuaskan akan pelayanan kamarnya , diberikan kamar yg tdk bisa terkunci dari luar sehingga jika keluar mencari makan harus membawa bawa ranselx naik turun kelantai 3 . ketika komplen minta pindah kamar tdk diladeni alias dicueki padahal sdh 3x tamu saya menginap disini . . . . .",
-        "target": "( pelayanan kamarnya | negative | tidak memuaskan ) ; ( kamar | negative | tdk bisa terkunci dari luar ) ; ( komplen minta pindah kamar | negative | tdk diladeni alias dicueki )",
+        "target": "( pelayanan kamarnya | negative | tidak memuaskan ) ; ( kamar | negative | tdk bisa terkunci dari luar ) ; ( kamar | negative | harus membawa bawa ranselx naik turun kelantai 3 ) ; ( komplen minta pindah kamar | negative | tdk diladeni alias dicueki )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -11506,7 +11506,7 @@
         "instance_id": 4778,
         "task_elements": "aos",
         "input": "ga bisa tidur . . kasur dan selimut bau . .",
-        "target": "( null | negative | ga bisa tidur ) ; ( kasur | negative | bau ) ; ( selimut | negative | bau )",
+        "target": "( kasur | negative | bau ) ; ( selimut | negative | bau )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
