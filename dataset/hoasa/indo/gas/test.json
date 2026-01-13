@@ -22,7 +22,7 @@
         "instance_id": 2568,
         "task_elements": "aos",
         "input": "harga terjangkau , kamar luas , ada sofa , semua oke , kecuali kamar mandi . seharian keluar bau tak sedap entah apa masalahnya .",
-        "target": "( harga | terjangkau | positive ) ; ( kamar | luas | positive ) ; ( sofa | null | positive ) ; ( semua | oke | positive ) ; ( kamar mandi | keluar bau tak sedap | negative )",
+        "target": "( harga | terjangkau | positive ) ; ( kamar | luas | positive ) ; ( sofa | ada | positive ) ; ( semua | oke | positive ) ; ( kamar mandi | keluar bau tak sedap | negative )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -49,7 +49,7 @@
         "instance_id": 2571,
         "task_elements": "aos",
         "input": "kamar bersih dan nyaman tetapi amenties dari airy tidak disediakan . begitu juga dengan compliment free snack dari airy",
-        "target": "( kamar | bersih | positive ) ; ( kamar | nyaman | positive ) ; ( amenties dari airy | tidak disediakan | negative ) ; ( compliment free snack dari airy | null | negative )",
+        "target": "( kamar | bersih | positive ) ; ( kamar | nyaman | positive ) ; ( amenties dari airy | tidak disediakan | negative ) ; ( compliment free snack dari airy | tidak disediakan | negative )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -58,7 +58,7 @@
         "instance_id": 2572,
         "task_elements": "aos",
         "input": "suasana . . and view-nya . . kerennnnn . . . pegawainya ramahh . . . datang langsung check in . . . dan diantar ke kamar . . . untuk fasilitas buat anak2 lumayan . . . ada perosotan ayunan dan mainan lainnya . . kolam renang juga . . tp kolamnya dingin . . . dan kurang bersih . . mohon ditingkatkan jg utk kebersihan kamar nya . thanks airy . . thank ariandri . . . sukses selalu . .",
-        "target": "( suasana | null | positive ) ; ( view-nya | kerennnnn | positive ) ; ( pegawainya | ramahh | positive ) ; ( null | datang langsung check in . . . dan diantar ke kamar | positive ) ; ( fasilitas buat anak2 | lumayan | negative ) ; ( kolamnya | dingin | negative ) ; ( kolamnya | kurang bersih | negative ) ; ( kebersihan kamar nya | mohon ditingkatkan | negative )",
+        "target": "( suasana | kerennnnn | positive ) ; ( view-nya | kerennnnn | positive ) ; ( pegawainya | ramahh | positive ) ; ( null | datang langsung check in . . . dan diantar ke kamar | positive ) ; ( fasilitas buat anak2 | lumayan | negative ) ; ( kolamnya | dingin | negative ) ; ( kolamnya | kurang bersih | negative ) ; ( kebersihan kamar nya | mohon ditingkatkan | negative )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -1480,7 +1480,7 @@
         "instance_id": 2730,
         "task_elements": "aos",
         "input": "kebersihan selimut , sarung bantal , handuk kurang kamar kurang wangi wifi tidak bisa",
-        "target": "( kebersihan selimut | null | negative ) ; ( sarung bantal | null | negative ) ; ( handuk | kurang | negative ) ; ( kamar | kurang wangi | negative ) ; ( wifi | tidak bisa | negative )",
+        "target": "( kebersihan selimut | kurang | negative ) ; ( sarung bantal | kurang | negative ) ; ( handuk | kurang | negative ) ; ( kamar | kurang wangi | negative ) ; ( wifi | tidak bisa | negative )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -1507,7 +1507,7 @@
         "instance_id": 2733,
         "task_elements": "aos",
         "input": "kamarnya jorok : ( apalagi kamar mandinya : (",
-        "target": "( kamarnya | jorok | negative ) ; ( kamar mandinya | null | negative )",
+        "target": "( kamarnya | jorok | negative ) ; ( kamar mandinya | jorok | negative )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -2137,7 +2137,7 @@
         "instance_id": 2803,
         "task_elements": "aos",
         "input": "sarung bantal bau lembab warna coklat badcover juga . . . saya sering nginep di airyrooms biasanya putih bersih wangi . . mungkin karna discount 50% jadi dapet kamar begitu . .",
-        "target": "( sarung bantal | bau lembab warna coklat | negative ) ; ( badcover | null | negative ) ; ( null | putih bersih wangi | positive ) ; ( discount 50% | dapet kamar begitu | negative )",
+        "target": "( sarung bantal | bau lembab warna coklat | negative ) ; ( badcover | bau lembab warna coklat | negative ) ; ( null | putih bersih wangi | positive ) ; ( discount 50% | dapet kamar begitu | negative )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },
@@ -2452,7 +2452,7 @@
         "instance_id": 2838,
         "task_elements": "aos",
         "input": "overall semuanya baik , kecuali kebersihan kasurnya aja sih",
-        "target": "( overall semuanya | baik | positive ) ; ( kebersihan kasurnya | null | negative )",
+        "target": "( overall semuanya | baik | positive ) ; ( kebersihan kasurnya | semuanya baik , kecuali kebersihan kasurnya | negative )",
         "element_order": "aos",
         "dataset_type": "hoasa"
     },

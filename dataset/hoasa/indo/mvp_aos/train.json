@@ -9417,7 +9417,7 @@
         "sentence_id": 1047,
         "instance_id": 1047,
         "input": "tlg tingkatkan lgi kebersiahnya trutama di spray n handuk [A] [O] [S]",
-        "target": "[A] kebersiahnya [O] tingkatkan lgi [S] negative [SSEP] [A] spray [O] tingkatkan lagi kebersiahnya [S] negative [SSEP] [A] handuk [O] tingkatkan lagi kebersiahnya [S] negative",
+        "target": "[A] kebersiahnya [O] tingkatkan lgi [S] negative [SSEP] [A] spray [O] tingkatkan lgi kebersiahnya [S] negative [SSEP] [A] handuk [O] tingkatkan lgi kebersiahnya [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
@@ -17085,7 +17085,7 @@
         "sentence_id": 1902,
         "instance_id": 1902,
         "input": "1 . resepsionisnya tidak ramah sama sekali , malahan terkesan meremehkan tamu ( wanita berjilbab ) 2 . kamar kotor 3 . sprei dekil 4 . kasur ambles 5 . air kemasan tidak di sediakan padahal katanya di sediakan 2 botol postifnya hanya air panas saja [A] [O] [S]",
-        "target": "[A] resepsionisnya [O] tidak ramah sama sekali [S] negative [SSEP] [A] resepsionisnya [O] terkesan meremehkan tamu [S] negative [SSEP] [A] kamar [O] kotor [S] negative [SSEP] [A] sprei [O] dekil [S] negative [SSEP] [A] kasur [O] ambles [S] negative [SSEP] [A] air kemasan [O] tidak di sediakan [S] negative [SSEP] [A] air panas [O] positifnya hanya air panas saja [S] positive",
+        "target": "[A] resepsionisnya [O] tidak ramah sama sekali [S] negative [SSEP] [A] resepsionisnya [O] terkesan meremehkan tamu [S] negative [SSEP] [A] kamar [O] kotor [S] negative [SSEP] [A] sprei [O] dekil [S] negative [SSEP] [A] kasur [O] ambles [S] negative [SSEP] [A] air kemasan [O] tidak di sediakan [S] negative [SSEP] [A] air panas [O] postifnya hanya air panas saja [S] positive",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hoasa"
