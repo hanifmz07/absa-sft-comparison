@@ -147,6 +147,7 @@ def main(args):
         logging_steps=1,
         report_to="wandb",
         save_strategy=args.save_strategy,
+        save_total_limit=1,
         load_best_model_at_end=True if args.save_strategy == "best" else False,
         output_dir=output_dir,
         run_name=f"modelname-{args.model_name.split('/')[-1]}_seed-{args.seed}_optimizer-{args.optimizer}_lr-{args.lr}_samplesize-{args.sample_size if args.sample_size is not None else 'all'}_data-{args.train_json_path.split('/')[3]}_{current_time}",
