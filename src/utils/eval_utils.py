@@ -1,5 +1,18 @@
 from typing import List, Dict
 import re
+from tqdm import tqdm
+from sentence_transformers import SentenceTransformer, util
+
+instruction = """Retrieve semantically similar text.
+The text that will be retrieved are a tuple of Aspect-Based Sentiment Analysis task containing the aspect term, opinion term, and sentiment with format "[A] aspect term [O] opinion term [S] sentiment".
+The aspect and opinion can be a subset of the other text as long as it is not contradictive.
+The aspect can be null if there is no aspect term (implicit aspect), but the opinion term must exist.
+The sentiment should be the same for both texts.
+"""
+
+def format_sts(text, instruction):
+	return f"Instruct: {instruction}\nQuery: {text}"
+
 def calculate_metrics(predictions: List[List[Dict[str, str]]], targets: List[List[Dict[str, str]]], task='') -> Dict[str, float]:
     """
     Calculate precision, recall, and F1 score for the given predictions and targets for ABSA.
@@ -22,6 +35,66 @@ def calculate_metrics(predictions: List[List[Dict[str, str]]], targets: List[Lis
             else:
                 false_negative += 1
         false_positive += sum(1 for pred in prediction if pred not in target)
+    precision = true_positive/(true_positive + false_positive) if (true_positive + false_positive) > 0 else 0
+    recall = true_positive/(true_positive + false_negative) if (true_positive + false_negative) > 0 else 0
+    f1 = (2 * recall * precision)/(recall + precision) if (recall + precision) > 0 else 0
+    return {
+        f"precision_{task}" : precision,
+        f"recall_{task}" : recall,
+        f"f1_{task}" : f1
+    }
+
+def calculate_metrics_semantic(predictions: List[List[Dict[str, str]]], targets: List[List[Dict[str, str]]], model: SentenceTransformer, task='') -> Dict[str, float]:
+    """
+    Calculate precision, recall, and F1 score for the given predictions and targets for ABSA.
+
+    Args:
+        predictions (List[List[Dict[str, str]]]): List of predicted triplets.
+        targets (List[List[Dict[str, str]]]): List of target triplets.
+        model (SentenceTransformer): The sentence transformer model to use for embedding similarity.
+        task (str): The task name for which metrics are calculated.
+    
+    Returns:
+        Dict[str, float]: A dictionary containing precision, recall, and F1 score.
+    """
+    global instruction
+
+    true_positive = 0
+    false_positive = 0
+    false_negative = 0
+
+    for prediction,target in tqdm(zip(predictions,targets), total=len(predictions), desc=f"Calculating semantic metrics"):
+        false_negative_candidates = []
+        false_positive_candidates = []
+        for target_tuple in target:
+            if target_tuple in prediction:
+                true_positive += 1
+            else:
+                false_negative_candidates.append(target_tuple)
+                # false_negative += 1
+        false_positive_candidates += [pred for pred in prediction if pred not in target]
+        # false_positive += sum(1 for pred in prediction if pred not in target)
+    
+        # Check candidate with embedding similarity
+        # For each false negative candidate, check if there's a similar prediction in false_positive_candidates
+        # Threshold is 0.9
+        # print(f"False negative candidates: {false_negative_candidates}")
+        for false_negative_candidate in false_negative_candidates:
+            emb_false_negative = model.encode(format_sts(str(false_negative_candidate), instruction))
+            for false_positive_candidate in false_positive_candidates:
+                emb_false_positive = model.encode(format_sts(str(false_positive_candidate), instruction))
+                score = util.cos_sim(emb_false_negative, emb_false_positive)
+                # print(f"Comparing false negative candidate: {false_negative_candidate} with false positive candidate: {false_positive_candidate}, score: {score.item()}")
+                if score.item() >= 0.9:
+                    # print(f"Found a match!")
+                    true_positive += 1
+                    false_positive_candidates.remove(false_positive_candidate)
+                    break
+            else:
+                false_negative += 1
+        false_positive += len(false_positive_candidates)
+
+    # Calculate final metrics
     precision = true_positive/(true_positive + false_positive) if (true_positive + false_positive) > 0 else 0
     recall = true_positive/(true_positive + false_negative) if (true_positive + false_negative) > 0 else 0
     f1 = (2 * recall * precision)/(recall + precision) if (recall + precision) > 0 else 0
