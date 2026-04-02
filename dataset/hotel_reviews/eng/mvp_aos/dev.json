@@ -963,7 +963,7 @@
         "sentence_id": 2620,
         "instance_id": 120,
         "input": "it ' s cramped and basic , didn't match my expectation . it ' s quite decent for resting , not noisy . [A] [O] [S]",
-        "target": "[A] null [O] cramped [S] negative [SSEP] A] null [O] basic [S] negative [SSEP] [A] null [O] not noisy [S] positive",
+        "target": "[A] null [O] cramped [S] negative [SSEP] [A] null [O] basic [S] negative [SSEP] [A] null [O] not noisy [S] positive",
         "element_order": "aos",
         "task_elements": "aos"
     },
