@@ -4322,8 +4322,8 @@
     {
         "sentence_id": 484,
         "instance_id": 2420,
-        "input": "[A] [O] [S]",
-        "target": "[A] [O] [S]",
+        "input": "pas jo harago nan sangaik tajangkau , tampek strategis , palayan ramah . cuma sayang kolam ranangnyo sadang rusak . hu . [A] [O] [S]",
+        "target": "[A] harago [O] sangaik tajangkau [S] positive [SSEP] [A] tampek [O] strategis [S] positive [SSEP] [A] palayan [O] ramah [S] positive [SSEP] [A] kolam ranangnyo [O] rusak [S] negative [SSEP] [A] null [O] pas [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hotel_reviews"
@@ -16121,8 +16121,8 @@
     {
         "sentence_id": 1803,
         "instance_id": 9015,
-        "input": "[A] [O] [S]",
-        "target": "[A] [O] [S]",
+        "input": "lumayan lah . sayang kamar mandinyo agak baa baitu , wcnyo flushernyo harus dipelokan . [A] [O] [S]",
+        "target": "[A] kamar mandinyo [O] agak baa baitu [S] negative [SSEP] [A] wcnyo flushernyo [O] harus dipelokan [S] negative [SSEP] [A] null [O] lumayan [S] positive",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hotel_reviews"

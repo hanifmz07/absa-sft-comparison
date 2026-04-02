@@ -7625,8 +7625,8 @@
     {
         "sentence_id": 852,
         "instance_id": 4260,
-        "input": "[A] [O] [S]",
-        "target": "[A] [O] [S]",
+        "input": "anduk berce , free wifi bagus , bede snack . labang kamar mandi ta ' bisa etotop rapet dari lowar daddi bauna wc maso ' ka dalem kamar cokop aganggu . [A] [O] [S]",
+        "target": "[A] anduk [O] berce [S] positive [SSEP] [A] wifi [O] bagus [S] positive [SSEP] [A] snack [O] bede [S] positive [SSEP] [A] labang kamar mandi [O] ta ' bisa etotop rapet dari lowar daddi bauna wc maso ' ka dalem kamar cokop aganggu [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hotel_reviews"
@@ -13799,8 +13799,8 @@
     {
         "sentence_id": 1544,
         "instance_id": 7720,
-        "input": "[A] [O] [S]",
-        "target": "[A] [O] [S]",
+        "input": "kamar bagus . coma cekout jam 11 siang . lebbi dari jia kene ' charge 25 . ta ' olle anduk . [A] [O] [S]",
+        "target": "[A] kamar [O] bagus [S] positive [SSEP] [A] cekout [O] cekout jam 11 siang . lebbi dari jia kene ' charge 25 [S] negative [SSEP] [A] anduk [O] ta ' olle [S] negative",
         "element_order": "aos",
         "task_elements": "aos",
         "dataset_type": "hotel_reviews"
