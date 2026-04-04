@@ -6,6 +6,7 @@ import os, re
 import argparse
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from ..utils.constrained_decoding import MVPConstrainedDecoder, GASConstrainedDecoder, LegoABSAConstrainedDecoder
+from ..utils.io_utils import load_json_with_fallback
 
 def main(args):
     # === Load Model ===
@@ -21,8 +22,7 @@ def main(args):
     model.eval()
 
     # === Load Dataset ===
-    with open(args.test_json_path, 'r') as f:
-        test_data = json.load(f)
+    test_data = load_json_with_fallback(args.test_json_path)
 
     # Get the input prompts, labels, sentence IDs, and task elements
     prompts = [f'{instance["input"]} =>' for instance in test_data]
@@ -96,8 +96,8 @@ def main(args):
     output_dir = os.path.join(output_dir, "constrained_decoding" if args.use_constrained_decoding else "unconstrained_decoding")
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "raw_inference_results.json")
-    with open(output_file, "w") as f:
-        json.dump(outputs, f, indent=4)
+    with open(output_file, "w", encoding='utf-8') as f:
+        json.dump(outputs, f, indent=4, ensure_ascii=False)
  
     inference_results = []
 
@@ -187,15 +187,15 @@ def main(args):
 
     # Save the metric results
     output_file = os.path.join(output_dir, "evaluation_results.json")
-    with open(output_file, "w") as f:
-        json.dump(scaled_result_metrics, f, indent=4)
+    with open(output_file, "w", encoding='utf-8') as f:
+        json.dump(scaled_result_metrics, f, indent=4, ensure_ascii=False)
     print(f"Evaluation results saved to {output_file}")
 
     # Save inference results if specified
     if args.save_predictions:
         inference_output_file = os.path.join(output_dir, "inference_results.json")
-        with open(inference_output_file, "w") as f:
-            json.dump(inference_results, f, indent=4)
+        with open(inference_output_file, "w", encoding='utf-8') as f:
+            json.dump(inference_results, f, indent=4, ensure_ascii=False)
         print(f"Inference results saved to {inference_output_file}")
 
 if __name__ == "__main__":

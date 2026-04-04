@@ -17,6 +17,7 @@ import wandb
 import os
 import pandas as pd
 import json
+from ..utils.io_utils import load_json_with_fallback
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -73,8 +74,7 @@ def main(args):
     
     # Load dataset
     print(f"Loading dataset from {args.train_json_path}...")
-    with open(args.train_json_path, 'r') as f:
-        json_data = json.load(f)
+    json_data = load_json_with_fallback(args.train_json_path)
 
     df = pd.DataFrame(json_data)
     # Sample dataset if specified
@@ -86,8 +86,7 @@ def main(args):
     # Load validation dataset if provided
     if args.val_json_path is not None and args.eval_strategy != "no":
         print(f"Loading validation dataset from {args.val_json_path}...")
-        with open(args.val_json_path, 'r') as f:
-            val_json_data = json.load(f)
+        val_json_data = load_json_with_fallback(args.val_json_path)
         
         val_df = pd.DataFrame(val_json_data)
         # val_df["text"] = val_df.apply(lambda row: f"{row['input']} => {row['target']}", axis=1)
@@ -175,7 +174,7 @@ if __name__ == "__main__":
     parser.add_argument("--output_dir", type=str, default="./outputs/models", help="Output directory")
     parser.add_argument("--prompt_type", type=str, choices=["gas", "mvp", "mvp_aos", 'legoabsa'], default="mvp_aos", help="Sampling/prompt style")
     
-    parser.add_argument("--save_strategy", type=str, choices=["epoch", "best", "no"], default='best', help="Model saving mode during training")
+    parser.add_argument("--save_strategy", type=str, choices=["epoch", "best", "no"], default='epoch', help="Model saving mode during training")
 
     parser.add_argument("--num_epochs", type=int, default=10, help="Number of training epochs")
     parser.add_argument("--lr", type=float, default=5e-5, help="Learning rate")

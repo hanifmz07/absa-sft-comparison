@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source .venv/bin/activate
+
 # Specifiy cuda device if needed
 export CUDA_VISIBLE_DEVICES=0
 
@@ -9,8 +11,8 @@ if [ -z "$LANGUAGE" ]; then
     exit 1
 fi
 # Validate the language argument
-if [[ "$LANGUAGE" != "indo" && "$LANGUAGE" != "eng" && "$LANGUAGE" != "sunda" && "$LANGUAGE" != "jav" && "$LANGUAGE" != "mad" ]]; then
-    echo "Error: Invalid language specified. Use 'indo', 'eng', 'sunda', 'jav', or 'mad'."
+if [[ "$LANGUAGE" != "indo" && "$LANGUAGE" != "eng" && "$LANGUAGE" != "sunda" && "$LANGUAGE" != "sun" && "$LANGUAGE" != "jav" && "$LANGUAGE" != "mad" && "$LANGUAGE" != "min" ]]; then
+    echo "Error: Invalid language specified. Use 'indo', 'eng', 'sunda', 'sun', 'jav', 'mad', or 'min'."
     exit 1
 fi
 
@@ -58,7 +60,7 @@ echo "========================================================" >> "$STDOUT_LOG"
 {
   for SEED in "${SEEDS[@]}"; do
     echo "Processing seed: $SEED"
-    TEST_JSON="dataset/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/test_aug.json"
+    TEST_JSON="dataset/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/test.json"
     MODEL_DIR="outputs/models/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_$SEED/"
     OUTPUT_DIR="outputs/evals/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_$SEED/"
 

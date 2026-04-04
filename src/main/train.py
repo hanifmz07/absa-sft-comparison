@@ -8,9 +8,11 @@ import pickle
 import os
 import argparse
 import json
+import time
 import pandas as pd
 
 from datetime import datetime
+from ..utils.io_utils import load_json_with_fallback
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -31,10 +33,31 @@ def main(args):
     else:
         print("No GPU detected, training will be on CPU.")
 
-    # Load model
+    # Load model with retry in case of transient download/read errors.
     print(f"Loading model {args.model_name}...")
-    model = AutoModelForCausalLM.from_pretrained(args.model_name, dtype=torch.bfloat16 if bf16 else torch.float16, trust_remote_code=True, device_map="auto", cache_dir=os.getenv("HF_CACHE_DIR"))
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name, cache_dir=os.getenv("HF_CACHE_DIR"))
+    max_retries = 1000
+    while True:
+        try:
+            model = AutoModelForCausalLM.from_pretrained(
+                args.model_name,
+                dtype=torch.bfloat16 if bf16 else torch.float16,
+                trust_remote_code=True,
+                device_map="auto",
+                cache_dir=os.getenv("HF_CACHE_DIR")
+            )
+            tokenizer = AutoTokenizer.from_pretrained(
+                args.model_name,
+                cache_dir=os.getenv("HF_CACHE_DIR")
+            )
+            break
+        except Exception as e:
+            print(f"Failed to load model/tokenizer: {e}")
+            print("Retrying in 5 seconds...")
+            max_retries -= 1
+            if max_retries <= 0:
+                print("Exceeded maximum retries for loading model/tokenizer. Exiting.")
+                return
+            time.sleep(5)
 
     # Add special tokens for LEGO-ABSA if needed
     if 'legoabsa' in args.train_json_path:
@@ -65,8 +88,7 @@ def main(args):
     
     # Load dataset
     print(f"Loading dataset from {args.train_json_path}...")
-    with open(args.train_json_path, 'r') as f:
-        json_data = json.load(f)
+    json_data = load_json_with_fallback(args.train_json_path)
 
     # Format dataset
     df = pd.DataFrame(json_data)
@@ -81,8 +103,7 @@ def main(args):
     # Load validation dataset if provided
     if args.val_json_path is not None and args.eval_strategy != "no":
         print(f"Loading validation dataset from {args.val_json_path}...")
-        with open(args.val_json_path, 'r') as f:
-            val_json_data = json.load(f)
+        val_json_data = load_json_with_fallback(args.val_json_path)
         
         val_df = pd.DataFrame(val_json_data)
         # val_df["text"] = val_df.apply(lambda row: f"{row['input']} => {row['target']}", axis=1)

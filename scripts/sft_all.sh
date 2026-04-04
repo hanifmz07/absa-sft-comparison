@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source .venv/bin/activate
+
 # Specifiy cuda device if needed
 export CUDA_VISIBLE_DEVICES=0
 
@@ -9,8 +11,8 @@ if [ -z "$LANGUAGE" ]; then
     exit 1
 fi
 # Validate the language argument
-if [[ "$LANGUAGE" != "indo" && "$LANGUAGE" != "eng" && "$LANGUAGE" != "sunda" && "$LANGUAGE" != "jav" && "$LANGUAGE" != "mad" ]]; then
-    echo "Error: Invalid language specified. Use 'indo', 'eng', 'sunda', 'jav', or 'mad'."
+if [[ "$LANGUAGE" != "indo" && "$LANGUAGE" != "eng" && "$LANGUAGE" != "sunda" && "$LANGUAGE" != "jav" && "$LANGUAGE" != "mad" && "$LANGUAGE" != "sun" && "$LANGUAGE" != "min" ]]; then
+    echo "Error: Invalid language specified. Use 'indo', 'eng', 'sunda', 'jav', 'mad', 'sun', or 'min'."
     exit 1
 fi
 
@@ -36,8 +38,8 @@ if [ -z "$BATCH_SIZE" ]; then
 fi
 
 # Seeds for the SFT process
-# SEEDS=(9584 123 2024 31415 777)
-SEEDS=(123 2024 31415 777)
+SEEDS=(9584 123 2024 31415 777)
+# SEEDS=(123 2024 31415 777)
 # SEEDS=(2024 31415 777)
 
 # Define the log file names for clarity
@@ -74,7 +76,7 @@ echo "========================================================" >> "$STDOUT_LOG"
 
     # DATASET_FOLDERS=("indolegoabsa_multitask" "legoabsa_multitask" "legoabsa_tasktransfer" "mvp_aos" "gas")
     # DATASET_FOLDERS=("indolegoabsa_multitask" "legoabsa_multitask" "legoabsa_tasktransfer" "mvp_aos" "gas")
-    DATASET_FOLDERS=("mvp")
+    DATASET_FOLDERS=("mvp_aos")
     for SEED in "${SEEDS[@]}"; do
         echo "Processing seed: $SEED"
         for DATASET_FOLDER in "${DATASET_FOLDERS[@]}"; do

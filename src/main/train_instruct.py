@@ -11,6 +11,7 @@ import json
 import pandas as pd
 
 from datetime import datetime
+from ..utils.io_utils import load_json_with_fallback
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -65,8 +66,7 @@ def main(args):
     
     # Load dataset
     print(f"Loading dataset from {args.train_json_path}...")
-    with open(args.train_json_path, 'r') as f:
-        json_data = json.load(f)
+    json_data = load_json_with_fallback(args.train_json_path)
 
     # Format dataset
     df = pd.DataFrame(json_data)
@@ -81,8 +81,7 @@ def main(args):
     # Load validation dataset if provided
     if args.val_json_path is not None and args.eval_strategy != "no":
         print(f"Loading validation dataset from {args.val_json_path}...")
-        with open(args.val_json_path, 'r') as f:
-            val_json_data = json.load(f)
+        val_json_data = load_json_with_fallback(args.val_json_path)
         
         val_df = pd.DataFrame(val_json_data)
         # val_df["text"] = val_df.apply(lambda row: f"{row['input']} => {row['target']}", axis=1)

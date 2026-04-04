@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source .venv/bin/activate
+
 # Specifiy cuda device if needed
 export CUDA_VISIBLE_DEVICES=0
 
