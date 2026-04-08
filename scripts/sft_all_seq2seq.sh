@@ -82,7 +82,7 @@ echo "========================================================" >> "$STDOUT_LOG"
 
         python -m src.main.train_seq2seq \
             --train_json_path "dataset/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/train.json" \
-            --model_name "google/mt5-small" \
+            --model_name "google/mt5-base" \
             --output_dir "outputs_seq2seq/models/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_${SEED}/" \
             --prompt_type "$PROMPT_TYPE" \
             --save_strategy "epoch" \

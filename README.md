@@ -52,8 +52,8 @@ Most scripts expect this structure:
 dataset/{dataset_type}/{language}/{dataset_folder}/
 	train.json
 	dev.json        # optional, if eval_strategy is not "no"
-	test.json       # used by eval_all_noconstraint.sh
-	test_aug.json   # used by eval_all.sh
+	test.json       # used by eval_all_noconstraint.sh and eval_all_seq2seq.sh
+	test_aug.json   # used by eval_all.sh (causal LM constrained decoding)
 ```
 
 ## Run Experiments
@@ -132,6 +132,33 @@ Examples:
 ./scripts/eval_all_noconstraint_loop_langs.sh hotel_reviews mvp 4 eng jav mad
 ```
 
+### 4. Evaluation (Seq2Seq mT5)
+
+Single language:
+
+```bash
+./scripts/eval_all_seq2seq.sh <language> <dataset_type> <dataset_folder> <batch_size> [use_constrained_decoding]
+```
+
+Loop across languages:
+
+```bash
+./scripts/eval_all_seq2seq_loop_langs.sh <dataset_type> <dataset_folder> <batch_size> [use_constrained_decoding] [languages...]
+```
+
+Examples:
+
+```bash
+./scripts/eval_all_seq2seq.sh eng hotel_reviews mvp 4 false
+./scripts/eval_all_seq2seq.sh eng hotel_reviews mvp 4 true
+./scripts/eval_all_seq2seq_loop_langs.sh hotel_reviews mvp 4 false eng jav mad
+```
+
+Notes:
+
+- Seq2Seq eval reads checkpoints from outputs_seq2seq/models/{dataset_type}/{language}/{dataset_folder}/seed_{seed}/checkpoint-*.
+- The script evaluates the latest checkpoint per seed.
+
 ## Outputs and Logs
 
 ### Model outputs
@@ -147,6 +174,10 @@ Examples:
 	- .../constrained_decoding/evaluation_results.json
 	- .../unconstrained_decoding/evaluation_results.json
 	- inference_results.json and raw_inference_results.json
+- outputs_seq2seq/evals/{dataset_type}/{language}/{dataset_folder}/{seed_dir}/{checkpoint_dir}/...
+	- .../constrained_decoding/evaluation_results.json
+	- .../unconstrained_decoding/evaluation_results.json
+	- .../inference_results.json and .../raw_inference_results.json
 
 ### Logs
 
@@ -155,6 +186,7 @@ Examples:
 	- logs/sft_seq2seq_full/...
 - Evaluation logs:
 	- logs/eval/...
+	- logs/eval_seq2seq/...
 
 ## Notes
 

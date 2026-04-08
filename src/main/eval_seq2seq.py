@@ -8,6 +8,23 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from ..utils.constrained_decoding import MVPConstrainedDecoder, GASConstrainedDecoder, LegoABSAConstrainedDecoder
 from ..utils.io_utils import load_json_with_fallback
 
+
+def resolve_output_dir(base_output_dir, model_path, use_constrained_decoding):
+    model_path = model_path.rstrip("/")
+    checkpoint_name = os.path.basename(model_path)
+    parent_name = os.path.basename(os.path.dirname(model_path))
+
+    # For checkpoint paths (.../<model_name>/checkpoint-xxxx), include both folders.
+    if checkpoint_name.startswith("checkpoint-") and parent_name:
+        eval_dir = os.path.join(base_output_dir, parent_name, checkpoint_name)
+    else:
+        eval_dir = os.path.join(base_output_dir, checkpoint_name)
+
+    return os.path.join(
+        eval_dir,
+        "constrained_decoding" if use_constrained_decoding else "unconstrained_decoding",
+    )
+
 def main(args):
     # === Load Model ===
     print(f'Model Path: {args.model_path}')
@@ -91,9 +108,7 @@ def main(args):
 
     # Postprocess outputs and calculate metrics
     # Temporary storing for debugging
-    output_dir = args.output_dir
-    # output_dir = os.path.join(output_dir, args.model_path.split("/")[-1])
-    output_dir = os.path.join(output_dir, "constrained_decoding" if args.use_constrained_decoding else "unconstrained_decoding")
+    output_dir = resolve_output_dir(args.output_dir, args.model_path, args.use_constrained_decoding)
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "raw_inference_results.json")
     with open(output_file, "w", encoding='utf-8') as f:
@@ -204,7 +219,7 @@ if __name__ == "__main__":
     parser.add_argument("--test_json_path", type=str, required=True, help="Path to the test JSON dataset")
     parser.add_argument("--model_path", type=str, required=True, help="Pretrained model name")
     parser.add_argument("--prompt_type", type=str, required=True, help="Prompt type for the model, either mvp, gas, or legoabsa.", choices=["mvp", "gas", "legoabsa"])
-    parser.add_argument("--output_dir", type=str, default=f"./outputs/evals", help="Output directory")
+    parser.add_argument("--output_dir", type=str, default=f"./outputs_seq2seq/evals", help="Output directory")
     parser.add_argument("--batch_size", type=int, default=1, help="Batch size for inference")
     parser.add_argument("--save_predictions", action="store_true", help="Save inference results to a JSON file")
 
