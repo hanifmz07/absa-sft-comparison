@@ -159,6 +159,101 @@ Notes:
 - Seq2Seq eval reads checkpoints from outputs_seq2seq/models/{dataset_type}/{language}/{dataset_folder}/seed_{seed}/checkpoint-*.
 - The script evaluates the latest checkpoint per seed.
 
+### 5. Post-Evaluation Metrics (from inference results)
+
+These scripts evaluate already-generated result files under:
+
+`{output_dir}/evals/{dataset_type}/{language}/{dataset_folder}/**/{inference_results.json|voting_results.json}`
+
+For `mvp`, both `inference_results.json` and `voting_results.json` are processed.
+For other dataset folders, only `inference_results.json` is processed.
+
+#### Exact Match
+
+How it works:
+
+- Compares predicted tuples/triplets against target tuples/triplets with strict string matching.
+- A prediction counts as true positive only when the tuple text exactly matches a target tuple.
+- Unmatched predictions are false positives; unmatched targets are false negatives.
+
+Single dataset folder:
+
+```bash
+./scripts/eval_exact_match.sh <output_dir> <dataset_type> <language> <dataset_folder>
+```
+
+Loop default setup (hotel_reviews, langs: eng/indo/jav/mad/min/sun, folders: mvp_aos/mvp):
+
+```bash
+./scripts/eval_all_exact_match.sh <output_dir>
+```
+
+Saved outputs (same directory as each processed input file):
+
+- `exact_match.json`
+- `exact_match_detail.json`
+- `voting_exact_match.json` (for `voting_results.json`)
+- `voting_exact_match_detail.json` (for `voting_results.json`)
+
+#### Semantic Similarity
+
+How it works:
+
+- Starts from exact-match mismatches, then compares unmatched prediction-target pairs using embedding cosine similarity.
+- If cosine similarity is above threshold (`0.9`), the pair is treated as a semantic match.
+- Remaining unmatched predictions/targets become false positives/false negatives.
+
+Single dataset folder:
+
+```bash
+./scripts/eval_semantic_similarity.sh <output_dir> <dataset_type> <language> <dataset_folder> <embedding_model_name>
+```
+
+Loop default setup:
+
+```bash
+./scripts/eval_all_semantic_similarity.sh <output_dir> <embedding_model_name>
+```
+
+Saved outputs (same directory as each processed input file):
+
+- `semantic_metrics.json`
+- `semantic_metrics_detail.json`
+- `voting_semantic_matrics.json` (for `voting_results.json`)
+- `voting_semantic_metrics_detail.json` (for `voting_results.json`)
+
+#### InstructABSA-style Metric
+
+How it works:
+
+- Converts ABSA text format (`[A] ... [O] ... [S] ...`) into AOSTE-like triplet text (`aspect:opinion:sentiment`).
+- Uses InstructABSA-style overlap matching (`pred in gt` or `gt in pred`) instead of strict equality.
+- This allows partial/expanded wording to count as a match when semantically aligned in string form.
+
+Single dataset folder:
+
+```bash
+./scripts/eval_instruct_absa.sh <output_dir> <dataset_type> <language> <dataset_folder>
+```
+
+Loop default setup:
+
+```bash
+./scripts/eval_all_instruct_absa.sh <output_dir>
+```
+
+Saved outputs (same directory as each processed input file):
+
+- `instruct_absa.json`
+- `instruct_absa_detail.json`
+- `voting_instruct_absa.json` (for `voting_results.json`)
+- `voting_instruct_absa_detail.json` (for `voting_results.json`)
+
+Notes:
+
+- In exact-match, semantic, and instruct-absa outputs, `precision`, `recall`, and `f1` are stored in 0-100 scale.
+- Detail files include per-instance false positives and false negatives.
+
 ## Outputs and Logs
 
 ### Model outputs
