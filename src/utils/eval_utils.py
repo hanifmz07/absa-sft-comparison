@@ -168,8 +168,8 @@ def metrics_instructabsa(y_true, y_pred, is_triplet_extraction=False):
     tp = 0
     if not is_triplet_extraction:
         for gt, pred in zip(y_true, y_pred):
-            gt_list = gt.split(', ')
-            pred_list = pred.split(', ')
+            gt_list = [x.strip() for x in gt.split(',') if x.strip()]
+            pred_list = [x.strip() for x in pred.split(',') if x.strip()]
             total_pred+=len(pred_list)
             total_gt+=len(gt_list)
             for gt_val in gt_list:
@@ -180,8 +180,8 @@ def metrics_instructabsa(y_true, y_pred, is_triplet_extraction=False):
 
     else:
         for gt, pred in zip(y_true, y_pred):
-            gt_list = gt.split(', ')
-            pred_list = pred.split(', ')
+            gt_list = [x.strip() for x in gt.split(',') if x.strip()]
+            pred_list = [x.strip() for x in pred.split(',') if x.strip()]
             total_pred+=len(pred_list)
             total_gt+=len(gt_list)
             for gt_val in gt_list:
@@ -213,6 +213,7 @@ def metrics_instructabsa(y_true, y_pred, is_triplet_extraction=False):
                     if pr_asp in gt_asp and pr_op in gt_op and gt_sent == pr_sent:
                         tp+=1
 
-    p = tp/total_pred
-    r = tp/total_gt
-    return p, r, 2*p*r/(p+r), None
+    p = tp / total_pred if total_pred > 0 else 0.0
+    r = tp / total_gt if total_gt > 0 else 0.0
+    f1 = (2 * p * r / (p + r)) if (p + r) > 0 else 0.0
+    return p, r, f1, None
