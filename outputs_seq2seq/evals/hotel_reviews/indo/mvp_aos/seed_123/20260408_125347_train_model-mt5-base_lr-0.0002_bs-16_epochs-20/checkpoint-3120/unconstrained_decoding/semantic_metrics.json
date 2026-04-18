@@ -1,0 +1,11 @@
+{
+  "path": "outputs_seq2seq/evals/hotel_reviews/indo/mvp_aos/seed_123/20260408_125347_train_model-mt5-base_lr-0.0002_bs-16_epochs-20/checkpoint-3120/unconstrained_decoding/inference_results.json",
+  "lang": "indo",
+  "seed": "123",
+  "dataset_type": "hotel_reviews",
+  "dataset_folder": "mvp_aos",
+  "use_constrained_decoding": false,
+  "precision": 84.15492957746478,
+  "recall": 80.04018754186203,
+  "f1": 82.0460006865774
+}
