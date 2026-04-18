@@ -8,6 +8,22 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from ..utils.constrained_decoding import MVPConstrainedDecoder, GASConstrainedDecoder, LegoABSAConstrainedDecoder
 from ..utils.io_utils import load_json_with_fallback
 
+
+def resolve_output_dir(base_output_dir, model_path, use_constrained_decoding):
+    base_output_dir = base_output_dir.rstrip("/")
+    model_name = os.path.basename(model_path.rstrip("/"))
+
+    # Avoid duplicating checkpoint/model folder when caller already includes it in output_dir.
+    if os.path.basename(base_output_dir) == model_name:
+        eval_dir = base_output_dir
+    else:
+        eval_dir = os.path.join(base_output_dir, model_name)
+
+    return os.path.join(
+        eval_dir,
+        "constrained_decoding" if use_constrained_decoding else "unconstrained_decoding",
+    )
+
 def main(args):
     # === Load Model ===
     print(f'Model Path: {args.model_path}')
@@ -87,9 +103,7 @@ def main(args):
 
     # Postprocess outputs and calculate metrics
     # Temporary storing for debugging
-    output_dir = args.output_dir
-    output_dir = os.path.join(output_dir, args.model_path.split("/")[-1])
-    output_dir = os.path.join(output_dir, "constrained_decoding" if args.use_constrained_decoding else "unconstrained_decoding")
+    output_dir = resolve_output_dir(args.output_dir, args.model_path, args.use_constrained_decoding)
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "raw_inference_results.json")
     with open(output_file, "w", encoding='utf-8') as f:

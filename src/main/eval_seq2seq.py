@@ -15,7 +15,7 @@ def resolve_output_dir(base_output_dir, model_path, use_constrained_decoding):
     parent_name = os.path.basename(os.path.dirname(model_path))
 
     # For checkpoint paths (.../<model_name>/checkpoint-xxxx), include both folders.
-    if checkpoint_name.startswith("checkpoint-") and parent_name:
+    if checkpoint_name.startswith("checkpoint-") and parent_name and parent_name != checkpoint_name:
         eval_dir = os.path.join(base_output_dir, parent_name, checkpoint_name)
     else:
         eval_dir = os.path.join(base_output_dir, checkpoint_name)
