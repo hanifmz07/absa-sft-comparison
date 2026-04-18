@@ -1,7 +1,7 @@
 {
   "path": "outputs_seq2seq/evals/hotel_reviews/jav/mvp_aos/20260408_111021_train_model-mt5-base_lr-0.0002_bs-16_epochs-20/checkpoint-3120/unconstrained_decoding/inference_results.json",
   "lang": "jav",
-  "seed": null,
+  "seed": "777",
   "dataset_type": "hotel_reviews",
   "dataset_folder": "mvp_aos",
   "use_constrained_decoding": false,

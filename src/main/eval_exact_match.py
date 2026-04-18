@@ -16,7 +16,8 @@ def resolve_inference_paths(inference_path: str) -> List[str]:
 
 
 def extract_metadata(path: str) -> Dict[str, Any]:
-    parts = path.split("/")
+    normalized_path = path.replace("\\", "/")
+    parts = [part for part in normalized_path.split("/") if part]
     metadata: Dict[str, Any] = {
         "path": path,
         "lang": None,
@@ -26,16 +27,26 @@ def extract_metadata(path: str) -> Dict[str, Any]:
         "use_constrained_decoding": None,
     }
 
-    # Expected pattern:
-    # outputs/evals/{dataset_type}/{lang}/{dataset_folder}/seed_{seed}/.../{constrained_decoding|unconstrained_decoding}/{inference_results|voting_results}.json
-    try:
-        metadata["dataset_type"] = parts[2]
-        metadata["lang"] = parts[3]
-        metadata["dataset_folder"] = parts[4]
-        metadata["seed"] = parts[5].split("_")[1] if parts[5].startswith("seed_") else None
+    # Resolve both relative and absolute paths for:
+    # outputs/evals/{dataset_type}/{lang}/{dataset_folder}/seed_{seed}/...
+    # outputs_seq2seq/evals/{dataset_type}/{lang}/{dataset_folder}/seed_{seed}/...
+    eval_root_idx = None
+    for idx in range(1, len(parts)):
+        if parts[idx] == "evals" and parts[idx - 1] in {"outputs", "outputs_seq2seq"}:
+            eval_root_idx = idx
+            break
+
+    if eval_root_idx is not None and len(parts) > eval_root_idx + 3:
+        metadata["dataset_type"] = parts[eval_root_idx + 1]
+        metadata["lang"] = parts[eval_root_idx + 2]
+        metadata["dataset_folder"] = parts[eval_root_idx + 3]
+
+    seed_part = next((part for part in parts if part.startswith("seed_")), None)
+    if seed_part and len(seed_part) > len("seed_"):
+        metadata["seed"] = seed_part[len("seed_"):]
+
+    if len(parts) >= 2:
         metadata["use_constrained_decoding"] = parts[-2] == "constrained_decoding"
-    except IndexError:
-        pass
 
     return metadata
 
