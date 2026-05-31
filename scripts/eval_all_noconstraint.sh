@@ -37,22 +37,26 @@ if [ -z "$BATCH_SIZE" ]; then
     exit 1 # Exit with a non-zero status to indicate an error
 fi
 
+FORCE_RERUN="${FORCE_RERUN:-0}"
+MAX_NEW_TOKENS="${MAX_NEW_TOKENS:-300}"
+LIMIT_SAMPLES="${LIMIT_SAMPLES:-}"
+DEBUG_GENERATIONS="${DEBUG_GENERATIONS:-0}"
 
 # Seeds for the SFT process
 SEEDS=(9584 123 2024 31415 777)
 # SEED=9584
 
-# Define the log file names for clarity
 LOG_BASE_NAME="eval"
 LOG_DIR="logs"
 PID=$$
-STDOUT_LOG="${LOG_DIR}/${LOG_BASE_NAME}/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_${SEED}/${PID}_$(date).log"
-STDERR_LOG="${LOG_DIR}/${LOG_BASE_NAME}/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_${SEED}/${PID}_$(date).err"
-# Create necessary directories for logs
-mkdir -p "${LOG_DIR}/${LOG_BASE_NAME}/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_${SEED}"
+RUN_STAMP="$(date +%Y%m%d_%H%M%S)"
+STDOUT_LOG="${LOG_DIR}/${LOG_BASE_NAME}/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/${PID}_${RUN_STAMP}.log"
+STDERR_LOG="${LOG_DIR}/${LOG_BASE_NAME}/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/${PID}_${RUN_STAMP}.err"
+mkdir -p "${LOG_DIR}/${LOG_BASE_NAME}/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}"
 
 echo "========================================================" > "$STDOUT_LOG"
 echo "Starting Evaluation script run at: $(date)" >> "$STDOUT_LOG"
+echo "force_rerun=${FORCE_RERUN}, max_new_tokens=${MAX_NEW_TOKENS}, limit_samples=${LIMIT_SAMPLES:-none}, debug_generations=${DEBUG_GENERATIONS}" >> "$STDOUT_LOG"
 echo "========================================================" >> "$STDOUT_LOG"
 
 >"$STDERR_LOG"
@@ -91,19 +95,32 @@ echo "========================================================" >> "$STDOUT_LOG"
         exit 1
       fi  
 
-      # Only run if model folder exists and hasn't been evaluated yet
-      if [ -d "$MODEL_PATH" ] && [ ! -d "$EVAL_RESULT_DIR/constrained_decoding" ] && [ ! -d "$EVAL_RESULT_DIR/unconstrained_decoding" ]; then
+      # Only skip the no-constraint mode if the no-constraint output already exists.
+      if [ -d "$MODEL_PATH" ] && { [ "$FORCE_RERUN" = "1" ] || [ ! -d "$EVAL_RESULT_DIR/unconstrained_decoding" ]; }; then
         echo "-----------------------------------------------------------"
         echo "Evaluating model: $MODEL_NAME (Seed: $SEED)"
         echo "-----------------------------------------------------------"
-        
-        python -m src.main.eval \
+
+        CMD=(
+          python -m src.main.eval
           --test_json_path "$TEST_JSON" \
           --model_path "$LATEST_CHECKPOINT" \
           --prompt_type "$PROMPT_TYPE" \
           --output_dir "$EVAL_RESULT_DIR" \
-          --batch_size $BATCH_SIZE \
+          --batch_size "$BATCH_SIZE" \
+          --max_new_tokens "$MAX_NEW_TOKENS" \
           --save_predictions
+        )
+        if [ -n "$LIMIT_SAMPLES" ]; then
+          CMD+=(--limit_samples "$LIMIT_SAMPLES")
+        fi
+        if [ "$DEBUG_GENERATIONS" = "1" ]; then
+          CMD+=(--debug_generations)
+        fi
+        printf 'Command:'
+        printf ' %q' "${CMD[@]}"
+        printf '\n'
+        "${CMD[@]}"
           # --use_constrained_decoding
 
       else

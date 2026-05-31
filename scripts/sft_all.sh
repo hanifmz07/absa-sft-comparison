@@ -3,7 +3,7 @@
 source .venv/bin/activate
 
 # Specifiy cuda device if needed
-export CUDA_VISIBLE_DEVICES=0
+# export CUDA_VISIBLE_DEVICES=0
 
 LANGUAGE="$1"
 if [ -z "$LANGUAGE" ]; then
@@ -97,12 +97,12 @@ echo "========================================================" >> "$STDOUT_LOG"
             # redirected along with everything else in the loop.
             python -m src.main.train \
                 --train_json_path "dataset/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/train.json" \
-                --model_name "Qwen/Qwen2.5-0.5B" \
+                --model_name "google/gemma-3-270m" \
                 --output_dir "outputs/models/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_$SEED/" \
                 --prompt_type "$PROMPT_TYPE" \
                 --save_strategy "epoch" \
                 --num_epochs 10 \
-                --lr 5e-5 \
+                --lr 1e-5 \
                 --optimizer "adamw_torch" \
                 --seed $SEED \
                 --batch_size 4 \
