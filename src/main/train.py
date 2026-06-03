@@ -41,6 +41,7 @@ def main(args):
             model = AutoModelForCausalLM.from_pretrained(
                 args.model_name,
                 dtype=torch.bfloat16 if bf16 else torch.float16,
+                attn_implementation="eager",
                 trust_remote_code=True,
                 device_map="auto",
                 cache_dir=os.getenv("HF_CACHE_DIR")
@@ -148,32 +149,26 @@ def main(args):
 
     # Prepare training arguments
     training_args = SFTConfig(
-        # Training settings
+        output_dir=output_dir,
         per_device_train_batch_size=args.batch_size,
+        per_device_eval_batch_size=args.val_batch_size,
         gradient_accumulation_steps=args.gradient_accumulation_steps,
         learning_rate=args.lr,
         weight_decay=1e-2,
+        warmup_ratio=float(os.getenv("WARMUP_RATIO", "0.0")),
+        max_grad_norm=float(os.getenv("MAX_GRAD_NORM", "1.0")),
         num_train_epochs=args.num_epochs,
         bf16=bf16,
-        # dataset_text_field="text",
         optim=args.optimizer,
         completion_only_loss=True,
-
-        # Evaluation settings
         eval_strategy=args.eval_strategy,
-        per_device_eval_batch_size=args.val_batch_size,
-        
-        # Logging and saving settings
         logging_strategy="steps",
         logging_steps=1,
         report_to="wandb",
         save_strategy=args.save_strategy,
         save_total_limit=1,
         load_best_model_at_end=True if args.save_strategy == "best" else False,
-        output_dir=output_dir,
         run_name=f"modelname-{args.model_name.split('/')[-1]}_seed-{args.seed}_optimizer-{args.optimizer}_lr-{args.lr}_samplesize-{args.sample_size if args.sample_size is not None else 'all'}_data-{args.train_json_path.split('/')[3]}_{current_time}",
-
-        # Seed settings
         seed=args.seed,
         data_seed=args.seed,
     )
