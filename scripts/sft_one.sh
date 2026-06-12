@@ -5,7 +5,7 @@ set -euo pipefail
 # Run one SFT configuration. This is intended to be called by Slurm array jobs.
 #
 # Usage:
-#   bash scripts/sft_one.sh MODEL_NAME LANGUAGE DATASET_TYPE DATASET_FOLDER SEED BATCH_SIZE [LR] [EPOCHS] [GRAD_ACCUM] [EVAL_STRATEGY] [SAVE_STRATEGY] [MAX_GRAD_NORM] [WARMUP_RATIO]
+#   bash scripts/sft_one.sh MODEL_NAME LANGUAGE DATASET_TYPE DATASET_FOLDER SEED BATCH_SIZE [LR] [EPOCHS] [GRAD_ACCUM] [EVAL_STRATEGY] [SAVE_STRATEGY]
 
 MODEL_NAME="${1:?Error: model name must be specified.}"
 LANGUAGE="${2:?Error: language must be specified.}"
@@ -18,8 +18,6 @@ NUM_EPOCHS="${8:-10}"
 GRADIENT_ACCUMULATION_STEPS="${9:-4}"
 EVAL_STRATEGY="${10:-no}"
 SAVE_STRATEGY="${11:-epoch}"
-MAX_GRAD_NORM="${12:-1.0}"
-WARMUP_RATIO="${13:-0.03}"
 VAL_BATCH_SIZE="${VAL_BATCH_SIZE:-16}"
 
 case "$LANGUAGE" in
@@ -82,8 +80,6 @@ STDERR_LOG="${LOG_DIR}/${RUN_STAMP}_job-${SLURM_JOB_ID:-local}_task-${SLURM_ARRA
     echo "Gradient Accumulation Steps: $GRADIENT_ACCUMULATION_STEPS"
     echo "Eval Strategy: $EVAL_STRATEGY"
     echo "Save Strategy: $SAVE_STRATEGY"
-    echo "Max Grad Norm: $MAX_GRAD_NORM"
-    echo "Warmup Ratio: $WARMUP_RATIO"
     echo "========================================================"
 
     CMD=(
@@ -100,8 +96,6 @@ STDERR_LOG="${LOG_DIR}/${RUN_STAMP}_job-${SLURM_JOB_ID:-local}_task-${SLURM_ARRA
         --batch_size "$BATCH_SIZE"
         --gradient_accumulation_steps "$GRADIENT_ACCUMULATION_STEPS"
         --eval_strategy "$EVAL_STRATEGY"
-        --max_grad_norm "$MAX_GRAD_NORM"
-        --warmup_ratio "$WARMUP_RATIO"
     )
 
     if [ "$EVAL_STRATEGY" != "no" ]; then

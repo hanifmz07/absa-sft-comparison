@@ -1,5 +1,5 @@
 {
-  "path": "outputs/evals/hotel_reviews/indo/mvp/seed_2024/20260226_103747_train_model-Qwen2.5-0.5B_lr-5e-05_bs-4_epochs-10/checkpoint-7760/checkpoint-7760/unconstrained_decoding/voting_results.json",
+  "path": "outputs/evals/hotel_reviews/indo/mvp/seed_2024/20260226_103747_train_model-Qwen2.5-0.5B_lr-5e-05_bs-4_epochs-10/checkpoint-7760/unconstrained_decoding/voting_results.json",
   "lang": "indo",
   "seed": "2024",
   "dataset_type": "hotel_reviews",

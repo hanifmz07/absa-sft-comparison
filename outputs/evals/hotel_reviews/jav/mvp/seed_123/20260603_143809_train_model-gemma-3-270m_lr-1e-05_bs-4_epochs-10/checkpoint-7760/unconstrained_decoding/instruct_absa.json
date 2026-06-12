@@ -1,0 +1,11 @@
+{
+  "path": "outputs/evals/hotel_reviews/jav/mvp/seed_123/20260603_143809_train_model-gemma-3-270m_lr-1e-05_bs-4_epochs-10/checkpoint-7760/unconstrained_decoding/inference_results.json",
+  "lang": "jav",
+  "seed": "123",
+  "dataset_type": "hotel_reviews",
+  "dataset_folder": "mvp",
+  "use_constrained_decoding": false,
+  "precision": 44.23320659062104,
+  "recall": 45.163377547719186,
+  "f1": 44.69345285737154
+}

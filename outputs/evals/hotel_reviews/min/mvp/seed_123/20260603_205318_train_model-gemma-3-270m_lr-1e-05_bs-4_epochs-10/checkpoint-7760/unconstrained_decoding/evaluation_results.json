@@ -1,0 +1,6 @@
+{
+    "precision_aos": 48.41115434500649,
+    "recall_aos": 50.0,
+    "f1_aos": 49.19275123558484,
+    "inference_duration": 751.2872020619689
+}

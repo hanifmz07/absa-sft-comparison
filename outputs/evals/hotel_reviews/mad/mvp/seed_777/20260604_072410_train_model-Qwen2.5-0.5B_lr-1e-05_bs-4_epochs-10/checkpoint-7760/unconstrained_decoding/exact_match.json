@@ -1,0 +1,11 @@
+{
+  "path": "outputs/evals/hotel_reviews/mad/mvp/seed_777/20260604_072410_train_model-Qwen2.5-0.5B_lr-1e-05_bs-4_epochs-10/checkpoint-7760/unconstrained_decoding/inference_results.json",
+  "lang": "mad",
+  "seed": "777",
+  "dataset_type": "hotel_reviews",
+  "dataset_folder": "mvp",
+  "use_constrained_decoding": false,
+  "precision": 36.300897170462385,
+  "recall": 35.27833668678739,
+  "f1": 35.78231292517007
+}

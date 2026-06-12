@@ -37,7 +37,7 @@ export WARMUP_RATIO="${WARMUP_RATIO:-0.03}"
 
 # ── Eval params ───────────────────────────────────────────────────────────────
 export DATASET_TYPE="${DATASET_TYPE:-hotel_reviews}"
-export DATASET_FOLDER="${DATASET_FOLDER:-mvp_aos}"
+# DATASET_FOLDER is handled by the array script now
 # BATCH_SIZE is reused for eval as well
 
 # ── Submit SFT ────────────────────────────────────────────────────────────────

@@ -5,7 +5,7 @@
 #SBATCH --gres=gpu:MI250:1
 #SBATCH --mem=32GB
 #SBATCH --time=08:00:00
-#SBATCH --array=0-29%5
+#SBATCH --array=0-119%5
 #SBATCH --output=logs/out/sft-array-%A_%a.out
 #SBATCH --error=logs/err/sft-array-%A_%a.err
 
@@ -16,22 +16,23 @@ cd ~/absa-sft-comparison
 # Edit these arrays to define the experiment grid.
 # Total jobs = models * languages * dataset_folders * seeds.
 MODELS=(
-    # "google/gemma-3-270m"
+    "google/gemma-3-270m"
     "Qwen/Qwen2.5-0.5B"
 )
 
 LANGUAGES=(
-    "eng"
+    # "eng"
     # "jav"
     # "indo"
-    # "mad"
-    # "min"
-    # "sun"
+    "mad"
+    "min"
+    "sun"
 )
 
 DATASET_TYPE="hotel_reviews"
 DATASET_FOLDERS=(
     "mvp_aos"
+    "mvp"
 )
 
 SEEDS=(
@@ -48,8 +49,6 @@ NUM_EPOCHS="${NUM_EPOCHS:-10}"
 GRADIENT_ACCUMULATION_STEPS="${GRADIENT_ACCUMULATION_STEPS:-4}"
 EVAL_STRATEGY="${EVAL_STRATEGY:-epoch}"
 SAVE_STRATEGY="${SAVE_STRATEGY:-epoch}"
-MAX_GRAD_NORM="${MAX_GRAD_NORM:-1.0}"
-WARMUP_RATIO="${WARMUP_RATIO:-0.03}"
 
 NUM_MODELS="${#MODELS[@]}"
 NUM_LANGUAGES="${#LANGUAGES[@]}"
@@ -95,8 +94,6 @@ echo "  num_epochs=${NUM_EPOCHS}"
 echo "  gradient_accumulation_steps=${GRADIENT_ACCUMULATION_STEPS}"
 echo "  eval_strategy=${EVAL_STRATEGY}"
 echo "  save_strategy=${SAVE_STRATEGY}"
-echo "  max_grad_norm=${MAX_GRAD_NORM}"
-echo "  warmup_ratio=${WARMUP_RATIO}"
 
 bash scripts/sft_one.sh \
     "$MODEL_NAME" \
@@ -110,5 +107,3 @@ bash scripts/sft_one.sh \
     "$GRADIENT_ACCUMULATION_STEPS" \
     "$EVAL_STRATEGY" \
     "$SAVE_STRATEGY" \
-    "$MAX_GRAD_NORM" \
-    "$WARMUP_RATIO"

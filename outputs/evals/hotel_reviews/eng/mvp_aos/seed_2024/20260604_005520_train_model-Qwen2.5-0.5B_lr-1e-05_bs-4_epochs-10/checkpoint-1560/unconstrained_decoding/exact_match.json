@@ -1,0 +1,11 @@
+{
+  "path": "outputs/evals/hotel_reviews/eng/mvp_aos/seed_2024/20260604_005520_train_model-Qwen2.5-0.5B_lr-1e-05_bs-4_epochs-10/checkpoint-1560/unconstrained_decoding/inference_results.json",
+  "lang": "eng",
+  "seed": "2024",
+  "dataset_type": "hotel_reviews",
+  "dataset_folder": "mvp_aos",
+  "use_constrained_decoding": false,
+  "precision": 61.84686164968781,
+  "recall": 62.98527443105756,
+  "f1": 62.41087713480352
+}
