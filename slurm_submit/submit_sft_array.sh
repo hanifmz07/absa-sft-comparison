@@ -18,12 +18,13 @@ cd ~/absa-sft-comparison
 MODELS=(
     "google/gemma-3-270m"
     "Qwen/Qwen2.5-0.5B"
+    "google/mt5-base"
 )
 
 LANGUAGES=(
-    # "eng"
-    # "jav"
-    # "indo"
+    "eng"
+    "jav"
+    "indo"
     "mad"
     "min"
     "sun"
@@ -31,7 +32,7 @@ LANGUAGES=(
 
 DATASET_TYPE="hotel_reviews"
 DATASET_FOLDERS=(
-    "mvp_aos"
+    # "mvp_aos"
     "mvp"
 )
 
@@ -48,7 +49,9 @@ LR="${LR:-1e-5}"
 NUM_EPOCHS="${NUM_EPOCHS:-10}"
 GRADIENT_ACCUMULATION_STEPS="${GRADIENT_ACCUMULATION_STEPS:-4}"
 EVAL_STRATEGY="${EVAL_STRATEGY:-epoch}"
-SAVE_STRATEGY="${SAVE_STRATEGY:-epoch}"
+SAVE_STRATEGY="${SAVE_STRATEGY:-best}"
+export MAX_GRAD_NORM="${MAX_GRAD_NORM:-1.0}"
+export WARMUP_RATIO="${WARMUP_RATIO:-0.03}"
 
 NUM_MODELS="${#MODELS[@]}"
 NUM_LANGUAGES="${#LANGUAGES[@]}"
@@ -94,6 +97,8 @@ echo "  num_epochs=${NUM_EPOCHS}"
 echo "  gradient_accumulation_steps=${GRADIENT_ACCUMULATION_STEPS}"
 echo "  eval_strategy=${EVAL_STRATEGY}"
 echo "  save_strategy=${SAVE_STRATEGY}"
+echo "  max_grad_norm=${MAX_GRAD_NORM}"
+echo "  warmup_ratio=${WARMUP_RATIO}"
 
 bash scripts/sft_one.sh \
     "$MODEL_NAME" \
