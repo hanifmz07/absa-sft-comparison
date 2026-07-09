@@ -43,6 +43,12 @@ bash scripts/sft_all.sh eng hotel_reviews mvp_aos 4
 bash scripts/sft_all_seq2seq.sh eng hotel_reviews mvp_aos 16   # seq2seq variant
 ```
 
+**Loop training/eval across languages (same args, no `<language>`; optional trailing language list to restrict):**
+```bash
+bash scripts/sft_all_loop_langs.sh hotel_reviews mvp_aos 4
+bash scripts/eval_all_noconstraint_loop_langs.sh hotel_reviews mvp_aos 4 eng jav mad
+```
+
 **Single-language eval (unconstrained only):**
 ```bash
 bash scripts/eval_all_noconstraint.sh eng hotel_reviews mvp_aos 4
@@ -135,6 +141,8 @@ These two dataset folders differ in how inference is evaluated:
 - **`mvp`**: Runs both constrained and unconstrained decoding → `eval_voting.py` aggregates them into `voting_results.json` (majority-vote ensemble) → post-hoc metrics applied to the voting output (`voting_exact_match.json`, `voting_semantic_metrics.json`, etc.).
 
 `eval_all.sh` runs the full mvp pipeline (both decode passes + voting). `eval_all_noconstraint.sh` runs only unconstrained decoding and is sufficient for mvp_aos.
+
+**Test file selection:** `eval_all_noconstraint.sh` reads `test_aug.json` for the `mvp` and `mvp_aos_augment` dataset folders, `test.json` for everything else (including plain `mvp_aos`). `eval_all.sh` (constrained+unconstrained mvp pipeline) always reads `test_aug.json`; seq2seq eval always reads `test.json`. `dev.json` is only required when `eval_strategy != "no"` (i.e. `SAVE_STRATEGY=best`).
 
 ### Training data flow (causal LM)
 
