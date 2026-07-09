@@ -88,10 +88,16 @@ python scripts/extract_mvp_voting_results.py --mode mvp
 python scripts/extract_seq2seq_results.py
 ```
 
-**Remove duplicate run directories (keep latest per lang/seed/model):**
+**Remove duplicate eval result directories (keep latest per lang/seed/model):**
 ```bash
 python scripts/cleanup_old_runs.py --base outputs/evals/hotel_reviews --dry-run
 python scripts/cleanup_old_runs.py --base outputs/evals/hotel_reviews --delete
+```
+
+**Interactively delete trained-model checkpoints to free disk space (manual selection):**
+```bash
+python scripts/cleanup_models_interactive.py --base outputs/models/hotel_reviews
+python scripts/cleanup_models_interactive.py --base outputs_seq2seq/models/hotel_reviews --sort size
 ```
 
 **Run modules directly:**
@@ -205,5 +211,9 @@ After all eval jobs finish, two scripts consolidate per-run JSON files into flat
 - **Duplicate run directories:** multiple Slurm retries produce multiple run-stamp dirs per (lang, seed, model). `scripts/cleanup_old_runs.py` removes all but the latest before running post-hoc metrics or aggregation.
 - **Invalid checkpoint batches:** `20260509_*` (lr=5e-05, no EOS), `20260518_150*` and `20260518_16*` (completion_only_loss=False) are known-bad. See `issue/` for details.
 - **Checkpoint selection:** `slurm_submit/submit_sft_array.sh` defaults `SAVE_STRATEGY=best`, which keeps only the checkpoint with the lowest `eval_loss`. Combined with `save_total_limit=1`, this ensures the best model is retained across all epochs. The invariant is: the saved checkpoint is selected by validation loss, not epoch number. Pass `SAVE_STRATEGY=epoch` to revert to last-epoch selection (not recommended; observed overfitting: `eval_loss` rose from 0.15 at epoch 1 to 0.44 at epoch 10 while train loss collapsed to ~0.001–0.007).
+- **Hardware baseline (ROCm/MI250 vs CUDA/A100):** Diagnostic testing (2026-07-06 to 2026-07-09) found a ~22 pt F1 gap between old A100 results (87.44% F1_aos, eng/mvp/Qwen2.5-0.5B) and new MI250 runs (65.76% F1_aos) even when `lr` and checkpoint-selection strategy are matched. The gap is **not** caused by code regressions, overfitting, or checkpoint selection. Root cause is now split into two identified effects (see `issue/absa_eval_regression.md` Steps 4–5f for full derivation):
+  1. **`attn_implementation` must be `"eager"`, never `"sdpa"`, on this MI250 hardware.** HF defaults to `sdpa` whenever `attn_implementation` is unset — which is what the old pre-`9b83ce1` eval code did, so the old A100 baseline almost certainly ran on `sdpa`. Testing `sdpa` directly on MI250 (both eng and jav, controlled same-checkpoint comparisons) found it causes **~29% of generations to collapse into repetition loops** (e.g. `!!!!!!!...`) and drops F1 by 35–67% relative depending on metric. `eager` (the current hard default in `train.py`/`eval.py`) has zero such failures — this is a required setting for usable results on this hardware, not just a stylistic default.
+  2. **Even with `eager`, a residual ~20–25% relative F1 gap vs the old A100 baseline remains**, confirmed in both eng (87.44%→65.76%) and jav (independently, via `exact_match`/`instruct_absa` metrics on a matched checkpoint). Cause unknown; likely unfixable without access to A100 hardware to test further (none available on this cluster). Treat this as the practical floor of the investigation, not a bug to keep chasing.
+  Expect ~65–75% F1_aos range for eng/mvp/Qwen2.5-0.5B on MI250 (with `eager`); results far outside this range — especially heavy repetition-loop garbling — should be investigated, and check `attn_implementation` first if seen.
 - **Warmup and grad norm:** `train.py` reads `WARMUP_RATIO` and `MAX_GRAD_NORM` via `os.getenv()` with defaults 0.0 and 1.0 respectively. These must be `export`ed by the calling shell script (not passed as CLI flags) to reach the training process. Both `slurm_submit/submit_sft_array.sh` and `submit_sft_then_eval.sh` export them.
 - **Active work tracking:** see `TODO.md` at the repo root for in-progress experiments and pending follow-ups (not just historical bugs like `issue/`).

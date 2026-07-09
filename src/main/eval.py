@@ -29,16 +29,21 @@ def main(args):
     # === Load Model ===
     print(f'Model Path: {args.model_path}')
     tokenizer = AutoTokenizer.from_pretrained(args.model_path, padding_side="left")
+    torch_dtype = getattr(torch, args.torch_dtype) if args.torch_dtype != "auto" else "auto"
     model = AutoModelForCausalLM.from_pretrained(
-        args.model_path, 
+        args.model_path,
         device_map="auto",
-        torch_dtype="auto",
-        attn_implementation="eager"
+        torch_dtype=torch_dtype,
+        attn_implementation=args.attn_implementation
     )
 
     print("Tokenizer length:", len(tokenizer))
     print("Embedding size:", model.get_input_embeddings().weight.shape)
     print("Special Tokens:", tokenizer.special_tokens_map)
+
+    if len(tokenizer) != model.get_input_embeddings().weight.shape[0]:
+        print(f"Resizing embeddings: {model.get_input_embeddings().weight.shape[0]} -> {len(tokenizer)}")
+        model.resize_token_embeddings(len(tokenizer))
 
     # === Setup Device ===
     model.eval()
@@ -239,6 +244,8 @@ if __name__ == "__main__":
     parser.add_argument("--max_new_tokens", type=int, default=300, help="Maximum number of new tokens to generate")
     parser.add_argument("--limit_samples", type=int, default=None, help="Limit the number of samples to evaluate")
     parser.add_argument("--debug_generations", action="store_true", help="Print generations for debugging")
+    parser.add_argument("--torch_dtype", type=str, default="auto", help="Dtype to load the model in (e.g. auto, float32, bfloat16, float16). 'auto' matches the checkpoint's saved dtype.")
+    parser.add_argument("--attn_implementation", type=str, default="eager", help="Attention implementation to use (e.g. eager, sdpa).")
 
     # Constrained decoding arguments
     parser.add_argument("--use_constrained_decoding", action="store_true", help="Whether to use constrained decoding during generation")
