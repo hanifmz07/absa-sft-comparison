@@ -84,7 +84,7 @@ def main(args):
     def split_prompt_and_completion(instance):
         return {
             "prompt": instance['input'] + " =>",  # Includes the separator
-            "completion": " " + instance['target']            # The part you want to train on
+            "completion": " " + instance['target'] + tokenizer.eos_token  # The part you want to train on
         }
     
     # Load dataset

@@ -110,6 +110,11 @@ echo "========================================================" >> "$STDOUT_LOG"
           --batch_size $BATCH_SIZE \
           --save_predictions \
           --use_constrained_decoding
+          
+        if [ "$DATASET_FOLDER" == "mvp" ]; then
+          echo "Running voting script..."
+          python -m src.main.eval_voting "$EVAL_RESULT_DIR/constrained_decoding/inference_results.json"
+        fi
 
       else
         echo "-----------------------------------------------------------"

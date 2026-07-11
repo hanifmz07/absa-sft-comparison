@@ -64,7 +64,11 @@ echo "========================================================" >> "$STDOUT_LOG"
 {
   for SEED in "${SEEDS[@]}"; do
     echo "Processing seed: $SEED"
-    TEST_JSON="dataset/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/test.json"
+    if [ "$DATASET_FOLDER" == "mvp" ] || [ "$DATASET_FOLDER" == "mvp_aos_augment" ]; then
+      TEST_JSON="dataset/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/test_aug.json"
+    else
+      TEST_JSON="dataset/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/test.json"
+    fi
     MODEL_DIR="outputs/models/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_$SEED/"
     OUTPUT_DIR="outputs/evals/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_$SEED/"
 
@@ -127,6 +131,11 @@ echo "========================================================" >> "$STDOUT_LOG"
         printf '\n'
         "${CMD[@]}"
           # --use_constrained_decoding
+          
+        if [ "$DATASET_FOLDER" == "mvp" ]; then
+          echo "Running voting script..."
+          python -m src.main.eval_voting "$EVAL_RESULT_DIR/unconstrained_decoding/inference_results.json"
+        fi
 
       else
         echo "-----------------------------------------------------------"

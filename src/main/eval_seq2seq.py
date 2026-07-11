@@ -36,6 +36,10 @@ def main(args):
     print("Embedding size:", model.get_input_embeddings().weight.shape)
     print("Special Tokens:", tokenizer.special_tokens_map)
 
+    if len(tokenizer) != model.get_input_embeddings().weight.shape[0]:
+        print(f"Resizing embeddings: {model.get_input_embeddings().weight.shape[0]} -> {len(tokenizer)}")
+        model.resize_token_embeddings(len(tokenizer))
+
     # === Setup Device ===
     model.eval()
 

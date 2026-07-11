@@ -18,7 +18,6 @@ cd ~/absa-sft-comparison
 MODELS=(
     "google/gemma-3-270m"
     "Qwen/Qwen2.5-0.5B"
-    "google/mt5-base"
 )
 
 LANGUAGES=(
@@ -32,7 +31,7 @@ LANGUAGES=(
 
 DATASET_TYPE="hotel_reviews"
 DATASET_FOLDERS=(
-    # "mvp_aos"
+    "mvp_aos"
     "mvp"
 )
 
@@ -45,11 +44,11 @@ SEEDS=(
 )
 
 BATCH_SIZE="${BATCH_SIZE:-4}"
-LR="${LR:-1e-5}"
+LR="${LR:-5e-5}"
 NUM_EPOCHS="${NUM_EPOCHS:-10}"
 GRADIENT_ACCUMULATION_STEPS="${GRADIENT_ACCUMULATION_STEPS:-4}"
-EVAL_STRATEGY="${EVAL_STRATEGY:-epoch}"
-SAVE_STRATEGY="${SAVE_STRATEGY:-best}"
+EVAL_STRATEGY="${EVAL_STRATEGY:-no}"
+SAVE_STRATEGY="${SAVE_STRATEGY:-epoch}"
 export MAX_GRAD_NORM="${MAX_GRAD_NORM:-1.0}"
 export WARMUP_RATIO="${WARMUP_RATIO:-0.03}"
 
