@@ -76,7 +76,7 @@ echo "========================================================" >> "$STDOUT_LOG"
 
     # DATASET_FOLDERS=("indolegoabsa_multitask" "legoabsa_multitask" "legoabsa_tasktransfer" "mvp_aos" "gas")
     # DATASET_FOLDERS=("indolegoabsa_multitask" "legoabsa_multitask" "legoabsa_tasktransfer" "mvp_aos" "gas")
-    DATASET_FOLDERS=("mvp_aos")
+    DATASET_FOLDERS=("$DATASET_FOLDER")
     for SEED in "${SEEDS[@]}"; do
         echo "Processing seed: $SEED"
         for DATASET_FOLDER in "${DATASET_FOLDERS[@]}"; do
