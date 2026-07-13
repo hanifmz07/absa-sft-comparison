@@ -665,7 +665,9 @@ of what can be verified without A100 access.
 
 ### Step 6 — Third-hardware check: RTX 5090 (CUDA), planned 2026-07-09
 
-**Status: [PLANNED — awaiting results from user's RTX 5090 machine, not on this Slurm cluster]**
+**Status: [PLANNED — user has full/unshared access to the RTX 5090 machine
+(not on this Slurm cluster), running both Step 6a (eval-only) and Step 6b
+(full retrain) below]**
 
 Motivation: effect #2 (the residual ~20–25% gap under `eager`, Steps 4/5f)
 was previously called "not fixable or further testable from this side"
@@ -684,12 +686,14 @@ by re-running the **exact same MI250-trained weights** on non-ROCm hardware:
   (29.3% repetition-loop collapse) is ROCm-specific (should not reproduce on
   CUDA) or a more general prompt/model quirk (would reproduce anywhere).
 
+### Step 6a — Eval-only (reuse MI250-trained weights, cheap, run this first)
+
 **Caveat:** this uses ROCm-trained weights inferenced on CUDA — it isolates
 the eval-time hardware axis, not train-time. It still can't fully recreate
 "train AND eval on real CUDA hardware like the old A100 baseline did," since
 no CUDA-trained checkpoint with matched lr/checkpoint-selection exists.
 Interpret accordingly: a clean result narrows effect #2, it doesn't fully
-resolve it.
+resolve it. Step 6b below (full retrain) closes that remaining gap.
 
 **Commands (run on the RTX 5090 machine, not Slurm):**
 
@@ -713,13 +717,91 @@ that supports RTX 5090's Blackwell (`sm_120`) architecture.
 
 **Reference numbers to compare against (all eng/mvp/seed_123/checkpoint-7760):**
 
-| Config | Hardware | f1_aos |
-|---|---|---|
-| (unknown, presumed sdpa) | A100/CUDA, old baseline | 87.44 |
-| `eager` | MI250/ROCm | 65.76 |
-| `sdpa` | MI250/ROCm | 41.33 (29.3% garbled) |
-| `eager` | RTX 5090/CUDA | *pending* |
-| `sdpa` | RTX 5090/CUDA | *pending* |
+| Config | Hardware | Trained on | f1_aos |
+|---|---|---|---|
+| (unknown, presumed sdpa) | A100/CUDA, old baseline | A100/CUDA | 87.44 |
+| `eager` | MI250/ROCm | MI250/ROCm | 65.76 |
+| `sdpa` | MI250/ROCm | MI250/ROCm | 41.33 (29.3% garbled) |
+| `eager` | RTX 5090/CUDA | MI250/ROCm (reused weights) | *pending* |
+| `sdpa` | RTX 5090/CUDA | MI250/ROCm (reused weights) | *pending* |
+| `eager` | RTX 5090/CUDA | RTX 5090/CUDA (Step 6b retrain) | *pending* |
+| `sdpa` | RTX 5090/CUDA | RTX 5090/CUDA (Step 6b retrain) | *pending* |
+
+### Step 6b — Full retrain on RTX 5090 (train + eval, now feasible with full machine access)
+
+**Status: [PLANNED, 2026-07-09]** — only possible because the user has full,
+unshared access to this machine (not just an eval slot). This is the
+experiment Step 5f/6 kept flagging as "not testable without A100 access": a
+true train-and-eval comparison on non-ROCm hardware, matching Step 4's exact
+config (`eng/mvp/seed_123`, `Qwen2.5-0.5B`, `lr=5e-05`,
+`SAVE_STRATEGY=epoch`/last-epoch selection — the same config that produced
+the MI250 `checkpoint-7760` baseline of **65.76%** used throughout Steps
+5a–6a). An RTX 5090 is not an A100, so this still isn't a perfect
+reconstruction of the original old baseline — but it directly answers
+whether effect #2 (the residual ~20–25% gap) is a **training-time** ROCm
+numerics artifact (ceiling stays ~65.76% here too) or something that
+disappears once training itself happens on CUDA (recovers toward 87.44%).
+
+**Train (run on the RTX 5090 machine, not Slurm):**
+
+```bash
+export WARMUP_RATIO=0.03
+export MAX_GRAD_NORM=1.0
+bash scripts/sft_one.sh "Qwen/Qwen2.5-0.5B" eng hotel_reviews mvp 123 4 5e-5 10 4 epoch epoch
+```
+
+This mirrors `slurm_submit/submit_sft_array.sh`'s resolved args for the Step
+4 cell exactly (`batch_size=4`, `lr=5e-5`, `num_epochs=10`,
+`gradient_accumulation_steps=4`, `eval_strategy=epoch`,
+`save_strategy=epoch`, `warmup_ratio=0.03`, `max_grad_norm=1.0` — confirmed
+against `scripts/sft_one.sh` and `slurm_submit/submit_sft_array.sh` current
+defaults). `dev.json` exists for `eng/mvp` so `eval_strategy=epoch` works
+without extra setup. Output lands under
+`outputs/models/hotel_reviews/eng/mvp/seed_123/<run_stamp>_.../checkpoint-*`
+— with `save_strategy=epoch` and default `save_total_limit=1`, only the last
+epoch (`checkpoint-7760`, matching the MI250 run's checkpoint number since
+dataset size/epochs/batch size are identical) should remain on disk.
+
+**Eval (both attention implementations, same as Step 6a):**
+
+```bash
+CKPT="outputs/models/hotel_reviews/eng/mvp/seed_123/<run_stamp>_train_model-Qwen2.5-0.5B_lr-5e-05_bs-4_epochs-10/checkpoint-7760"
+
+python -m src.main.eval \
+  --test_json_path dataset/hotel_reviews/eng/mvp/test_aug.json \
+  --model_path "$CKPT" \
+  --prompt_type mvp --output_dir outputs/evals/dtype_test/rtx5090_retrain_eager \
+  --batch_size 4 --max_new_tokens 300 --torch_dtype auto --attn_implementation eager --save_predictions
+
+python -m src.main.eval \
+  --test_json_path dataset/hotel_reviews/eng/mvp/test_aug.json \
+  --model_path "$CKPT" \
+  --prompt_type mvp --output_dir outputs/evals/dtype_test/rtx5090_retrain_sdpa \
+  --batch_size 4 --max_new_tokens 300 --torch_dtype auto --attn_implementation sdpa --save_predictions
+```
+
+(fill in the actual `<run_stamp>` from the training log/output dir).
+
+**Interpretation:**
+
+- Compare against **all** rows in the reference table above, not just
+  MI250's 65.76%. The three-way split (A100 old baseline, MI250 full
+  train+eval, RTX5090 full train+eval) is what actually isolates train-time
+  hardware from eval-time hardware for the first time in this investigation.
+- If RTX5090 train+eval (`eager`) lands close to MI250's 65.76% → effect #2
+  is not hardware-specific to ROCm at all; something else (data, optimizer
+  nondeterminism, a code path neither GPU vendor affects) explains the
+  residual gap, and the "genuine hardware effect" framing throughout Steps
+  4–5f needs revisiting.
+- If it lands meaningfully higher (toward 87.44%) → effect #2 is a genuine
+  ROCm/MI250-specific training-time numerics effect, closing out the
+  investigation with a confirmed, falsified-by-a-clean-experiment root cause
+  instead of the current circumstantial evidence.
+- Also compare `sdpa` here against Step 6a's `sdpa` (reused MI250 weights) —
+  if the RTX5090-trained checkpoint's `sdpa` eval doesn't show the ~29%
+  repetition-loop garbling seen on MI250, that's further confirmation the
+  garbling bug (effect #1) is ROCm-kernel-specific, not a general
+  prompt/model quirk.
 
 ---
 
