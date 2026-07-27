@@ -1,0 +1,3 @@
+# python -m src.main.train --train_json_path "dataset/hotel_reviews/eng/mvp/train.json" --model_name "Qwen/Qwen2.5-0.5B" --output_dir "outputs/models/hotel_reviews/eng/mvp/seed_9584/" --prompt_type "mvp" --save_strategy "epoch" --num_epochs 10 --lr 5e-5 --optimizer "adamw_torch" --seed 9584 --batch_size 4 --gradient_accumulation_steps 4 --eval_strategy "no"  
+
+python -m src.main.train --train_json_path "dataset/hotel_reviews/jav/mvp_aos/train.json" --model_name "google/gemma-3-270m" --output_dir "outputs/models/hotel_reviews/jav/mvp_aos/seed_9584/" --prompt_type "mvp" --save_strategy "epoch" --num_epochs 10 --lr 5e-5 --optimizer "adamw_torch" --seed 9584 --batch_size 4 --gradient_accumulation_steps 4 --eval_strategy "no"

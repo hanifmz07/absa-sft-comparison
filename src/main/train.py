@@ -59,6 +59,12 @@ def main(args):
                 return
             time.sleep(5)
 
+    # Some base checkpoints (e.g. gemma-3-270m) ship with a tokenizer that declares
+    # more tokens than the embedding matrix has rows, which causes an out-of-bounds
+    # CUDA index during constrained decoding at eval time. Resize to keep them in sync.
+    if len(tokenizer) != model.get_input_embeddings().weight.shape[0]:
+        model.resize_token_embeddings(len(tokenizer))
+
     # Add special tokens for LEGO-ABSA if needed
     if 'legoabsa' in args.train_json_path:
         print("Adding LEGO-ABSA special tokens to tokenizer...")

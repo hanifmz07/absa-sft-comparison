@@ -97,7 +97,8 @@ echo "========================================================" >> "$STDOUT_LOG"
             # redirected along with everything else in the loop.
             python -m src.main.train \
                 --train_json_path "dataset/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/train.json" \
-                --model_name "Qwen/Qwen2.5-0.5B" \
+                # --model_name "Qwen/Qwen2.5-0.5B" \
+                --model_name "google/gemma-3-270m" \
                 --output_dir "outputs/models/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_$SEED/" \
                 --prompt_type "$PROMPT_TYPE" \
                 --save_strategy "epoch" \

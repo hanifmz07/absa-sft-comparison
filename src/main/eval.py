@@ -30,6 +30,12 @@ def main(args):
     tokenizer = AutoTokenizer.from_pretrained(args.model_path, padding_side="left")
     model = AutoModelForCausalLM.from_pretrained(args.model_path, device_map="auto")
 
+    # Some base checkpoints (e.g. gemma-3-270m) ship with a tokenizer that declares
+    # more tokens than the embedding matrix has rows, which causes an out-of-bounds
+    # CUDA index during constrained decoding. Resize to keep them in sync.
+    if len(tokenizer) != model.get_input_embeddings().weight.shape[0]:
+        model.resize_token_embeddings(len(tokenizer))
+
     print("Tokenizer length:", len(tokenizer))
     print("Embedding size:", model.get_input_embeddings().weight.shape)
     print("Special Tokens:", tokenizer.special_tokens_map)
