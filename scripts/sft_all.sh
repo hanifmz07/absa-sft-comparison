@@ -1,9 +1,13 @@
 #!/bin/bash
 
+# Without this, the final `{ ... } | tee ...` pipeline always exits 0 (tee's
+# status), masking python training failures from callers checking $?.
+set -o pipefail
+
 source .venv/bin/activate
 
-# Specifiy cuda device if needed
-export CUDA_VISIBLE_DEVICES=0
+# Specify cuda device if needed (caller can pin a GPU by exporting CUDA_VISIBLE_DEVICES before invoking this script)
+export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
 
 LANGUAGE="$1"
 if [ -z "$LANGUAGE" ]; then
@@ -77,6 +81,7 @@ echo "========================================================" >> "$STDOUT_LOG"
     # DATASET_FOLDERS=("indolegoabsa_multitask" "legoabsa_multitask" "legoabsa_tasktransfer" "mvp_aos" "gas")
     # DATASET_FOLDERS=("indolegoabsa_multitask" "legoabsa_multitask" "legoabsa_tasktransfer" "mvp_aos" "gas")
     DATASET_FOLDERS=("$DATASET_FOLDER")
+    RUN_STATUS=0
     for SEED in "${SEEDS[@]}"; do
         echo "Processing seed: $SEED"
         for DATASET_FOLDER in "${DATASET_FOLDERS[@]}"; do
@@ -97,7 +102,6 @@ echo "========================================================" >> "$STDOUT_LOG"
             # redirected along with everything else in the loop.
             python -m src.main.train \
                 --train_json_path "dataset/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/train.json" \
-                # --model_name "Qwen/Qwen2.5-0.5B" \
                 --model_name "google/gemma-3-270m" \
                 --output_dir "outputs/models/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/seed_$SEED/" \
                 --prompt_type "$PROMPT_TYPE" \
@@ -106,11 +110,14 @@ echo "========================================================" >> "$STDOUT_LOG"
                 --lr 5e-5 \
                 --optimizer "adamw_torch" \
                 --seed $SEED \
-                --batch_size 4 \
+                --batch_size "$BATCH_SIZE" \
                 --gradient_accumulation_steps 4 \
                 --eval_strategy "no"
                 # --val_json_path "dataset/${DATASET_TYPE}/${LANGUAGE}/${DATASET_FOLDER}/dev.json" \
                 # --val_batch_size 16
+            if [ $? -ne 0 ]; then
+                RUN_STATUS=1
+            fi
             echo ""
         done
     done
@@ -118,4 +125,5 @@ echo "========================================================" >> "$STDOUT_LOG"
     echo "All seeds completed at: $(date)"
     echo "========================================================"
 
+    exit $RUN_STATUS
 } 2> >(tee "$STDERR_LOG") | tee "$STDOUT_LOG"

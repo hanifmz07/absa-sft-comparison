@@ -2,8 +2,8 @@
 
 source .venv/bin/activate
 
-# Specifiy cuda device if needed
-export CUDA_VISIBLE_DEVICES=0
+# Specify cuda device if needed (caller can pin a GPU by exporting CUDA_VISIBLE_DEVICES before invoking this script)
+export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
 
 LANGUAGE="$1"
 if [ -z "$LANGUAGE" ]; then
