@@ -4,6 +4,7 @@ import json
 import os
 from typing import Any, Dict, List
 
+import torch
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer, util
 
@@ -155,11 +156,25 @@ def main(args: argparse.Namespace) -> None:
     if not inference_paths:
         raise FileNotFoundError(f"No inference files found from: {args.inference_path}")
 
+    # Check capability of GPU, if possible, use bfloat16 (bf16) to halve memory usage
+    dtype = torch.float32
+    if torch.cuda.is_available():
+        gpu_capability = torch.cuda.get_device_capability()
+        if gpu_capability[0] >= 8:
+            print("GPU supports bf16, using bf16 for the embedding model.")
+            dtype = torch.bfloat16
+        else:
+            print("GPU does not support bf16, using fp16 for the embedding model.")
+            dtype = torch.float16
+    else:
+        print("No GPU detected, using fp32 on CPU.")
+
     cache_dir = os.getenv("CACHE_DIR")
     model = SentenceTransformer(
         args.embedding_model_name,
         trust_remote_code=True,
         cache_folder=cache_dir,
+        model_kwargs={"torch_dtype": dtype},
     )
 
     results = []

@@ -1,7 +1,6 @@
 from ..utils.eval_utils import calculate_metrics
 import torch
 import json
-import time
 from tqdm import tqdm
 import os, re
 import argparse
@@ -36,17 +35,11 @@ def main(args):
     print("Embedding size:", model.get_input_embeddings().weight.shape)
     print("Special Tokens:", tokenizer.special_tokens_map)
 
-    if len(tokenizer) != model.get_input_embeddings().weight.shape[0]:
-        print(f"Resizing embeddings: {model.get_input_embeddings().weight.shape[0]} -> {len(tokenizer)}")
-        model.resize_token_embeddings(len(tokenizer))
-
     # === Setup Device ===
     model.eval()
 
     # === Load Dataset ===
     test_data = load_json_with_fallback(args.test_json_path)
-    if args.limit_samples is not None:
-        test_data = test_data[:args.limit_samples]
 
     # Get the input prompts, labels, sentence IDs, and task elements
     prompts = [f'{instance["input"]} =>' for instance in test_data]
@@ -66,7 +59,6 @@ def main(args):
     #     print(tokenizer.decode(outputs[0], skip_special_tokens=True))
     
     # return
-    start_time = time.perf_counter()
     for i in tqdm(range(0, len(prompts), batch_size), desc="Generating outputs"):
         batch_prompts = prompts[i:i + batch_size]
 
@@ -92,7 +84,7 @@ def main(args):
         # Generate outputs for the batch
         batch_outputs = model.generate(
             **inputs,
-            max_new_tokens=args.max_new_tokens,
+            max_new_tokens=300,
             # stop_at_eos=True,
             do_sample=False,
             suppress_tokens=sentinel_token_ids,
@@ -109,19 +101,10 @@ def main(args):
         # Remove '</s>' and '</pad>' tokens if present
         batch_outputs_text = [output.replace(tokenizer.eos_token, '').replace(tokenizer.pad_token,'').strip() for output in batch_outputs_text]
 
-        if args.debug_generations:
-            for prompt, output in zip(batch_prompts, batch_outputs_text):
-                print(f"Prompt: {prompt}")
-                print(f"Generated: {output}")
-                print("-" * 50)
-
         if isinstance(batch_outputs_text, str):
             batch_outputs_text = [batch_outputs_text]
 
         outputs.extend(batch_outputs_text)
-
-    end_time = time.perf_counter()
-    total_duration = end_time - start_time
 
     # Postprocess outputs and calculate metrics
     # Temporary storing for debugging
@@ -196,7 +179,6 @@ def main(args):
         inf_dict["prediction"] = pred
         inf_dict["target_list"] = target_split
         inf_dict["prediction_list"] = pred_split
-        inf_dict["inference_time"] = total_duration
 
         inference_results.append(inf_dict)
 
@@ -215,7 +197,6 @@ def main(args):
             calculate_metrics(predictions, targets, task)
     )
     scaled_result_metrics = {key: value * 100 for key, value in result_metrics.items()}
-    scaled_result_metrics["inference_duration"] = total_duration
     
     print("Evaluation results:", scaled_result_metrics)
 
@@ -241,9 +222,6 @@ if __name__ == "__main__":
     parser.add_argument("--output_dir", type=str, default=f"./outputs_seq2seq/evals", help="Output directory")
     parser.add_argument("--batch_size", type=int, default=1, help="Batch size for inference")
     parser.add_argument("--save_predictions", action="store_true", help="Save inference results to a JSON file")
-    parser.add_argument("--max_new_tokens", type=int, default=300, help="Maximum number of new tokens to generate")
-    parser.add_argument("--limit_samples", type=int, default=None, help="Limit the number of samples to evaluate")
-    parser.add_argument("--debug_generations", action="store_true", help="Print generations for debugging")
 
     # Constrained decoding arguments
     parser.add_argument("--use_constrained_decoding", action="store_true", help="Whether to use constrained decoding during generation")

@@ -1,0 +1,11 @@
+{
+  "path": "outputs/evals/hotel_reviews/mad/mvp_aos/seed_2024/20260731_041626_train_model-gemma-3-270m_lr-5e-05_bs-4_epochs-10/checkpoint-1560/unconstrained_decoding/inference_results.json",
+  "lang": "mad",
+  "seed": "2024",
+  "dataset_type": "hotel_reviews",
+  "dataset_folder": "mvp_aos",
+  "use_constrained_decoding": false,
+  "precision": 40.73162152655645,
+  "recall": 38.83299798792756,
+  "f1": 39.75965665236052
+}

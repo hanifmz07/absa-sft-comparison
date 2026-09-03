@@ -71,12 +71,7 @@ echo "========================================================" >> "$STDOUT_LOG"
       # Get all checkpoint paths within the model directory
       CHECKPOINT_PATHS="$MODEL_PATH/checkpoint-*"
       # Get the most recent checkpoint based on modification time
-      LATEST_CHECKPOINT=$(ls -td $CHECKPOINT_PATHS 2>/dev/null | head -n 1)
-
-      if [ -z "$LATEST_CHECKPOINT" ]; then
-        echo "Warning: No checkpoints found in $MODEL_PATH. Skipping..."
-        continue
-      fi
+      LATEST_CHECKPOINT=$(ls -td $CHECKPOINT_PATHS | head -n 1)
 
       MODEL_NAME=$(basename "$MODEL_PATH")
       CHECKPOINT_NAME=$(basename "$LATEST_CHECKPOINT")
@@ -110,11 +105,6 @@ echo "========================================================" >> "$STDOUT_LOG"
           --batch_size $BATCH_SIZE \
           --save_predictions \
           --use_constrained_decoding
-          
-        if [ "$DATASET_FOLDER" == "mvp" ]; then
-          echo "Running voting script..."
-          python -m src.main.eval_voting "$EVAL_RESULT_DIR/constrained_decoding/inference_results.json"
-        fi
 
       else
         echo "-----------------------------------------------------------"

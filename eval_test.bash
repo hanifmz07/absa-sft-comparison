@@ -1,0 +1,3 @@
+python -m src.main.eval --test_json_path "dataset/hotel_reviews/eng/mvp/test_aug.json" --model_path "outputs/models/hotel_reviews/eng/mvp/seed_9584/20260713_141920_train_model-Qwen2.5-0.5B_lr-5e-05_bs-4_epochs-10/checkpoint-7760" --prompt_type "mvp" --output_dir "outputs/evals/hotel_reviews/eng/mvp/seed_9584/manual" --batch_size 4 --save_predictions --use_constrained_decoding
+
+python -m src.main.eval --test_json_path "dataset/hotel_reviews/jav/mvp_aos/test.json" --model_path "outputs/models/hotel_reviews/jav/mvp_aos/seed_9584/20260714_130538_train_model-gemma-3-270m_lr-5e-05_bs-4_epochs-10/checkpoint-1560" --prompt_type "mvp" --output_dir "outputs/evals/hotel_reviews/jav/mvp_aos/seed_9584/manual" --batch_size 4 --save_predictions

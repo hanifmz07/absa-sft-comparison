@@ -35,26 +35,6 @@ uv sync
 source .venv/bin/activate
 ```
 
-### PyTorch Variant
-
-The base project accepts both the default PyTorch line and the ROCm 6.2 build used on AMD GPU nodes. Install the PyTorch variant that matches the machine.
-
-Default machine:
-
-```bash
-pip install -r requirements/torch-default.txt
-pip install -e . --no-deps
-```
-
-AMD ROCm 6.2 machine:
-
-```bash
-pip install -r requirements/torch-rocm6.2.txt
-pip install -e . --no-deps
-```
-
-Use `--no-deps` when refreshing the editable project install after selecting a PyTorch variant so pip does not replace the selected torch wheel.
-
 Optional environment variables (recommended):
 
 ```bash
